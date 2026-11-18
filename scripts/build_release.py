@@ -49,6 +49,18 @@ def load_records(data_dir):
     return records
 
 
+def dedupe(records):
+    seen = set()
+    unique = []
+    for rec in records:
+        key = (rec["zh"].strip(), rec["en"].strip())
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(rec)
+    return unique
+
+
 def tag_for(rec):
     model_tag = rec.get("model", "unknown").replace(":", "-").replace(" ", "-")
     return [
@@ -118,7 +130,8 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     records = load_records(args.data_dir)
-    deck = build_deck(records)
+    unique = dedupe(records)
+    deck = build_deck(unique)
 
     apkg = out_dir / f"anki_sentence-{args.version}.apkg"
     data_zip = out_dir / f"anki_sentence-{args.version}-data.zip"
@@ -129,11 +142,14 @@ def main():
     lines = [f"{sha256(p)}  {p.name}" for p in (apkg, data_zip)]
     sums.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    scenes = len({r["scene"] for r in records})
+    scenes = len({r["scene"] for r in unique})
     print(f"Built {apkg.name} ({apkg.stat().st_size / 1024:.0f} KiB)")
     print(f"Built {data_zip.name} ({data_zip.stat().st_size / 1024:.0f} KiB)")
     print(f"Built {sums.name}")
-    print(f"Cards: {len(records)} | scenes: {scenes} | version: {args.version}")
+    print(
+        f"Cards: {len(unique)} | scenes: {scenes} | version: {args.version} | "
+        f"duplicates skipped: {len(records) - len(unique)}"
+    )
 
 
 if __name__ == "__main__":

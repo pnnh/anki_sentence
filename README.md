@@ -156,7 +156,7 @@ git add .gitattributes
 
 输出到 `dist/`：
 
-- `anki_sentence-<version>.apkg`：可直接导入 Anki 的牌组。牌组 ID、笔记类型 ID 与卡片 GUID 均固定，重复导入会更新已有卡片而不是新建。
+- `anki_sentence-<version>.apkg`：可直接导入 Anki 的牌组。牌组 ID、笔记类型 ID 与卡片 GUID 均固定，重复导入会更新已有卡片而不是新建。构建时按“中文 + 英文”去重，产物为 3,691 张，与当前 Anki 牌组一致。
 - `anki_sentence-<version>-data.zip`：润色后 JSONL 数据、场景配置、提示词、README 与 LICENSE。
 - `SHA256SUMS`：两份产物的 SHA-256 校验值。
 
