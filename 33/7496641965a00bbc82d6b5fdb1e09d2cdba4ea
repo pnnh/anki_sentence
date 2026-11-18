@@ -1,0 +1,35 @@
+config/scenes.toml
+  s_9aefe4a2760245::t_d48e4fe1462809 1-457
+data/archive/shopping_clothes.pilot_v1.jsonl
+  s_9aefe4a2760245::t_fd176e38a45d24 1-40
+data/archive/shopping_clothes.pilot_v3.jsonl
+  s_9aefe4a2760245::t_2b4f1b865e9fd4 1-31
+data/benchmark.jsonl
+  s_9aefe4a2760245::t_310ab64769195a 1-30
+prompts/generate.txt
+  s_9aefe4a2760245::t_2dc253673908aa 1-21
+prompts/generate_planned.txt
+  s_9aefe4a2760245::t_eee8662e89e636 1-25
+scripts/plan.py
+  s_9aefe4a2760245::t_0f4eac8553c799 1-185
+scripts/review_report.py
+  s_9aefe4a2760245::t_e0361c7d0c77fd 1-182
+scripts/run_generate_core.sh
+  s_9aefe4a2760245::t_ba6ef3a2dff5d2 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "337496641965a00bbc82d6b5fdb1e09d2cdba4ea",
+  "prompts": {},
+  "sessions": {
+    "s_9aefe4a2760245": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48d90204-caa4-4c1c-8d56-1c633be7693d",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
