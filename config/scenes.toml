@@ -1,0 +1,457 @@
+# 生活场景英语句子库：25 个场景，目标总量约 3,880 句。
+# phase = 1 为核心场景（第一批），phase = 2 为扩展场景（第二批）。
+# 每个场景的 target 会平均分配到 micros；生成脚本按微场景分块生成。
+
+[[scenes]]
+id = "shopping_clothes"
+zh = "服装购物"
+en = "Clothes Shopping"
+group = "日常消费与餐饮"
+phase = 1
+target = 200
+micros = [
+  { id = "price_discount", zh = "问价格和折扣" },
+  { id = "size", zh = "询问尺码" },
+  { id = "color_style", zh = "颜色和款式" },
+  { id = "try_on", zh = "试穿和试衣间" },
+  { id = "fit_opinion", zh = "合不合身、征求看法" },
+  { id = "payment", zh = "付款方式" },
+  { id = "return_exchange", zh = "退货和换货" },
+  { id = "material_care", zh = "材质和保养" },
+  { id = "stock_check", zh = "库存和调货" },
+  { id = "bag_receipt", zh = "包装和小票" },
+]
+
+[[scenes]]
+id = "supermarket"
+zh = "超市与便利店"
+en = "Supermarket & Convenience Store"
+group = "日常消费与餐饮"
+phase = 1
+target = 180
+micros = [
+  { id = "find_item", zh = "找商品位置" },
+  { id = "price_check", zh = "查价格" },
+  { id = "fresh_food", zh = "生鲜和保质期" },
+  { id = "weight_pack", zh = "称重和打包" },
+  { id = "checkout", zh = "结账和排队" },
+  { id = "payment", zh = "付款" },
+  { id = "bagging", zh = "装袋" },
+  { id = "promotions", zh = "促销和会员" },
+  { id = "opening_hours", zh = "营业时间" },
+]
+
+[[scenes]]
+id = "online_shopping"
+zh = "网购与退换货"
+en = "Online Shopping & Returns"
+group = "日常消费与餐饮"
+phase = 2
+target = 180
+micros = [
+  { id = "search_compare", zh = "搜索和比价" },
+  { id = "place_order", zh = "下单" },
+  { id = "address", zh = "收货地址" },
+  { id = "delivery_time", zh = "配送时间" },
+  { id = "tracking", zh = "物流查询" },
+  { id = "wrong_item", zh = "发错货" },
+  { id = "return_refund", zh = "退货退款" },
+  { id = "coupon", zh = "优惠券" },
+  { id = "review", zh = "评价" },
+]
+
+[[scenes]]
+id = "restaurant"
+zh = "餐厅"
+en = "Restaurant"
+group = "日常消费与餐饮"
+phase = 1
+target = 220
+micros = [
+  { id = "reserve", zh = "预订和等位" },
+  { id = "menu", zh = "看菜单" },
+  { id = "order", zh = "点餐" },
+  { id = "dietary", zh = "忌口和过敏" },
+  { id = "recommend", zh = "请服务员推荐" },
+  { id = "drinks", zh = "饮料" },
+  { id = "during_meal", zh = "用餐中的需求" },
+  { id = "problem", zh = "菜品问题" },
+  { id = "bill", zh = "结账" },
+  { id = "split_bill", zh = "分开付款" },
+  { id = "takeaway", zh = "打包" },
+]
+
+[[scenes]]
+id = "cafe_fastfood"
+zh = "咖啡店与快餐"
+en = "Café & Fast Food"
+group = "日常消费与餐饮"
+phase = 2
+target = 120
+micros = [
+  { id = "order_coffee", zh = "点咖啡" },
+  { id = "customize", zh = "定制口味" },
+  { id = "cup_size", zh = "杯型" },
+  { id = "here_takeaway", zh = "堂食和外带" },
+  { id = "fastfood_set", zh = "套餐" },
+  { id = "no_ingredient", zh = "不要某种配料" },
+  { id = "wait_food", zh = "等餐" },
+  { id = "wrong_order", zh = "上错餐" },
+]
+
+[[scenes]]
+id = "food_delivery"
+zh = "外卖"
+en = "Food Delivery"
+group = "日常消费与餐饮"
+phase = 1
+target = 150
+micros = [
+  { id = "place_order", zh = "下单" },
+  { id = "address", zh = "送餐地址" },
+  { id = "delivery_fee", zh = "配送费" },
+  { id = "time", zh = "送达时间" },
+  { id = "rider_call", zh = "骑手联系" },
+  { id = "missing_item", zh = "少送东西" },
+  { id = "wrong_order", zh = "送错餐" },
+  { id = "late", zh = "送得太晚" },
+  { id = "refund_complaint", zh = "退款和投诉" },
+  { id = "packaging", zh = "包装和餐具" },
+]
+
+[[scenes]]
+id = "taxi"
+zh = "打车"
+en = "Taxi & Ride-hailing"
+group = "出行与旅行"
+phase = 1
+target = 160
+micros = [
+  { id = "hail", zh = "叫车" },
+  { id = "destination", zh = "说明目的地" },
+  { id = "route", zh = "路线" },
+  { id = "traffic", zh = "堵车" },
+  { id = "fare", zh = "车费" },
+  { id = "payment", zh = "付款" },
+  { id = "dropoff", zh = "下车地点" },
+  { id = "problem", zh = "绕路、发票等问题" },
+]
+
+[[scenes]]
+id = "public_transport"
+zh = "地铁、公交与火车"
+en = "Public Transport"
+group = "出行与旅行"
+phase = 2
+target = 160
+micros = [
+  { id = "ticket", zh = "买票" },
+  { id = "card", zh = "交通卡" },
+  { id = "platform", zh = "站台和方向" },
+  { id = "transfer", zh = "换乘" },
+  { id = "schedule", zh = "班次和时间" },
+  { id = "delay", zh = "延误" },
+  { id = "seat", zh = "座位" },
+  { id = "lost", zh = "坐过站、丢东西" },
+]
+
+[[scenes]]
+id = "airport"
+zh = "飞机场"
+en = "Airport"
+group = "出行与旅行"
+phase = 1
+target = 220
+micros = [
+  { id = "find_counter", zh = "找值机柜台" },
+  { id = "check_in", zh = "办理值机" },
+  { id = "baggage", zh = "托运行李" },
+  { id = "seat", zh = "选座位" },
+  { id = "boarding_pass", zh = "登机牌" },
+  { id = "security", zh = "安检" },
+  { id = "gate", zh = "登机口" },
+  { id = "delay", zh = "航班延误" },
+  { id = "transfer", zh = "转机" },
+  { id = "lost_luggage", zh = "行李丢失" },
+  { id = "ask_help", zh = "求助" },
+]
+
+[[scenes]]
+id = "hotel"
+zh = "酒店"
+en = "Hotel"
+group = "出行与旅行"
+phase = 1
+target = 160
+micros = [
+  { id = "booking", zh = "预订" },
+  { id = "check_in", zh = "入住" },
+  { id = "room_type", zh = "房型" },
+  { id = "facilities", zh = "设施" },
+  { id = "room_problem", zh = "房间问题" },
+  { id = "service", zh = "客房服务" },
+  { id = "check_out", zh = "退房" },
+  { id = "luggage", zh = "寄存行李" },
+]
+
+[[scenes]]
+id = "directions"
+zh = "问路与导航"
+en = "Asking for Directions"
+group = "出行与旅行"
+phase = 1
+target = 140
+micros = [
+  { id = "ask_way", zh = "问路" },
+  { id = "landmark", zh = "地标" },
+  { id = "distance", zh = "距离" },
+  { id = "walk_drive", zh = "步行还是打车" },
+  { id = "lost", zh = "迷路" },
+  { id = "confirm", zh = "确认方向" },
+  { id = "map_nav", zh = "看地图和导航" },
+]
+
+[[scenes]]
+id = "banking"
+zh = "银行与支付"
+en = "Banking & Payments"
+group = "生活服务"
+phase = 1
+target = 140
+micros = [
+  { id = "open_account", zh = "开户" },
+  { id = "atm", zh = "ATM 取钱" },
+  { id = "exchange", zh = "换汇" },
+  { id = "card_problem", zh = "银行卡问题" },
+  { id = "transfer", zh = "转账" },
+  { id = "fees", zh = "手续费" },
+  { id = "payment_fail", zh = "支付失败" },
+]
+
+[[scenes]]
+id = "phone_internet"
+zh = "手机与网络"
+en = "Phone & Internet"
+group = "生活服务"
+phase = 2
+target = 130
+micros = [
+  { id = "buy_sim", zh = "买 SIM 卡" },
+  { id = "data_plan", zh = "流量套餐" },
+  { id = "wifi", zh = "连接 Wi-Fi" },
+  { id = "slow_network", zh = "网络很慢" },
+  { id = "recharge", zh = "充值" },
+  { id = "phone_repair", zh = "手机维修" },
+  { id = "app_help", zh = "App 使用问题" },
+]
+
+[[scenes]]
+id = "courier"
+zh = "快递与邮局"
+en = "Courier & Post Office"
+group = "生活服务"
+phase = 2
+target = 130
+micros = [
+  { id = "send_package", zh = "寄快递" },
+  { id = "address", zh = "填写地址" },
+  { id = "price", zh = "费用" },
+  { id = "tracking", zh = "查物流" },
+  { id = "pickup", zh = "上门取件" },
+  { id = "missing", zh = "丢件" },
+  { id = "post_office", zh = "邮局寄信" },
+]
+
+[[scenes]]
+id = "hair_salon"
+zh = "理发与美容"
+en = "Hair Salon"
+group = "生活服务"
+phase = 2
+target = 110
+micros = [
+  { id = "appointment", zh = "预约" },
+  { id = "haircut", zh = "剪发" },
+  { id = "style", zh = "发型" },
+  { id = "wash", zh = "洗头" },
+  { id = "color", zh = "染发" },
+  { id = "price_time", zh = "价格和时间" },
+]
+
+[[scenes]]
+id = "renting_repair"
+zh = "租房与维修"
+en = "Renting & Repairs"
+group = "生活服务"
+phase = 2
+target = 150
+micros = [
+  { id = "view_apartment", zh = "看房" },
+  { id = "rent_deposit", zh = "租金和押金" },
+  { id = "contract", zh = "合同" },
+  { id = "utilities", zh = "水电费" },
+  { id = "repair_request", zh = "报修" },
+  { id = "plumber", zh = "水管问题" },
+  { id = "electricity", zh = "电灯和电器" },
+  { id = "neighbor", zh = "邻里问题" },
+]
+
+[[scenes]]
+id = "car_parking"
+zh = "汽车与停车"
+en = "Car & Parking"
+group = "生活服务"
+phase = 2
+target = 130
+micros = [
+  { id = "gas_station", zh = "加油" },
+  { id = "parking", zh = "停车" },
+  { id = "parking_fee", zh = "停车费" },
+  { id = "car_rental", zh = "租车" },
+  { id = "car_problem", zh = "车出问题" },
+  { id = "driving_directions", zh = "开车问路" },
+  { id = "accident", zh = "小事故" },
+]
+
+[[scenes]]
+id = "doctor_pharmacy"
+zh = "看病与药店"
+en = "Doctor & Pharmacy"
+group = "健康与安全"
+phase = 1
+target = 170
+micros = [
+  { id = "appointment", zh = "预约挂号" },
+  { id = "symptoms", zh = "描述症状" },
+  { id = "doctor_questions", zh = "医生问诊" },
+  { id = "prescription", zh = "开药" },
+  { id = "pharmacy", zh = "药店买药" },
+  { id = "dosage", zh = "用法用量" },
+  { id = "insurance", zh = "保险" },
+  { id = "follow_up", zh = "复诊" },
+  { id = "allergy", zh = "过敏" },
+]
+
+[[scenes]]
+id = "emergencies"
+zh = "紧急情况"
+en = "Emergencies"
+group = "健康与安全"
+phase = 2
+target = 120
+micros = [
+  { id = "lost_wallet", zh = "丢钱包" },
+  { id = "lost_phone", zh = "丢手机" },
+  { id = "police", zh = "报警" },
+  { id = "medical", zh = "突发疾病" },
+  { id = "fire", zh = "火灾和疏散" },
+  { id = "ask_help", zh = "紧急求助" },
+]
+
+[[scenes]]
+id = "office"
+zh = "办公室"
+en = "Office"
+group = "工作学习与社交"
+phase = 2
+target = 170
+micros = [
+  { id = "meetings", zh = "会议" },
+  { id = "email", zh = "邮件" },
+  { id = "deadline", zh = "截止日期" },
+  { id = "ask_help", zh = "请同事帮忙" },
+  { id = "report", zh = "汇报" },
+  { id = "schedule", zh = "安排时间" },
+  { id = "leave", zh = "请假" },
+  { id = "feedback", zh = "反馈意见" },
+  { id = "small_talk", zh = "办公室闲聊" },
+]
+
+[[scenes]]
+id = "school"
+zh = "学校与课程"
+en = "School & Courses"
+group = "工作学习与社交"
+phase = 2
+target = 150
+micros = [
+  { id = "enrollment", zh = "报名" },
+  { id = "class_schedule", zh = "课程表" },
+  { id = "ask_teacher", zh = "问老师" },
+  { id = "homework", zh = "作业" },
+  { id = "exam", zh = "考试" },
+  { id = "library", zh = "图书馆" },
+  { id = "group_work", zh = "小组作业" },
+  { id = "absence", zh = "请假" },
+]
+
+[[scenes]]
+id = "phone_service"
+zh = "电话与客服"
+en = "Phone Calls & Customer Service"
+group = "工作学习与社交"
+phase = 2
+target = 150
+micros = [
+  { id = "call_company", zh = "打电话给公司" },
+  { id = "wrong_number", zh = "打错电话" },
+  { id = "hold_transfer", zh = "等待和转接" },
+  { id = "complaint", zh = "投诉" },
+  { id = "tech_support", zh = "技术支持" },
+  { id = "refund", zh = "退款" },
+  { id = "confirm_info", zh = "确认信息" },
+  { id = "end_call", zh = "结束通话" },
+]
+
+[[scenes]]
+id = "socializing"
+zh = "社交与聚会"
+en = "Socializing"
+group = "工作学习与社交"
+phase = 2
+target = 170
+micros = [
+  { id = "invite", zh = "邀请" },
+  { id = "accept_decline", zh = "接受和拒绝" },
+  { id = "party", zh = "聚会" },
+  { id = "introduce", zh = "介绍认识" },
+  { id = "small_talk", zh = "寒暄" },
+  { id = "dinner", zh = "请客吃饭" },
+  { id = "gift", zh = "礼物" },
+  { id = "goodbye", zh = "告别" },
+  { id = "make_plans", zh = "约时间" },
+]
+
+[[scenes]]
+id = "sightseeing"
+zh = "旅行观光"
+en = "Sightseeing"
+group = "工作学习与社交"
+phase = 2
+target = 150
+micros = [
+  { id = "tickets", zh = "买门票" },
+  { id = "opening_hours", zh = "开放时间" },
+  { id = "guide", zh = "导游和讲解" },
+  { id = "photos", zh = "拍照" },
+  { id = "route", zh = "景点路线" },
+  { id = "souvenir", zh = "纪念品" },
+  { id = "rules", zh = "规定" },
+  { id = "recommend", zh = "推荐景点" },
+]
+
+[[scenes]]
+id = "weather_smalltalk"
+zh = "天气与寒暄"
+en = "Weather & Small Talk"
+group = "日常闲聊"
+phase = 2
+target = 120
+micros = [
+  { id = "weather", zh = "天气" },
+  { id = "seasons", zh = "季节" },
+  { id = "rain", zh = "下雨" },
+  { id = "hot_cold", zh = "冷热" },
+  { id = "weekend", zh = "周末" },
+  { id = "greeting", zh = "打招呼" },
+]

@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Generated logs and HTML reports
+logs/
+reports/
+reports_original/
+reports_polished/
+
+# Local Anki note-id manifest (machine specific)
+data/imported.json
+
+# Temporary files
+*.tmp
+*.tmp.*
+
+# Anki exports and local build output
+exports/
+dist/

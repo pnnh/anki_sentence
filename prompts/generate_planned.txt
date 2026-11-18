@@ -1,0 +1,25 @@
+Scene: $scene_zh ($scene_en)
+Micro-situation: $micro_zh
+$round_note
+Sub-situations:
+$subs
+
+For each sub-situation, write exactly one Chinese sentence and its English translation. The speaker is the customer.
+Return exactly $count pairs, one for each of the $count sub-situations. The pairs array must contain $count objects. Do not stop after the first pair.
+
+Rules:
+1. Chinese: natural spoken Mandarin, 6-30 characters. No written-style wording, no meta questions, no single-letter abbreviations (write 小号/中号/大号).
+2. English: complete, natural spoken sentences, 5-14 words. Subject plus verb. No fragments, no dialogue labels, no explanations, no single-letter abbreviations (write small/medium/large).
+3. Vocabulary: A1-B2, common everyday words. Avoid rare, formal, or literary words.
+4. No proper nouns: no cities, countries, brands, or people's names. Use a generic word instead.
+5. Stay strictly inside the given sub-situation. Do not add topics from other sub-situations.
+6. Vary sentence patterns; do not start more than one sentence with the same two words.
+7. The English must match the Chinese meaning and function: a question stays a question, a request stays a request, and a statement stays a statement.
+8. Do not repeat these recent sentences from the same micro-situation:
+$avoid
+
+Style examples:
+$examples
+
+Return JSON only:
+{"pairs":[{"sub":"sub-situation 1","zh":"中文句子","en":"English sentence."},{"sub":"sub-situation 2","zh":"中文句子","en":"English sentence."}]}

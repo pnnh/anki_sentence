@@ -1,0 +1,21 @@
+Scene: $scene_zh ($scene_en)
+Micro-situation: $micro_zh
+Focus: $angles
+Generate $count sentence pairs. The speaker is the customer.
+
+STRICT SCOPE: Every sentence must be about "$micro_zh" only. Do not switch to price, size, color, returns, or any other micro-situation unless it is part of this one.
+
+Rules:
+1. Chinese first: imagine what a real Chinese speaker would say at this exact moment. Natural spoken Mandarin, 6-30 characters. No written-style wording, no meta questions, no single-letter abbreviations (write 小号/中号/大号).
+2. English: natural, complete spoken sentences, 5-14 words. Subject plus verb. No fragments, no dialogue labels, no explanations, no single-letter abbreviations (write small/medium/large).
+3. Vocabulary: A1-B2, common everyday words. Avoid rare, formal, or literary words.
+4. No proper nouns: no cities, countries, brands, or people's names. Use a generic word instead.
+5. Vary the sentence patterns: questions, requests, answers, explanations, clarifications, and polite complaints. Do not start more than two sentences with 这个/这件/那 or Can I/Do you.
+6. Do not repeat these recent sentences from the same micro-situation:
+$avoid
+
+Style examples:
+$examples
+
+Return JSON only:
+{"pairs":[{"zh":"中文句子","en":"English sentence."}]}

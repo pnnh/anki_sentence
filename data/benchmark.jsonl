@@ -1,0 +1,30 @@
+{"scene":"shopping_clothes","micro":"price_discount","zh":"这件衣服多少钱？","en":"How much is this shirt?"}
+{"scene":"shopping_clothes","micro":"try_on","zh":"我可以试穿一下吗？","en":"Can I try this on?"}
+{"scene":"shopping_clothes","micro":"size","zh":"有没有大一号的？","en":"Do you have this in a larger size?"}
+{"scene":"shopping_clothes","micro":"color_style","zh":"这个颜色不太适合我。","en":"This color doesn't really suit me."}
+{"scene":"shopping_clothes","micro":"return_exchange","zh":"如果不合适可以退吗？","en":"Can I return it if it doesn't fit?"}
+{"scene":"restaurant","micro":"reserve","zh":"我们两个人，有位置吗？","en":"Do you have a table for two?"}
+{"scene":"restaurant","micro":"menu","zh":"请给我看一下菜单。","en":"Could I see the menu, please?"}
+{"scene":"restaurant","micro":"dietary","zh":"我对花生过敏，请小心一点。","en":"I'm allergic to peanuts, so please be careful."}
+{"scene":"restaurant","micro":"problem","zh":"这道菜太辣了。","en":"This dish is a little too spicy for me."}
+{"scene":"restaurant","micro":"bill","zh":"麻烦买单。","en":"Could we have the bill, please?"}
+{"scene":"airport","micro":"find_counter","zh":"请问值机柜台在哪里？","en":"Where is the check-in counter?"}
+{"scene":"airport","micro":"baggage","zh":"我要托运这个箱子。","en":"I'd like to check in this suitcase."}
+{"scene":"airport","micro":"seat","zh":"可以给我靠窗的座位吗？","en":"Could I have a window seat?"}
+{"scene":"airport","micro":"delay","zh":"我们的航班延误了吗？","en":"Has our flight been delayed?"}
+{"scene":"airport","micro":"lost_luggage","zh":"我的行李没跟这趟航班到。","en":"My luggage didn't arrive with the flight."}
+{"scene":"taxi","micro":"destination","zh":"去这个地址，谢谢。","en":"Could you take me to this address?"}
+{"scene":"taxi","micro":"route","zh":"大概要多久才能到？","en":"How long will it take to get there?"}
+{"scene":"taxi","micro":"dropoff","zh":"可以在这里停一下吗？","en":"Could you stop here for a moment?"}
+{"scene":"taxi","micro":"payment","zh":"能刷卡吗？","en":"Can I pay by card?"}
+{"scene":"taxi","micro":"problem","zh":"请给我一张发票。","en":"Could I have a receipt, please?"}
+{"scene":"food_delivery","micro":"place_order","zh":"我想点一份牛肉面。","en":"I'd like to order a beef noodle soup."}
+{"scene":"food_delivery","micro":"address","zh":"可以送到这个地址吗？","en":"Can you deliver to this address?"}
+{"scene":"food_delivery","micro":"late","zh":"我的订单还没到。","en":"My order hasn't arrived yet."}
+{"scene":"food_delivery","micro":"missing_item","zh":"少了一份饮料。","en":"There's a drink missing from my order."}
+{"scene":"food_delivery","micro":"packaging","zh":"可以不要餐具吗？","en":"Could you leave out the utensils?"}
+{"scene":"hotel","micro":"booking","zh":"我预订了一个房间。","en":"I have a room booked."}
+{"scene":"hotel","micro":"check_out","zh":"可以晚一点退房吗？","en":"Can I check out a little later?"}
+{"scene":"hotel","micro":"room_problem","zh":"房间的空调坏了。","en":"The air conditioner in my room isn't working."}
+{"scene":"hotel","micro":"service","zh":"可以帮我叫一辆出租车吗？","en":"Could you call a taxi for me?"}
+{"scene":"hotel","micro":"facilities","zh":"早餐几点开始？","en":"What time does breakfast start?"}
