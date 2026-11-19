@@ -1,0 +1,550 @@
+config/scenes.toml
+  h_6465a203f88bd5 837-1211
+data/packs/final/discourse_actually.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_at_least.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_probably.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_though.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/overrides.json
+  h_6465a203f88bd5 64-224
+data/packs/patches/discourse_actually.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_at_least.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_probably.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_though.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/plans/discourse_actually.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_as_far_as.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_at_least.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_by_the_way.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_kind_of.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_no_wonder.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_on_purpose.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_probably.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_though.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/discourse_turns_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_calm_down.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_end_up.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_figure_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_fill_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_get_up.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_go_back.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_go_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_look_for.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_pick_up.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_put_on.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_run_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_set_up.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_turn_on_off.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_turn_out.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/phrasal_work_out.json
+  h_6465a203f88bd5 1-147
+data/packs/polished/discourse_actually.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_at_least.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_probably.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_though.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_actually.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_at_least.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_probably.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_though.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1-20
+data/pilot3/sentences/discourse_actually.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_at_least.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_probably.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_though.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/grammar_future_will.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/grammar_used_to.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/narrative_relationships.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3/sentences/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3/sentences/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_actually.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/final/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_at_least.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/final/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_probably.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_though.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/final/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/final/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/final/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/final/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/overrides.json
+  h_6465a203f88bd5 1-16
+data/pilot3b/patches/discourse_actually.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/patches/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_at_least.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/patches/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_probably.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_though.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/patches/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/patches/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/patches/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/patches/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_actually.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/polished/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_at_least.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/polished/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_probably.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_though.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/polished/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/polished/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/polished/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/polished/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_actually.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/sentences/discourse_as_far_as.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_at_least.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_by_the_way.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_kind_of.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/sentences/discourse_no_wonder.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_on_purpose.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_probably.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_though.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/discourse_turns_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_calm_down.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_end_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_figure_out.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/sentences/phrasal_fill_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_get_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/sentences/phrasal_go_back.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_go_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_look_for.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_pick_up.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot3b/sentences/phrasal_put_on.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_run_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_set_up.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_turn_on_off.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_turn_out.jsonl
+  h_6465a203f88bd5 1
+data/pilot3b/sentences/phrasal_work_out.jsonl
+  h_6465a203f88bd5 1
+scripts/generate_packs.py
+  h_6465a203f88bd5 109,320
+scripts/pack_patterns.py
+  h_6465a203f88bd5 89-152,178-181,273-297,308,342-366,500-624
+scripts/pilot_packs.py
+  h_6465a203f88bd5 17-20,26,31-32,42-43,168-287,301,303-310,317,402,404-406,432,467,472-475,477,481,485,583,609-610,628-631
+scripts/qc.py
+  h_6465a203f88bd5 158-160
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e1aa4f9873ec5316653d5bee88e09f3c6c086f55",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
