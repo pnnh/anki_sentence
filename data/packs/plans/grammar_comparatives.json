@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_comparatives",
+  "pattern": "comparatives",
+  "items": [
+    {
+      "zh": "坐地铁比打车便宜。",
+      "angle": 1,
+      "angle_zh": "地铁比打车便宜",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "地铁比打车便宜，而且不会堵车。",
+      "angle": 1,
+      "angle_zh": "地铁比打车便宜",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "这家店的服务比那家好。",
+      "angle": 2,
+      "angle_zh": "这家店服务比那家好",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "这家店服务比那家好，但价格也贵一些。",
+      "angle": 2,
+      "angle_zh": "这家店服务比那家好",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "今天比昨天冷多了。",
+      "angle": 3,
+      "angle_zh": "今天比昨天冷",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "今天比昨天冷，你多穿一件吧。",
+      "angle": 3,
+      "angle_zh": "今天比昨天冷",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "开车比坐火车快，但比较累。",
+      "angle": 4,
+      "angle_zh": "开车比坐火车快",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "从这里开车比坐火车快一个小时。",
+      "angle": 4,
+      "angle_zh": "开车比坐火车快",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "这个包比那个轻，背着不累。",
+      "angle": 5,
+      "angle_zh": "这个包比那个轻",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "这个包比那个轻很多，我选这个。",
+      "angle": 5,
+      "angle_zh": "这个包比那个轻",
+      "micro": "places",
+      "micro_zh": "地点比较"
+    },
+    {
+      "zh": "在家做饭比在外面吃省钱。",
+      "angle": 6,
+      "angle_zh": "在家做饭比外面吃省钱",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "在家做饭比外面吃省钱，也更健康。",
+      "angle": 6,
+      "angle_zh": "在家做饭比外面吃省钱",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "我觉得这本书没有电影好看。",
+      "angle": 7,
+      "angle_zh": "这本书没有电影好看",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "这本小说没有电影那么好看。",
+      "angle": 7,
+      "angle_zh": "这本书没有电影好看",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "他跑得比我快多了。",
+      "angle": 8,
+      "angle_zh": "他跑得比我快",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "他跑得比我快，我追不上。",
+      "angle": 8,
+      "angle_zh": "他跑得比我快",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "这个新手机比旧的重一点。",
+      "angle": 9,
+      "angle_zh": "新手机比旧的重",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "新手机比旧手机重，但屏幕更大。",
+      "angle": 9,
+      "angle_zh": "新手机比旧的重",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "这家餐厅不如那家热闹。",
+      "angle": 10,
+      "angle_zh": "这家餐厅不如那家热闹",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    },
+    {
+      "zh": "这家餐厅不如那家热闹，但菜更好吃。",
+      "angle": 10,
+      "angle_zh": "这家餐厅不如那家热闹",
+      "micro": "things",
+      "micro_zh": "事物比较"
+    }
+  ],
+  "source": "seed"
+}

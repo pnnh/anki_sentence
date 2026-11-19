@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_past_simple",
+  "pattern": "past_simple",
+  "items": [
+    {
+      "zh": "上周末我去看爷爷奶奶，他们做了很多好吃的。",
+      "angle": 1,
+      "angle_zh": "上周末去看爷爷奶奶",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "上周末我和妹妹去看爷爷奶奶，还带了一盒水果。",
+      "angle": 1,
+      "angle_zh": "上周末去看爷爷奶奶",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "昨天开会时我的电脑突然坏了，只好借同事的。",
+      "angle": 2,
+      "angle_zh": "昨天开会时电脑突然坏了",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "昨天开会时电脑突然黑屏，大家都停下来等我。",
+      "angle": 2,
+      "angle_zh": "昨天开会时电脑突然坏了",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "前天我在超市遇到一位老同学，我们聊了很久。",
+      "angle": 3,
+      "angle_zh": "前天在超市遇到老同学",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "前天在超市遇到老同学，我差点没认出他来。",
+      "angle": 3,
+      "angle_zh": "前天在超市遇到老同学",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "去年夏天我们全家去了海边，玩得很开心。",
+      "angle": 4,
+      "angle_zh": "去年夏天去了海边",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "去年夏天我在海边住了三天，每天都去游泳。",
+      "angle": 4,
+      "angle_zh": "去年夏天去了海边",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "上周我把钥匙弄丢了，最后在沙发下面找到。",
+      "angle": 5,
+      "angle_zh": "上周把钥匙弄丢了",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "上周出门时发现钥匙不见了，我找了一个下午。",
+      "angle": 5,
+      "angle_zh": "上周把钥匙弄丢了",
+      "micro": "everyday",
+      "micro_zh": "日常经历"
+    },
+    {
+      "zh": "今天早上我起晚了，上班迟到了十分钟。",
+      "angle": 6,
+      "angle_zh": "今天早上上班迟到了",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "今天早上路上堵车，我到公司时已经九点半了。",
+      "angle": 6,
+      "angle_zh": "今天早上上班迟到了",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "上个月我们搬了新家，离地铁站很近。",
+      "angle": 7,
+      "angle_zh": "上个月搬了新家",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "上个月搬家时朋友都来帮忙，一天就搬完了。",
+      "angle": 7,
+      "angle_zh": "上个月搬了新家",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "昨天晚上我看了一部老电影，看到十二点才睡。",
+      "angle": 8,
+      "angle_zh": "昨天晚上看了一部电影",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "昨天晚上和朋友看电影，散场后还聊了很久。",
+      "angle": 8,
+      "angle_zh": "昨天晚上看了一部电影",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "上周我给妈妈打了个电话，她最近身体很好。",
+      "angle": 9,
+      "angle_zh": "上周给妈妈打了电话",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "上周日我给妈妈打电话，说了半个小时。",
+      "angle": 9,
+      "angle_zh": "上周给妈妈打了电话",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "昨天在餐厅我们点了一桌子菜，最后没吃完。",
+      "angle": 10,
+      "angle_zh": "昨天在餐厅点了一桌子菜",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    },
+    {
+      "zh": "昨天请朋友吃饭，我点了一桌子菜，他特别高兴。",
+      "angle": 10,
+      "angle_zh": "昨天在餐厅点了一桌子菜",
+      "micro": "work_study",
+      "micro_zh": "工作学习"
+    }
+  ],
+  "source": "seed"
+}

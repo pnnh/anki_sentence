@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_passive",
+  "pattern": "passive",
+  "items": [
+    {
+      "zh": "我的自行车上周修好了。",
+      "angle": 1,
+      "angle_zh": "自行车上周修好了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "自行车是上周修好的。",
+      "angle": 1,
+      "angle_zh": "自行车上周修好了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "我的快递被别人拿走了。",
+      "angle": 2,
+      "angle_zh": "我的快递被别人拿走了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "我的快递不知道被谁拿走了。",
+      "angle": 2,
+      "angle_zh": "我的快递被别人拿走了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "会议被改到下午三点了。",
+      "angle": 3,
+      "angle_zh": "会议改到下午三点了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "会议改到下午三点了。",
+      "angle": 3,
+      "angle_zh": "会议改到下午三点了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "窗户是昨天擦的。",
+      "angle": 4,
+      "angle_zh": "窗户是昨天擦的",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "这扇窗户是昨天擦干净的。",
+      "angle": 4,
+      "angle_zh": "窗户是昨天擦的",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "那家店被新老板接手了。",
+      "angle": 5,
+      "angle_zh": "那家店被新老板接手了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "那家小店去年被一位新老板接手了。",
+      "angle": 5,
+      "angle_zh": "那家店被新老板接手了",
+      "micro": "services",
+      "micro_zh": "服务"
+    },
+    {
+      "zh": "我的手机在公交车上被偷了。",
+      "angle": 6,
+      "angle_zh": "我的手机被偷了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "我的手机被偷了，只好先买个便宜的。",
+      "angle": 6,
+      "angle_zh": "我的手机被偷了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "晚餐已经准备好了。",
+      "angle": 7,
+      "angle_zh": "晚餐已经准备好了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "晚饭已经准备好了，大家可以吃了。",
+      "angle": 7,
+      "angle_zh": "晚餐已经准备好了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "这个包裹是早上送来的。",
+      "angle": 8,
+      "angle_zh": "这个包裹是早上送来的",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "包裹是今天早上送来的，我还没拆。",
+      "angle": 8,
+      "angle_zh": "这个包裹是早上送来的",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "我的申请被拒绝了。",
+      "angle": 9,
+      "angle_zh": "我的申请被拒绝了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "我的申请被公司拒绝了，理由没有说清楚。",
+      "angle": 9,
+      "angle_zh": "我的申请被拒绝了",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "教室每天放学后都会被打扫干净。",
+      "angle": 10,
+      "angle_zh": "教室每天都会打扫",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    },
+    {
+      "zh": "教室每天都会被打扫，很干净。",
+      "angle": 10,
+      "angle_zh": "教室每天都会打扫",
+      "micro": "repairs",
+      "micro_zh": "维修"
+    }
+  ],
+  "source": "seed"
+}

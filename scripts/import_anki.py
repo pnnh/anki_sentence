@@ -116,13 +116,15 @@ def ensure_model(url, model):
 
 def tag_for(rec):
     model_tag = rec.get("model", "unknown").replace(":", "-").replace(" ", "-")
-    return [
+    tags = [
         f"scene::{rec['scene']}",
         f"micro::{rec['scene']}::{rec['micro']}",
         f"phase::{rec.get('phase', 1)}",
         f"src::{model_tag}",
         f"uid::{rec['uid']}",
     ]
+    tags += [t for t in rec.get("tags", []) if t.split("::")[0] in ("pack", "pattern", "topic")]
+    return tags
 
 
 def note_for(rec, deck, model):

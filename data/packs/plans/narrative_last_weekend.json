@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_last_weekend",
+  "pattern": "narrative_last_weekend",
+  "items": [
+    {
+      "zh": "上周末我和朋友去爬山，虽然很累，但风景很美。",
+      "angle": 1,
+      "angle_zh": "和朋友去爬山，很累但风景美",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我们去爬山，虽然下山时腿很酸，但大家都很开心。",
+      "angle": 1,
+      "angle_zh": "和朋友去爬山，很累但风景美",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我在家补觉，然后打扫了卫生。",
+      "angle": 2,
+      "angle_zh": "在家补觉，然后打扫卫生",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我睡到中午，起来后把房间打扫了一遍。",
+      "angle": 2,
+      "angle_zh": "在家补觉，然后打扫卫生",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我去看了一场电影，觉得一般。",
+      "angle": 3,
+      "angle_zh": "去看了一场电影，觉得一般",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末看了一部新片，故事不错，但结尾有点仓促。",
+      "angle": 3,
+      "angle_zh": "去看了一场电影，觉得一般",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我带孩子去公园野餐，他玩得不想回家。",
+      "angle": 4,
+      "angle_zh": "带孩子去公园野餐",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末天气很好，我们带孩子去公园野餐。",
+      "angle": 4,
+      "angle_zh": "带孩子去公园野餐",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我加了两天班，周日才休息。",
+      "angle": 5,
+      "angle_zh": "加班两天，周日才休息",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末几乎都在加班，所以周日我什么都没做。",
+      "angle": 5,
+      "angle_zh": "加班两天，周日才休息",
+      "micro": "activities",
+      "micro_zh": "做了什么"
+    },
+    {
+      "zh": "上周末我去郊区看父母，吃了顿家常饭。",
+      "angle": 6,
+      "angle_zh": "去郊区看父母",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末我们开车去看父母，因为很久没见了。",
+      "angle": 6,
+      "angle_zh": "去郊区看父母",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末我逛二手市场，买了一把旧椅子。",
+      "angle": 7,
+      "angle_zh": "逛二手市场买了一把椅子",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末在二手市场看到一把椅子，因为便宜就买了。",
+      "angle": 7,
+      "angle_zh": "逛二手市场买了一把椅子",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末我在家学做面包，结果烤糊了。",
+      "angle": 8,
+      "angle_zh": "在家学做面包，烤糊了",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末我第一次做面包，虽然烤糊了，但味道还行。",
+      "angle": 8,
+      "angle_zh": "在家学做面包，烤糊了",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末我和朋友吃饭，聊到很晚才回家。",
+      "angle": 9,
+      "angle_zh": "和朋友吃饭聊天到很晚",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末朋友请我吃饭，我们聊了很久。",
+      "angle": 9,
+      "angle_zh": "和朋友吃饭聊天到很晚",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末下雨，我没出门，在家整理照片。",
+      "angle": 10,
+      "angle_zh": "下雨没出门，在家整理照片",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    },
+    {
+      "zh": "上周末一直下雨，所以我待在家里整理照片。",
+      "angle": 10,
+      "angle_zh": "下雨没出门，在家整理照片",
+      "micro": "feelings",
+      "micro_zh": "感受和评价"
+    }
+  ],
+  "source": "seed"
+}

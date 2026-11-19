@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_wishes_regrets",
+  "pattern": "narrative_wishes_regrets",
+  "items": [
+    {
+      "zh": "我真希望当初多学了一门外语。",
+      "angle": 1,
+      "angle_zh": "真希望当初多学一门外语",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我后悔当初没有好好学外语。",
+      "angle": 1,
+      "angle_zh": "真希望当初多学一门外语",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我后悔没有早点开始存钱。",
+      "angle": 2,
+      "angle_zh": "后悔没早点开始存钱",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "真后悔当初没早点存钱。",
+      "angle": 2,
+      "angle_zh": "后悔没早点开始存钱",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "要是当时多问一句就好了。",
+      "angle": 3,
+      "angle_zh": "要是当时多问一句就好了",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我真希望当时多问了一句。",
+      "angle": 3,
+      "angle_zh": "要是当时多问一句就好了",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我希望小时候学过钢琴。",
+      "angle": 4,
+      "angle_zh": "希望小时候学过钢琴",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我小时候要是学过钢琴就好了。",
+      "angle": 4,
+      "angle_zh": "希望小时候学过钢琴",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我后悔昨天没去参加聚会。",
+      "angle": 5,
+      "angle_zh": "后悔昨天没去参加聚会",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "真后悔昨天没去，听说特别热闹。",
+      "angle": 5,
+      "angle_zh": "后悔昨天没去参加聚会",
+      "micro": "wish",
+      "micro_zh": "愿望"
+    },
+    {
+      "zh": "我后悔没有早点出门。",
+      "angle": 6,
+      "angle_zh": "早知道就早点出门了",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "早知道会堵车，我就早点出门了。",
+      "angle": 6,
+      "angle_zh": "早知道就早点出门了",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "真希望能回到那一天。",
+      "angle": 7,
+      "angle_zh": "真希望能回到那一天",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "我希望自己能回到那一天。",
+      "angle": 7,
+      "angle_zh": "真希望能回到那一天",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "我后悔没有接受那份工作。",
+      "angle": 8,
+      "angle_zh": "后悔没有接受那份工作",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "真后悔当时拒绝了那份工作。",
+      "angle": 8,
+      "angle_zh": "后悔没有接受那份工作",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "要是当时拍张照片就好了。",
+      "angle": 9,
+      "angle_zh": "要是当时拍张照片就好了",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "我后悔当时没有拍一张照片。",
+      "angle": 9,
+      "angle_zh": "要是当时拍张照片就好了",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "我希望当初选了另一个专业。",
+      "angle": 10,
+      "angle_zh": "希望当初选了另一个专业",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    },
+    {
+      "zh": "真希望当初选专业的时候多想想。",
+      "angle": 10,
+      "angle_zh": "希望当初选了另一个专业",
+      "micro": "regret",
+      "micro_zh": "遗憾"
+    }
+  ],
+  "source": "seed"
+}

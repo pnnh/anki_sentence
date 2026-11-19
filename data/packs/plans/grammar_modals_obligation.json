@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_modals_obligation",
+  "pattern": "modals_obligation",
+  "items": [
+    {
+      "zh": "在这个小区，晚上十点以后不能放音乐。",
+      "angle": 1,
+      "angle_zh": "小区晚上十点后不能放音乐",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "小区规定晚上十点后不能放音乐。",
+      "angle": 1,
+      "angle_zh": "小区晚上十点后不能放音乐",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "我们上班必须穿正装。",
+      "angle": 2,
+      "angle_zh": "上班必须穿正装",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "上班的时候你必须穿正装，不能穿运动鞋。",
+      "angle": 2,
+      "angle_zh": "上班必须穿正装",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "在图书馆里应该保持安静。",
+      "angle": 3,
+      "angle_zh": "图书馆里应该安静",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "图书馆里大家应该安静一点。",
+      "angle": 3,
+      "angle_zh": "图书馆里应该安静",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "坐飞机不能带超过一百毫升的液体。",
+      "angle": 4,
+      "angle_zh": "坐飞机不能带液体",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "上飞机不能带液体，要提前托运。",
+      "angle": 4,
+      "angle_zh": "坐飞机不能带液体",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "病人必须按时吃药。",
+      "angle": 5,
+      "angle_zh": "病人必须按时吃药",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "你这种病必须每天按时吃药。",
+      "angle": 5,
+      "angle_zh": "病人必须按时吃药",
+      "micro": "work",
+      "micro_zh": "工作规定"
+    },
+    {
+      "zh": "这里不允许停车。",
+      "angle": 6,
+      "angle_zh": "这里不允许停车",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "这条路两边不允许停车。",
+      "angle": 6,
+      "angle_zh": "这里不允许停车",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "孩子睡前应该刷牙。",
+      "angle": 7,
+      "angle_zh": "孩子睡前应该刷牙",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "小孩子睡觉前应该刷牙，少吃糖。",
+      "angle": 7,
+      "angle_zh": "孩子睡前应该刷牙",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "会议室里不能吃东西。",
+      "angle": 8,
+      "angle_zh": "会议室里不能吃东西",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "开会的时候会议室里不能吃东西。",
+      "angle": 8,
+      "angle_zh": "会议室里不能吃东西",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "员工得在周五前交报告。",
+      "angle": 9,
+      "angle_zh": "员工得在周五前交报告",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "所有员工必须在周五前交报告。",
+      "angle": 9,
+      "angle_zh": "员工得在周五前交报告",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "博物馆里不能开闪光灯。",
+      "angle": 10,
+      "angle_zh": "博物馆里不能开闪光灯",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    },
+    {
+      "zh": "参观博物馆时不能开闪光灯拍照。",
+      "angle": 10,
+      "angle_zh": "博物馆里不能开闪光灯",
+      "micro": "public",
+      "micro_zh": "公共场所"
+    }
+  ],
+  "source": "seed"
+}

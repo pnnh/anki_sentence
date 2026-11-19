@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_daily_routine",
+  "pattern": "narrative_daily_routine",
+  "items": [
+    {
+      "zh": "我通常七点起床，先去跑步，然后吃早饭。",
+      "angle": 1,
+      "angle_zh": "早上七点起床跑步",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我每天早上七点起床，先跑半小时，再回家洗澡。",
+      "angle": 1,
+      "angle_zh": "早上七点起床跑步",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我一般坐地铁上班，先听一会儿播客，然后看看新闻。",
+      "angle": 2,
+      "angle_zh": "通勤路上听播客",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我平时通勤要一个小时，通常先听播客，再休息一会儿。",
+      "angle": 2,
+      "angle_zh": "通勤路上听播客",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我中午通常和同事一起吃饭，然后散步。",
+      "angle": 3,
+      "angle_zh": "午休和同事吃饭",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "午休时我一般和同事吃饭，吃完再喝杯咖啡。",
+      "angle": 3,
+      "angle_zh": "午休和同事吃饭",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我晚上一般自己做饭，然后看一会儿剧。",
+      "angle": 4,
+      "angle_zh": "晚上做饭看剧",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "下班后我通常先做饭，吃完饭再看剧。",
+      "angle": 4,
+      "angle_zh": "晚上做饭看剧",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我睡前通常会先看半小时书，然后再睡。",
+      "angle": 5,
+      "angle_zh": "睡前读半小时书",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "我一般十一点上床，先看半小时书再睡。",
+      "angle": 5,
+      "angle_zh": "睡前读半小时书",
+      "micro": "weekday",
+      "micro_zh": "工作日"
+    },
+    {
+      "zh": "周末我通常会打扫房间，然后去超市。",
+      "angle": 6,
+      "angle_zh": "周末打扫房间",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我一般周六上午打扫房间，下午再休息。",
+      "angle": 6,
+      "angle_zh": "周末打扫房间",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我每天通常喝两杯咖啡，早上和下午各一杯。",
+      "angle": 7,
+      "angle_zh": "每天喝两杯咖啡",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我平时每天先喝一杯咖啡，下午再喝一杯。",
+      "angle": 7,
+      "angle_zh": "每天喝两杯咖啡",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我一般晚上十一点睡觉，早上七点起。",
+      "angle": 8,
+      "angle_zh": "晚上十一点睡觉",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我通常十一点前上床，然后很快睡着。",
+      "angle": 8,
+      "angle_zh": "晚上十一点睡觉",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我下班通常顺路买菜，然后回家做饭。",
+      "angle": 9,
+      "angle_zh": "下班顺路买菜",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我一般下班先去超市，再坐车回家。",
+      "angle": 9,
+      "angle_zh": "下班顺路买菜",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我通常周三晚上去健身房，练一个小时。",
+      "angle": 10,
+      "angle_zh": "周三晚上去健身房",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    },
+    {
+      "zh": "我一般每周去三次健身房，先从周三开始。",
+      "angle": 10,
+      "angle_zh": "周三晚上去健身房",
+      "micro": "weekend",
+      "micro_zh": "周末"
+    }
+  ],
+  "source": "seed"
+}

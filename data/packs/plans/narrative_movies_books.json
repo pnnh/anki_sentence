@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_movies_books",
+  "pattern": "narrative_movies_books",
+  "items": [
+    {
+      "zh": "我最近看了一部电影，我觉得没有原著小说好看。",
+      "angle": 1,
+      "angle_zh": "电影没有原著小说好看",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "这部电影没有原著小说那么好看。",
+      "angle": 1,
+      "angle_zh": "电影没有原著小说好看",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "这部新剧比上一季差一些。",
+      "angle": 2,
+      "angle_zh": "新剧比上一季差",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "我觉得新一季比上一季差，故事有点拖。",
+      "angle": 2,
+      "angle_zh": "新剧比上一季差",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "这本书开头有点慢，但后面很精彩。",
+      "angle": 3,
+      "angle_zh": "这本书开头慢，后面精彩",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "我觉得这本书前面慢，越往后越好看。",
+      "angle": 3,
+      "angle_zh": "这本书开头慢，后面精彩",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "我觉得纪录片比剧情片真实。",
+      "angle": 4,
+      "angle_zh": "纪录片比剧情片真实",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "纪录片比剧情片更真实，我更喜欢看。",
+      "angle": 4,
+      "angle_zh": "纪录片比剧情片真实",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "演员演得很好，但我觉得故事一般。",
+      "angle": 5,
+      "angle_zh": "演员演得好，但故事一般",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "这部电影演员不错，不过故事我觉得一般。",
+      "angle": 5,
+      "angle_zh": "演员演得好，但故事一般",
+      "micro": "review",
+      "micro_zh": "评价"
+    },
+    {
+      "zh": "小说太长了，所以电影删了很多内容。",
+      "angle": 6,
+      "angle_zh": "小说太长，电影删了很多",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "我觉得小说太长，电影删掉了不少情节。",
+      "angle": 6,
+      "angle_zh": "小说太长，电影删了很多",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "我觉得这部电影结局太仓促，很多事没交代清楚。",
+      "angle": 7,
+      "angle_zh": "结局太仓促，不太满意",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "这部电影结局太仓促，我不太满意。",
+      "angle": 7,
+      "angle_zh": "结局太仓促，不太满意",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "这部电影的配乐很好听，值得再看一遍。",
+      "angle": 8,
+      "angle_zh": "配乐很好听，值得再看",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "我觉得配乐比故事更出彩，值得再听一遍。",
+      "angle": 8,
+      "angle_zh": "配乐很好听，值得再看",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "朋友推荐的那本书很有意思。",
+      "angle": 9,
+      "angle_zh": "朋友推荐的书很有意思",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "我觉得朋友推荐的书比我想的有意思。",
+      "angle": 9,
+      "angle_zh": "朋友推荐的书很有意思",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "这部电影我看了两遍，才觉得好看。",
+      "angle": 10,
+      "angle_zh": "看了两遍才看懂",
+      "micro": "compare",
+      "micro_zh": "比较"
+    },
+    {
+      "zh": "这本书我读了两遍，才开始觉得有意思。",
+      "angle": 10,
+      "angle_zh": "看了两遍才看懂",
+      "micro": "compare",
+      "micro_zh": "比较"
+    }
+  ],
+  "source": "seed"
+}

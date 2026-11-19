@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_reported_speech",
+  "pattern": "reported_speech",
+  "items": [
+    {
+      "zh": "他告诉我会议改到下午三点了。",
+      "angle": 1,
+      "angle_zh": "他告诉我会议改到三点",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "他昨天告诉我，会议改到三点了。",
+      "angle": 1,
+      "angle_zh": "他告诉我会议改到三点",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "医生说我应该多喝水。",
+      "angle": 2,
+      "angle_zh": "医生说要多喝水",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "医生告诉我要多喝水，少喝咖啡。",
+      "angle": 2,
+      "angle_zh": "医生说要多喝水",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "朋友问我周末有没有空。",
+      "angle": 3,
+      "angle_zh": "朋友问我周末有没有空",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "朋友打电话问我周末有没有时间。",
+      "angle": 3,
+      "angle_zh": "朋友问我周末有没有空",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "老板让我明天早点到。",
+      "angle": 4,
+      "angle_zh": "老板让我明天早点到",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "老板叫我明天早上八点前到。",
+      "angle": 4,
+      "angle_zh": "老板让我明天早点到",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "妈妈提醒我带伞。",
+      "angle": 5,
+      "angle_zh": "妈妈提醒我带伞",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "出门前妈妈提醒我带一把伞。",
+      "angle": 5,
+      "angle_zh": "妈妈提醒我带伞",
+      "micro": "message",
+      "micro_zh": "转述消息"
+    },
+    {
+      "zh": "同事说他下周要请假。",
+      "angle": 6,
+      "angle_zh": "同事说他下周请假",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "同事告诉我他下周请假三天。",
+      "angle": 6,
+      "angle_zh": "同事说他下周请假",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "客服说会帮我查一下。",
+      "angle": 7,
+      "angle_zh": "客服说会帮我查一下",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "客服说会帮我查一下订单，让我等一会儿。",
+      "angle": 7,
+      "angle_zh": "客服说会帮我查一下",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "老师告诉我们考试很简单。",
+      "angle": 8,
+      "angle_zh": "老师告诉我们考试很简单",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "老师告诉我们这次考试不会太难。",
+      "angle": 8,
+      "angle_zh": "老师告诉我们考试很简单",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "邻居问我能不能帮忙收个快递。",
+      "angle": 9,
+      "angle_zh": "邻居问我能不能帮忙收快递",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "邻居问我下午能不能帮他收快递。",
+      "angle": 9,
+      "angle_zh": "邻居问我能不能帮忙收快递",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "他问我喜不喜欢这个城市。",
+      "angle": 10,
+      "angle_zh": "他问我喜不喜欢这个城市",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    },
+    {
+      "zh": "他问我住在这里习不习惯。",
+      "angle": 10,
+      "angle_zh": "他问我喜不喜欢这个城市",
+      "micro": "question",
+      "micro_zh": "转述问题"
+    }
+  ],
+  "source": "seed"
+}

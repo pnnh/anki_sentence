@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_first_conditional",
+  "pattern": "first_conditional",
+  "items": [
+    {
+      "zh": "如果我们赶不上这班车，就坐下一班。",
+      "angle": 1,
+      "angle_zh": "如果赶不上这班车",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果赶不上这班车，我们就打车过去。",
+      "angle": 1,
+      "angle_zh": "如果赶不上这班车",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果明天下雨，我们就在家吃饭。",
+      "angle": 2,
+      "angle_zh": "如果明天下雨",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果明天下雨，活动就改到下周。",
+      "angle": 2,
+      "angle_zh": "如果明天下雨",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果你有空，就来我家坐坐。",
+      "angle": 3,
+      "angle_zh": "如果你有空",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果你有空，可以帮我看看这个文件吗？",
+      "angle": 3,
+      "angle_zh": "如果你有空",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果价格太贵，我就不买了。",
+      "angle": 4,
+      "angle_zh": "如果价格太贵",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果太贵，我们可以换一家看看。",
+      "angle": 4,
+      "angle_zh": "如果价格太贵",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果找不到路，就给我打电话。",
+      "angle": 5,
+      "angle_zh": "如果找不到路",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果找不到地方，可以问一下保安。",
+      "angle": 5,
+      "angle_zh": "如果找不到路",
+      "micro": "everyday",
+      "micro_zh": "日常选择"
+    },
+    {
+      "zh": "如果他不接电话，我就发消息给他。",
+      "angle": 6,
+      "angle_zh": "如果他不接电话",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果他不接，你就晚点再打一次。",
+      "angle": 6,
+      "angle_zh": "如果他不接电话",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果今晚加班，我会晚一点回家。",
+      "angle": 7,
+      "angle_zh": "如果今晚加班",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果今晚要加班，我就先不吃饭了。",
+      "angle": 7,
+      "angle_zh": "如果今晚加班",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果周末天气好，我们就去公园。",
+      "angle": 8,
+      "angle_zh": "如果周末天气好",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果周末天气好，我们就去郊外走走。",
+      "angle": 8,
+      "angle_zh": "如果周末天气好",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果菜太辣，就换一个不辣的。",
+      "angle": 9,
+      "angle_zh": "如果菜太辣",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果这个菜太辣，我们可以再点一个。",
+      "angle": 9,
+      "angle_zh": "如果菜太辣",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果忘记带钥匙，就找房东帮忙。",
+      "angle": 10,
+      "angle_zh": "如果忘记带钥匙",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    },
+    {
+      "zh": "如果你忘记带钥匙，可以在楼下等我。",
+      "angle": 10,
+      "angle_zh": "如果忘记带钥匙",
+      "micro": "travel",
+      "micro_zh": "出行状况"
+    }
+  ],
+  "source": "seed"
+}

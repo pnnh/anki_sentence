@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_childhood",
+  "pattern": "narrative_childhood",
+  "items": [
+    {
+      "zh": "我小时候住在一个小城市，经常在河边玩。",
+      "angle": 1,
+      "angle_zh": "住在一座小城市，在河边玩",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "小时候我们家住在一座小城市，我常去河边玩。",
+      "angle": 1,
+      "angle_zh": "住在一座小城市，在河边玩",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "小时候夏天我和邻居孩子常玩捉迷藏。",
+      "angle": 2,
+      "angle_zh": "夏天和邻居孩子捉迷藏",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "我小时候一到夏天，就和邻居的孩子捉迷藏。",
+      "angle": 2,
+      "angle_zh": "夏天和邻居孩子捉迷藏",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "小时候每天早上都是妈妈叫醒我。",
+      "angle": 3,
+      "angle_zh": "每天早上被妈妈叫醒",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "我小时候妈妈每天很早叫我们起床。",
+      "angle": 3,
+      "angle_zh": "每天早上被妈妈叫醒",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "小时候放学后我常去小卖部买零食。",
+      "angle": 4,
+      "angle_zh": "放学后在小卖部买零食",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "我小时候一放学就去小卖部买零食。",
+      "angle": 4,
+      "angle_zh": "放学后在小卖部买零食",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "小时候寒假我常去外婆家过年。",
+      "angle": 5,
+      "angle_zh": "寒假去外婆家过年",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "我小时候每年寒假都去外婆家过年。",
+      "angle": 5,
+      "angle_zh": "寒假去外婆家过年",
+      "micro": "home",
+      "micro_zh": "小时候的家"
+    },
+    {
+      "zh": "我小时候学骑自行车，摔了好几次。",
+      "angle": 6,
+      "angle_zh": "学骑自行车摔了好几次",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "小时候学自行车时我摔过很多次。",
+      "angle": 6,
+      "angle_zh": "学骑自行车摔了好几次",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "小时候我们家院子里养过小动物。",
+      "angle": 7,
+      "angle_zh": "喜欢在院子里养小动物",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "我小时候喜欢在院子里养小鸡。",
+      "angle": 7,
+      "angle_zh": "喜欢在院子里养小动物",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "小时候我常和哥哥抢电视看。",
+      "angle": 8,
+      "angle_zh": "和哥哥抢电视看",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "我小时候和哥哥总为看电视吵架。",
+      "angle": 8,
+      "angle_zh": "和哥哥抢电视看",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "小时候考试前我常熬夜复习。",
+      "angle": 9,
+      "angle_zh": "考试前熬夜复习",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "我小时候一到考试就熬夜看书。",
+      "angle": 9,
+      "angle_zh": "考试前熬夜复习",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "小时候暑假我每天去游泳。",
+      "angle": 10,
+      "angle_zh": "暑假每天去游泳",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    },
+    {
+      "zh": "我小时候一到暑假就天天去游泳。",
+      "angle": 10,
+      "angle_zh": "暑假每天去游泳",
+      "micro": "habits",
+      "micro_zh": "小时候的习惯"
+    }
+  ],
+  "source": "seed"
+}

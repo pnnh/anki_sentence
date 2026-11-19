@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_work_study_problems",
+  "pattern": "narrative_work_study_problems",
+  "items": [
+    {
+      "zh": "这个项目最近进度很慢，因为有两个同事请假了。",
+      "angle": 1,
+      "angle_zh": "项目进度慢，因为同事请假",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "项目进度慢，因为负责的同事这周请假。",
+      "angle": 1,
+      "angle_zh": "项目进度慢，因为同事请假",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "报告没写完，因为我的电脑坏了。",
+      "angle": 2,
+      "angle_zh": "报告没写完，因为电脑坏了",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "我今天没交报告，因为电脑突然坏了。",
+      "angle": 2,
+      "angle_zh": "报告没写完，因为电脑坏了",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "这次考试我没考好，因为复习时间不够。",
+      "angle": 3,
+      "angle_zh": "考试没考好，因为复习时间不够",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "考试没考好，因为最近工作太忙，没时间复习。",
+      "angle": 3,
+      "angle_zh": "考试没考好，因为复习时间不够",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "今天开会我迟到了，因为路上堵车。",
+      "angle": 4,
+      "angle_zh": "开会迟到，因为路上堵车",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "开会迟到了十分钟，因为路上特别堵。",
+      "angle": 4,
+      "angle_zh": "开会迟到，因为路上堵车",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "我的方案被否了，因为预算太高。",
+      "angle": 5,
+      "angle_zh": "方案被否了，因为预算太高",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "方案没通过，因为老板觉得预算太高。",
+      "angle": 5,
+      "angle_zh": "方案被否了，因为预算太高",
+      "micro": "work",
+      "micro_zh": "工作"
+    },
+    {
+      "zh": "最近我总加班，因为部门人手不够。",
+      "angle": 6,
+      "angle_zh": "最近总加班，因为人手不够",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "最近天天加班，因为有两个同事离职了。",
+      "angle": 6,
+      "angle_zh": "最近总加班，因为人手不够",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "我的论文要延期，因为数据出了问题。",
+      "angle": 7,
+      "angle_zh": "论文延期，因为数据出了问题",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "论文延期了，因为有一部分数据不对。",
+      "angle": 7,
+      "angle_zh": "论文延期，因为数据出了问题",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "客户投诉了，因为送货太慢。",
+      "angle": 8,
+      "angle_zh": "客户投诉，因为送货太慢",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "有客户投诉，因为快递比约定晚了两天。",
+      "angle": 8,
+      "angle_zh": "客户投诉，因为送货太慢",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "我最近学习效率很低，因为总被打断。",
+      "angle": 9,
+      "angle_zh": "学习效率低，因为总被打断",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "在家学习效率低，因为总有人来找我。",
+      "angle": 9,
+      "angle_zh": "学习效率低，因为总被打断",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "这次面试失败了，因为我太紧张。",
+      "angle": 10,
+      "angle_zh": "面试失败，因为太紧张",
+      "micro": "study",
+      "micro_zh": "学习"
+    },
+    {
+      "zh": "面试没通过，因为当时太紧张，话都说不清。",
+      "angle": 10,
+      "angle_zh": "面试失败，因为太紧张",
+      "micro": "study",
+      "micro_zh": "学习"
+    }
+  ],
+  "source": "seed"
+}

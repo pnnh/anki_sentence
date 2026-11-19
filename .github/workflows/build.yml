@@ -53,6 +53,14 @@ jobs:
             --check-target \
             --fail-on-error
 
+      - name: Quality check (grammar & narrative packs)
+        run: |
+          python scripts/qc.py \
+            --data-dir data/packs/final \
+            --report-dir reports_packs \
+            --check-target \
+            --fail-on-error
+
       - name: Build artifacts
         run: python scripts/build_release.py --version "${{ steps.version.outputs.version }}"
 

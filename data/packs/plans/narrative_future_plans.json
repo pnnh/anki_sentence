@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_future_plans",
+  "pattern": "narrative_future_plans",
+  "items": [
+    {
+      "zh": "明年我打算换一份自己更喜欢的工作。",
+      "angle": 1,
+      "angle_zh": "明年换工作",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "明年我计划换工作，想试试新的方向。",
+      "angle": 1,
+      "angle_zh": "明年换工作",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "今年我打算开始存钱买房。",
+      "angle": 2,
+      "angle_zh": "存钱买房",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "我今年计划多存点钱，争取早点买房。",
+      "angle": 2,
+      "angle_zh": "存钱买房",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "明年我打算学一门新语言。",
+      "angle": 3,
+      "angle_zh": "学一门新语言",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "我计划明年开始学一门新语言。",
+      "angle": 3,
+      "angle_zh": "学一门新语言",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "明年我想带父母去旅行。",
+      "angle": 4,
+      "angle_zh": "带父母旅行",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "明年我打算带父母出去旅行一次。",
+      "angle": 4,
+      "angle_zh": "带父母旅行",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "下个月我打算开始健身。",
+      "angle": 5,
+      "angle_zh": "开始健身",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "我计划下个月开始健身，每周去三次。",
+      "angle": 5,
+      "angle_zh": "开始健身",
+      "micro": "next_year",
+      "micro_zh": "明年计划"
+    },
+    {
+      "zh": "明年我打算搬到离公司近一点的地方。",
+      "angle": 6,
+      "angle_zh": "搬到离公司近的地方",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "我准备明年搬家，住得离公司近一些。",
+      "angle": 6,
+      "angle_zh": "搬到离公司近的地方",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "明年我打算养一只狗。",
+      "angle": 7,
+      "angle_zh": "养一只狗",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "以后我想养一只狗，现在住的地方太小。",
+      "angle": 7,
+      "angle_zh": "养一只狗",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "今年我打算考一个证书。",
+      "angle": 8,
+      "angle_zh": "考一个证书",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "我计划今年考一个证书，对工作有帮助。",
+      "angle": 8,
+      "angle_zh": "考一个证书",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "以后我打算少加一点班。",
+      "angle": 9,
+      "angle_zh": "减少加班",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "我计划以后少加班，多陪家人。",
+      "angle": 9,
+      "angle_zh": "减少加班",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "以后我打算每周自己做一次饭。",
+      "angle": 10,
+      "angle_zh": "每周做一次饭",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    },
+    {
+      "zh": "我计划从下个月开始，每周做一次饭。",
+      "angle": 10,
+      "angle_zh": "每周做一次饭",
+      "micro": "personal",
+      "micro_zh": "个人目标"
+    }
+  ],
+  "source": "seed"
+}

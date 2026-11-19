@@ -30,14 +30,15 @@ Rewrite the English so it is natural, accurate, and conversational, suitable for
 Rules:
 - Keep the exact same meaning and function. A question stays a question, a request stays a request.
 - Keep every number, amount, currency, time, and place exactly as in the Chinese.
-- 4-16 words, one complete sentence, no fragments.
+- Do not leave out information. If the current English omits a time, place, reason, contrast, or number from the Chinese, add it back naturally.
+- 4-{max_words} words, one complete sentence, no fragments.
 - No brand names and no proper nouns. Use generic words instead.
 - Use common everyday vocabulary. Avoid rare or formal words.
 - If the current translation is already good, return it unchanged.
 
 {items}
 
-Return JSON only: {{"pairs":[{{"id":1,"en":"..."}}]}}"""
+Return JSON only: {"pairs":[{"id":1,"en":"..."}]}"""
 
 
 def parse_args():
@@ -45,6 +46,7 @@ def parse_args():
     p.add_argument("--scenes", nargs="*", help="scene ids (default: all files)")
     p.add_argument("--model", default="qwen2.5:14b")
     p.add_argument("--batch", type=int, default=10)
+    p.add_argument("--max-words", type=int, default=16)
     p.add_argument("--limit", type=int, help="max cards per scene")
     p.add_argument("--pause", type=float, default=1.0)
     p.add_argument("--temperature", type=float, default=0.2)
@@ -71,7 +73,7 @@ def normalize(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def validate_en(old_en, new_en, zh):
+def validate_en(old_en, new_en, zh, max_words=16):
     if not isinstance(new_en, str):
         return None
     en = normalize(new_en).strip("\"'")
@@ -83,11 +85,13 @@ def validate_en(old_en, new_en, zh):
         en += "."
     en = en[0].upper() + en[1:]
     n = len(WORD_RE.findall(en))
-    if n < 4 or n > 16:
+    if n < 4 or n > max_words:
         return None
     if any(w.lower().strip("'") in BRANDS for w in WORD_RE.findall(en)):
         return None
     if any(d not in en for d in DIGIT_RE.findall(zh)):
+        return None
+    if DIGIT_RE.search(en) and not re.search(r"[0-9零一二三四五六七八九十百千万亿两]", zh):
         return None
     return en
 
@@ -157,7 +161,9 @@ def polish_scene(args, scene_path, out_dir, patch_dir):
             lines.append(
                 f'{i}. [{rec["scene_zh"]} / {rec["micro_zh"]}] zh: {rec["zh"]} | current en: {rec["en"]}'
             )
-        prompt = TEMPLATE.replace("{items}", "\n".join(lines))
+        prompt = TEMPLATE.replace("{max_words}", str(args.max_words)).replace(
+            "{items}", "\n".join(lines)
+        )
         pairs = None
         for attempt in range(args.retries + 1):
             try:
@@ -176,7 +182,7 @@ def polish_scene(args, scene_path, out_dir, patch_dir):
             if isinstance(p, dict) and isinstance(p.get("id"), int):
                 by_id[p["id"]] = p.get("en", "")
         for i, rec in enumerate(batch, 1):
-            new_en = validate_en(rec["en"], by_id.get(i), rec["zh"]) or rec["en"]
+            new_en = validate_en(rec["en"], by_id.get(i), rec["zh"], args.max_words) or rec["en"]
             if new_en != rec["en"]:
                 accepted += 1
             patch = {

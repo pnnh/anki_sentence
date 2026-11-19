@@ -2,22 +2,24 @@
 
 面向中文母语者的场景化生活英语 Anki 卡组：**中文正面、英文背面**，用于练日常口语输出，而不是英译中理解。词汇控制在 A1–B2，话题按真实生活场景组织。
 
-- 25 个生活场景、204 个微情境
-- 当前 3,691 张卡片（每场景 107–214 张）
+- 25 个生活场景 + 25 个语法/叙事主题，254 个微情境
+- 当前 4,191 张卡片（生活 3,691 + 语法 300 + 叙事 200）
 - 本地 Ollama 生成 + 润色，AnkiConnect 幂等导入
 
 ## 卡组内容
 
 | 项目 | 值 |
 |---|---|
-| 场景数 | 25 |
-| 微情境数 | 204 |
-| 卡片数 | 3,691（生成 3,692，1 张跨场景重复未导入） |
+| 场景数 | 50（25 生活 + 15 语法 + 10 叙事） |
+| 微情境数 | 254 |
+| 卡片数 | 4,191（生活 3,691 + 语法 300 + 叙事 200；生成 4,192，1 张跨场景重复未导入） |
 | 正面 | `[场景中文] 中文句子` |
 | 背面 | `[Scene English] English sentence.` |
 | 词频 | A1–B2 日常口语；wordfreq 做生僻词检查 |
 
 场景覆盖：服装购物、超市、餐厅、外卖、打车、机场、酒店、问路、医院药店、银行、网购、咖啡快餐、公共交通、手机网络、快递、理发、租房维修、汽车停车、紧急情况、办公室、学校、电话客服、社交、观光、天气闲聊。
+
+语法包覆盖 15 类句型：一般过去时、过去进行时、现在完成时、going to、will、used to、真实/虚拟条件句、义务与规定、比较级、附加疑问句、定语从句、动名词与不定式、被动语态、转述句。叙事包覆盖 10 个主题：日常作息、上周末、童年、未来计划、健康习惯、工作学习难题、旅行故事、影视书籍、人际关系、愿望与遗憾。
 
 ## 目录结构
 
@@ -32,6 +34,8 @@ scripts/
   review_report.py          生成静态 HTML 审阅页
   polish.py                 用 14B 润色英文（原文件不动，输出到独立目录）
   reconcile_polish.py       回退润色产生的同场景重复/近似重复
+  generate_packs.py         语法/叙事包：中文计划、翻译、润色合并与句型校验
+  pack_patterns.py          25 类句型的英文/中文校验规则与提示标签
   import_anki.py            AnkiConnect 导入与更新
   build_release.py          构建 .apkg、数据 zip 与校验和
   run_*.sh                  批量运行脚本
@@ -40,7 +44,14 @@ scripts/
 data/
   plans/                    各场景微情境计划
   sentences/                7B 生成结果（JSONL，每场景一个文件）
-  sentences_polished/       14B 润色结果（Anki 当前数据来源）
+  sentences_polished/       14B 润色结果（生活场景，Anki 数据来源）
+  packs/
+    seeds/                  语法/叙事包中文种子句
+    plans/                  每场景 20 条中文计划
+    sentences/              7B 翻译结果（JSONL）
+    polished/               14B 润色结果
+    final/                  最终卡片（Anki 与发布产物的数据来源）
+    overrides.json          人工覆写（uid → 最终英文）
   patches/                  逐卡润色记录（uid、old_en、new_en）
   archive/                  早期废弃的试点版本
   benchmark.jsonl           人工撰写的风格基准句
@@ -94,6 +105,16 @@ python3 scripts/reconcile_polish.py --apply
 python3 scripts/import_anki.py --data-dir data/sentences_polished --apply
 # 已有卡片需要同步最新英文时：
 python3 scripts/import_anki.py --data-dir data/sentences_polished --update-existing --verify --apply
+
+# 7. 语法/叙事包（种子句驱动，可断点续跑）
+python3 scripts/generate_packs.py --stage plan
+python3 scripts/generate_packs.py --stage sentences --pause 2
+.venv/bin/python scripts/polish.py --data-dir data/packs/sentences \
+  --out-dir data/packs/polished --patch-dir data/packs/patches \
+  --max-words 24 --batch 10 --pause 1
+python3 scripts/generate_packs.py --finalize
+python3 scripts/generate_packs.py --verify-dir data/packs/final
+python3 scripts/import_anki.py --data-dir data/packs/final --apply
 ```
 
 批量脚本按顺序执行即可：`run_core_plans.sh` → `run_generate_core.sh` → `run_generate_remaining.sh`；`run_overnight.sh` 串起质检与剩余场景，`run_polish.sh` 在生成结束后自动润色。
@@ -128,7 +149,7 @@ python3 scripts/import_anki.py --data-dir data/sentences_polished --update-exist
 - 牌组：`生活英语句子`
 - 笔记类型：`生活句子 ZH→EN`
 - 字段：`Chinese`、`English`、`SceneZH`、`SceneEN`
-- 标签：`scene::<id>`、`micro::<scene>::<micro>`、`phase::<n>`、`src::<model>`、`uid::<uid>`
+- 标签：`scene::<id>`、`micro::<scene>::<micro>`、`phase::<n>`、`src::<model>`、`uid::<uid>`；语法/叙事包额外带 `pack::grammar|narrative`、`pattern::<pattern>`，叙事包再带 `topic::<topic>`
 
 `data/imported.json` 记录 UID → Anki note id，属于本机数据，已加入 `.gitignore`。
 
@@ -136,7 +157,7 @@ python3 scripts/import_anki.py --data-dir data/sentences_polished --update-exist
 
 `qc.py` 检查：缺失字段、未知场景/微情境、重复 UID、同场景重复中英文、语言混入、长度、标点、专名、品牌、正式用语，以及基于 `wordfreq` 的生僻词。跨场景重复只记为警告，因为同一句话在不同场景下仍有练习价值。
 
-当前状态（2026-11-18）：润色版 0 错误；警告主要为生僻词、T恤/Wi-Fi/登机口字母等专名、少量品牌词（微信、支付宝），以及 43 处跨场景重复。
+当前状态（2026-11-19）：生活场景 0 错误（警告为生僻词、T恤/Wi-Fi 等专名与跨场景重复）；语法/叙事包 0 错误、46 条警告（星期/English 等专有名词、milder/milliliters 等低频词、5 组同场景近似句）。
 
 ## Git 与 LFS
 
@@ -156,8 +177,8 @@ git add .gitattributes
 
 输出到 `dist/`：
 
-- `anki_sentence-<version>.apkg`：可直接导入 Anki 的牌组。牌组 ID、笔记类型 ID 与卡片 GUID 均固定，重复导入会更新已有卡片而不是新建。构建时按“中文 + 英文”去重，产物为 3,691 张，与当前 Anki 牌组一致。
-- `anki_sentence-<version>-data.zip`：润色后 JSONL 数据、场景配置、提示词、README 与 LICENSE。
+- `anki_sentence-<version>.apkg`：可直接导入 Anki 的牌组。牌组 ID、笔记类型 ID 与卡片 GUID 均固定，重复导入会更新已有卡片而不是新建。构建时合并生活场景与语法/叙事包，按“中文 + 英文”去重，产物为 4,191 张，与当前 Anki 牌组一致。
+- `anki_sentence-<version>-data.zip`：两批次的最终 JSONL 数据、场景配置、提示词、README 与 LICENSE。
 - `SHA256SUMS`：两份产物的 SHA-256 校验值。
 
 ## CI 与发布

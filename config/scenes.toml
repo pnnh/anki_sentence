@@ -455,3 +455,382 @@ micros = [
   { id = "weekend", zh = "周末" },
   { id = "greeting", zh = "打招呼" },
 ]
+
+# ── 语法句型包：15 个句型 × 20 张 = 300 ─────────────────────────────
+
+[[scenes]]
+id = "grammar_past_simple"
+zh = "语法·一般过去时"
+en = "Grammar: Past Simple"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "past_simple"
+micros = [
+  { id = "everyday", zh = "日常经历" },
+  { id = "work_study", zh = "工作学习" },
+]
+
+[[scenes]]
+id = "grammar_past_continuous"
+zh = "语法·过去进行时"
+en = "Grammar: Past Continuous"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "past_continuous"
+micros = [
+  { id = "interruption", zh = "被打断的事" },
+  { id = "scene", zh = "当时的情景" },
+]
+
+[[scenes]]
+id = "grammar_present_perfect"
+zh = "语法·现在完成时"
+en = "Grammar: Present Perfect"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "present_perfect"
+micros = [
+  { id = "experience", zh = "经历" },
+  { id = "duration", zh = "持续到现在" },
+]
+
+[[scenes]]
+id = "grammar_future_going_to"
+zh = "语法·going to 计划"
+en = "Grammar: Future Plans with Going To"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "going_to"
+micros = [
+  { id = "near_future", zh = "近期安排" },
+  { id = "travel", zh = "出行计划" },
+]
+
+[[scenes]]
+id = "grammar_future_will"
+zh = "语法·will 将来"
+en = "Grammar: Future with Will"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "will"
+micros = [
+  { id = "prediction", zh = "预测" },
+  { id = "decision", zh = "临时决定" },
+]
+
+[[scenes]]
+id = "grammar_used_to"
+zh = "语法·used to"
+en = "Grammar: Used To"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "used_to"
+micros = [
+  { id = "childhood", zh = "童年习惯" },
+  { id = "lifestyle", zh = "生活方式改变" },
+]
+
+[[scenes]]
+id = "grammar_first_conditional"
+zh = "语法·真实条件句"
+en = "Grammar: First Conditional"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "first_conditional"
+micros = [
+  { id = "everyday", zh = "日常选择" },
+  { id = "travel", zh = "出行状况" },
+]
+
+[[scenes]]
+id = "grammar_second_conditional"
+zh = "语法·虚拟条件句"
+en = "Grammar: Second Conditional"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "second_conditional"
+micros = [
+  { id = "advice", zh = "假设建议" },
+  { id = "imagination", zh = "假设情境" },
+]
+
+[[scenes]]
+id = "grammar_modals_obligation"
+zh = "语法·义务与规定"
+en = "Grammar: Obligation and Rules"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "modals_obligation"
+micros = [
+  { id = "work", zh = "工作规定" },
+  { id = "public", zh = "公共场所" },
+]
+
+[[scenes]]
+id = "grammar_comparatives"
+zh = "语法·比较级"
+en = "Grammar: Comparatives"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "comparatives"
+micros = [
+  { id = "places", zh = "地点比较" },
+  { id = "things", zh = "事物比较" },
+]
+
+[[scenes]]
+id = "grammar_tag_questions"
+zh = "语法·附加疑问句"
+en = "Grammar: Tag Questions"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "tag_questions"
+micros = [
+  { id = "confirm", zh = "确认事实" },
+  { id = "plans", zh = "确认安排" },
+]
+
+[[scenes]]
+id = "grammar_relative_clauses"
+zh = "语法·定语从句"
+en = "Grammar: Relative Clauses"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "relative_clauses"
+micros = [
+  { id = "people", zh = "描述人" },
+  { id = "places", zh = "描述地点" },
+]
+
+[[scenes]]
+id = "grammar_gerund_infinitive"
+zh = "语法·动名词与不定式"
+en = "Grammar: Gerunds and Infinitives"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "gerund_infinitive"
+micros = [
+  { id = "likes", zh = "喜好" },
+  { id = "plans", zh = "打算" },
+]
+
+[[scenes]]
+id = "grammar_passive"
+zh = "语法·被动语态"
+en = "Grammar: Passive Voice"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "passive"
+micros = [
+  { id = "services", zh = "服务" },
+  { id = "repairs", zh = "维修" },
+]
+
+[[scenes]]
+id = "grammar_reported_speech"
+zh = "语法·转述句"
+en = "Grammar: Reported Speech"
+group = "语法句型"
+phase = 3
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "reported_speech"
+micros = [
+  { id = "message", zh = "转述消息" },
+  { id = "question", zh = "转述问题" },
+]
+
+# ── 个人叙事与观点：10 个主题 × 20 张 = 200 ─────────────────────────
+
+[[scenes]]
+id = "narrative_daily_routine"
+zh = "叙事·日常作息"
+en = "Narrative: Daily Routine"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "daily_routine"
+micros = [
+  { id = "weekday", zh = "工作日" },
+  { id = "weekend", zh = "周末" },
+]
+
+[[scenes]]
+id = "narrative_last_weekend"
+zh = "叙事·上周末"
+en = "Narrative: Last Weekend"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "last_weekend"
+micros = [
+  { id = "activities", zh = "做了什么" },
+  { id = "feelings", zh = "感受和评价" },
+]
+
+[[scenes]]
+id = "narrative_childhood"
+zh = "叙事·童年回忆"
+en = "Narrative: Childhood Memories"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "childhood"
+micros = [
+  { id = "home", zh = "小时候的家" },
+  { id = "habits", zh = "小时候的习惯" },
+]
+
+[[scenes]]
+id = "narrative_future_plans"
+zh = "叙事·未来计划"
+en = "Narrative: Future Plans"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "future_plans"
+micros = [
+  { id = "next_year", zh = "明年计划" },
+  { id = "personal", zh = "个人目标" },
+]
+
+[[scenes]]
+id = "narrative_health_habits"
+zh = "叙事·健康习惯"
+en = "Narrative: Health Habits"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "health_habits"
+micros = [
+  { id = "changes", zh = "最近改变" },
+  { id = "routine", zh = "日常习惯" },
+]
+
+[[scenes]]
+id = "narrative_work_study_problems"
+zh = "叙事·工作学习问题"
+en = "Narrative: Work and Study Problems"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "work_study_problems"
+micros = [
+  { id = "work", zh = "工作" },
+  { id = "study", zh = "学习" },
+]
+
+[[scenes]]
+id = "narrative_travel_story"
+zh = "叙事·旅行故事"
+en = "Narrative: Travel Story"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "travel_story"
+micros = [
+  { id = "journey", zh = "旅途" },
+  { id = "unexpected", zh = "意外" },
+]
+
+[[scenes]]
+id = "narrative_movies_books"
+zh = "叙事·电影与书"
+en = "Narrative: Movies and Books"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "movies_books"
+micros = [
+  { id = "review", zh = "评价" },
+  { id = "compare", zh = "比较" },
+]
+
+[[scenes]]
+id = "narrative_relationships"
+zh = "叙事·人际关系"
+en = "Narrative: Relationships"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "relationships"
+micros = [
+  { id = "friends", zh = "朋友" },
+  { id = "family", zh = "家人" },
+]
+
+[[scenes]]
+id = "narrative_wishes_regrets"
+zh = "叙事·愿望与遗憾"
+en = "Narrative: Wishes and Regrets"
+group = "个人叙事"
+phase = 3
+target = 20
+mode = "narrative"
+pack = "narrative"
+pattern = "wishes_regrets"
+micros = [
+  { id = "wish", zh = "愿望" },
+  { id = "regret", zh = "遗憾" },
+]

@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_relative_clauses",
+  "pattern": "relative_clauses",
+  "items": [
+    {
+      "zh": "就是那个穿蓝外套的人帮我找到了钱包。",
+      "angle": 1,
+      "angle_zh": "那个穿蓝外套的人帮我找到钱包",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "帮我找到钱包的是那个穿蓝外套的人。",
+      "angle": 1,
+      "angle_zh": "那个穿蓝外套的人帮我找到钱包",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "我认识一个会修电脑的朋友。",
+      "angle": 2,
+      "angle_zh": "我认识一个会修电脑的朋友",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "我有一个朋友，他会修电脑。",
+      "angle": 2,
+      "angle_zh": "我认识一个会修电脑的朋友",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "这是我昨天买的那本书。",
+      "angle": 3,
+      "angle_zh": "这是我昨天买的那本书",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "这本书是我昨天买的那本。",
+      "angle": 3,
+      "angle_zh": "这是我昨天买的那本书",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "那个住在楼下的老人很热心。",
+      "angle": 4,
+      "angle_zh": "那个住在楼下的老人很热心",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "住在楼下的那位老人特别热心。",
+      "angle": 4,
+      "angle_zh": "那个住在楼下的老人很热心",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "我想找一个能说英语的导游。",
+      "angle": 5,
+      "angle_zh": "我想找一个能说英语的导游",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "我在找一个会说英语的导游。",
+      "angle": 5,
+      "angle_zh": "我想找一个能说英语的导游",
+      "micro": "people",
+      "micro_zh": "描述人"
+    },
+    {
+      "zh": "这就是我跟你提过的那家店。",
+      "angle": 6,
+      "angle_zh": "这就是我跟你提过的那家店",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "那家我跟你提过的店就是这里。",
+      "angle": 6,
+      "angle_zh": "这就是我跟你提过的那家店",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "那个帮我搬家的同事今天请假了。",
+      "angle": 7,
+      "angle_zh": "那个帮我搬家的同事今天请假了",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "帮我搬家的那位同事今天没来。",
+      "angle": 7,
+      "angle_zh": "那个帮我搬家的同事今天请假了",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "我有一只每天都跟着我的猫。",
+      "angle": 8,
+      "angle_zh": "我有一只每天都跟着我的猫",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "我养了一只猫，它每天都跟着我。",
+      "angle": 8,
+      "angle_zh": "我有一只每天都跟着我的猫",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "这就是我们上次开会的地方。",
+      "angle": 9,
+      "angle_zh": "这就是我们上次开会的地方",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "我们上次开会的地方就是这里。",
+      "angle": 9,
+      "angle_zh": "这就是我们上次开会的地方",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "那个总迟到的同事今天又晚了。",
+      "angle": 10,
+      "angle_zh": "那个总迟到的同事今天又晚了",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    },
+    {
+      "zh": "总迟到的那个同事今天又迟到了。",
+      "angle": 10,
+      "angle_zh": "那个总迟到的同事今天又晚了",
+      "micro": "places",
+      "micro_zh": "描述地点"
+    }
+  ],
+  "source": "seed"
+}

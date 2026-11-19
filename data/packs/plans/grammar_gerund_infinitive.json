@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_gerund_infinitive",
+  "pattern": "gerund_infinitive",
+  "items": [
+    {
+      "zh": "我喜欢周末做饭，也想学做甜点。",
+      "angle": 1,
+      "angle_zh": "喜欢周末做饭，也想学做甜点",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我喜欢在周末做饭，还打算学做蛋糕。",
+      "angle": 1,
+      "angle_zh": "喜欢周末做饭，也想学做甜点",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我讨厌排队，但想试试这家店。",
+      "angle": 2,
+      "angle_zh": "讨厌排队，但愿意等这家店",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我讨厌排队，不过还是想尝一次。",
+      "angle": 2,
+      "angle_zh": "讨厌排队，但愿意等这家店",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我建议坐地铁，也决定暂时不买车。",
+      "angle": 3,
+      "angle_zh": "建议坐地铁，决定不买车",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我建议你坐地铁，我自己也决定先不买车。",
+      "angle": 3,
+      "angle_zh": "建议坐地铁，决定不买车",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我喜欢跑步，希望参加一次比赛。",
+      "angle": 4,
+      "angle_zh": "喜欢跑步，希望参加比赛",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我喜欢跑步，也希望明年参加一次比赛。",
+      "angle": 4,
+      "angle_zh": "喜欢跑步，希望参加比赛",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我不介意开窗，决定先关掉空调。",
+      "angle": 5,
+      "angle_zh": "介意开窗",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我不介意开窗，但决定只开十分钟。",
+      "angle": 5,
+      "angle_zh": "介意开窗",
+      "micro": "likes",
+      "micro_zh": "喜好"
+    },
+    {
+      "zh": "我想学游泳，但怕呛水。",
+      "angle": 6,
+      "angle_zh": "想学游泳，怕呛水",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我想学游泳，又担心学不会。",
+      "angle": 6,
+      "angle_zh": "想学游泳，怕呛水",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我正在考虑换工作，打算先存点钱。",
+      "angle": 7,
+      "angle_zh": "考虑换工作，打算先存钱",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我考虑换一份工作，打算明年再行动。",
+      "angle": 7,
+      "angle_zh": "考虑换工作，打算先存钱",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我喜欢看小说，也想自己写一本。",
+      "angle": 8,
+      "angle_zh": "喜欢看小说，也想写一本",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我喜欢读小说，也希望有一天写一本。",
+      "angle": 8,
+      "angle_zh": "喜欢看小说，也想写一本",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我建议早点出发，决定七点就走。",
+      "angle": 9,
+      "angle_zh": "建议早点出发，避免堵车",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我建议大家早点走，我决定七点出发。",
+      "angle": 9,
+      "angle_zh": "建议早点出发，避免堵车",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我在考虑买相机，决定先攒钱。",
+      "angle": 10,
+      "angle_zh": "想买相机，决定先攒钱",
+      "micro": "plans",
+      "micro_zh": "打算"
+    },
+    {
+      "zh": "我考虑买一台相机，但决定再等几个月。",
+      "angle": 10,
+      "angle_zh": "想买相机，决定先攒钱",
+      "micro": "plans",
+      "micro_zh": "打算"
+    }
+  ],
+  "source": "seed"
+}

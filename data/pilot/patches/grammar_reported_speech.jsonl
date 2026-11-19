@@ -1,0 +1,1 @@
+{"uid": "grammar_reported_speech-988be0d543", "scene": "grammar_reported_speech", "zh": "他告诉我会议改到下午三点了。", "micro": "message", "old_en": "He told me the meeting was moved to three o'clock in the afternoon.", "new_en": "He told me the meeting was changed to three o'clock in the afternoon.", "changed": true, "model": "qwen2.5:14b", "created_at": "2026-11-18T09:48:58+00:00"}

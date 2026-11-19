@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_present_perfect",
+  "pattern": "present_perfect",
+  "items": [
+    {
+      "zh": "我在这座城市已经住了五年。",
+      "angle": 1,
+      "angle_zh": "在这座城市住了五年",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我在这座城市住了五年，认识了不少朋友。",
+      "angle": 1,
+      "angle_zh": "在这座城市住了五年",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我去过海边三次，每次都很开心。",
+      "angle": 2,
+      "angle_zh": "去过海边三次",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "海边我去过三次，最喜欢秋天去。",
+      "angle": 2,
+      "angle_zh": "去过海边三次",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "这家店我还没吃过，听说味道不错。",
+      "angle": 3,
+      "angle_zh": "还没吃过这家店",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我还没吃过这家店，今天想试试。",
+      "angle": 3,
+      "angle_zh": "还没吃过这家店",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我已经做完今天的工作，可以早点回家。",
+      "angle": 4,
+      "angle_zh": "已经做完今天的工作",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "今天的工作我已经做完了，现在有空。",
+      "angle": 4,
+      "angle_zh": "已经做完今天的工作",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我从来没学过游泳，有点怕水。",
+      "angle": 5,
+      "angle_zh": "从来没学过游泳",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "她从来没学过游泳，却敢下海。",
+      "angle": 5,
+      "angle_zh": "从来没学过游泳",
+      "micro": "experience",
+      "micro_zh": "经历"
+    },
+    {
+      "zh": "我刚刚收到你的邮件，正在看。",
+      "angle": 6,
+      "angle_zh": "刚刚收到你的邮件",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "刚刚收到你的邮件，我马上回复你。",
+      "angle": 6,
+      "angle_zh": "刚刚收到你的邮件",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "这周我已经加了三天班，特别累。",
+      "angle": 7,
+      "angle_zh": "这周已经加了三天班",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "这周我已经加了三天班，周末想好好休息。",
+      "angle": 7,
+      "angle_zh": "这周已经加了三天班",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "我认识他已经十年了，他是个可靠的人。",
+      "angle": 8,
+      "angle_zh": "认识他十年了",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "我们认识十年了，一直是很好的朋友。",
+      "angle": 8,
+      "angle_zh": "认识他十年了",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "我最近一直睡不好，白天没精神。",
+      "angle": 9,
+      "angle_zh": "最近一直睡不好",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "最近我一直睡不好，想去看医生。",
+      "angle": 9,
+      "angle_zh": "最近一直睡不好",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "快递到现在还没收到，我有点着急。",
+      "angle": 10,
+      "angle_zh": "到现在还没收到快递",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    },
+    {
+      "zh": "我到现在还没收到快递，已经等了五天。",
+      "angle": 10,
+      "angle_zh": "到现在还没收到快递",
+      "micro": "duration",
+      "micro_zh": "持续到现在"
+    }
+  ],
+  "source": "seed"
+}

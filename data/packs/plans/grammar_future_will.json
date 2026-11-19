@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_future_will",
+  "pattern": "will",
+  "items": [
+    {
+      "zh": "别担心，我明天会帮朋友修电脑。",
+      "angle": 1,
+      "angle_zh": "明天帮朋友修电脑",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "明天我会去帮朋友修电脑，很快就好。",
+      "angle": 1,
+      "angle_zh": "明天帮朋友修电脑",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "下周我会把书还给你。",
+      "angle": 2,
+      "angle_zh": "下周把书还给你",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "我下周会把书还给你，谢谢借我这么久。",
+      "angle": 2,
+      "angle_zh": "下周把书还给你",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "明年我会带父母去旅行。",
+      "angle": 3,
+      "angle_zh": "明年带父母去旅行",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "明年我会带父母去旅行，他们一直想去海边。",
+      "angle": 3,
+      "angle_zh": "明年带父母去旅行",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "今晚我会给你打电话。",
+      "angle": 4,
+      "angle_zh": "今晚给你打电话",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "今晚我会给你打电话，我们仔细聊聊。",
+      "angle": 4,
+      "angle_zh": "今晚给你打电话",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "后天我会陪孩子去动物园，他期待很久了。",
+      "angle": 5,
+      "angle_zh": "后天陪孩子去动物园",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "后天我会请假陪孩子去动物园。",
+      "angle": 5,
+      "angle_zh": "后天陪孩子去动物园",
+      "micro": "prediction",
+      "micro_zh": "预测"
+    },
+    {
+      "zh": "下个月我会开始锻炼身体。",
+      "angle": 6,
+      "angle_zh": "下个月开始锻炼",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "我下个月会开始锻炼，每周至少三次。",
+      "angle": 6,
+      "angle_zh": "下个月开始锻炼",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "下周我会把报告交上去。",
+      "angle": 7,
+      "angle_zh": "下周把报告交上去",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "我下周一定会把报告交上去，不会再拖了。",
+      "angle": 7,
+      "angle_zh": "下周把报告交上去",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "明天早上我会叫你起床。",
+      "angle": 8,
+      "angle_zh": "明天早上叫你起床",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "明天早上七点我会叫你起床，别担心迟到。",
+      "angle": 8,
+      "angle_zh": "明天早上叫你起床",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "下周末我会帮你搬家。",
+      "angle": 9,
+      "angle_zh": "下周末帮你搬家",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "下周末我会去帮你搬家，需要我带什么吗？",
+      "angle": 9,
+      "angle_zh": "下周末帮你搬家",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "以后我会多陪陪家人。",
+      "angle": 10,
+      "angle_zh": "以后多陪家人",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    },
+    {
+      "zh": "以后我会多花时间陪家人，工作没那么重要。",
+      "angle": 10,
+      "angle_zh": "以后多陪家人",
+      "micro": "decision",
+      "micro_zh": "临时决定"
+    }
+  ],
+  "source": "seed"
+}

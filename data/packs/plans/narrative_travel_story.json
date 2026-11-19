@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_travel_story",
+  "pattern": "narrative_travel_story",
+  "items": [
+    {
+      "zh": "去年我在另一个城市迷路，一位老人把我送到了车站。",
+      "angle": 1,
+      "angle_zh": "在另一个城市迷路，老人送到车站",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "去年旅行时我在一个陌生的城市迷路，幸好一位老人带我到车站。",
+      "angle": 1,
+      "angle_zh": "在另一个城市迷路，老人送到车站",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "去年我赶飞机迟到了，结果工作人员帮我改签了下一班。",
+      "angle": 2,
+      "angle_zh": "赶飞机迟到，工作人员帮忙改签",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "上次在机场我差点误机，还好工作人员帮我改了票。",
+      "angle": 2,
+      "angle_zh": "赶飞机迟到，工作人员帮忙改签",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "上次旅行时下雨我没带伞，一家店的店主借给我一把。",
+      "angle": 3,
+      "angle_zh": "下雨没带伞，店主借伞",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "前年出去玩遇到下雨，我没带伞，店主借了我一把。",
+      "angle": 3,
+      "angle_zh": "下雨没带伞，店主借伞",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "去年旅行时我把钱包丢了，警察帮我找了回来。",
+      "angle": 4,
+      "angle_zh": "钱包丢了，警察帮忙找回",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "有一次我在外地丢了钱包，后来警察帮我找到了。",
+      "angle": 4,
+      "angle_zh": "钱包丢了，警察帮忙找回",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "上次住酒店时房间有问题，所以前台给我换了一间。",
+      "angle": 5,
+      "angle_zh": "酒店房间有问题，前台换了房",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "去年住酒店时空调坏了，前台帮我换了一个房间。",
+      "angle": 5,
+      "angle_zh": "酒店房间有问题，前台换了房",
+      "micro": "journey",
+      "micro_zh": "旅途"
+    },
+    {
+      "zh": "上次旅行我错过了末班车，后来打车回了酒店。",
+      "angle": 6,
+      "angle_zh": "错过末班车，打车回酒店",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "去年在外地错过末班车，最后只好打车回酒店。",
+      "angle": 6,
+      "angle_zh": "错过末班车，打车回酒店",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "上次爬山时我手机没电了，只好向路人求助。",
+      "angle": 7,
+      "angle_zh": "在山上手机没电，向路人求助",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "去年在山上手机没电，我借路人的电话打给朋友。",
+      "angle": 7,
+      "angle_zh": "在山上手机没电，向路人求助",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "上次坐飞机行李被拿错了，结果机场帮我找了回来。",
+      "angle": 8,
+      "angle_zh": "行李被拿错，机场帮忙找到",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "去年旅行时行李被别人拿错，还好机场很快找到了。",
+      "angle": 8,
+      "angle_zh": "行李被拿错，机场帮忙找到",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "去年在国外吃饭时不会说当地话，所以只能用手势点菜。",
+      "angle": 9,
+      "angle_zh": "语言不通，用手势点餐",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "上次出国旅行语言不通，我用手势点了一顿饭。",
+      "angle": 9,
+      "angle_zh": "语言不通，用手势点餐",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "去年旅行时景点突然关门，所以我们去了附近的市场。",
+      "angle": 10,
+      "angle_zh": "景点关门，临时改了行程",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    },
+    {
+      "zh": "上次去景点发现关门了，我们临时改了行程。",
+      "angle": 10,
+      "angle_zh": "景点关门，临时改了行程",
+      "micro": "unexpected",
+      "micro_zh": "意外"
+    }
+  ],
+  "source": "seed"
+}

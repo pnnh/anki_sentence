@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_tag_questions",
+  "pattern": "tag_questions",
+  "items": [
+    {
+      "zh": "你把窗户关上了，对吧？",
+      "angle": 1,
+      "angle_zh": "你关上了窗户",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "窗户是你关上的，对吧？",
+      "angle": 1,
+      "angle_zh": "你关上了窗户",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "明天九点开会，对吧？",
+      "angle": 2,
+      "angle_zh": "明天九点开会",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "我们明天九点开会，对吧？",
+      "angle": 2,
+      "angle_zh": "明天九点开会",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "你不太喜欢吃辣，对吧？",
+      "angle": 3,
+      "angle_zh": "你不太喜欢吃辣",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "你不喜欢吃辣，对吧？",
+      "angle": 3,
+      "angle_zh": "你不太喜欢吃辣",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "这是你的伞，对吧？",
+      "angle": 4,
+      "angle_zh": "这是你的伞",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "这把伞是你的，对吧？",
+      "angle": 4,
+      "angle_zh": "这是你的伞",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "公交车站就在前面，对吧？",
+      "angle": 5,
+      "angle_zh": "公交车站就在前面",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "车站就在前面，对吧？",
+      "angle": 5,
+      "angle_zh": "公交车站就在前面",
+      "micro": "confirm",
+      "micro_zh": "确认事实"
+    },
+    {
+      "zh": "你已经吃过饭了，对吧？",
+      "angle": 6,
+      "angle_zh": "你已经吃过饭了",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "你吃过饭了，对吧？",
+      "angle": 6,
+      "angle_zh": "你已经吃过饭了",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "他明天不来上班，对吧？",
+      "angle": 7,
+      "angle_zh": "他明天不来上班",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "他明天请假，对吧？",
+      "angle": 7,
+      "angle_zh": "他明天不来上班",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "这部电影很好看，对吧？",
+      "angle": 8,
+      "angle_zh": "这部电影很好看",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "这部电影不错，对吧？",
+      "angle": 8,
+      "angle_zh": "这部电影很好看",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "你会说英语，对吧？",
+      "angle": 9,
+      "angle_zh": "你会说英语",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "你会讲英语，对吧？",
+      "angle": 9,
+      "angle_zh": "你会说英语",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "我们还要再等一会儿，对吧？",
+      "angle": 10,
+      "angle_zh": "我们还要再等一会儿",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    },
+    {
+      "zh": "我们还得再等一会儿，对吧？",
+      "angle": 10,
+      "angle_zh": "我们还要再等一会儿",
+      "micro": "plans",
+      "micro_zh": "确认安排"
+    }
+  ],
+  "source": "seed"
+}

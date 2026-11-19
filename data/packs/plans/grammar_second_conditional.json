@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_second_conditional",
+  "pattern": "second_conditional",
+  "items": [
+    {
+      "zh": "如果我是你，我会先跟老板谈一谈。",
+      "angle": 1,
+      "angle_zh": "如果我是你",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我是你，我就不会答应这件事。",
+      "angle": 1,
+      "angle_zh": "如果我是你",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我有很多钱，我会去环游世界。",
+      "angle": 2,
+      "angle_zh": "如果我有很多钱",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我有很多钱，我就买一栋带院子的房子。",
+      "angle": 2,
+      "angle_zh": "如果我有很多钱",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我会开车，我就自己租车去。",
+      "angle": 3,
+      "angle_zh": "如果我会开车",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我会开车，上班就不用挤地铁了。",
+      "angle": 3,
+      "angle_zh": "如果我会开车",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果今天不上班，我会睡到中午。",
+      "angle": 4,
+      "angle_zh": "如果今天不上班",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果今天不用上班，我就去看一场电影。",
+      "angle": 4,
+      "angle_zh": "如果今天不上班",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我能选，我会住在海边。",
+      "angle": 5,
+      "angle_zh": "如果我能选",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果我能选，我就选一个安静的地方。",
+      "angle": 5,
+      "angle_zh": "如果我能选",
+      "micro": "advice",
+      "micro_zh": "假设建议"
+    },
+    {
+      "zh": "如果房子再大一点，我们就养一只狗。",
+      "angle": 6,
+      "angle_zh": "如果房子再大一点",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果房子再大一点，我会专门弄一个书房。",
+      "angle": 6,
+      "angle_zh": "如果房子再大一点",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我是老板，我会让大家早点下班。",
+      "angle": 7,
+      "angle_zh": "如果我是老板",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我是老板，我就不会开这么多会。",
+      "angle": 7,
+      "angle_zh": "如果我是老板",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我不怕高，我就去试试蹦极。",
+      "angle": 8,
+      "angle_zh": "如果我不怕高",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我不怕高，我会站在最高的地方看看。",
+      "angle": 8,
+      "angle_zh": "如果我不怕高",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我明天不用上班，我会去爬山。",
+      "angle": 9,
+      "angle_zh": "如果我明天不用上班",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果我明天不用上班，我就好好睡一觉。",
+      "angle": 9,
+      "angle_zh": "如果我明天不用上班",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果能回到十年前，我会多学一门外语。",
+      "angle": 10,
+      "angle_zh": "如果能回到十年前",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    },
+    {
+      "zh": "如果能回到十年前，我会选一个不同的专业。",
+      "angle": 10,
+      "angle_zh": "如果能回到十年前",
+      "micro": "imagination",
+      "micro_zh": "假设情境"
+    }
+  ],
+  "source": "seed"
+}

@@ -1,0 +1,147 @@
+{
+  "scene": "narrative_relationships",
+  "pattern": "narrative_relationships",
+  "items": [
+    {
+      "zh": "我有一个认识十年的朋友，他总是帮我。",
+      "angle": 1,
+      "angle_zh": "认识十年的朋友总帮忙",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我认识一个朋友十年了，每次需要帮忙他都在。",
+      "angle": 1,
+      "angle_zh": "认识十年的朋友总帮忙",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我和同事相处得很好，经常一起吃饭。",
+      "angle": 2,
+      "angle_zh": "和同事相处得很好",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我和同事们关系一直不错，工作中互相帮忙。",
+      "angle": 2,
+      "angle_zh": "和同事相处得很好",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我和邻居经常互相照应。",
+      "angle": 3,
+      "angle_zh": "邻居经常互相照应",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "邻居之间一直互相帮忙，关系很好。",
+      "angle": 3,
+      "angle_zh": "邻居经常互相照应",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我认识几个大学同学很多年了，我们每年聚一次。",
+      "angle": 4,
+      "angle_zh": "大学同学每年聚一次",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "大学同学我认识很多年了，大家每年聚一次。",
+      "angle": 4,
+      "angle_zh": "大学同学每年聚一次",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我和姐姐从小相处得很好，无话不谈。",
+      "angle": 5,
+      "angle_zh": "和姐姐无话不谈",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "我和姐姐无话不谈，遇到事总找她商量。",
+      "angle": 5,
+      "angle_zh": "和姐姐无话不谈",
+      "micro": "friends",
+      "micro_zh": "朋友"
+    },
+    {
+      "zh": "有一个朋友总在我需要的时候出现。",
+      "angle": 6,
+      "angle_zh": "一个朋友总在我需要时出现",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我有个朋友，每次我遇到困难他都会来。",
+      "angle": 6,
+      "angle_zh": "一个朋友总在我需要时出现",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我和室友一直分担家务。",
+      "angle": 7,
+      "angle_zh": "和室友分担家务",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我和室友相处得不错，家务一直一起做。",
+      "angle": 7,
+      "angle_zh": "和室友分担家务",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我的一个老朋友搬到别的城市了。",
+      "angle": 8,
+      "angle_zh": "老朋友搬到别的城市",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "一个认识多年的朋友去年搬走了，我们还经常联系。",
+      "angle": 8,
+      "angle_zh": "老朋友搬到别的城市",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我最近认识了一个新朋友，我们很聊得来。",
+      "angle": 9,
+      "angle_zh": "认识一个新朋友，聊得来",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "新认识的同事和我很聊得来，经常一起吃饭。",
+      "angle": 9,
+      "angle_zh": "认识一个新朋友，聊得来",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我有一个家人，我每周都会和他视频。",
+      "angle": 10,
+      "angle_zh": "和家人每周视频",
+      "micro": "family",
+      "micro_zh": "家人"
+    },
+    {
+      "zh": "我有一位家人，我们每周都会视频聊天。",
+      "angle": 10,
+      "angle_zh": "和家人每周视频",
+      "micro": "family",
+      "micro_zh": "家人"
+    }
+  ],
+  "source": "seed"
+}

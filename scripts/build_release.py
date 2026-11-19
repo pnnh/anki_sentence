@@ -15,7 +15,7 @@ import genanki
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from import_anki import BACK, CSS, DECK, FIELDS, FRONT, MODEL  # noqa: E402
+from import_anki import BACK, CSS, DECK, FIELDS, FRONT, MODEL, tag_for  # noqa: E402
 
 ZIP_DATE = (2026, 1, 1, 0, 0, 0)
 
@@ -23,6 +23,7 @@ ZIP_DATE = (2026, 1, 1, 0, 0, 0)
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--data-dir", default=str(ROOT / "data" / "sentences_polished"))
+    p.add_argument("--pack-dir", default=str(ROOT / "data" / "packs" / "final"))
     p.add_argument("--out-dir", default=str(ROOT / "dist"))
     p.add_argument("--version", default=os.environ.get("GITHUB_REF_NAME", "dev"))
     return p.parse_args()
@@ -32,17 +33,22 @@ def stable_id(text):
     return int(hashlib.sha1(text.encode("utf-8")).hexdigest()[:8], 16) % (2**31)
 
 
-def load_records(data_dir):
+def load_records(data_dirs):
     records = []
-    paths = sorted(Path(data_dir).glob("*.jsonl"))
-    if not paths:
-        raise SystemExit(f"No JSONL files in {data_dir}")
-    for path in paths:
-        with open(path, encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    records.append(json.loads(line))
+    found = False
+    for data_dir in data_dirs:
+        paths = sorted(Path(data_dir).glob("*.jsonl"))
+        if not paths:
+            continue
+        found = True
+        for path in paths:
+            with open(path, encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        records.append(json.loads(line))
+    if not found:
+        raise SystemExit(f"No JSONL files in {', '.join(map(str, data_dirs))}")
     uids = {r["uid"] for r in records}
     if len(uids) != len(records):
         raise SystemExit("Duplicate UIDs found; run qc.py first.")
@@ -59,17 +65,6 @@ def dedupe(records):
         seen.add(key)
         unique.append(rec)
     return unique
-
-
-def tag_for(rec):
-    model_tag = rec.get("model", "unknown").replace(":", "-").replace(" ", "-")
-    return [
-        f"scene::{rec['scene']}",
-        f"micro::{rec['scene']}::{rec['micro']}",
-        f"phase::{rec.get('phase', 1)}",
-        f"src::{model_tag}",
-        f"uid::{rec['uid']}",
-    ]
 
 
 def field(text):
@@ -102,9 +97,12 @@ def build_deck(records):
     return deck
 
 
-def write_data_zip(path, version, data_dir):
+def write_data_zip(path, version, data_dirs):
     root = f"anki_sentence-{version}"
-    entries = [(p, p.relative_to(ROOT)) for p in sorted(Path(data_dir).glob("*.jsonl"))]
+    entries = []
+    for data_dir in data_dirs:
+        if Path(data_dir).is_dir():
+            entries += [(p, p.relative_to(ROOT)) for p in sorted(Path(data_dir).glob("*.jsonl"))]
     entries += [(p, p.relative_to(ROOT)) for p in sorted((ROOT / "config").rglob("*")) if p.is_file()]
     entries += [(p, p.relative_to(ROOT)) for p in sorted((ROOT / "prompts").rglob("*")) if p.is_file()]
     entries += [(ROOT / name, Path(name)) for name in ("README.md", "LICENSE")]
@@ -129,14 +127,17 @@ def main():
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    records = load_records(args.data_dir)
+    data_dirs = [args.data_dir]
+    if Path(args.pack_dir).is_dir():
+        data_dirs.append(args.pack_dir)
+    records = load_records(data_dirs)
     unique = dedupe(records)
     deck = build_deck(unique)
 
     apkg = out_dir / f"anki_sentence-{args.version}.apkg"
     data_zip = out_dir / f"anki_sentence-{args.version}-data.zip"
     deck.write_to_file(str(apkg))
-    write_data_zip(data_zip, args.version, args.data_dir)
+    write_data_zip(data_zip, args.version, data_dirs)
 
     sums = out_dir / "SHA256SUMS"
     lines = [f"{sha256(p)}  {p.name}" for p in (apkg, data_zip)]

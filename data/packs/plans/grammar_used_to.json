@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_used_to",
+  "pattern": "used_to",
+  "items": [
+    {
+      "zh": "我以前每天喝咖啡，现在改喝茶了。",
+      "angle": 1,
+      "angle_zh": "以前每天喝咖啡",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "以前我每天早上都要喝一杯咖啡。",
+      "angle": 1,
+      "angle_zh": "以前每天喝咖啡",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "我小时候每天走路上学。",
+      "angle": 2,
+      "angle_zh": "小时候走路上学",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "小时候我走路上学，要走二十分钟。",
+      "angle": 2,
+      "angle_zh": "小时候走路上学",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "过去我常去那家小店吃饭。",
+      "angle": 3,
+      "angle_zh": "过去常去那家小店",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "那家小店我以前常去，老板都认识我。",
+      "angle": 3,
+      "angle_zh": "过去常去那家小店",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "我以前不怎么会做饭，总是点外卖。",
+      "angle": 4,
+      "angle_zh": "以前不怎么会做饭",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "以前我几乎不会做饭，现在能炒几个菜。",
+      "angle": 4,
+      "angle_zh": "以前不怎么会做饭",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "我小时候住在一个小城市。",
+      "angle": 5,
+      "angle_zh": "小时候住在小城市",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "小时候我们家住在一座小城市，很安静。",
+      "angle": 5,
+      "angle_zh": "小时候住在小城市",
+      "micro": "childhood",
+      "micro_zh": "童年习惯"
+    },
+    {
+      "zh": "我以前每天坐公交上班。",
+      "angle": 6,
+      "angle_zh": "以前每天坐公交上班",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "以前我坐公交上班要一个小时，现在快多了。",
+      "angle": 6,
+      "angle_zh": "以前每天坐公交上班",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "过去我们周末常去爬山。",
+      "angle": 7,
+      "angle_zh": "过去周末常去爬山",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "以前每到周末，我就和朋友去爬山。",
+      "angle": 7,
+      "angle_zh": "过去周末常去爬山",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "我以前很怕狗，见到就躲。",
+      "angle": 8,
+      "angle_zh": "以前很怕狗",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "小时候我很怕狗，现在家里养了一只。",
+      "angle": 8,
+      "angle_zh": "以前很怕狗",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "我以前总熬夜，白天总是很困。",
+      "angle": 9,
+      "angle_zh": "以前总熬夜",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "以前我经常熬到两点，现在不敢了。",
+      "angle": 9,
+      "angle_zh": "以前总熬夜",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "我奶奶过去不会用智能手机。",
+      "angle": 10,
+      "angle_zh": "过去不会用智能手机",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    },
+    {
+      "zh": "过去我不会用智能手机，只会打电话。",
+      "angle": 10,
+      "angle_zh": "过去不会用智能手机",
+      "micro": "lifestyle",
+      "micro_zh": "生活方式改变"
+    }
+  ],
+  "source": "seed"
+}
