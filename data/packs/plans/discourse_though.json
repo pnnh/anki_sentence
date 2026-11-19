@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_though",
+  "pattern": "discourse_though",
+  "items": [
+    {
+      "zh": "东西虽然贵，但是质量确实好。",
+      "angle": 1,
+      "angle_zh": "东西贵但质量好",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然价格有点高，不过东西还是不错的。",
+      "angle": 1,
+      "angle_zh": "东西贵但质量好",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然已经很晚了，但他还是很兴奋。",
+      "angle": 2,
+      "angle_zh": "虽然累但很开心",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然很累，她还是坚持把工作做好了。",
+      "angle": 2,
+      "angle_zh": "虽然累但很开心",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "天气不好，不过我还是出去跑步了。",
+      "angle": 3,
+      "angle_zh": "天气不好不过还是出门了",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然外面下雨了，但是我们还是出门看电影。",
+      "angle": 3,
+      "angle_zh": "天气不好不过还是出门了",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "他答应了，不过最后没来。",
+      "angle": 4,
+      "angle_zh": "他答应了然而没来",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然答应了，他却没有来。",
+      "angle": 4,
+      "angle_zh": "他答应了然而没来",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "这个虽然便宜，可是不太好看。",
+      "angle": 5,
+      "angle_zh": "便宜可是不太好看",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然价格便宜，不过款式有点过时。",
+      "angle": 5,
+      "angle_zh": "便宜可是不太好看",
+      "micro": "contrast",
+      "micro_zh": "对比"
+    },
+    {
+      "zh": "虽然今天很忙，我还是回了消息。",
+      "angle": 6,
+      "angle_zh": "虽然忙还是回了消息",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然会议结束得很晚，但他还是回了电话。",
+      "angle": 6,
+      "angle_zh": "虽然忙还是回了消息",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "路虽然远，不过沿途的风景很好。",
+      "angle": 7,
+      "angle_zh": "路远不过风景好",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然路程远，不过风景确实不错。",
+      "angle": 7,
+      "angle_zh": "路远不过风景好",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然这门课很难，但我觉得很值得。",
+      "angle": 8,
+      "angle_zh": "虽然难但值得学",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "他虽然很忙，不过还是抽空陪了我。",
+      "angle": 8,
+      "angle_zh": "虽然难但值得学",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然这药便宜，不过味道确实不好。",
+      "angle": 9,
+      "angle_zh": "味道一般但是便宜",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然这本书便宜，不过内容有点少。",
+      "angle": 9,
+      "angle_zh": "味道一般但是便宜",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "虽然今天下雨，不过我还是去了公园。",
+      "angle": 10,
+      "angle_zh": "不过我还是想试试",
+      "micro": "concession",
+      "micro_zh": "让步"
+    },
+    {
+      "zh": "这家店虽然有点远，不过我还是想去试试。",
+      "angle": 10,
+      "angle_zh": "不过我还是想试试",
+      "micro": "concession",
+      "micro_zh": "让步"
+    }
+  ],
+  "source": "plan+manual"
+}

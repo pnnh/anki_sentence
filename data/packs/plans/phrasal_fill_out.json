@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_fill_out",
+  "pattern": "phrasal_fill_out",
+  "items": [
+    {
+      "zh": "入住酒店需要填一张登记表。",
+      "angle": 1,
+      "angle_zh": "入住酒店填表",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "办理入住时，前台让我填一张表。",
+      "angle": 1,
+      "angle_zh": "入住酒店填表",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "新员工入职要填一份申请表。",
+      "angle": 2,
+      "angle_zh": "办卡填申请表",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "我在申请信用卡，得填一份申请表格。",
+      "angle": 2,
+      "angle_zh": "办卡填申请表",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "报销时需要填一张报销单。",
+      "angle": 3,
+      "angle_zh": "报销要填表格",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "出差回来要填报销表格。",
+      "angle": 3,
+      "angle_zh": "报销要填表格",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "这次调查只需要填一份简短问卷。",
+      "angle": 4,
+      "angle_zh": "网上填问卷",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "我在网上填了一份问卷。",
+      "angle": 4,
+      "angle_zh": "网上填问卷",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "退房时前台让我填一张表。",
+      "angle": 5,
+      "angle_zh": "退房结账",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "退房前我填好了结账单。",
+      "angle": 5,
+      "angle_zh": "退房结账",
+      "micro": "forms",
+      "micro_zh": "填表格"
+    },
+    {
+      "zh": "在超市结账时，我填了会员信息表。",
+      "angle": 6,
+      "angle_zh": "在超市结账",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "结账时收银员让我填一张信息表。",
+      "angle": 6,
+      "angle_zh": "在超市结账",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "我在医院填了一张就诊单。",
+      "angle": 7,
+      "angle_zh": "医院填就诊单",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "去医院看病时，我先填了一张表。",
+      "angle": 7,
+      "angle_zh": "医院填就诊单",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "报名考试时，我填了一张个人信息表。",
+      "angle": 8,
+      "angle_zh": "报名考试填信息",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "新员工入职时，他填了一份入职申请表。",
+      "angle": 8,
+      "angle_zh": "报名考试填信息",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "这张入职表填起来很简单。",
+      "angle": 10,
+      "angle_zh": "填完表交给工作人员",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "申请表填好后，记得交给前台。",
+      "angle": 10,
+      "angle_zh": "填完表交给工作人员",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "我填完入住表后交给前台。",
+      "angle": 10,
+      "angle_zh": "填完表交给工作人员",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    },
+    {
+      "zh": "你填好退房表了吗？",
+      "angle": 10,
+      "angle_zh": "填完表交给工作人员",
+      "micro": "checkout",
+      "micro_zh": "结账退房"
+    }
+  ],
+  "source": "plan+manual"
+}

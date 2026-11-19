@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_set_up",
+  "pattern": "phrasal_set_up",
+  "items": [
+    {
+      "zh": "我刚把新打印机设置好了。",
+      "angle": 1,
+      "angle_zh": "安装新打印机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "请帮我把新打印机设置一下。",
+      "angle": 1,
+      "angle_zh": "安装新打印机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "我刚把新手机设置好了。",
+      "angle": 2,
+      "angle_zh": "设置新手机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "你能帮我把新手机设置一下吗？",
+      "angle": 2,
+      "angle_zh": "设置新手机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "生日聚会前，我们把客厅布置好了。",
+      "angle": 3,
+      "angle_zh": "布置生日聚会",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "你能帮我布置一下生日聚会吗？",
+      "angle": 3,
+      "angle_zh": "布置生日聚会",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "电脑死机了，我重新设置了一下网络。",
+      "angle": 4,
+      "angle_zh": "电脑突然死机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "他的电脑老死机，我帮他重新装好了系统。",
+      "angle": 4,
+      "angle_zh": "电脑突然死机",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "电梯出故障了，维修工赶紧装好了新零件。",
+      "angle": 5,
+      "angle_zh": "电梯出故障",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "为了防止电梯出故障，物业装好了应急设备。",
+      "angle": 5,
+      "angle_zh": "电梯出故障",
+      "micro": "install",
+      "micro_zh": "安装设置"
+    },
+    {
+      "zh": "车在半路抛锚了，我赶紧换上了备用轮胎。",
+      "angle": 6,
+      "angle_zh": "车在路上抛锚",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "昨天车抛锚了，他只好把车送去修。",
+      "angle": 6,
+      "angle_zh": "车在路上抛锚",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "我刚把会议室的投影仪设置好了。",
+      "angle": 7,
+      "angle_zh": "开会前调试设备",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "请你帮我把会议室的投影仪设置一下。",
+      "angle": 7,
+      "angle_zh": "开会前调试设备",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "我刚把新书架安装好了。",
+      "angle": 8,
+      "angle_zh": "在客厅装书架",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "你能帮我把书架安装好吗？",
+      "angle": 8,
+      "angle_zh": "在客厅装书架",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "网站打不开了，我赶紧把手机设置成热点。",
+      "angle": 9,
+      "angle_zh": "网站打不开",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "电脑出了故障，我赶紧把自动备份设置好。",
+      "angle": 9,
+      "angle_zh": "网站打不开",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "这次视频会议总是断线，我决定重新设置一下网络。",
+      "angle": 10,
+      "angle_zh": "安排一次视频会议",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    },
+    {
+      "zh": "为了这次视频会议，我得提前把设备设置好。",
+      "angle": 10,
+      "angle_zh": "安排一次视频会议",
+      "micro": "failure",
+      "micro_zh": "出故障"
+    }
+  ],
+  "source": "plan+manual"
+}

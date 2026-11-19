@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_turns_out",
+  "pattern": "discourse_turns_out",
+  "items": [
+    {
+      "zh": "原来它一直在我口袋里。",
+      "angle": 1,
+      "angle_zh": "原来钥匙在口袋里",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我找了一天才发现它在口袋里。",
+      "angle": 1,
+      "angle_zh": "原来钥匙在口袋里",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "原来那家店已经倒闭了。",
+      "angle": 2,
+      "angle_zh": "结果那家店倒闭了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "结果那家店不是我要去的那一家。",
+      "angle": 2,
+      "angle_zh": "结果那家店倒闭了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "没想到我们还是同乡。",
+      "angle": 3,
+      "angle_zh": "没想到是同乡",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "原来我们两个是老乡。",
+      "angle": 3,
+      "angle_zh": "没想到是同乡",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "原来他已经结婚了，我还一直以为他是单身。",
+      "angle": 4,
+      "angle_zh": "原来他已经结婚了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "他们说那个男生很普通，原来他还是个大明星。",
+      "angle": 4,
+      "angle_zh": "原来他已经结婚了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "结果我发现买错了型号。",
+      "angle": 5,
+      "angle_zh": "结果发现买错了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "昨天找了半天才发现它在书包里。",
+      "angle": 5,
+      "angle_zh": "结果发现买错了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "原来问题出在电池，不是手机坏了。",
+      "angle": 6,
+      "angle_zh": "原来问题出在电池",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "原来问题出在插座，不是电视坏了。",
+      "angle": 6,
+      "angle_zh": "原来问题出在电池",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "结果这道题很简单，我很快就做完了。",
+      "angle": 7,
+      "angle_zh": "结果比想的简单",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "我以为那个项目很难，结果其实挺容易的。",
+      "angle": 7,
+      "angle_zh": "结果比想的简单",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "原来他早就知道结果。",
+      "angle": 8,
+      "angle_zh": "原来他早就知道",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "没想到他会说中文。",
+      "angle": 8,
+      "angle_zh": "原来他早就知道",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "没想到这次聚会还会遇到老同学。",
+      "angle": 9,
+      "angle_zh": "没想到会遇到老朋友",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "结果只是虚惊一场。",
+      "angle": 9,
+      "angle_zh": "没想到会遇到老朋友",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "今天本来很紧张，结果是虚惊一场。",
+      "angle": 10,
+      "angle_zh": "结果是虚惊一场",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    },
+    {
+      "zh": "结果发现买错了颜色。",
+      "angle": 10,
+      "angle_zh": "结果是虚惊一场",
+      "micro": "surprise",
+      "micro_zh": "意外结果"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_at_least",
+  "pattern": "discourse_at_least",
+  "items": [
+    {
+      "zh": "虽然路上堵车，至少我没迟到。",
+      "angle": 1,
+      "angle_zh": "至少没迟到",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "虽然开会晚到了一点，至少没耽误正事。",
+      "angle": 1,
+      "angle_zh": "至少没迟到",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "虽然加班很晚，至少赶上了末班车。",
+      "angle": 2,
+      "angle_zh": "最后总算赶上了",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "最后总算赶上了公交，不然就要晚半小时到公司。",
+      "angle": 2,
+      "angle_zh": "最后总算赶上了",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "毕竟第一次做这个项目，犯点错误也是正常的。",
+      "angle": 3,
+      "angle_zh": "毕竟第一次做",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "毕竟是第一次上台，我紧张得不行。",
+      "angle": 3,
+      "angle_zh": "毕竟第一次做",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "至少还能坐公交车。",
+      "angle": 4,
+      "angle_zh": "至少价格还算合理",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "这个价格虽然不便宜，至少不会让你心疼。",
+      "angle": 4,
+      "angle_zh": "至少价格还算合理",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "最后还是决定去爬山。",
+      "angle": 5,
+      "angle_zh": "最后还是决定去",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "犹豫了很久，最后还是决定不去。",
+      "angle": 5,
+      "angle_zh": "最后还是决定去",
+      "micro": "comfort",
+      "micro_zh": "安慰"
+    },
+    {
+      "zh": "至少天气不错，今天可以不用带伞。",
+      "angle": 6,
+      "angle_zh": "至少天气不错",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "虽然有点风，至少天气还不错。",
+      "angle": 6,
+      "angle_zh": "至少天气不错",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "毕竟工作还是要做的。",
+      "angle": 7,
+      "angle_zh": "毕竟不是他的错",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "毕竟答应别人的事情不能不履行。",
+      "angle": 7,
+      "angle_zh": "毕竟不是他的错",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "最后还是买了这本教科书。",
+      "angle": 8,
+      "angle_zh": "最后还是买了",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "最后还是没买那双鞋子。",
+      "angle": 8,
+      "angle_zh": "最后还是买了",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "至少比上次多卖了一些。",
+      "angle": 9,
+      "angle_zh": "至少比上次好",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "至少这次考试比上次好一些。",
+      "angle": 9,
+      "angle_zh": "至少比上次好",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "最后还是说了真话，虽然有点害怕。",
+      "angle": 10,
+      "angle_zh": "最后还是说了实话",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    },
+    {
+      "zh": "毕竟说了实话，至少不用心虚了。",
+      "angle": 10,
+      "angle_zh": "最后还是说了实话",
+      "micro": "outcome",
+      "micro_zh": "最终结果"
+    }
+  ],
+  "source": "plan+manual"
+}

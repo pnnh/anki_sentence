@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_turn_out",
+  "pattern": "phrasal_turn_out",
+  "items": [
+    {
+      "zh": "我以为很困难，结果竟然很容易。",
+      "angle": 1,
+      "angle_zh": "以为难结果很简单",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为做不出来，结果竟然做对了。",
+      "angle": 1,
+      "angle_zh": "以为难结果很简单",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为今天会下雨，结果是个大晴天。",
+      "angle": 2,
+      "angle_zh": "以为是玩笑结果是真的",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为考试很难，结果题目很简单。",
+      "angle": 2,
+      "angle_zh": "以为是玩笑结果是真的",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为钱包丢了，结果在包里找到了。",
+      "angle": 3,
+      "angle_zh": "结果发现钱包在包里",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为钱包没带，结果在裤子口袋里找到了。",
+      "angle": 3,
+      "angle_zh": "结果发现钱包在包里",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为他不同意，结果他同意了。",
+      "angle": 4,
+      "angle_zh": "原来他早就知道了",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为这次他会迟到，结果他提前到了。",
+      "angle": 4,
+      "angle_zh": "原来他早就知道了",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为他今天会加班，结果他请假了。",
+      "angle": 5,
+      "angle_zh": "面试结果比想象的好",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为这个项目要花一个月，结果十天就完成了。",
+      "angle": 5,
+      "angle_zh": "面试结果比想象的好",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    },
+    {
+      "zh": "我以为那家店还开着，结果早就关门了。",
+      "angle": 6,
+      "angle_zh": "天气预报说下雨结果没下",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为他感冒了，结果他只是嗓子疼。",
+      "angle": 6,
+      "angle_zh": "天气预报说下雨结果没下",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为这家店有优惠，结果竟然没打折。",
+      "angle": 7,
+      "angle_zh": "结果那家店关门了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为今天人多，结果竟然没几个人。",
+      "angle": 7,
+      "angle_zh": "结果那家店关门了",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为他是本地人，结果他上个月才搬来。",
+      "angle": 8,
+      "angle_zh": "原来两个人认识",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为手机坏了，结果只是没电了。",
+      "angle": 9,
+      "angle_zh": "结果是虚惊一场",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为这个病很严重，结果只是小感冒。",
+      "angle": 9,
+      "angle_zh": "结果是虚惊一场",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为面试会很难，结果比想象中顺利。",
+      "angle": 10,
+      "angle_zh": "结果比预期便宜很多",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为电影票会很贵，结果比想象中便宜。",
+      "angle": 10,
+      "angle_zh": "结果比预期便宜很多",
+      "micro": "discovery",
+      "micro_zh": "发现真相"
+    },
+    {
+      "zh": "我以为这道菜不好吃，结果很好吃。",
+      "angle": 1,
+      "angle_zh": "以为难结果很简单",
+      "micro": "expectation",
+      "micro_zh": "和预想不同"
+    }
+  ],
+  "source": "plan+manual"
+}

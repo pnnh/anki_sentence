@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_actually",
+  "pattern": "discourse_actually",
+  "items": [
+    {
+      "zh": "其实你穿这件衣服很好看。",
+      "angle": 1,
+      "angle_zh": "纠正别人的误会",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "朋友说我不喜欢那首歌，其实我只是没听过。",
+      "angle": 1,
+      "angle_zh": "纠正别人的误会",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实我不同意你的观点。",
+      "angle": 2,
+      "angle_zh": "说出真实想法",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "朋友说他不喜欢那本书，其实他在撒谎。",
+      "angle": 2,
+      "angle_zh": "说出真实想法",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实我不想参加这个派对。",
+      "angle": 3,
+      "angle_zh": "其实不想去聚会",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "朋友说他没时间，其实他在家里休息。",
+      "angle": 3,
+      "angle_zh": "其实不想去聚会",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实这道菜真的不好吃。",
+      "angle": 4,
+      "angle_zh": "实话实说菜不好吃",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "你尝尝这道菜，其实真的不好吃。",
+      "angle": 4,
+      "angle_zh": "实话实说菜不好吃",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实我早就吃过这道菜了。",
+      "angle": 5,
+      "angle_zh": "其实已经买过了",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实他昨天已经买过那本书了。",
+      "angle": 5,
+      "angle_zh": "其实已经买过了",
+      "micro": "correction",
+      "micro_zh": "纠正误会"
+    },
+    {
+      "zh": "其实我不住在这附近，公司离我家远一些。",
+      "angle": 6,
+      "angle_zh": "其实我不住在这附近",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "朋友说她住得近，其实她住在另一个小区。",
+      "angle": 6,
+      "angle_zh": "其实我不住在这附近",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "说实话，我其实有点累。",
+      "angle": 7,
+      "angle_zh": "说实话有点累",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "其实我今天状态不太好。",
+      "angle": 7,
+      "angle_zh": "说实话有点累",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "其实这本书没那么厚。",
+      "angle": 8,
+      "angle_zh": "其实价格没那么贵",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "这个项目其实进度挺快的。",
+      "angle": 8,
+      "angle_zh": "其实价格没那么贵",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "其实我更喜欢在家看书。",
+      "angle": 9,
+      "angle_zh": "其实我更喜欢在家",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "其实我在家工作更有效率。",
+      "angle": 9,
+      "angle_zh": "其实我更喜欢在家",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "实际上会议已经取消了。",
+      "angle": 10,
+      "angle_zh": "事实上计划已经改了",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    },
+    {
+      "zh": "朋友说他会来，实际上他没来。",
+      "angle": 10,
+      "angle_zh": "事实上计划已经改了",
+      "micro": "honesty",
+      "micro_zh": "真实想法"
+    }
+  ],
+  "source": "plan+manual"
+}

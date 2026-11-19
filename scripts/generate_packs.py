@@ -106,7 +106,7 @@ def load_scenes():
 def pack_scenes(only=None):
     scenes = []
     for scene in load_scenes():
-        if scene.get("mode") not in ("grammar", "narrative"):
+        if scene.get("mode") not in ("grammar", "narrative", "phrasal", "discourse"):
             continue
         scene = dict(scene)
         if scene["pack"] == "narrative" and not scene["pattern"].startswith("narrative_"):
@@ -317,7 +317,7 @@ def seeds_for(scene):
         rows = load_jsonl(path)
     else:
         rows = []
-        for name in ("grammar.jsonl", "narrative.jsonl"):
+        for name in ("grammar.jsonl", "narrative.jsonl", "phrasal.jsonl", "discourse.jsonl"):
             p = SEED_DIR / name
             if p.exists():
                 rows += [r for r in load_jsonl(p) if r.get("scene") == scene["id"]]

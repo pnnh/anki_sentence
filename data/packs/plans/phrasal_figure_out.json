@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_figure_out",
+  "pattern": "phrasal_figure_out",
+  "items": [
+    {
+      "zh": "我花了一下午时间才弄明白新软件怎么用。",
+      "angle": 1,
+      "angle_zh": "弄明白新软件怎么用",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我终于想通了朋友为什么生气。",
+      "angle": 1,
+      "angle_zh": "弄明白新软件怎么用",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我花了半天才搞清楚怎么换乘。",
+      "angle": 2,
+      "angle_zh": "想通朋友为什么生气",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "他想通了自己做错事让朋友生气了。",
+      "angle": 2,
+      "angle_zh": "想通朋友为什么生气",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我花了一些时间才搞清楚怎么换乘到市中心。",
+      "angle": 3,
+      "angle_zh": "搞清楚怎么换乘",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "他现在搞清楚了怎么从火车站换乘到机场。",
+      "angle": 3,
+      "angle_zh": "搞清楚怎么换乘",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我弄懂了这道数学题的解题方法。",
+      "angle": 4,
+      "angle_zh": "弄懂一道数学题",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "她弄懂了这个数学概念，答案就出来了。",
+      "angle": 4,
+      "angle_zh": "弄懂一道数学题",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我想明白下一步应该做什么。",
+      "angle": 5,
+      "angle_zh": "想明白下一步怎么做",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "他想明白下一步该怎么继续进行项目。",
+      "angle": 5,
+      "angle_zh": "想明白下一步怎么做",
+      "micro": "problem",
+      "micro_zh": "解决问题"
+    },
+    {
+      "zh": "我花了十分钟才弄懂新打印机的操作。",
+      "angle": 6,
+      "angle_zh": "搞懂机器的用法",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "他花了半天才弄明白新复印机的使用方法。",
+      "angle": 6,
+      "angle_zh": "搞懂机器的用法",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "我花了好几分钟才弄明白为什么这个月账单这么高。",
+      "angle": 7,
+      "angle_zh": "弄明白账单为什么这么高",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "她花了很长时间才弄明白为什么孩子最近总是哭。",
+      "angle": 7,
+      "angle_zh": "弄明白账单为什么这么高",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "我研究了半个小时才弄明白怎么修好打印机。",
+      "angle": 8,
+      "angle_zh": "研究怎么修好打印机",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "他们讨论了一下午才弄明白怎么修好打印机。",
+      "angle": 8,
+      "angle_zh": "研究怎么修好打印机",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "我还没想清楚要不要换工作。",
+      "angle": 9,
+      "angle_zh": "想清楚要不要换工作",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "他花了半天才弄明白新电脑怎么设置。",
+      "angle": 9,
+      "angle_zh": "想清楚要不要换工作",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "我弄明白孩子哭是因为怕狗。",
+      "angle": 10,
+      "angle_zh": "弄明白孩子为什么哭",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    },
+    {
+      "zh": "她弄明白孩子哭是因为吃坏了肚子。",
+      "angle": 10,
+      "angle_zh": "弄明白孩子为什么哭",
+      "micro": "understand",
+      "micro_zh": "理解情况"
+    }
+  ],
+  "source": "plan+manual"
+}

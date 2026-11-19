@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_end_up",
+  "pattern": "phrasal_end_up",
+  "items": [
+    {
+      "zh": "他们说好来吃饭，结果没出现。",
+      "angle": 1,
+      "angle_zh": "朋友说来吃饭最后没出现",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "聚会来了很多人，到最后也没见到他。",
+      "angle": 1,
+      "angle_zh": "朋友说来吃饭最后没出现",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "聚会来了很多人，结果一个老朋友没来。",
+      "angle": 2,
+      "angle_zh": "聚会来了很多人",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "聚会来了很多人，结果有人迟到了一个小时。",
+      "angle": 2,
+      "angle_zh": "聚会来了很多人",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "开会时他迟到了，最后终于出现了。",
+      "angle": 3,
+      "angle_zh": "开会迟到的人终于出现",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "他们说好上午来，结果下午才出现。",
+      "angle": 3,
+      "angle_zh": "开会迟到的人终于出现",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "本打算回家，最后去了超市。",
+      "angle": 4,
+      "angle_zh": "本打算回家最后去了别处",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "原计划直接回家，结果去朋友家了。",
+      "angle": 4,
+      "angle_zh": "本打算回家最后去了别处",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "买了一件没打算买的东西，结果钱包空了。",
+      "angle": 5,
+      "angle_zh": "买了一件没打算买的东西",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "本来只想逛逛，结果买了两件衣服。",
+      "angle": 5,
+      "angle_zh": "买了一件没打算买的东西",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    },
+    {
+      "zh": "他本来迷路了，最后还是走到了公园。",
+      "angle": 6,
+      "angle_zh": "迷路最后走到一个公园",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "她本来在街上转悠，结果迷路了。",
+      "angle": 6,
+      "angle_zh": "迷路最后走到一个公园",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "本来打算早点回家，结果加班到深夜。",
+      "angle": 7,
+      "angle_zh": "加班到最后很晚才回家",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "我们约好见面，结果他一直没有出现。",
+      "angle": 8,
+      "angle_zh": "约好见面对方没出现",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "会议快开始了，结果主持人还没到。",
+      "angle": 8,
+      "angle_zh": "约好见面对方没出现",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "本来打算坐一会儿，结果待了一下午。",
+      "angle": 9,
+      "angle_zh": "本来只想待一会儿最后待了一下午",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "原计划只看一集电视剧，结果看了三集才睡。",
+      "angle": 9,
+      "angle_zh": "本来只想待一会儿最后待了一下午",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "本来打算坐地铁，结果骑了自行车。",
+      "angle": 10,
+      "angle_zh": "计划改变最后做了别的",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "他们说好十一点到，结果十二点才出现。",
+      "angle": 10,
+      "angle_zh": "计划改变最后做了别的",
+      "micro": "people",
+      "micro_zh": "人和场合"
+    },
+    {
+      "zh": "本来打算和朋友一起回家，结果他先一步到了小区。",
+      "angle": 2,
+      "angle_zh": "聚会来了很多人",
+      "micro": "plans",
+      "micro_zh": "计划变化"
+    }
+  ],
+  "source": "plan+manual"
+}

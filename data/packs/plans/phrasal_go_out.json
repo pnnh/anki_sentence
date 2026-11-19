@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_go_out",
+  "pattern": "phrasal_go_out",
+  "items": [
+    {
+      "zh": "我和朋友周末经常出去吃饭。",
+      "angle": 1,
+      "angle_zh": "周末和朋友出去吃饭",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "晚上我和朋友出去散步。",
+      "angle": 2,
+      "angle_zh": "晚上出去散步",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "晚上我们和同事出去散步。",
+      "angle": 2,
+      "angle_zh": "晚上出去散步",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "我和家人周末经常出去看电影。",
+      "angle": 3,
+      "angle_zh": "和朋友出去看电影",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "今天晚上我和朋友出去看电影。",
+      "angle": 3,
+      "angle_zh": "和朋友出去看电影",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "下班后我和同事出去喝了一杯。",
+      "angle": 4,
+      "angle_zh": "下班后出去喝一杯",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "你今晚要和朋友出去喝咖啡吗？",
+      "angle": 4,
+      "angle_zh": "下班后出去喝一杯",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "周末我和朋友经常出去逛街。",
+      "angle": 5,
+      "angle_zh": "周末一起出去玩",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "今天周末，我们打算和朋友出去玩。",
+      "angle": 5,
+      "angle_zh": "周末一起出去玩",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "天气好，我出去散步。",
+      "angle": 6,
+      "angle_zh": "天气好出去走走",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "今天天气不错，我们出去走走。",
+      "angle": 6,
+      "angle_zh": "天气好出去走走",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "晚上不想出去，我们就待在家看电影。",
+      "angle": 7,
+      "angle_zh": "晚上不想出去待在家",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "今晚不想出门，就在家看书。",
+      "angle": 7,
+      "angle_zh": "晚上不想出去待在家",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "晚上我们和邻居出去逛了逛。",
+      "angle": 8,
+      "angle_zh": "和朋友出去逛街",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "晚上我和同事出去吃了饭。",
+      "angle": 8,
+      "angle_zh": "和朋友出去逛街",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "晚上我出去买了些水果。",
+      "angle": 9,
+      "angle_zh": "出去买点东西",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "晚上我出去买点零食。",
+      "angle": 9,
+      "angle_zh": "出去买点东西",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "放假我和朋友出去旅游。",
+      "angle": 10,
+      "angle_zh": "放假出去旅游",
+      "micro": "evening",
+      "micro_zh": "晚上"
+    },
+    {
+      "zh": "今晚我和朋友出去吃火锅。",
+      "angle": 1,
+      "angle_zh": "周末和朋友出去吃饭",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    },
+    {
+      "zh": "你们周末经常出去唱歌吧？",
+      "angle": 1,
+      "angle_zh": "周末和朋友出去吃饭",
+      "micro": "friends",
+      "micro_zh": "和朋友"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -834,3 +834,378 @@ micros = [
   { id = "wish", zh = "愿望" },
   { id = "regret", zh = "遗憾" },
 ]
+
+[[scenes]]
+id = "phrasal_get_up"
+zh = "短语·起床与醒来"
+en = "Phrasal: Wake Up and Get Up"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_up"
+micros = [
+  { id = "morning", zh = "早上" },
+  { id = "sleep", zh = "睡眠" },
+]
+
+[[scenes]]
+id = "phrasal_put_on"
+zh = "短语·穿戴与脱下"
+en = "Phrasal: Put On and Take Off"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_put_on"
+micros = [
+  { id = "clothes", zh = "衣服鞋子" },
+  { id = "weather", zh = "天气变化" },
+]
+
+[[scenes]]
+id = "phrasal_pick_up"
+zh = "短语·接送与拿起"
+en = "Phrasal: Pick Up and Drop Off"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_pick_up"
+micros = [
+  { id = "people", zh = "接送人" },
+  { id = "things", zh = "取送物品" },
+]
+
+[[scenes]]
+id = "phrasal_turn_on_off"
+zh = "短语·开关电器"
+en = "Phrasal: Turn On and Turn Off"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_turn_on_off"
+micros = [
+  { id = "home", zh = "家里" },
+  { id = "devices", zh = "电子设备" },
+]
+
+[[scenes]]
+id = "phrasal_look_for"
+zh = "短语·寻找与发现"
+en = "Phrasal: Look For and Find Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_look_for"
+micros = [
+  { id = "search", zh = "寻找东西" },
+  { id = "information", zh = "打听信息" },
+]
+
+[[scenes]]
+id = "phrasal_figure_out"
+zh = "短语·弄明白"
+en = "Phrasal: Figure Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_figure_out"
+micros = [
+  { id = "problem", zh = "解决问题" },
+  { id = "understand", zh = "理解情况" },
+]
+
+[[scenes]]
+id = "phrasal_go_back"
+zh = "短语·回来与返回"
+en = "Phrasal: Come Back and Go Back"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_go_back"
+micros = [
+  { id = "work", zh = "工作日常" },
+  { id = "travel", zh = "出行回家" },
+]
+
+[[scenes]]
+id = "phrasal_go_out"
+zh = "短语·出门与聚会"
+en = "Phrasal: Go Out and Hang Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_go_out"
+micros = [
+  { id = "friends", zh = "和朋友" },
+  { id = "evening", zh = "晚上" },
+]
+
+[[scenes]]
+id = "phrasal_work_out"
+zh = "短语·锻炼与解决"
+en = "Phrasal: Work Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_work_out"
+micros = [
+  { id = "exercise", zh = "锻炼" },
+  { id = "solution", zh = "想办法" },
+]
+
+[[scenes]]
+id = "phrasal_run_out"
+zh = "短语·用完与缺少"
+en = "Phrasal: Run Out Of"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_run_out"
+micros = [
+  { id = "home", zh = "家里" },
+  { id = "time_money", zh = "时间和钱" },
+]
+
+[[scenes]]
+id = "phrasal_end_up"
+zh = "短语·出现与结果"
+en = "Phrasal: Show Up and End Up"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_end_up"
+micros = [
+  { id = "plans", zh = "计划变化" },
+  { id = "people", zh = "人和场合" },
+]
+
+[[scenes]]
+id = "phrasal_turn_out"
+zh = "短语·结果与真相"
+en = "Phrasal: Turn Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_turn_out"
+micros = [
+  { id = "expectation", zh = "和预想不同" },
+  { id = "discovery", zh = "发现真相" },
+]
+
+[[scenes]]
+id = "phrasal_fill_out"
+zh = "短语·填表与结账"
+en = "Phrasal: Fill Out and Check Out"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_fill_out"
+micros = [
+  { id = "forms", zh = "填表格" },
+  { id = "checkout", zh = "结账退房" },
+]
+
+[[scenes]]
+id = "phrasal_set_up"
+zh = "短语·安装与故障"
+en = "Phrasal: Set Up and Break Down"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_set_up"
+micros = [
+  { id = "install", zh = "安装设置" },
+  { id = "failure", zh = "出故障" },
+]
+
+[[scenes]]
+id = "phrasal_calm_down"
+zh = "短语·冷静与收拾"
+en = "Phrasal: Calm Down, Slow Down, Clean Up"
+group = "短语动词"
+phase = 4
+target = 20
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_calm_down"
+micros = [
+  { id = "emotion", zh = "情绪" },
+  { id = "space", zh = "收拾整理" },
+]
+
+[[scenes]]
+id = "discourse_actually"
+zh = "口语·其实与说实话"
+en = "Discourse: Actually and To Be Honest"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_actually"
+micros = [
+  { id = "correction", zh = "纠正误会" },
+  { id = "honesty", zh = "真实想法" },
+]
+
+[[scenes]]
+id = "discourse_probably"
+zh = "口语·可能大概"
+en = "Discourse: Probably and Maybe"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_probably"
+micros = [
+  { id = "guess", zh = "猜测" },
+  { id = "plans", zh = "不确定的安排" },
+]
+
+[[scenes]]
+id = "discourse_though"
+zh = "口语·转折让步"
+en = "Discourse: Though and However"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_though"
+micros = [
+  { id = "contrast", zh = "对比" },
+  { id = "concession", zh = "让步" },
+]
+
+[[scenes]]
+id = "discourse_by_the_way"
+zh = "口语·顺便说"
+en = "Discourse: By the Way"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_by_the_way"
+micros = [
+  { id = "reminder", zh = "提醒" },
+  { id = "news", zh = "补充消息" },
+]
+
+[[scenes]]
+id = "discourse_as_far_as"
+zh = "口语·据我所知"
+en = "Discourse: As Far As I Know"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_as_far_as"
+micros = [
+  { id = "facts", zh = "已知信息" },
+  { id = "uncertainty", zh = "不确定" },
+]
+
+[[scenes]]
+id = "discourse_turns_out"
+zh = "口语·原来如此"
+en = "Discourse: It Turns Out"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_turns_out"
+micros = [
+  { id = "discovery", zh = "发现真相" },
+  { id = "surprise", zh = "意外结果" },
+]
+
+[[scenes]]
+id = "discourse_kind_of"
+zh = "口语·有点稍微"
+en = "Discourse: Kind Of and Sort Of"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_kind_of"
+micros = [
+  { id = "feeling", zh = "感受" },
+  { id = "degree", zh = "程度" },
+]
+
+[[scenes]]
+id = "discourse_at_least"
+zh = "口语·至少与毕竟"
+en = "Discourse: At Least and After All"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_at_least"
+micros = [
+  { id = "comfort", zh = "安慰" },
+  { id = "outcome", zh = "最终结果" },
+]
+
+[[scenes]]
+id = "discourse_no_wonder"
+zh = "口语·难怪"
+en = "Discourse: No Wonder"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_no_wonder"
+micros = [
+  { id = "reason", zh = "原因" },
+  { id = "realization", zh = "恍然大悟" },
+]
+
+[[scenes]]
+id = "discourse_on_purpose"
+zh = "口语·故意与不小心"
+en = "Discourse: On Purpose and By Mistake"
+group = "口语衔接"
+phase = 4
+target = 20
+mode = "discourse"
+pack = "discourse"
+pattern = "discourse_on_purpose"
+micros = [
+  { id = "intentional", zh = "故意" },
+  { id = "accident", zh = "不小心" },
+]

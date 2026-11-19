@@ -1,0 +1,1 @@
+{"uid": "phrasal_fill_out-b95a9397fd", "scene": "phrasal_fill_out", "zh": "入住酒店的时候要先填一张表。", "micro": "forms", "old_en": "When checking into the hotel, you need to fill out a form first.", "new_en": "When you check into a hotel, you need to fill out a form first.", "changed": true, "model": "qwen2.5:14b", "created_at": "2026-11-19T05:22:30+00:00"}

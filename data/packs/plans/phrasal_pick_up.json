@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_pick_up",
+  "pattern": "phrasal_pick_up",
+  "items": [
+    {
+      "zh": "下班顺路接孩子放学。",
+      "angle": 1,
+      "angle_zh": "下班顺路接孩子",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "下班后我顺路去接孩子。",
+      "angle": 1,
+      "angle_zh": "下班顺路接孩子",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "今天朋友从机场接我。",
+      "angle": 2,
+      "angle_zh": "去机场接朋友",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "我开车送同事回家。",
+      "angle": 3,
+      "angle_zh": "开车送同事回家",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "我去驿站把快递取回来。",
+      "angle": 4,
+      "angle_zh": "把快递从驿站取回来",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "我去餐厅取了外卖，顺便给儿子也拿了一份。",
+      "angle": 5,
+      "angle_zh": "在餐厅取外卖",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "外卖到了，我下楼取一下。",
+      "angle": 5,
+      "angle_zh": "在餐厅取外卖",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "我把垃圾拿到楼下扔掉。",
+      "angle": 6,
+      "angle_zh": "把垃圾拿到楼下",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我把旧纸箱拿到楼下回收。",
+      "angle": 6,
+      "angle_zh": "把垃圾拿到楼下",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我每天早上都会送孩子去学校。",
+      "angle": 7,
+      "angle_zh": "送孩子去学校",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "今天下雨，我让爸爸送孩子去学校。",
+      "angle": 7,
+      "angle_zh": "送孩子去学校",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "让司机在门口接你下班。",
+      "angle": 8,
+      "angle_zh": "让司机在门口接你",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我让司机在公司门口接我。",
+      "angle": 8,
+      "angle_zh": "让司机在门口接你",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我去火车站帮朋友取行李。",
+      "angle": 9,
+      "angle_zh": "帮朋友取行李",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "朋友让我去机场帮她拿行李。",
+      "angle": 9,
+      "angle_zh": "帮朋友取行李",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我把公文包放到前台寄存处。",
+      "angle": 10,
+      "angle_zh": "把东西放到寄存处",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "她让服务员把行李送到前台。",
+      "angle": 10,
+      "angle_zh": "把东西放到寄存处",
+      "micro": "things",
+      "micro_zh": "取送物品"
+    },
+    {
+      "zh": "我下班顺路接了孩子，顺便买了一些水果。",
+      "angle": 1,
+      "angle_zh": "下班顺路接孩子",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "昨天我下班顺路接了妹妹，带她去吃晚饭。",
+      "angle": 1,
+      "angle_zh": "下班顺路接孩子",
+      "micro": "people",
+      "micro_zh": "接送人"
+    },
+    {
+      "zh": "我开车去接同事下班。",
+      "angle": 3,
+      "angle_zh": "开车送同事回家",
+      "micro": "people",
+      "micro_zh": "接送人"
+    }
+  ],
+  "source": "plan+manual"
+}

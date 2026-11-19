@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_put_on",
+  "pattern": "phrasal_put_on",
+  "items": [
+    {
+      "zh": "我出门前穿上外套。",
+      "angle": 1,
+      "angle_zh": "出门前穿外套",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "你出门的时候别忘了穿上外套。",
+      "angle": 1,
+      "angle_zh": "出门前穿外套",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "下雨天我穿上雨鞋。",
+      "angle": 2,
+      "angle_zh": "下雨天穿雨鞋",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "妈妈叫我穿上雨鞋再出门。",
+      "angle": 2,
+      "angle_zh": "下雨天穿雨鞋",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "进屋后我脱下外套。",
+      "angle": 3,
+      "angle_zh": "进屋后脱下外套",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "他试穿新买的裤子觉得不错。",
+      "angle": 4,
+      "angle_zh": "试穿新买的衣服",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "我出门前戴上帽子防晒。",
+      "angle": 5,
+      "angle_zh": "戴帽子防晒",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "你出门的时候别忘了戴上帽子。",
+      "angle": 5,
+      "angle_zh": "戴帽子防晒",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "开会前我换上了西装。",
+      "angle": 6,
+      "angle_zh": "开会前换上正装",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "他开会前换上了一件衬衫。",
+      "angle": 6,
+      "angle_zh": "开会前换上正装",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "我跑步前穿上运动鞋。",
+      "angle": 7,
+      "angle_zh": "运动前换上运动鞋",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "运动前记得换上运动鞋。",
+      "angle": 7,
+      "angle_zh": "运动前换上运动鞋",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "我睡觉前脱掉袜子。",
+      "angle": 8,
+      "angle_zh": "睡觉前脱掉袜子",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "太阳很大，她戴上了帽子。",
+      "angle": 8,
+      "angle_zh": "睡觉前脱掉袜子",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "天气冷了，我加了一件毛衣。",
+      "angle": 9,
+      "angle_zh": "天气冷加一件毛衣",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "妹妹穿上毛衣觉得有点热。",
+      "angle": 9,
+      "angle_zh": "天气冷加一件毛衣",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "进门后我脱下鞋子。",
+      "angle": 10,
+      "angle_zh": "进门前脱鞋",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "他进门时脱掉了鞋。",
+      "angle": 10,
+      "angle_zh": "进门前脱鞋",
+      "micro": "weather",
+      "micro_zh": "天气变化"
+    },
+    {
+      "zh": "我在店里试穿了那件大衣。",
+      "angle": 1,
+      "angle_zh": "出门前穿外套",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    },
+    {
+      "zh": "面试前他换上了干净的衬衫。",
+      "angle": 2,
+      "angle_zh": "下雨天穿雨鞋",
+      "micro": "clothes",
+      "micro_zh": "衣服鞋子"
+    }
+  ],
+  "source": "plan+manual"
+}

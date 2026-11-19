@@ -14,36 +14,22 @@ from pathlib import Path
 from urllib import error, request
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from pack_patterns import CJK_RE, MAX_WORDS, MIN_WORDS, passes_en, word_count  # noqa: E402
+
 TEMPLATE = ROOT / "prompts" / "generate_pack.txt"
 SYSTEM = "You write English translations for bilingual flashcards. Output only valid JSON."
 
-CJK_RE = re.compile(r"[\u4e00-\u9fff]")
-WORD_RE = re.compile(r"[A-Za-z][A-Za-z']*")
-PAST_RE = re.compile(
-    r"\b(was|were|did|went|came|got|made|took|saw|said|told|had|found|left|gave|bought|"
-    r"thought|knew|wanted|needed|liked|worked|booked|ordered|paid|arrived|finished|called|"
-    r"asked|looked|tried|started|stopped|changed|moved|opened|closed|lost|met|sent|brought|"
-    r"kept|ran|ate|drank|slept|woke|forgot|broke|chose|drove|flew|felt|heard|held|spoke|"
-    r"spent|stood|taught|threw|understood|wore|won|wrote|visited|studied|learned|learnt)\b",
-    re.I,
-)
-TIME_RE = re.compile(r"\b(yesterday|last|ago|this morning|when i was|in \d{4})\b", re.I)
-FREQ_RE = re.compile(
-    r"\b(always|usually|often|sometimes|rarely|never|every day|every morning|"
-    r"once a week|twice a week)\b",
-    re.I,
-)
-CONNECTOR_RE = re.compile(
-    r"\b(because|but|so|then|after that|although|though|when|while|after)\b", re.I
-)
-
 
 def item(scene, scene_zh, scene_en, pack, pattern, micro, micro_zh, target, situation, hint, zh):
+    groups = {"grammar": "语法句型", "narrative": "个人叙事", "phrasal": "短语动词", "discourse": "口语衔接"}
     return {
         "scene": scene,
         "scene_zh": scene_zh,
         "scene_en": scene_en,
-        "group": "语法句型" if pack == "grammar" else "个人叙事",
+        "group": groups[pack],
+        "phase": 4 if pack in ("phrasal", "discourse") else 3,
         "pack": pack,
         "pattern": pattern,
         "topic": pattern.replace("narrative_", "") if pack == "narrative" else None,
@@ -53,8 +39,8 @@ def item(scene, scene_zh, scene_en, pack, pattern, micro, micro_zh, target, situ
         "situation": situation,
         "hint": hint,
         "zh": zh,
-        "min_words": 5,
-        "max_words": 24 if pack == "narrative" else 18,
+        "min_words": MIN_WORDS,
+        "max_words": MAX_WORDS[pack],
     }
 
 
@@ -179,6 +165,126 @@ ITEMS = [
          "regret", "遗憾", "wish / if only / should have",
          "讲一件后悔没做的事", "Use I wish I had or should have.",
          "我真希望当初多学一门外语，现在工作会更方便。"),
+    item("phrasal_get_up", "短语·起床与醒来", "Phrasal: Wake Up and Get Up", "phrasal", "phrasal_get_up",
+         "morning", "早上", "wake up / get up",
+         "说早上闹钟响了但不想起床", "Use wake up or get up, not just wake or rise.",
+         "早上闹钟响了，我还是不想起床。"),
+    item("phrasal_put_on", "短语·穿戴与脱下", "Phrasal: Put On and Take Off", "phrasal", "phrasal_put_on",
+         "weather", "天气变化", "put on / take off",
+         "说出门前穿上外套、戴上围巾", "Use put on for clothes or accessories.",
+         "出门前我穿上外套，又戴上了围巾。"),
+    item("phrasal_pick_up", "短语·接送与拿起", "Phrasal: Pick Up and Drop Off", "phrasal", "phrasal_pick_up",
+         "people", "接送人", "pick up / drop off",
+         "说下班后顺路接孩子", "Use pick up for collecting a person.",
+         "下班后我顺路去接孩子。"),
+    item("phrasal_turn_on_off", "短语·开关电器", "Phrasal: Turn On and Turn Off", "phrasal", "phrasal_turn_on_off",
+         "home", "家里", "turn on / turn off",
+         "说进屋后打开客厅的灯", "Use turn on for a light or device.",
+         "进屋后我把客厅的灯打开。"),
+    item("phrasal_look_for", "短语·寻找与发现", "Phrasal: Look For and Find Out", "phrasal", "phrasal_look_for",
+         "search", "寻找东西", "look for / find out",
+         "说找了半天钥匙，最后发现它在包里", "Use look for while searching and find out for discovering.",
+         "我找了半天钥匙，最后发现它在包里。"),
+    item("phrasal_figure_out", "短语·弄明白", "Phrasal: Figure Out", "phrasal", "phrasal_figure_out",
+         "understand", "理解情况", "figure out",
+         "说花了一个晚上才弄明白软件怎么用", "Use figure out, not just know or understand.",
+         "我花了一个晚上才弄明白这个软件怎么用。"),
+    item("phrasal_go_back", "短语·回来与返回", "Phrasal: Come Back and Go Back", "phrasal", "phrasal_go_back",
+         "travel", "出行回家", "come back / go back",
+         "说忘带手机了，得回家一趟", "Use go back or come back.",
+         "我忘带手机了，得回家一趟。"),
+    item("phrasal_go_out", "短语·出门与聚会", "Phrasal: Go Out and Hang Out", "phrasal", "phrasal_go_out",
+         "friends", "和朋友", "go out / hang out",
+         "说周末一般出去吃饭", "Use go out for leaving home to do something.",
+         "周末我们一般出去吃饭。"),
+    item("phrasal_work_out", "短语·锻炼与解决", "Phrasal: Work Out", "phrasal", "phrasal_work_out",
+         "exercise", "锻炼", "work out",
+         "说每周去三次健身房锻炼", "Use work out for exercise.",
+         "我每周去三次健身房锻炼。"),
+    item("phrasal_run_out", "短语·用完与缺少", "Phrasal: Run Out Of", "phrasal", "phrasal_run_out",
+         "home", "家里", "run out of",
+         "说家里的牛奶喝完了，得去买", "Use run out of, not just finish or use.",
+         "家里的牛奶喝完了，我得去买。"),
+    item("phrasal_end_up", "短语·出现与结果", "Phrasal: Show Up and End Up", "phrasal", "phrasal_end_up",
+         "people", "人和场合", "show up / end up",
+         "说朋友说好来吃饭，最后没出现", "Use show up for arriving or appearing.",
+         "朋友说好来吃饭，最后却没出现。"),
+    item("phrasal_turn_out", "短语·结果与真相", "Phrasal: Turn Out", "phrasal", "phrasal_turn_out",
+         "expectation", "和预想不同", "turn out",
+         "说以为菜很难做，结果挺简单", "Use turn out to introduce the actual result.",
+         "我以为这道菜很难做，结果挺简单的。"),
+    item("phrasal_fill_out", "短语·填表与结账", "Phrasal: Fill Out and Check Out", "phrasal", "phrasal_fill_out",
+         "forms", "填表格", "fill out / fill in",
+         "说入住酒店要先填一张表", "Use fill out for a form.",
+         "入住酒店的时候要先填一张表。"),
+    item("phrasal_set_up", "短语·安装与故障", "Phrasal: Set Up and Break Down", "phrasal", "phrasal_set_up",
+         "install", "安装设置", "set up",
+         "说新买的打印机还没安装好", "Use set up for installing or configuring.",
+         "新买的打印机我还没安装好。"),
+    item("phrasal_calm_down", "短语·冷静与收拾", "Phrasal: Calm Down, Slow Down, Clean Up", "phrasal", "phrasal_calm_down",
+         "emotion", "情绪", "calm down / slow down / clean up",
+         "说孩子哭得很厉害，怎么哄都停不下来", "Use calm down for becoming calm.",
+         "孩子哭得很厉害，怎么哄都冷静不下来。"),
+    item("discourse_actually", "口语·其实与说实话", "Discourse: Actually and To Be Honest", "discourse", "discourse_actually",
+         "honesty", "真实想法", "actually / in fact / to be honest",
+         "说其实不太喜欢喝咖啡", "Start with actually or to be honest.",
+         "其实我不太喜欢喝咖啡。"),
+    item("discourse_probably", "口语·可能大概", "Discourse: Probably and Maybe", "discourse", "discourse_probably",
+         "guess", "猜测", "probably / maybe / perhaps",
+         "猜他可能已经走了", "Use probably or maybe.",
+         "他可能已经走了。"),
+    item("discourse_though", "口语·转折让步", "Discourse: Though and However", "discourse", "discourse_though",
+         "contrast", "对比", "though / although / however",
+         "说衣服有点贵，不过质量很好", "Use though or although to contrast.",
+         "这件衣服有点贵，不过质量很好。"),
+    item("discourse_by_the_way", "口语·顺便说", "Discourse: By the Way", "discourse", "discourse_by_the_way",
+         "reminder", "提醒", "by the way / speaking of",
+         "顺便问明天几点开会", "Use by the way to add a new topic.",
+         "顺便问一下，明天几点开会？"),
+    item("discourse_as_far_as", "口语·据我所知", "Discourse: As Far As I Know", "discourse", "discourse_as_far_as",
+         "facts", "已知信息", "as far as I know",
+         "说据自己所知这家店周末不开门", "Use as far as I know.",
+         "据我所知，这家店周末不开门。"),
+    item("discourse_turns_out", "口语·原来如此", "Discourse: It Turns Out", "discourse", "discourse_turns_out",
+         "discovery", "发现真相", "it turns out / it turned out",
+         "说原来钥匙一直在口袋里", "Use it turns out or it turned out.",
+         "原来钥匙一直在我的口袋里。"),
+    item("discourse_kind_of", "口语·有点稍微", "Discourse: Kind Of and Sort Of", "discourse", "discourse_kind_of",
+         "feeling", "感受", "kind of / sort of / a bit",
+         "说今天有点累，想早点休息", "Use kind of or a bit.",
+         "今天有点累，我想早点休息。"),
+    item("discourse_at_least", "口语·至少与毕竟", "Discourse: At Least and After All", "discourse", "discourse_at_least",
+         "outcome", "最终结果", "at least / in the end / after all",
+         "说虽然迟到了，但至少赶上末班车", "Use at least to mention the good side.",
+         "虽然迟到了，但至少赶上了最后一班车。"),
+    item("discourse_no_wonder", "口语·难怪", "Discourse: No Wonder", "discourse", "discourse_no_wonder",
+         "realization", "恍然大悟", "no wonder / that explains why",
+         "说难怪你没回消息，原来手机没电了", "Use no wonder when you realize the reason.",
+         "难怪你没回消息，原来手机没电了。"),
+    item("discourse_on_purpose", "口语·故意与不小心", "Discourse: On Purpose and By Mistake", "discourse", "discourse_on_purpose",
+         "accident", "不小心", "on purpose / by mistake / accidentally",
+         "为迟到道歉，说不是故意的", "Use on purpose or by mistake.",
+         "对不起，我不是故意迟到的。"),
+    item("phrasal_get_up", "短语·起床与醒来", "Phrasal: Wake Up and Get Up", "phrasal", "phrasal_get_up",
+         "morning", "早上", "wake up / get up",
+         "说周末通常睡到九点才起床", "Use wake up or get up.",
+         "周末我通常睡到九点才起床。"),
+    item("phrasal_pick_up", "短语·接送与拿起", "Phrasal: Pick Up and Drop Off", "phrasal", "phrasal_pick_up",
+         "people", "接送人", "pick up / drop off",
+         "说朋友开车到门口来接你", "Use pick up for collecting someone.",
+         "朋友让我在门口等他，他会开车来接我。"),
+    item("phrasal_figure_out", "短语·弄明白", "Phrasal: Figure Out", "phrasal", "phrasal_figure_out",
+         "problem", "解决问题", "figure out",
+         "说一起想办法，终于弄清楚问题出在哪", "Use figure out.",
+         "我们一起想办法，终于弄清楚了问题出在哪。"),
+    item("discourse_actually", "口语·其实与说实话", "Discourse: Actually and To Be Honest", "discourse", "discourse_actually",
+         "honesty", "真实想法", "actually / in fact / to be honest",
+         "说觉得价格有点高", "Start with to be honest or actually.",
+         "说实话，我觉得这个价格有点高。"),
+    item("discourse_kind_of", "口语·有点稍微", "Discourse: Kind Of and Sort Of", "discourse", "discourse_kind_of",
+         "degree", "程度", "kind of / sort of / a bit",
+         "说味道还不错，就是稍微有点贵", "Use a bit or kind of to soften the comment.",
+         "这家店的味道还算不错，就是稍微有点贵。"),
 ]
 
 
@@ -192,105 +298,24 @@ def parse_args():
     p.add_argument("--timeout", type=int, default=300)
     p.add_argument("--pause", type=float, default=3.0)
     p.add_argument("--ollama-url", default="http://127.0.0.1:11434")
+    p.add_argument("--packs", nargs="*", help="only these pack ids (grammar/narrative/phrasal/discourse)")
     p.add_argument("--out-dir", default=str(ROOT / "data" / "pilot" / "sentences"))
-    p.add_argument("--reference-dir", default=str(ROOT / "data" / "sentences_polished"))
+    p.add_argument(
+        "--reference-dir",
+        nargs="+",
+        default=[
+            str(ROOT / "data" / "sentences_polished"),
+            str(ROOT / "data" / "packs" / "final"),
+        ],
+    )
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--verify-dir", help="check pattern compliance for a directory of records")
     p.add_argument("--finalize", action="store_true", help="merge polished output, reverting lost patterns")
     p.add_argument("--raw-dir", default=str(ROOT / "data" / "pilot" / "sentences"))
     p.add_argument("--polished-dir", default=str(ROOT / "data" / "pilot" / "polished"))
     p.add_argument("--final-dir", default=str(ROOT / "data" / "pilot" / "final"))
+    p.add_argument("--overrides", default=str(ROOT / "data" / "pilot" / "overrides.json"))
     return p.parse_args()
-
-
-def expand(text):
-    t = text.lower().replace("’", "'")
-    t = re.sub(r"\b(he|she|it)'s(?=\s+going to\b)", r"\1 is", t)
-    t = re.sub(r"\b(i|you|we|they)'ve\b", r"\1 have", t)
-    t = re.sub(r"\b(he|she|it)'s\b", r"\1 has", t)
-    t = re.sub(r"\b(i|you|he|she|it|we|they)'ll\b", r"\1 will", t)
-    t = re.sub(r"\bi'm\b", "i am", t)
-    t = re.sub(r"\b(you|we|they)'re\b", r"\1 are", t)
-    t = re.sub(r"\b(he|she|it|i|you|we|they)'d\b", r"\1 would", t)
-    return t
-
-
-def passes_pattern(pattern, en):
-    t = en.lower().replace("’", "'")
-    n = expand(t)
-    if pattern == "past_simple":
-        return bool(PAST_RE.search(n)) and bool(TIME_RE.search(n))
-    if pattern == "past_continuous":
-        return bool(re.search(r"\b(was|were)\s+\w+ing\b", n)) and bool(re.search(r"\b(when|while)\b", n))
-    if pattern == "present_perfect":
-        return bool(re.search(
-            r"\b(have|has)\s+(never\s+|ever\s+|already\s+|just\s+|recently\s+|only\s+)?"
-            r"(been|got|gotten|done|seen|made|taken|gone|eaten|paid|lost|found|left|finished|"
-            r"arrived|booked|ordered|changed|moved|worked|lived|known|had|sent|broken|forgotten|"
-            r"received|completed|visited|tried|studied|learned|learnt|kept|written|read)\b", n))
-    if pattern == "going_to":
-        return bool(re.search(r"\b(am|is|are)\s+going to\b", n))
-    if pattern == "will":
-        return bool(re.search(r"\bwill\b", n))
-    if pattern == "used_to":
-        return bool(re.search(r"\bused to\b", n))
-    if pattern == "first_conditional":
-        return bool(re.search(r"\bif\b", n)) and bool(re.search(r"\b(will|can|may|might)\b", n)) \
-            and not re.search(r"\bwould\b", n)
-    if pattern == "second_conditional":
-        return bool(re.search(r"\bif\b", n)) and bool(re.search(r"\b(would|could|might)\b", n))
-    if pattern == "modals_obligation":
-        return bool(re.search(r"\b(must|mustn't|have to|has to|had to|should|shouldn't|allowed to)\b", n))
-    if pattern == "comparatives":
-        return bool(re.search(
-            r"\b(\w+er|more|less)\s+than\b|\bas\s+\w+\s+as\b|\bthe\s+\w+est\b|\bbetter\b|\bworse\b", n))
-    if pattern == "tag_questions":
-        return bool(re.search(
-            r",\s*(right|isn't it|aren't they|aren't you|don't you|doesn't it|didn't you|"
-            r"can't you|won't you|okay)\b", n))
-    if pattern == "relative_clauses":
-        return bool(re.search(r"\b(who|which|where|whose)\b", n))
-    if pattern == "gerund_infinitive":
-        return bool(re.search(
-            r"\b(enjoy|like|love|hate|prefer|finish|stop|avoid|mind|suggest|keep|practice|consider)\s+\w+ing\b", n)) \
-            and bool(re.search(r"\b(want|need|hope|plan|decide|try|learn|would like)\s+to\s+\w+\b", n))
-    if pattern == "passive":
-        return bool(re.search(
-            r"\b(is|are|was|were|be|been|being)\s+(\w+ed|made|done|given|taken|sent|paid|fixed|"
-            r"cleaned|delivered|charged|refunded|updated|included|required|allowed|closed|opened|"
-            r"built|written|held|kept|sold|stolen|damaged|lost|broken|locked|checked)\b", n))
-    if pattern == "reported_speech":
-        return bool(re.search(r"\b(said|told|asked)\b", n))
-    if pattern == "narrative_daily_routine":
-        return bool(FREQ_RE.search(n)) and bool(re.search(r"\b(first|then|after that)\b", n))
-    if pattern == "narrative_last_weekend":
-        return bool(PAST_RE.search(n)) and bool(CONNECTOR_RE.search(n))
-    if pattern == "narrative_childhood":
-        return bool(re.search(r"\b(used to|when i was|grew up|as a child)\b", n))
-    if pattern == "narrative_future_plans":
-        return bool(re.search(r"\b(going to|will|plan to|hope to|want to)\b", n))
-    if pattern == "narrative_health_habits":
-        return bool(re.search(
-            r"\b(used to|recently|now|have started|started|every day|every week|"
-            r"once a week|twice a week|haven't|don't)\b", n))
-    if pattern == "narrative_work_study_problems":
-        return bool(re.search(r"\b(because|so|but|problem|difficult|slow|late|behind)\b", n))
-    if pattern == "narrative_travel_story":
-        return bool(PAST_RE.search(n)) and bool(re.search(r"\b(when|while|then|because|but|after)\b", n))
-    if pattern == "narrative_movies_books":
-        return bool(re.search(r"\b(think|feel|find|thought|felt)\b", n)) \
-            and bool(re.search(
-                r"\b(better|worse|more|less|as\s+\w+\s+as|interesting|boring|good)\b", n))
-    if pattern == "narrative_relationships":
-        return bool(re.search(
-            r"\b(who|that|have known|has known|have been|has been|met)\b", n))
-    if pattern == "narrative_wishes_regrets":
-        return bool(re.search(r"\b(wish|if only|should have|regret)\b", n))
-    raise ValueError(f"Unknown pattern: {pattern}")
-
-
-def word_count(text):
-    return len(WORD_RE.findall(text))
 
 
 def normalize(text):
@@ -374,10 +399,11 @@ def extract_pairs(content):
     return data
 
 
-def load_reference(reference_dir):
+def load_reference(reference_dirs):
     rows = []
-    for path in sorted(Path(reference_dir).glob("*.jsonl")):
-        rows.extend(load_jsonl(path))
+    for reference_dir in reference_dirs:
+        for path in sorted(Path(reference_dir).glob("*.jsonl")):
+            rows.extend(load_jsonl(path))
     return rows
 
 
@@ -403,7 +429,7 @@ def record_for(it, en, model):
         "scene_zh": it["scene_zh"],
         "scene_en": it["scene_en"],
         "group": it["group"],
-        "phase": 3,
+        "phase": it["phase"],
         "micro": it["micro"],
         "micro_zh": it["micro_zh"],
         "zh": it["zh"],
@@ -438,20 +464,25 @@ def validate(it, en):
     n = word_count(en)
     if n < it["min_words"] or n > it["max_words"]:
         return f"word_count_{n}"
-    if not passes_pattern(it["pattern"], en):
+    if not passes_en(it["pattern"], en):
         return "pattern_miss"
     return None
 
 
+def selected_items(args):
+    return [it for it in ITEMS if not args.packs or it["pack"] in args.packs]
+
+
 def generate(args):
+    items = selected_items(args)
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     done = existing_uids(out_dir)
-    pending = [it for it in ITEMS if make_uid(it["scene"], it["zh"]) not in done]
+    pending = [it for it in items if make_uid(it["scene"], it["zh"]) not in done]
     ref_rows = load_reference(args.reference_dir)
     pilot_rows = []
 
-    print(f"Pilot items: {len(ITEMS)} | already done: {len(ITEMS) - len(pending)} | pending: {len(pending)}")
+    print(f"Pilot items: {len(items)} | already done: {len(items) - len(pending)} | pending: {len(pending)}")
     print(f"Model: {args.model} | batch: {args.batch} | output: {out_dir}")
     for it in pending:
         print(f"  {it['pattern']:<28} {it['scene_zh']} | {it['zh']}")
@@ -549,7 +580,7 @@ def verify(args, data_dir):
     rows = []
     for path in sorted(Path(data_dir).glob("*.jsonl")):
         rows.extend(load_jsonl(path))
-    index = {(it["scene"], it["zh"]): it for it in ITEMS}
+    index = {(it["scene"], it["zh"]): it for it in selected_items(args)}
     bad = 0
     for rec in rows:
         it = index.get((rec["scene"], rec["zh"]))
@@ -575,7 +606,8 @@ def finalize(args):
     for path in sorted(Path(args.polished_dir).glob("*.jsonl")):
         for rec in load_jsonl(path):
             polished[rec["uid"]] = rec
-    index = {(it["scene"], it["zh"]): it for it in ITEMS}
+    index = {(it["scene"], it["zh"]): it for it in selected_items(args)}
+    overrides = json.loads(Path(args.overrides).read_text(encoding="utf-8")) if Path(args.overrides).exists() else {}
     out_dir = Path(args.final_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     for p in out_dir.glob("*.jsonl"):
@@ -593,6 +625,10 @@ def finalize(args):
         else:
             rec["en"] = new
             rec["polish_reverted"] = False
+        override = overrides.get(uid)
+        if override:
+            rec["en"] = override
+            rec["manual_override"] = True
         path = out_dir / f"{rec['scene']}.jsonl"
         with open(path, "a", encoding="utf-8") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")

@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_by_the_way",
+  "pattern": "discourse_by_the_way",
+  "items": [
+    {
+      "zh": "顺便问一下，现在几点了？",
+      "angle": 1,
+      "angle_zh": "顺便问一下时间",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "顺便问一下，明天天气怎么样？",
+      "angle": 1,
+      "angle_zh": "顺便问一下时间",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，明天开会你别迟到。",
+      "angle": 2,
+      "angle_zh": "对了明天开会",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，明天开会记得带笔记本。",
+      "angle": 2,
+      "angle_zh": "对了明天开会",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，你最近旅游了吗？",
+      "angle": 3,
+      "angle_zh": "话说你最近怎么样",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "顺便问一下，你上个周末干什么去了？",
+      "angle": 3,
+      "angle_zh": "话说你最近怎么样",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "顺便说，钥匙在桌子上。",
+      "angle": 4,
+      "angle_zh": "顺便说一句钥匙在桌上",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，记得带伞，今天可能会下雨。",
+      "angle": 5,
+      "angle_zh": "对了记得带伞",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，这次出门记得带伞。",
+      "angle": 5,
+      "angle_zh": "对了记得带伞",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "顺便说一下，我搬家了，现在住得离公司更近。",
+      "angle": 6,
+      "angle_zh": "顺便说一下地址变了",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "顺便说一下，我换地址了，新家环境很好。",
+      "angle": 6,
+      "angle_zh": "顺便说一下地址变了",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "对了，这家店是新开的，里面有很多好吃的。",
+      "angle": 7,
+      "angle_zh": "话说这家店新开的",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "顺便告诉你，这家新开的店就在街角。",
+      "angle": 7,
+      "angle_zh": "话说这家店新开的",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "对了，你周末有空吗？",
+      "angle": 8,
+      "angle_zh": "对了你吃饭了吗",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "对了，今天天气挺好的。",
+      "angle": 9,
+      "angle_zh": "顺便问一句要不要一起",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "顺便问一句，你要不要一起去买菜？",
+      "angle": 9,
+      "angle_zh": "顺便问一句要不要一起",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "顺便说一下，明天下午有个会议。",
+      "angle": 10,
+      "angle_zh": "对了下午有快递",
+      "micro": "news",
+      "micro_zh": "补充消息"
+    },
+    {
+      "zh": "对了，下午有个快递会送到。",
+      "angle": 1,
+      "angle_zh": "顺便问一下时间",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，你今天几点有空？",
+      "angle": 1,
+      "angle_zh": "顺便问一下时间",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "对了，明天开会，别忘了准备报告。",
+      "angle": 2,
+      "angle_zh": "对了明天开会",
+      "micro": "reminder",
+      "micro_zh": "提醒"
+    }
+  ],
+  "source": "plan+manual"
+}

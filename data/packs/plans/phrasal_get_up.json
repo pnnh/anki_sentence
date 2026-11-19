@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_get_up",
+  "pattern": "phrasal_get_up",
+  "items": [
+    {
+      "zh": "闹钟响了，我还是没起床。",
+      "angle": 1,
+      "angle_zh": "早上闹钟响了但不想起床",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "周末我通常睡到九点才起床。",
+      "angle": 2,
+      "angle_zh": "周末睡到很晚才起",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "昨晚玩得太晚，今天早上我七点才起来。",
+      "angle": 2,
+      "angle_zh": "周末睡到很晚才起",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "爸爸叫我起床，我还是赖在床上不肯动。",
+      "angle": 3,
+      "angle_zh": "早上叫孩子起床",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "妈妈在旁边催促，我这才慢慢起床。",
+      "angle": 3,
+      "angle_zh": "早上叫孩子起床",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "出差时早起赶车，我五点半就起床了。",
+      "angle": 4,
+      "angle_zh": "出差时早起赶车",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "昨晚熬夜看剧，今天早上起不来。",
+      "angle": 5,
+      "angle_zh": "昨晚没睡好今天起不来",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "昨晚喝了很多酒，早上醒来感觉头很晕。",
+      "angle": 5,
+      "angle_zh": "昨晚没睡好今天起不来",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "虽然定了闹钟，我还是七点才起床。",
+      "angle": 6,
+      "angle_zh": "定闹钟提醒自己起床",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "我醒来后第一件事就是看手机。",
+      "angle": 7,
+      "angle_zh": "早上醒来先看手机",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "昨晚熬夜了，我醒来后头有点痛。",
+      "angle": 7,
+      "angle_zh": "早上醒来先看手机",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "起床后我先喝了一杯水。",
+      "angle": 8,
+      "angle_zh": "起床后先喝水",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "我一醒来就喝了一大杯水。",
+      "angle": 8,
+      "angle_zh": "起床后先喝水",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "冬天早上很难起床，我九点钟才离开被窝。",
+      "angle": 9,
+      "angle_zh": "冬天早上很难起床",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "昨晚聚会太晚，我十点钟才起床。",
+      "angle": 9,
+      "angle_zh": "冬天早上很难起床",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "早起去跑步，我六点就起床了。",
+      "angle": 10,
+      "angle_zh": "早起去跑步",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "今天早上天气好，所以我五点就起床去跑步了。",
+      "angle": 10,
+      "angle_zh": "早起去跑步",
+      "micro": "sleep",
+      "micro_zh": "睡眠"
+    },
+    {
+      "zh": "孩子赖床，我每天早上都要叫他起来。",
+      "angle": 1,
+      "angle_zh": "早上闹钟响了但不想起床",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "我把闹钟定在六点半，提醒自己按时起床。",
+      "angle": 2,
+      "angle_zh": "周末睡到很晚才起",
+      "micro": "morning",
+      "micro_zh": "早上"
+    },
+    {
+      "zh": "昨晚看球赛看到凌晨，早上我还是没起床。",
+      "angle": 2,
+      "angle_zh": "周末睡到很晚才起",
+      "micro": "morning",
+      "micro_zh": "早上"
+    }
+  ],
+  "source": "plan+manual"
+}

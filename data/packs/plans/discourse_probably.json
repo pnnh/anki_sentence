@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_probably",
+  "pattern": "discourse_probably",
+  "items": [
+    {
+      "zh": "他明天可能会迟到，我们最好早点出发。",
+      "angle": 1,
+      "angle_zh": "猜朋友会迟到",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "他可能不会来，我们也许得自己搞定。",
+      "angle": 1,
+      "angle_zh": "猜朋友会迟到",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "可能会下雨，我们带把伞吧。",
+      "angle": 2,
+      "angle_zh": "可能下雨带伞",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "今天可能不会下雨，我们可以去公园。",
+      "angle": 2,
+      "angle_zh": "可能下雨带伞",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "他大概今天没空，得等到明天。",
+      "angle": 3,
+      "angle_zh": "大概要等半小时",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "也许他一会儿就来了，我们等等看。",
+      "angle": 3,
+      "angle_zh": "大概要等半小时",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "也许他今天有事，没空出来。",
+      "angle": 4,
+      "angle_zh": "也许明天有空",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "今天可能不加班，我们可以早点回家。",
+      "angle": 4,
+      "angle_zh": "也许明天有空",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "估计他已经去公司了。",
+      "angle": 5,
+      "angle_zh": "估计他已经走了",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "他估计已经出发了。",
+      "angle": 5,
+      "angle_zh": "估计他已经走了",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "可能明天天气会变好，我们去郊游吧。",
+      "angle": 6,
+      "angle_zh": "可能忘带钥匙了",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "可能今天晚上会加班，我得早点准备。",
+      "angle": 6,
+      "angle_zh": "可能忘带钥匙了",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "大概这次考试不会太难。",
+      "angle": 7,
+      "angle_zh": "大概不会涨价",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "说不定今天会放晴。",
+      "angle": 8,
+      "angle_zh": "说不定会提前到",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "他应该会喜欢这个礼物，不过我也不太确定。",
+      "angle": 9,
+      "angle_zh": "应该会喜欢这个礼物",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "他可能忘带钥匙了。",
+      "angle": 9,
+      "angle_zh": "应该会喜欢这个礼物",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "我们可能还要再等他一会儿。",
+      "angle": 10,
+      "angle_zh": "可能还要再等等",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "今晚也许去不了电影院了。",
+      "angle": 10,
+      "angle_zh": "可能还要再等等",
+      "micro": "plans",
+      "micro_zh": "不确定的安排"
+    },
+    {
+      "zh": "他可能今天不来上课。",
+      "angle": 1,
+      "angle_zh": "猜朋友会迟到",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    },
+    {
+      "zh": "他也许不会来参加聚会。",
+      "angle": 1,
+      "angle_zh": "猜朋友会迟到",
+      "micro": "guess",
+      "micro_zh": "猜测"
+    }
+  ],
+  "source": "plan+manual"
+}

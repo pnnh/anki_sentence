@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_turn_on_off",
+  "pattern": "phrasal_turn_on_off",
+  "items": [
+    {
+      "zh": "我进门时打开了灯。",
+      "angle": 1,
+      "angle_zh": "进屋开灯",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "妈妈叮嘱我把空调关上。",
+      "angle": 2,
+      "angle_zh": "出门关空调",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "爸爸让我关掉台灯。",
+      "angle": 3,
+      "angle_zh": "睡前关电视",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "坐下后我打开了电脑准备工作。",
+      "angle": 4,
+      "angle_zh": "开电脑准备工作",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "同事叫我打开电脑看邮件。",
+      "angle": 4,
+      "angle_zh": "开电脑准备工作",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "手机没电了，我打开充电宝给手机充电。",
+      "angle": 5,
+      "angle_zh": "手机没电找充电器",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "洗澡前我打开了热水器。",
+      "angle": 6,
+      "angle_zh": "开热水器洗澡",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "做完饭我把厨房的灯关掉了。",
+      "angle": 7,
+      "angle_zh": "关掉厨房的灯",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "我进门时关掉了厨房的灯。",
+      "angle": 7,
+      "angle_zh": "关掉厨房的灯",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "天气太冷，我把暖气打开了。",
+      "angle": 8,
+      "angle_zh": "开暖气取暖",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "客人来了，我把暖气打开了。",
+      "angle": 8,
+      "angle_zh": "开暖气取暖",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "电视太吵，我把电视关掉了。",
+      "angle": 9,
+      "angle_zh": "关掉吵闹的电视",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "朋友来了，我把电视关掉了。",
+      "angle": 9,
+      "angle_zh": "关掉吵闹的电视",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "开会前我关掉了手机铃声。",
+      "angle": 10,
+      "angle_zh": "开会前关手机铃声",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "他开会前关掉了电脑。",
+      "angle": 10,
+      "angle_zh": "开会前关手机铃声",
+      "micro": "devices",
+      "micro_zh": "电子设备"
+    },
+    {
+      "zh": "睡前我关掉了电视和灯。",
+      "angle": 3,
+      "angle_zh": "睡前关电视",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "出门前我把空调关掉了。",
+      "angle": 2,
+      "angle_zh": "出门关空调",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "早上起来我打开了电视看新闻。",
+      "angle": 3,
+      "angle_zh": "睡前关电视",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "打开电脑后，我开始写报告。",
+      "angle": 4,
+      "angle_zh": "开电脑准备工作",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "空调开了一整天，出门前我关掉了。",
+      "angle": 2,
+      "angle_zh": "出门关空调",
+      "micro": "home",
+      "micro_zh": "家里"
+    }
+  ],
+  "source": "plan+manual"
+}

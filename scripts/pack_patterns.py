@@ -86,6 +86,70 @@ RELATION_RE = re.compile(
     re.I,
 )
 
+PHRASAL_EN = {
+    "phrasal_get_up": re.compile(
+        r"\b(wake|woke|woken|waking|get|got|gotten|getting)\s+(?:\w+\s+){0,2}up\b", re.I),
+    "phrasal_put_on": re.compile(
+        r"\b(put|puts|putting|try|tries|tried|trying)\s+(?:\w+\s+){0,2}on\b|"
+        r"\b(take|took|taken|taking|remove|removed|removing)\s+(?:\w+\s+){0,2}off\b", re.I),
+    "phrasal_pick_up": re.compile(
+        r"\b(pick|picks|picked|picking)\s+(?:\w+\s+){0,2}up\b|"
+        r"\b(drop|drops|dropped|dropping)\s+(?:\w+\s+){0,2}off\b", re.I),
+    "phrasal_turn_on_off": re.compile(
+        r"\b(turn|turns|turned|turning|switch|switches|switched|switching)\s+(?:\w+\s+){0,2}(on|off)\b", re.I),
+    "phrasal_look_for": re.compile(
+        r"\b(look|looks|looked|looking)\s+(for|up)\b|\b(check|checks|checked|checking)\b|"
+        r"\b(find|finds|found|finding)\s+out\b", re.I),
+    "phrasal_figure_out": re.compile(
+        r"\b(figure|figures|figured|figuring)\s+(?:\w+\s+){0,2}out\b", re.I),
+    "phrasal_go_back": re.compile(
+        r"\b(come|came|coming|go|goes|went|going|get|got|getting|drive|drove|driving|"
+        r"walk|walked|walking|run|ran|running|rush|rushed|head|headed|heading)"
+        r"\s+(?:\w+\s+){0,2}back\b", re.I),
+    "phrasal_go_out": re.compile(
+        r"\b(go|goes|went|going)\s+out\b|\b(hang|hangs|hung|hanging)\s+out\b", re.I),
+    "phrasal_work_out": re.compile(
+        r"\b(work|works|worked|working)\s+(?:\w+\s+){0,2}out\b", re.I),
+    "phrasal_run_out": re.compile(
+        r"\b(ran|run|runs|running)\s+out\b", re.I),
+    "phrasal_end_up": re.compile(
+        r"\b(show|shows|showed|showing)\s+up\b|\b(end|ends|ended|ending)\s+up\b", re.I),
+    "phrasal_turn_out": re.compile(
+        r"\b(turn|turns|turned|turning)\s+out\b", re.I),
+    "phrasal_fill_out": re.compile(
+        r"\b(fill|fills|filled|filling)\s+(?:\w+\s+){0,2}(out|in)\b|"
+        r"\b(check|checks|checked|checking)\s+out\b", re.I),
+    "phrasal_set_up": re.compile(
+        r"\b(set|sets|setting)\s+(?:\w+\s+){0,2}up\b|\b(broke|break|breaks|breaking|broken)\s+down\b", re.I),
+    "phrasal_calm_down": re.compile(
+        r"\b(calm|calms|calmed|calming)\s+(?:\w+\s+){0,2}down\b|"
+        r"\b(slow|slows|slowed|slowing)\s+down\b|"
+        r"\b(clean|cleans|cleaned|cleaning)\s+(?:\w+\s+){0,2}up\b", re.I),
+}
+
+DISCOURSE_EN = {
+    "discourse_actually": re.compile(
+        r"\b(actually|in fact|to be honest|honestly)\b", re.I),
+    "discourse_probably": re.compile(
+        r"\b(probably|maybe|perhaps)\b", re.I),
+    "discourse_though": re.compile(
+        r"\b(though|although|however|even though)\b", re.I),
+    "discourse_by_the_way": re.compile(
+        r"\b(by the way|speaking of|anyway)\b", re.I),
+    "discourse_as_far_as": re.compile(
+        r"\b(as far as i know|as far as i can tell|as far as i remember)\b", re.I),
+    "discourse_turns_out": re.compile(
+        r"\b(it turns out|it turned out|turned out|turns out)\b", re.I),
+    "discourse_kind_of": re.compile(
+        r"\b(kind of|sort of|a bit|a little)\b", re.I),
+    "discourse_at_least": re.compile(
+        r"\b(at least|in the end|after all)\b", re.I),
+    "discourse_no_wonder": re.compile(
+        r"\b(no wonder|that explains why)\b|\bthat's why\b", re.I),
+    "discourse_on_purpose": re.compile(
+        r"\b(on purpose|by mistake|by accident|accidentally)\b", re.I),
+}
+
 
 def has_past(text):
     return bool(PAST_RE.search(text) or PAST_ED_RE.search(text))
@@ -111,6 +175,10 @@ def expand(text):
 def passes_en(pattern, en):
     t = en.lower().replace("’", "'")
     n = expand(t)
+    if pattern in PHRASAL_EN:
+        return bool(PHRASAL_EN[pattern].search(n))
+    if pattern in DISCOURSE_EN:
+        return bool(DISCOURSE_EN[pattern].search(t))
     if pattern == "past_simple":
         return has_past(n) and bool(TIME_RE.search(n))
     if pattern == "past_continuous":
@@ -202,6 +270,31 @@ ZH_CHECKS = {
     "narrative_movies_books": r"(电影|书|小说|剧|纪录片|剧情片|片|演员|故事|结局|配乐|情节|季).{0,40}(觉得|感觉|不如|没有|比|更|好看|精彩|一般|失望|删|喜欢|满意|出彩|有意思|好听|值得|不错)|(觉得|感觉).{0,30}(电影|书|小说|剧|纪录片|剧情片)",
     "narrative_relationships": r"^(?=.*(朋友|同事|邻居|同学|认识|相处|家人|父母|哥哥|姐姐|妹妹|弟弟|室友))(?=.*(一直|总是|总|经常|每次|十年|多年|互相|每周|从小|无话不谈|最近|老))",
     "narrative_wishes_regrets": r"(希望|后悔|早知道|要是|如果).{0,30}(当初|当时|小时候|早|就|回到|没|学过)",
+    "phrasal_get_up": r"(起床|起来|醒来|睡醒|叫醒|起不来)",
+    "phrasal_put_on": r"(穿上|戴上|换上|脱下|脱掉|试穿|加.{0,2}件)",
+    "phrasal_pick_up": r"(接|送|取|拿|搬|顺路|放到|放下|送到)",
+    "phrasal_turn_on_off": r"(打开|开灯|开电脑|开电视|开空调|关灯|关门|关掉|关上|关机|开一下)",
+    "phrasal_look_for": r"(找|寻找|查|打听|发现|不见|丢了|营业时间)",
+    "phrasal_figure_out": r"(弄明白|搞清楚|想通|搞懂|弄懂|弄清楚|想清楚|研究|想明白)",
+    "phrasal_go_back": r"(回来|回去|返回|回到|回家|回公司|回学校|回酒店|回座位|回老家)",
+    "phrasal_go_out": r"(出去|出门|聚会|逛街|一起玩|走走|喝一杯|旅游)",
+    "phrasal_work_out": r"(锻炼|健身|运动|解决|想出|商量|办法|顺利)",
+    "phrasal_run_out": r"(用完|没了|喝完了|吃完了|花完|没电|不够|快没|用光)",
+    "phrasal_end_up": r"(出现|到场|没来|最后|结果|竟然|变成|走到|待了)",
+    "phrasal_turn_out": r"(结果|原来|没想到|发现|竟然是|虚惊一场)",
+    "phrasal_fill_out": r"(填表|填|表格|申请|问卷|结账|退房|登记|报销)",
+    "phrasal_set_up": r"(安装|设置|布置|安排|调试|准备|坏|故障|出问题|死机|抛锚|打不开)",
+    "phrasal_calm_down": r"(冷静|别急|慢点|放松|平静|打扫|收拾|清理|安慰)",
+    "discourse_actually": r"(其实|实际上|说实话|老实说|事实上)",
+    "discourse_probably": r"(可能|也许|大概|说不定|估计|应该会)",
+    "discourse_though": r"(不过|虽然|但是|可是|然而|尽管|但)",
+    "discourse_by_the_way": r"(顺便|对了|话说|顺便问)",
+    "discourse_as_far_as": r"(据我了解|据我所知|就我了解|就我所知|我记得|印象中)",
+    "discourse_turns_out": r"(原来|结果|没想到|竟然|才发现|虚惊一场)",
+    "discourse_kind_of": r"(有点|有些|稍微|挺|还算|一点)",
+    "discourse_at_least": r"(至少|最后|毕竟|总算|还是)",
+    "discourse_no_wonder": r"(难怪|怪不得|原来如此|所以)",
+    "discourse_on_purpose": r"(故意|不小心|无意|误|不是故意|留一盏灯)",
 }
 
 
@@ -212,7 +305,7 @@ def passes_zh(pattern, zh):
     return bool(re.search(rx, zh))
 
 
-MAX_WORDS = {"grammar": 18, "narrative": 24}
+MAX_WORDS = {"grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20}
 MIN_WORDS = 4
 
 
@@ -246,6 +339,31 @@ LABELS = {
     "narrative_movies_books": "a media noun + an opinion or comparative",
     "narrative_relationships": "present perfect (have/has + participle) or a who/that clause",
     "narrative_wishes_regrets": "wish / if only / should have",
+    "phrasal_get_up": "wake up or get up (phrasal verb)",
+    "phrasal_put_on": "put on or take off (clothes or shoes)",
+    "phrasal_pick_up": "pick up or drop off (a person or thing)",
+    "phrasal_turn_on_off": "turn on or turn off (a device or light)",
+    "phrasal_look_for": "look for or find out",
+    "phrasal_figure_out": "figure out (work out an answer or reason)",
+    "phrasal_go_back": "come back or go back",
+    "phrasal_go_out": "go out or hang out",
+    "phrasal_work_out": "work out (exercise or solve)",
+    "phrasal_run_out": "run out of (something)",
+    "phrasal_end_up": "show up or end up",
+    "phrasal_turn_out": "turn out (the result was ...)",
+    "phrasal_fill_out": "fill out / fill in a form, or check out",
+    "phrasal_set_up": "set up, or break down (a device or machine)",
+    "phrasal_calm_down": "calm down, slow down, or clean up",
+    "discourse_actually": "actually / in fact / to be honest",
+    "discourse_probably": "probably / maybe / perhaps",
+    "discourse_though": "though / although / however",
+    "discourse_by_the_way": "by the way / speaking of",
+    "discourse_as_far_as": "as far as I know / as far as I can tell",
+    "discourse_turns_out": "it turns out / it turned out",
+    "discourse_kind_of": "kind of / sort of / a bit",
+    "discourse_at_least": "at least / in the end / after all",
+    "discourse_no_wonder": "no wonder / that explains why",
+    "discourse_on_purpose": "on purpose / by mistake / accidentally",
 }
 
 
@@ -378,5 +496,130 @@ ANGLES = {
         "希望小时候学过钢琴", "后悔昨天没去参加聚会", "早知道就早点出门了",
         "真希望能回到那一天", "后悔没有接受那份工作", "要是当时拍张照片就好了",
         "希望当初选了另一个专业",
+    ],
+    "phrasal_get_up": [
+        "早上闹钟响了但不想起床", "周末睡到很晚才起", "早上叫孩子起床", "出差时早起赶车",
+        "昨晚没睡好今天起不来", "定闹钟提醒自己起床", "早上醒来先看手机", "起床后先喝水",
+        "冬天早上很难起床", "早起去跑步",
+    ],
+    "phrasal_put_on": [
+        "出门前穿外套", "下雨天穿雨鞋", "进屋后脱下外套", "试穿新买的衣服",
+        "戴帽子防晒", "开会前换上正装", "运动前换上运动鞋", "睡觉前脱掉袜子",
+        "天气冷加一件毛衣", "进门前脱鞋",
+    ],
+    "phrasal_pick_up": [
+        "下班顺路接孩子", "去机场接朋友", "开车送同事回家", "把快递从驿站取回来",
+        "在餐厅取外卖", "把垃圾拿到楼下", "送孩子去学校", "让司机在门口接你",
+        "帮朋友取行李", "把东西放到寄存处",
+    ],
+    "phrasal_turn_on_off": [
+        "进屋开灯", "出门关空调", "睡前关电视", "开电脑准备工作",
+        "手机没电找充电器", "开热水器洗澡", "关掉厨房的灯", "开暖气取暖",
+        "关掉吵闹的电视", "开会前关手机铃声",
+    ],
+    "phrasal_look_for": [
+        "找钥匙出门", "在超市找牛奶", "上网查资料", "打听租房信息",
+        "找一份兼职", "发现钱包不见了", "查一下营业时间", "问路找地铁站",
+        "找丢失的耳机", "发现孩子发烧了",
+    ],
+    "phrasal_figure_out": [
+        "弄明白新软件怎么用", "想通朋友为什么生气", "搞清楚怎么换乘", "弄懂一道数学题",
+        "想明白下一步怎么做", "搞懂机器的用法", "弄明白账单为什么这么高", "研究怎么修好打印机",
+        "想清楚要不要换工作", "弄明白孩子为什么哭",
+    ],
+    "phrasal_go_back": [
+        "下班后回公司拿东西", "放假回老家看父母", "忘带东西回家取", "旅行结束回到城市",
+        "送完人再返回家", "回学校取毕业证", "从医院回家休息", "吃完饭再回办公室",
+        "回到酒店拿行李", "回到座位上继续工作",
+    ],
+    "phrasal_go_out": [
+        "周末和朋友出去吃饭", "晚上出去散步", "和朋友出去看电影", "下班后出去喝一杯",
+        "周末一起出去玩", "天气好出去走走", "晚上不想出去待在家", "和朋友出去逛街",
+        "出去买点东西", "放假出去旅游",
+    ],
+    "phrasal_work_out": [
+        "每周去健身房锻炼", "在家跟着视频锻炼", "早上跑步锻炼身体", "事情最后顺利解决",
+        "商量出一个办法", "身体不舒服还坚持锻炼", "锻炼后洗澡", "想出一个省钱的办法",
+        "两个人一起想办法", "锻炼太多第二天很累",
+    ],
+    "phrasal_run_out": [
+        "家里没牛奶了要去买", "手机快没电了", "出门发现汽油不够", "做饭时发现没盐了",
+        "咖啡喝完了", "月底钱快花完了", "打印纸用完了", "时间不够了要加快",
+        "纸巾用完了", "食物吃完了要再买",
+    ],
+    "phrasal_end_up": [
+        "朋友说来吃饭最后没出现", "聚会来了很多人", "开会迟到的人终于出现", "本打算回家最后去了别处",
+        "买了一件没打算买的东西", "迷路最后走到一个公园", "加班到最后很晚才回家", "约好见面对方没出现",
+        "本来只想待一会儿最后待了一下午", "计划改变最后做了别的",
+    ],
+    "phrasal_turn_out": [
+        "以为难结果很简单", "以为是玩笑结果是真的", "结果发现钱包在包里", "原来他早就知道了",
+        "面试结果比想象的好", "天气预报说下雨结果没下", "结果那家店关门了", "原来两个人认识",
+        "结果是虚惊一场", "结果比预期便宜很多",
+    ],
+    "phrasal_fill_out": [
+        "入住酒店填表", "办卡填申请表", "报销要填表格", "网上填问卷",
+        "退房结账", "在超市结账", "医院填就诊单", "报名考试填信息",
+        "结账时发现少算", "填完表交给工作人员",
+    ],
+    "phrasal_set_up": [
+        "安装新打印机", "设置新手机", "布置生日聚会", "电脑突然死机",
+        "电梯出故障", "车在路上抛锚", "开会前调试设备", "在客厅装书架",
+        "网站打不开", "安排一次视频会议",
+    ],
+    "phrasal_calm_down": [
+        "孩子哭闹安慰他", "朋友生气劝他冷静", "自己紧张时深呼吸", "遇到麻烦别着急",
+        "开车慢一点", "说话慢一点", "收拾房间", "打扫厨房",
+        "清理桌上的东西", "事后慢慢平静下来",
+    ],
+    "discourse_actually": [
+        "纠正别人的误会", "说出真实想法", "其实不想去聚会", "实话实说菜不好吃",
+        "其实已经买过了", "其实我不住在这附近", "说实话有点累", "其实价格没那么贵",
+        "其实我更喜欢在家", "事实上计划已经改了",
+    ],
+    "discourse_probably": [
+        "猜朋友会迟到", "可能下雨带伞", "大概要等半小时", "也许明天有空",
+        "估计他已经走了", "可能忘带钥匙了", "大概不会涨价", "说不定会提前到",
+        "应该会喜欢这个礼物", "可能还要再等等",
+    ],
+    "discourse_though": [
+        "东西贵但质量好", "虽然累但很开心", "天气不好不过还是出门了", "他答应了然而没来",
+        "便宜可是不太好看", "虽然忙还是回了消息", "路远不过风景好", "虽然难但值得学",
+        "味道一般但是便宜", "不过我还是想试试",
+    ],
+    "discourse_by_the_way": [
+        "顺便问一下时间", "对了明天开会", "话说你最近怎么样", "顺便说一句钥匙在桌上",
+        "对了记得带伞", "顺便说一下地址变了", "话说这家店新开的", "对了你吃饭了吗",
+        "顺便问一句要不要一起", "对了下午有快递",
+    ],
+    "discourse_as_far_as": [
+        "据我所知今天不开门", "据我了解他搬家了", "就我知道的价格没变", "我记得会议改到周五",
+        "据我了解这家店很有名", "就我所知还没有通知", "据我所知地铁更快", "印象中他不太吃辣",
+        "据我了解活动免费", "就我知道的今天有雨",
+    ],
+    "discourse_turns_out": [
+        "原来钥匙在口袋里", "结果那家店倒闭了", "没想到是同乡", "原来他已经结婚了",
+        "结果发现买错了", "原来问题出在电池", "结果比想的简单", "原来他早就知道",
+        "没想到会遇到老朋友", "结果是虚惊一场",
+    ],
+    "discourse_kind_of": [
+        "有点累想休息", "这件事有点麻烦", "稍微有点贵", "我有点担心",
+        "今天有点冷", "这道菜有点辣", "他有点不高兴", "房间稍微小一点",
+        "有点想家", "还算顺利",
+    ],
+    "discourse_at_least": [
+        "至少没迟到", "最后总算赶上了", "毕竟第一次做", "至少价格还算合理",
+        "最后还是决定去", "至少天气不错", "毕竟不是他的错", "最后还是买了",
+        "至少比上次好", "最后还是说了实话",
+    ],
+    "discourse_no_wonder": [
+        "难怪他没来原来生病了", "怪不得这么便宜原来是旧的", "难怪堵车原来在修路", "难怪他累原来加了一周班",
+        "怪不得没回消息手机没电", "难怪店关了老板退休了", "难怪味道熟悉是妈妈做的", "怪不得他生气你迟到了",
+        "难怪这么冷窗户开着", "难怪没人排队今天工作日",
+    ],
+    "discourse_on_purpose": [
+        "故意不说话", "不小心打翻杯子", "不是故意迟到的", "误把盐当成糖",
+        "故意绕远路散步", "不小心删了文件", "故意留一盏灯", "不小心说漏嘴",
+        "故意早点到", "不小心坐过站",
     ],
 }

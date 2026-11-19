@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_look_for",
+  "pattern": "phrasal_look_for",
+  "items": [
+    {
+      "zh": "我出门前没找到钥匙。",
+      "angle": 1,
+      "angle_zh": "找钥匙出门",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "妈妈让我赶紧去卧室找钥匙。",
+      "angle": 1,
+      "angle_zh": "找钥匙出门",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我在超市找不到牛奶。",
+      "angle": 2,
+      "angle_zh": "在超市找牛奶",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我今天早上在超市找牛奶。",
+      "angle": 2,
+      "angle_zh": "在超市找牛奶",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我在网上找资料，但是没有找到合适的。",
+      "angle": 3,
+      "angle_zh": "上网查资料",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我上网查资料，还是没有查到结果。",
+      "angle": 3,
+      "angle_zh": "上网查资料",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我在网上找附近的租房信息。",
+      "angle": 4,
+      "angle_zh": "打听租房信息",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我向同事打听附近的租房信息。",
+      "angle": 4,
+      "angle_zh": "打听租房信息",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我在包里找不到我的身份证。",
+      "angle": 5,
+      "angle_zh": "找一份兼职",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "昨天我在公司找不到我的笔。",
+      "angle": 5,
+      "angle_zh": "找一份兼职",
+      "micro": "search",
+      "micro_zh": "寻找东西"
+    },
+    {
+      "zh": "我在网上找一份周末的兼职。",
+      "angle": 6,
+      "angle_zh": "发现钱包不见了",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我发现钱包不见了。",
+      "angle": 6,
+      "angle_zh": "发现钱包不见了",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我查了一下这家店的营业时间。",
+      "angle": 7,
+      "angle_zh": "查一下营业时间",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我问了很多人，才找到地铁站。",
+      "angle": 7,
+      "angle_zh": "查一下营业时间",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我的耳机不见了，我在房间里到处找。",
+      "angle": 8,
+      "angle_zh": "问路找地铁站",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我今天下午在图书馆找不到那本书。",
+      "angle": 8,
+      "angle_zh": "问路找地铁站",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我发现孩子有点发烧，赶紧带他去医院。",
+      "angle": 9,
+      "angle_zh": "找丢失的耳机",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我昨天在办公室找我的钥匙，找了半天也没有找到。",
+      "angle": 9,
+      "angle_zh": "找丢失的耳机",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我问了几个同学，还是没打听清楚那个讲座的时间。",
+      "angle": 10,
+      "angle_zh": "发现孩子发烧了",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我在车站打听去机场的班车时间。",
+      "angle": 10,
+      "angle_zh": "发现孩子发烧了",
+      "micro": "information",
+      "micro_zh": "打听信息"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_on_purpose",
+  "pattern": "discourse_on_purpose",
+  "items": [
+    {
+      "zh": "他故意不说话，让大家觉得奇怪。",
+      "angle": 1,
+      "angle_zh": "故意不说话",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "他刚才是故意不理我吗？",
+      "angle": 1,
+      "angle_zh": "故意不说话",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "杯子滑了一下，不小心打翻了。",
+      "angle": 2,
+      "angle_zh": "不小心打翻杯子",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "桌子不平，杯子不小心翻了。",
+      "angle": 2,
+      "angle_zh": "不小心打翻杯子",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "他不是故意迟到的，只是路上堵车了。",
+      "angle": 3,
+      "angle_zh": "不是故意迟到的",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "她不是故意不来的，因为家里有事。",
+      "angle": 3,
+      "angle_zh": "不是故意迟到的",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "他误把盐当成了糖。",
+      "angle": 4,
+      "angle_zh": "误把盐当成糖",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "我不小心把糖撒了一地。",
+      "angle": 4,
+      "angle_zh": "误把盐当成糖",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "他故意绕远路，想多看一会儿风景。",
+      "angle": 5,
+      "angle_zh": "故意绕远路散步",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "我故意绕开人群，想安静地走一走。",
+      "angle": 5,
+      "angle_zh": "故意绕远路散步",
+      "micro": "intentional",
+      "micro_zh": "故意"
+    },
+    {
+      "zh": "文件不小心被他删掉了。",
+      "angle": 6,
+      "angle_zh": "不小心删了文件",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "他不小心删掉了那个重要文件。",
+      "angle": 6,
+      "angle_zh": "不小心删了文件",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "我故意留了一盏灯，等家人回来。",
+      "angle": 7,
+      "angle_zh": "故意留一盏灯",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "她故意留了一盏灯，怕我回来时太黑。",
+      "angle": 7,
+      "angle_zh": "故意留一盏灯",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "他说的时候不小心说漏了嘴，把秘密告诉了好朋友。",
+      "angle": 8,
+      "angle_zh": "不小心说漏嘴",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "他本来不想说的，但不小心说出了那个秘密。",
+      "angle": 8,
+      "angle_zh": "不小心说漏嘴",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "我故意早点到，想占一个好座位。",
+      "angle": 9,
+      "angle_zh": "故意早点到",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "他故意晚一点走，想避开高峰。",
+      "angle": 9,
+      "angle_zh": "故意早点到",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "他不小心坐过站了，现在不知道该怎么办。",
+      "angle": 10,
+      "angle_zh": "不小心坐过站",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    },
+    {
+      "zh": "朋友不小心坐过了两站，下车后急急忙忙地跑回去。",
+      "angle": 10,
+      "angle_zh": "不小心坐过站",
+      "micro": "accident",
+      "micro_zh": "不小心"
+    }
+  ],
+  "source": "plan+manual"
+}

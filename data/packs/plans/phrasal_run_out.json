@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_run_out",
+  "pattern": "phrasal_run_out",
+  "items": [
+    {
+      "zh": "家里的面条吃完了，我下班得去买。",
+      "angle": 1,
+      "angle_zh": "家里没牛奶了要去买",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "牛奶喝完了，我得去超市买一些。",
+      "angle": 1,
+      "angle_zh": "家里没牛奶了要去买",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "手机快没电了，得赶紧充电。",
+      "angle": 2,
+      "angle_zh": "手机快没电了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "手机的电量快用完了。",
+      "angle": 2,
+      "angle_zh": "手机快没电了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "出门发现汽油快用完了，得去加油站。",
+      "angle": 3,
+      "angle_zh": "出门发现汽油不够",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "车快没油了，得找加油站。",
+      "angle": 3,
+      "angle_zh": "出门发现汽油不够",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "做菜时发现盐用完了。",
+      "angle": 4,
+      "angle_zh": "做饭时发现没盐了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "做饭做到一半，发现盐用完了。",
+      "angle": 4,
+      "angle_zh": "做饭时发现没盐了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "咖啡喝完了，今天没咖啡了。",
+      "angle": 5,
+      "angle_zh": "咖啡喝完了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "咖啡豆用完了，今天没法煮咖啡。",
+      "angle": 5,
+      "angle_zh": "咖啡喝完了",
+      "micro": "home",
+      "micro_zh": "家里"
+    },
+    {
+      "zh": "月底钱快花完了，买不了新衣服。",
+      "angle": 6,
+      "angle_zh": "月底钱快花完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "这个月的工资快花完了。",
+      "angle": 6,
+      "angle_zh": "月底钱快花完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "打印纸用完了，今天没法打印报告了。",
+      "angle": 7,
+      "angle_zh": "打印纸用完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "打印纸快用完了，记得去买新的。",
+      "angle": 7,
+      "angle_zh": "打印纸用完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "时间快用完了，我们得抓紧。",
+      "angle": 8,
+      "angle_zh": "时间不够了要加快",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "时间不够了，我们得加快速度。",
+      "angle": 8,
+      "angle_zh": "时间不够了要加快",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "纸巾用完了，我得去买一包。",
+      "angle": 9,
+      "angle_zh": "纸巾用完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "洗洁精用完了，得去买一瓶。",
+      "angle": 9,
+      "angle_zh": "纸巾用完了",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "馒头吃完了，中午没东西吃了。",
+      "angle": 10,
+      "angle_zh": "食物吃完了要再买",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    },
+    {
+      "zh": "家里的米吃完了，得再去买一袋。",
+      "angle": 10,
+      "angle_zh": "食物吃完了要再买",
+      "micro": "time_money",
+      "micro_zh": "时间和钱"
+    }
+  ],
+  "source": "plan+manual"
+}

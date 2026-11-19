@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_as_far_as",
+  "pattern": "discourse_as_far_as",
+  "items": [
+    {
+      "zh": "据我所知，今天不用来上班。",
+      "angle": 1,
+      "angle_zh": "据我所知今天不开门",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我了解，今天公司不办公。",
+      "angle": 1,
+      "angle_zh": "据我所知今天不开门",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知他搬到了新的小区。",
+      "angle": 2,
+      "angle_zh": "据我了解他搬家了",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我了解他现在住在另一个城市。",
+      "angle": 2,
+      "angle_zh": "据我了解他搬家了",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知，这家餐厅的菜单没有变。",
+      "angle": 3,
+      "angle_zh": "就我知道的价格没变",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "就我所知，那个展览的价格还是原价。",
+      "angle": 3,
+      "angle_zh": "就我知道的价格没变",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知，朋友这个周末有空。",
+      "angle": 4,
+      "angle_zh": "我记得会议改到周五",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知，同事刚参加完一个会议。",
+      "angle": 4,
+      "angle_zh": "我记得会议改到周五",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我了解，这家餐厅很好吃。",
+      "angle": 5,
+      "angle_zh": "据我了解这家店很有名",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知，这家超市离这儿不远。",
+      "angle": 5,
+      "angle_zh": "据我了解这家店很有名",
+      "micro": "facts",
+      "micro_zh": "已知信息"
+    },
+    {
+      "zh": "据我所知，他还没接到邀请。",
+      "angle": 6,
+      "angle_zh": "就我所知还没有通知",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "就我所知，她还没有决定。",
+      "angle": 6,
+      "angle_zh": "就我所知还没有通知",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知，这家餐厅今天打折。",
+      "angle": 7,
+      "angle_zh": "据我所知地铁更快",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知，他们明天会加班。",
+      "angle": 7,
+      "angle_zh": "据我所知地铁更快",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知他不吃豆腐。",
+      "angle": 8,
+      "angle_zh": "印象中他不太吃辣",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知他喜欢吃素。",
+      "angle": 8,
+      "angle_zh": "印象中他不太吃辣",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我了解，这个讲座是免费的。",
+      "angle": 9,
+      "angle_zh": "据我了解活动免费",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知，那个公园今天不收费。",
+      "angle": 9,
+      "angle_zh": "据我了解活动免费",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知今天可能会下雨。",
+      "angle": 10,
+      "angle_zh": "就我知道的今天有雨",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    },
+    {
+      "zh": "据我所知，他不太能吃辣。",
+      "angle": 10,
+      "angle_zh": "就我知道的今天有雨",
+      "micro": "uncertainty",
+      "micro_zh": "不确定"
+    }
+  ],
+  "source": "plan+manual"
+}

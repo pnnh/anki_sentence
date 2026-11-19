@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_work_out",
+  "pattern": "phrasal_work_out",
+  "items": [
+    {
+      "zh": "我每周去健身房锻炼两次。",
+      "angle": 1,
+      "angle_zh": "每周去健身房锻炼",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "他每周去三次健身房锻炼。",
+      "angle": 1,
+      "angle_zh": "每周去健身房锻炼",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "我跟着视频在家锻炼。",
+      "angle": 2,
+      "angle_zh": "在家跟着视频锻炼",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "妹妹每天跟着视频在家锻炼。",
+      "angle": 2,
+      "angle_zh": "在家跟着视频锻炼",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "我每天早上跑步锻炼身体。",
+      "angle": 3,
+      "angle_zh": "早上跑步锻炼身体",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "她喜欢早上慢跑锻炼。",
+      "angle": 3,
+      "angle_zh": "早上跑步锻炼身体",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "最后问题自己解决了。",
+      "angle": 4,
+      "angle_zh": "事情最后顺利解决",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "讨论了很久，问题终于解决了。",
+      "angle": 4,
+      "angle_zh": "事情最后顺利解决",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "他们商量出一个办法解决了问题。",
+      "angle": 5,
+      "angle_zh": "商量出一个办法",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "我们一起商量出一个合适的方法。",
+      "angle": 5,
+      "angle_zh": "商量出一个办法",
+      "micro": "exercise",
+      "micro_zh": "锻炼"
+    },
+    {
+      "zh": "感冒了还去跑步锻炼，结果更难受了。",
+      "angle": 6,
+      "angle_zh": "身体不舒服还坚持锻炼",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "锻炼后我去洗了个澡。",
+      "angle": 7,
+      "angle_zh": "锻炼后洗澡",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "他锻炼完就回家洗澡了。",
+      "angle": 7,
+      "angle_zh": "锻炼后洗澡",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "我想出一个省钱的办法，每天爬楼梯代替电梯。",
+      "angle": 8,
+      "angle_zh": "想出一个省钱的办法",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "她想出一个省钱的办法，用旧衣服代替买新衣服。",
+      "angle": 8,
+      "angle_zh": "想出一个省钱的办法",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "他们一起想办法解决交通问题。",
+      "angle": 9,
+      "angle_zh": "两个人一起想办法",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "我们两个一起想办法解决学习难题。",
+      "angle": 9,
+      "angle_zh": "两个人一起想办法",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "他锻炼太多，第二天觉得很累。",
+      "angle": 10,
+      "angle_zh": "锻炼太多第二天很累",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "锻炼太久，他第二天差点起不来。",
+      "angle": 10,
+      "angle_zh": "锻炼太多第二天很累",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    },
+    {
+      "zh": "她锻炼完第二天浑身酸痛。",
+      "angle": 10,
+      "angle_zh": "锻炼太多第二天很累",
+      "micro": "solution",
+      "micro_zh": "想办法"
+    }
+  ],
+  "source": "plan+manual"
+}

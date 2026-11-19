@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_no_wonder",
+  "pattern": "discourse_no_wonder",
+  "items": [
+    {
+      "zh": "难怪他没来，原来生病了。",
+      "angle": 1,
+      "angle_zh": "难怪他没来原来生病了",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪他没来，原来他去看医生了。",
+      "angle": 1,
+      "angle_zh": "难怪他没来原来生病了",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪这么便宜，原来是旧款。",
+      "angle": 2,
+      "angle_zh": "怪不得这么便宜原来是旧的",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪衣服上有洞，原来是件旧衣服。",
+      "angle": 2,
+      "angle_zh": "怪不得这么便宜原来是旧的",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪东西这么便宜，原来快过期了。",
+      "angle": 2,
+      "angle_zh": "怪不得这么便宜原来是旧的",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪路上这么堵，原来在修路。",
+      "angle": 3,
+      "angle_zh": "难怪堵车原来在修路",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪手机没信号，原来附近在施工。",
+      "angle": 3,
+      "angle_zh": "难怪堵车原来在修路",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪他迟到，原来闹钟没响。",
+      "angle": 4,
+      "angle_zh": "难怪他累原来加了一周班",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪他这么累，原来加了一周的班。",
+      "angle": 4,
+      "angle_zh": "难怪他累原来加了一周班",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪他没回消息，原来手机没电了。",
+      "angle": 5,
+      "angle_zh": "怪不得没回消息手机没电",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "怪不得他这么着急，原来快迟到了。",
+      "angle": 5,
+      "angle_zh": "怪不得没回消息手机没电",
+      "micro": "reason",
+      "micro_zh": "原因"
+    },
+    {
+      "zh": "难怪店关门了，原来老板退休了。",
+      "angle": 6,
+      "angle_zh": "难怪店关了老板退休了",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪店关门了，今天是老板的退休派对。",
+      "angle": 6,
+      "angle_zh": "难怪店关了老板退休了",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪味道这么熟悉，原来是妈妈做的菜。",
+      "angle": 7,
+      "angle_zh": "难怪味道熟悉是妈妈做的",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪房间这么干净，原来是刚打扫过。",
+      "angle": 7,
+      "angle_zh": "难怪味道熟悉是妈妈做的",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "怪不得他生气，你今天又迟到了。",
+      "angle": 8,
+      "angle_zh": "怪不得他生气你迟到了",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "怪不得他生气，你总是迟到。",
+      "angle": 8,
+      "angle_zh": "怪不得他生气你迟到了",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪屋里这么冷，原来窗户一直开着。",
+      "angle": 9,
+      "angle_zh": "难怪这么冷窗户开着",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪屋里这么热，原来空调开得太高。",
+      "angle": 9,
+      "angle_zh": "难怪这么冷窗户开着",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    },
+    {
+      "zh": "难怪今天没人排队，原来是工作日。",
+      "angle": 10,
+      "angle_zh": "难怪没人排队今天工作日",
+      "micro": "realization",
+      "micro_zh": "恍然大悟"
+    }
+  ],
+  "source": "plan+manual"
+}

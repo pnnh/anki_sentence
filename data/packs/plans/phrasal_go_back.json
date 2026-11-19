@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_go_back",
+  "pattern": "phrasal_go_back",
+  "items": [
+    {
+      "zh": "下班后我回公司拿报告。",
+      "angle": 1,
+      "angle_zh": "下班后回公司拿东西",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "下班后他回公司取文件。",
+      "angle": 1,
+      "angle_zh": "下班后回公司拿东西",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "放假我回老家看父母。",
+      "angle": 2,
+      "angle_zh": "放假回老家看父母",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "放假他回老家探望爷爷奶奶。",
+      "angle": 2,
+      "angle_zh": "放假回老家看父母",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "我忘记带钥匙回家取。",
+      "angle": 3,
+      "angle_zh": "忘带东西回家取",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "她忘记带手机回家取。",
+      "angle": 3,
+      "angle_zh": "忘带东西回家取",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "旅行结束后，我坐火车回到城市。",
+      "angle": 4,
+      "angle_zh": "旅行结束回到城市",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "假期结束，我们开车返回城市。",
+      "angle": 4,
+      "angle_zh": "旅行结束回到城市",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "送完朋友，我直接回家了。",
+      "angle": 5,
+      "angle_zh": "送完人再返回家",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "把客人送到车站后，我回到家里。",
+      "angle": 5,
+      "angle_zh": "送完人再返回家",
+      "micro": "work",
+      "micro_zh": "工作日常"
+    },
+    {
+      "zh": "我回学校取毕业证。",
+      "angle": 6,
+      "angle_zh": "回学校取毕业证",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "他回学校拿毕业证。",
+      "angle": 6,
+      "angle_zh": "回学校取毕业证",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "出院后我回家休息。",
+      "angle": 7,
+      "angle_zh": "从医院回家休息",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "看完病我就回家休息了。",
+      "angle": 7,
+      "angle_zh": "从医院回家休息",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "吃完午饭，我回到办公室继续工作。",
+      "angle": 8,
+      "angle_zh": "吃完饭再回办公室",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "午休结束后，我回到公司上班。",
+      "angle": 8,
+      "angle_zh": "吃完饭再回办公室",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "我回到酒店拿行李。",
+      "angle": 9,
+      "angle_zh": "回到酒店拿行李",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "旅行结束前，我们回到酒店取行李。",
+      "angle": 9,
+      "angle_zh": "回到酒店拿行李",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "休息完，我回到座位上继续工作。",
+      "angle": 10,
+      "angle_zh": "回到座位上继续工作",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    },
+    {
+      "zh": "接完电话，我回到座位继续写报告。",
+      "angle": 10,
+      "angle_zh": "回到座位上继续工作",
+      "micro": "travel",
+      "micro_zh": "出行回家"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -1,0 +1,147 @@
+{
+  "scene": "phrasal_calm_down",
+  "pattern": "phrasal_calm_down",
+  "items": [
+    {
+      "zh": "孩子哭闹，我只好耐心哄他冷静下来。",
+      "angle": 1,
+      "angle_zh": "孩子哭闹安慰他",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "朋友很生气，我劝他先冷静下来。",
+      "angle": 2,
+      "angle_zh": "朋友生气劝他冷静",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "他很生气，你应该让他冷静一下。",
+      "angle": 2,
+      "angle_zh": "朋友生气劝他冷静",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "我刚才太着急了，先冷静一下再说。",
+      "angle": 3,
+      "angle_zh": "自己紧张时深呼吸",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "你别紧张，深呼吸几下让自己冷静下来。",
+      "angle": 3,
+      "angle_zh": "自己紧张时深呼吸",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "出了意外，大家先冷静下来。",
+      "angle": 4,
+      "angle_zh": "遇到麻烦别着急",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "看到危险的情况，你必须先冷静下来。",
+      "angle": 4,
+      "angle_zh": "遇到麻烦别着急",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "开车时别急，遇到情况先慢点。",
+      "angle": 5,
+      "angle_zh": "开车慢一点",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "你说得太快了，能不能慢点？",
+      "angle": 6,
+      "angle_zh": "说话慢一点",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "房间太乱了，你得收拾一下。",
+      "angle": 7,
+      "angle_zh": "收拾房间",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "厨房油腻腻的，你得打扫一下。",
+      "angle": 8,
+      "angle_zh": "打扫厨房",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "吃完饭后，你得收拾厨房。",
+      "angle": 8,
+      "angle_zh": "打扫厨房",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "遇到堵车别急，先放松一下。",
+      "angle": 9,
+      "angle_zh": "清理桌上的东西",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "书桌上堆满东西，你得清理一下。",
+      "angle": 9,
+      "angle_zh": "清理桌上的东西",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "过了一晚，他慢慢平静下来了。",
+      "angle": 10,
+      "angle_zh": "事后慢慢平静下来",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "遇到问题别着急，先冷静一下。",
+      "angle": 4,
+      "angle_zh": "遇到麻烦别着急",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "出了点差错，先冷静一下再说。",
+      "angle": 4,
+      "angle_zh": "遇到麻烦别着急",
+      "micro": "emotion",
+      "micro_zh": "情绪"
+    },
+    {
+      "zh": "说话快了别人听不懂，你得慢点说。",
+      "angle": 6,
+      "angle_zh": "说话慢一点",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "你别急，慢慢说清楚。",
+      "angle": 6,
+      "angle_zh": "说话慢一点",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    },
+    {
+      "zh": "吃完饭我把厨房打扫干净了。",
+      "angle": 7,
+      "angle_zh": "收拾房间",
+      "micro": "space",
+      "micro_zh": "收拾整理"
+    }
+  ],
+  "source": "plan+manual"
+}

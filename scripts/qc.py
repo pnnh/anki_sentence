@@ -155,7 +155,9 @@ def main():
         if cjk_len(zh) > 45:
             add_issue(issues, "warn", "zh_too_long", rec, str(cjk_len(zh)))
         words = WORD_RE.findall(en)
-        max_words = {"个人叙事": 24, "语法句型": 18}.get(scene.get("group") if scene else "", 16)
+        max_words = {"个人叙事": 24, "语法句型": 18, "短语动词": 18, "口语衔接": 20}.get(
+            scene.get("group") if scene else "", 16
+        )
         if len(words) < 4 or len(words) > max_words:
             add_issue(issues, "warn", "en_word_count", rec, str(len(words)))
         if en and en[-1] not in ".?!":

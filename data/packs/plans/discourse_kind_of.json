@@ -1,0 +1,147 @@
+{
+  "scene": "discourse_kind_of",
+  "pattern": "discourse_kind_of",
+  "items": [
+    {
+      "zh": "有点累想休息一下。",
+      "angle": 1,
+      "angle_zh": "有点累想休息",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "这个问题有点复杂，我不太确定。",
+      "angle": 1,
+      "angle_zh": "有点累想休息",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "这件事有点麻烦，我得再想想。",
+      "angle": 2,
+      "angle_zh": "这件事有点麻烦",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "我有点担心这次的结果。",
+      "angle": 2,
+      "angle_zh": "这件事有点麻烦",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "这双鞋有点贵，我再看看别的。",
+      "angle": 3,
+      "angle_zh": "稍微有点贵",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "那个包有点贵，但我挺喜欢的。",
+      "angle": 3,
+      "angle_zh": "稍微有点贵",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "我有点担心明天的考试。",
+      "angle": 4,
+      "angle_zh": "我有点担心",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "今天有点冷，我穿了件厚外套。",
+      "angle": 5,
+      "angle_zh": "今天有点冷",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "今天有点冷，你带手套了吗？",
+      "angle": 5,
+      "angle_zh": "今天有点冷",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    },
+    {
+      "zh": "这道菜有点辣，我少吃点。",
+      "angle": 6,
+      "angle_zh": "这道菜有点辣",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "这道菜有点辣，我不能多吃。",
+      "angle": 6,
+      "angle_zh": "这道菜有点辣",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "他今天有点不高兴，没来上课。",
+      "angle": 7,
+      "angle_zh": "他有点不高兴",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "他今天有点不高兴，好像遇到什么烦心事。",
+      "angle": 7,
+      "angle_zh": "他有点不高兴",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "这个房间有点小，我感觉有点拥挤。",
+      "angle": 8,
+      "angle_zh": "房间稍微小一点",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "那个房间稍微小一点，但我挺喜欢的。",
+      "angle": 8,
+      "angle_zh": "房间稍微小一点",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "有点想家，我给妈妈打了电话。",
+      "angle": 9,
+      "angle_zh": "有点想家",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "今天有点想家，我打算回家看看。",
+      "angle": 9,
+      "angle_zh": "有点想家",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "这次旅行有点累，不过还算顺利。",
+      "angle": 10,
+      "angle_zh": "还算顺利",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "这次旅行还算顺利，路上有点堵车。",
+      "angle": 10,
+      "angle_zh": "还算顺利",
+      "micro": "degree",
+      "micro_zh": "程度"
+    },
+    {
+      "zh": "事情虽然有点波折，不过还算顺利。",
+      "angle": 1,
+      "angle_zh": "有点累想休息",
+      "micro": "feeling",
+      "micro_zh": "感受"
+    }
+  ],
+  "source": "plan+manual"
+}
