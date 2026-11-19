@@ -1,0 +1,490 @@
+.github/workflows/build.yml
+  h_6465a203f88bd5 56-63
+README.md
+  h_6465a203f88bd5 5-6,13-15,22-23,37-38,47-54,108-117,152,160,180-181
+config/scenes.toml
+  h_6465a203f88bd5 458-836
+data/packs/final/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_future_will.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_passive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_childhood.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_relationships.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/overrides.json
+  h_6465a203f88bd5 1-65
+data/packs/patches/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_future_will.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_passive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_childhood.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_relationships.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/plans/grammar_comparatives.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_first_conditional.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_future_going_to.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_future_will.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_gerund_infinitive.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_modals_obligation.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_passive.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_past_continuous.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_past_simple.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_present_perfect.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_relative_clauses.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_reported_speech.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_second_conditional.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_tag_questions.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_used_to.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_childhood.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_daily_routine.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_future_plans.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_health_habits.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_last_weekend.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_movies_books.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_relationships.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_travel_story.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_wishes_regrets.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/narrative_work_study_problems.json
+  h_6465a203f88bd5 1-147
+data/packs/polished/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_future_will.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_passive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_childhood.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_relationships.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/seeds/grammar.jsonl
+  h_6465a203f88bd5 1-300
+data/packs/seeds/narrative.jsonl
+  h_6465a203f88bd5 1-200
+data/packs/sentences/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_future_will.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_passive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_childhood.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_relationships.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1-20
+data/pilot/final/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/final/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/final/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_future_will.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_passive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/final/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/final/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/final/narrative_childhood.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_relationships.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1
+data/pilot/final/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/patches/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/patches/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_future_will.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_passive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/patches/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/patches/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/patches/narrative_childhood.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_relationships.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1
+data/pilot/patches/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/polished/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/polished/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_future_will.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_passive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/polished/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/polished/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/polished/narrative_childhood.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_relationships.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1
+data/pilot/polished/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_comparatives.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/sentences/grammar_first_conditional.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/sentences/grammar_future_going_to.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_future_will.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_gerund_infinitive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_modals_obligation.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_passive.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_past_continuous.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_past_simple.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/sentences/grammar_present_perfect.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/sentences/grammar_relative_clauses.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_reported_speech.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_second_conditional.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_tag_questions.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/grammar_used_to.jsonl
+  h_6465a203f88bd5 1-2
+data/pilot/sentences/narrative_childhood.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_daily_routine.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_future_plans.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_health_habits.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_last_weekend.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_movies_books.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_relationships.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_travel_story.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_wishes_regrets.jsonl
+  h_6465a203f88bd5 1
+data/pilot/sentences/narrative_work_study_problems.jsonl
+  h_6465a203f88bd5 1
+prompts/generate_pack.txt
+  h_6465a203f88bd5 1-23
+scripts/build_release.py
+  h_6465a203f88bd5 18,26,36,38-51,100,102-105,130-133,140
+scripts/generate_packs.py
+  h_6465a203f88bd5 1-589
+scripts/import_anki.py
+  h_6465a203f88bd5 119,126-127
+scripts/pack_patterns.py
+  h_6465a203f88bd5 1-382
+scripts/pilot_packs.py
+  h_6465a203f88bd5 1-613
+scripts/polish.py
+  h_6465a203f88bd5 33-34,41,49,76,88,94-95,164-166,185
+scripts/qc.py
+  h_6465a203f88bd5 158-159,231-232
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9b3a0136239a6eda7ba907ef4596822417c46423",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
