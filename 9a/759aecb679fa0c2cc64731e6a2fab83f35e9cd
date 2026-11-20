@@ -1,0 +1,271 @@
+data/packs/final/coll_make.jsonl
+  s_9aefe4a2760245::t_0aa015dfaa05df 19
+data/packs/final/discourse_at_least.jsonl
+  s_9aefe4a2760245::t_b23376a94e0a71 20
+data/packs/final/func_offers.jsonl
+  s_9aefe4a2760245::t_0be17f39f496af 20
+data/packs/final/grammar_causative.jsonl
+  s_9aefe4a2760245::t_95dd1f15aa167e 11,13
+data/packs/final/grammar_first_conditional.jsonl
+  s_9aefe4a2760245::t_c5ea5968f6f7ec 17
+data/packs/final/grammar_modals_deduction.jsonl
+  s_9aefe4a2760245::t_4fc1495d067577 5
+data/packs/final/grammar_modals_obligation.jsonl
+  s_9aefe4a2760245::t_7e9778746c9526 15
+data/packs/final/grammar_prepositions_time.jsonl
+  s_9aefe4a2760245::t_d13013c7e6a930 17
+data/packs/final/grammar_relative_clauses.jsonl
+  s_9aefe4a2760245::t_d8828065d38e60 8
+data/packs/final/narrative_future_plans.jsonl
+  s_9aefe4a2760245::t_c5f8fa6e208061 6
+data/packs/final/narrative_last_weekend.jsonl
+  s_9aefe4a2760245::t_5d028345690804 2
+data/packs/final/phrasal_calm_down.jsonl
+  s_9aefe4a2760245::t_7c439d3ca42909 4
+data/packs/final/word_pairs_win_earn.jsonl
+  s_9aefe4a2760245::t_f4336ab7c26355 13
+data/packs/overrides.json
+  s_9aefe4a2760245::t_a7b5ab5c212c22 115,255,399,447,450,452,478,483,503,532,611,615,654,935
+data/review_35b/acceptance_20261120/validator_before.py
+  s_9aefe4a2760245::t_1c122e4908051a 1-1505
+data/review_35b/focused_20261120_01/attempts.jsonl
+  s_9aefe4a2760245::t_d9c7e3d554e466 1-31
+data/review_35b/focused_20261120_01/baseline.json
+  s_9aefe4a2760245::t_e668fec893f5cd 1-269
+data/review_35b/focused_20261120_01/carry_forward.jsonl
+  s_9aefe4a2760245::t_a28f98af7781a7 1-34
+data/review_35b/focused_20261120_01/independent_review_1.jsonl
+  s_9aefe4a2760245::t_205ea88f8f2c34 1-50
+data/review_35b/focused_20261120_01/independent_review_2.jsonl
+  s_9aefe4a2760245::t_b3edffc499261a 1-50
+data/review_35b/focused_20261120_01/input.jsonl
+  s_9aefe4a2760245::t_60a31ab982d05c 1-100
+data/review_35b/focused_20261120_01/model_failures.jsonl
+  s_9aefe4a2760245::t_73a160610e2f29 1
+data/review_35b/focused_20261120_01/model_reviews.jsonl
+  s_9aefe4a2760245::t_89d0330adcc026 1-99
+data/review_35b/focused_20261120_01/review_decisions.jsonl
+  s_9aefe4a2760245::t_27a802a5556ec4 1-100
+data/review_35b/focused_20261120_01/run.json
+  s_9aefe4a2760245::t_ee48ba4a1f3443 1-13
+data/review_35b/merge_20261120/applied.json
+  s_9aefe4a2760245::t_b25d2952e66604 1-59
+data/review_35b/merge_20261120/approval.json
+  s_9aefe4a2760245::t_e5ef97d38fb216 1-1325
+data/review_35b/merge_20261120/backup/data/packs/final/coll_make.jsonl
+  s_9aefe4a2760245::t_897e5c1b685394 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/discourse_at_least.jsonl
+  s_9aefe4a2760245::t_19c9911e8798e9 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/func_offers.jsonl
+  s_9aefe4a2760245::t_45740fee2f5303 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_causative.jsonl
+  s_9aefe4a2760245::t_8be61727b396e2 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_first_conditional.jsonl
+  s_9aefe4a2760245::t_d5d8cf930e17c9 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_modals_deduction.jsonl
+  s_9aefe4a2760245::t_ffad768d70f876 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_modals_obligation.jsonl
+  s_9aefe4a2760245::t_8620f74ce7d3d3 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_prepositions_time.jsonl
+  s_9aefe4a2760245::t_863ca46fd139db 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/grammar_relative_clauses.jsonl
+  s_9aefe4a2760245::t_17ef121368dd06 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/narrative_future_plans.jsonl
+  s_9aefe4a2760245::t_f02705786b583b 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/narrative_last_weekend.jsonl
+  s_9aefe4a2760245::t_0f69d964ffe631 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/phrasal_calm_down.jsonl
+  s_9aefe4a2760245::t_a9db23eb536794 1-20
+data/review_35b/merge_20261120/backup/data/packs/final/word_pairs_win_earn.jsonl
+  s_9aefe4a2760245::t_6303de25a2e3a9 1-20
+data/review_35b/merge_20261120/backup/data/packs/overrides.json
+  s_9aefe4a2760245::t_1e94d5225ab31f 1-934
+data/review_35b/merge_20261120/backup/data/sentences_polished/airport.jsonl
+  s_9aefe4a2760245::t_c4c5eced3688d4 1-214
+data/review_35b/merge_20261120/backup/data/sentences_polished/cafe_fastfood.jsonl
+  s_9aefe4a2760245::t_2a416e897327c4 1-107
+data/review_35b/merge_20261120/backup/data/sentences_polished/car_parking.jsonl
+  s_9aefe4a2760245::t_9c2ab935aba422 1-111
+data/review_35b/merge_20261120/backup/data/sentences_polished/courier.jsonl
+  s_9aefe4a2760245::t_b5e127dc2444dc 1-130
+data/review_35b/merge_20261120/backup/data/sentences_polished/directions.jsonl
+  s_9aefe4a2760245::t_220a114870084e 1-131
+data/review_35b/merge_20261120/backup/data/sentences_polished/doctor_pharmacy.jsonl
+  s_9aefe4a2760245::t_f30ad7561e094c 1-167
+data/review_35b/merge_20261120/backup/data/sentences_polished/food_delivery.jsonl
+  s_9aefe4a2760245::t_d33345fe011da7 1-144
+data/review_35b/merge_20261120/backup/data/sentences_polished/hair_salon.jsonl
+  s_9aefe4a2760245::t_2e8aa21d33a6da 1-110
+data/review_35b/merge_20261120/backup/data/sentences_polished/hotel.jsonl
+  s_9aefe4a2760245::t_7023363a399265 1-158
+data/review_35b/merge_20261120/backup/data/sentences_polished/online_shopping.jsonl
+  s_9aefe4a2760245::t_3fd53796296d67 1-176
+data/review_35b/merge_20261120/backup/data/sentences_polished/phone_internet.jsonl
+  s_9aefe4a2760245::t_0f4d13509e7d1a 1-119
+data/review_35b/merge_20261120/backup/data/sentences_polished/phone_service.jsonl
+  s_9aefe4a2760245::t_d0044715f2f128 1-150
+data/review_35b/merge_20261120/backup/data/sentences_polished/public_transport.jsonl
+  s_9aefe4a2760245::t_d3b21ca4740a92 1-160
+data/review_35b/merge_20261120/backup/data/sentences_polished/renting_repair.jsonl
+  s_9aefe4a2760245::t_751539a16652b9 1-150
+data/review_35b/merge_20261120/backup/data/sentences_polished/restaurant.jsonl
+  s_9aefe4a2760245::t_debc3731e4f0fb 1-190
+data/review_35b/merge_20261120/backup/data/sentences_polished/shopping_clothes.jsonl
+  s_9aefe4a2760245::t_7eec80031e0a99 1-192
+data/review_35b/merge_20261120/backup/data/sentences_polished/sightseeing.jsonl
+  s_9aefe4a2760245::t_fe6d15868c1e53 1-148
+data/review_35b/merge_20261120/backup/data/sentences_polished/socializing.jsonl
+  s_9aefe4a2760245::t_f1a350e20dead9 1-165
+data/review_35b/merge_20261120/backup/data/sentences_polished/supermarket.jsonl
+  s_9aefe4a2760245::t_81cc7633574774 1-176
+data/review_35b/merge_20261120/backup/data/sentences_polished/taxi.jsonl
+  s_9aefe4a2760245::t_e441da55527f6f 1-135
+data/review_35b/merge_20261120/backup/data/sentences_polished/weather_smalltalk.jsonl
+  s_9aefe4a2760245::t_ed37ef5d3a0766 1-120
+data/review_35b/merge_20261120/backup/scripts/polish.py
+  s_9aefe4a2760245::t_024de2b1cf42f0 1-248
+data/review_35b/merge_20261120/publish_journal.jsonl
+  s_9aefe4a2760245::t_684637693150e4 1-36
+data/review_35b/merge_20261120/publish_plan.json
+  s_9aefe4a2760245::t_63665d7d19983f 1-274
+data/review_35b/merge_20261120/rollback.json
+  s_9aefe4a2760245::t_81bfdea42d329f 1-239
+data/review_35b/merge_20261120/staged/data/packs/final/coll_make.jsonl
+  s_9aefe4a2760245::t_bae7caa14d0c1e 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/discourse_at_least.jsonl
+  s_9aefe4a2760245::t_92db54de12d454 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/func_offers.jsonl
+  s_9aefe4a2760245::t_373727b272bc90 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_causative.jsonl
+  s_9aefe4a2760245::t_58187716eb5648 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_first_conditional.jsonl
+  s_9aefe4a2760245::t_1cfae6b214c2d1 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_modals_deduction.jsonl
+  s_9aefe4a2760245::t_ae3b4b3a65ab34 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_modals_obligation.jsonl
+  s_9aefe4a2760245::t_4fb11562d737f1 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_prepositions_time.jsonl
+  s_9aefe4a2760245::t_ed74dfe2c23b1c 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/grammar_relative_clauses.jsonl
+  s_9aefe4a2760245::t_0809854d22c6e8 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/narrative_future_plans.jsonl
+  s_9aefe4a2760245::t_dd554c3ccafb8d 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/narrative_last_weekend.jsonl
+  s_9aefe4a2760245::t_1df056b0b3f6b7 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/phrasal_calm_down.jsonl
+  s_9aefe4a2760245::t_f420dac431f77d 1-20
+data/review_35b/merge_20261120/staged/data/packs/final/word_pairs_win_earn.jsonl
+  s_9aefe4a2760245::t_45e911681b7fee 1-20
+data/review_35b/merge_20261120/staged/data/packs/overrides.json
+  s_9aefe4a2760245::t_0f2a92c6f9b6fe 1-940
+data/review_35b/merge_20261120/staged/data/sentence_overrides.json
+  s_9aefe4a2760245::t_b16448b35badd3 1-48
+data/review_35b/merge_20261120/staged/data/sentences_polished/airport.jsonl
+  s_9aefe4a2760245::t_fff7a7be7a6613 1-214
+data/review_35b/merge_20261120/staged/data/sentences_polished/cafe_fastfood.jsonl
+  s_9aefe4a2760245::t_2c775b5dacf9f6 1-107
+data/review_35b/merge_20261120/staged/data/sentences_polished/car_parking.jsonl
+  s_9aefe4a2760245::t_0cd34e102eddff 1-111
+data/review_35b/merge_20261120/staged/data/sentences_polished/courier.jsonl
+  s_9aefe4a2760245::t_72a534be03458c 1-130
+data/review_35b/merge_20261120/staged/data/sentences_polished/directions.jsonl
+  s_9aefe4a2760245::t_a43fd2733e68c7 1-131
+data/review_35b/merge_20261120/staged/data/sentences_polished/doctor_pharmacy.jsonl
+  s_9aefe4a2760245::t_addec2a41e5f99 1-167
+data/review_35b/merge_20261120/staged/data/sentences_polished/food_delivery.jsonl
+  s_9aefe4a2760245::t_86d289ee8de45c 1-144
+data/review_35b/merge_20261120/staged/data/sentences_polished/hair_salon.jsonl
+  s_9aefe4a2760245::t_f65942ec07d26f 1-110
+data/review_35b/merge_20261120/staged/data/sentences_polished/hotel.jsonl
+  s_9aefe4a2760245::t_ab8675b682e570 1-158
+data/review_35b/merge_20261120/staged/data/sentences_polished/online_shopping.jsonl
+  s_9aefe4a2760245::t_2d09b7631330d7 1-176
+data/review_35b/merge_20261120/staged/data/sentences_polished/phone_internet.jsonl
+  s_9aefe4a2760245::t_bd891f5ef3ce15 1-119
+data/review_35b/merge_20261120/staged/data/sentences_polished/phone_service.jsonl
+  s_9aefe4a2760245::t_f9bc86a07674dc 1-150
+data/review_35b/merge_20261120/staged/data/sentences_polished/public_transport.jsonl
+  s_9aefe4a2760245::t_028deeb308fd5e 1-160
+data/review_35b/merge_20261120/staged/data/sentences_polished/renting_repair.jsonl
+  s_9aefe4a2760245::t_bf8db3243656b1 1-150
+data/review_35b/merge_20261120/staged/data/sentences_polished/restaurant.jsonl
+  s_9aefe4a2760245::t_c3257aa25ee2e4 1-190
+data/review_35b/merge_20261120/staged/data/sentences_polished/shopping_clothes.jsonl
+  s_9aefe4a2760245::t_a63f46df43a671 1-192
+data/review_35b/merge_20261120/staged/data/sentences_polished/sightseeing.jsonl
+  s_9aefe4a2760245::t_d79bf28b339ac2 1-148
+data/review_35b/merge_20261120/staged/data/sentences_polished/socializing.jsonl
+  s_9aefe4a2760245::t_806d4bae15ad57 1-165
+data/review_35b/merge_20261120/staged/data/sentences_polished/supermarket.jsonl
+  s_9aefe4a2760245::t_2894e8dfae20b5 1-176
+data/review_35b/merge_20261120/staged/data/sentences_polished/taxi.jsonl
+  s_9aefe4a2760245::t_f262fc4954c5fb 1-135
+data/review_35b/merge_20261120/staged/data/sentences_polished/weather_smalltalk.jsonl
+  s_9aefe4a2760245::t_d550ec54eef3ce 1-120
+data/review_35b/pilot_20261120/new_collisions.json
+  s_9aefe4a2760245::t_da894f30efb891 1
+data/sentence_overrides.json
+  s_9aefe4a2760245::t_3177e97d3122b3 1-48
+data/sentences_polished/airport.jsonl
+  s_9aefe4a2760245::t_57eb72e58f3640 34,170
+data/sentences_polished/cafe_fastfood.jsonl
+  s_9aefe4a2760245::t_ce48ef546587a1 99
+data/sentences_polished/car_parking.jsonl
+  s_9aefe4a2760245::t_995b2d84524676 51
+data/sentences_polished/courier.jsonl
+  s_9aefe4a2760245::t_799a3b84cf581b 93,112
+data/sentences_polished/directions.jsonl
+  s_9aefe4a2760245::t_7b3b22a2520871 59,62,67-69
+data/sentences_polished/doctor_pharmacy.jsonl
+  s_9aefe4a2760245::t_7982171548d67d 16,33,35,138
+data/sentences_polished/food_delivery.jsonl
+  s_9aefe4a2760245::t_e51faa067b15c7 6,112,138
+data/sentences_polished/hair_salon.jsonl
+  s_9aefe4a2760245::t_3cac200174dcf6 3,67
+data/sentences_polished/hotel.jsonl
+  s_9aefe4a2760245::t_1650cc3023b471 97
+data/sentences_polished/online_shopping.jsonl
+  s_9aefe4a2760245::t_d765987d13d5f5 45,136,160
+data/sentences_polished/phone_internet.jsonl
+  s_9aefe4a2760245::t_efbdf43aa17905 89
+data/sentences_polished/phone_service.jsonl
+  s_9aefe4a2760245::t_82c1276a19043e 28
+data/sentences_polished/public_transport.jsonl
+  s_9aefe4a2760245::t_341671a49c0fe9 95
+data/sentences_polished/renting_repair.jsonl
+  s_9aefe4a2760245::t_0cec5b949193fc 102,117,125,127,129-130
+data/sentences_polished/restaurant.jsonl
+  s_9aefe4a2760245::t_d8ad4cfee3ec60 46
+data/sentences_polished/shopping_clothes.jsonl
+  s_9aefe4a2760245::t_0384667ca49c4f 32,191
+data/sentences_polished/sightseeing.jsonl
+  s_9aefe4a2760245::t_b7d7b8e94f0b65 82
+data/sentences_polished/socializing.jsonl
+  s_9aefe4a2760245::t_16a07a2c2a77ae 97,113-114,116,153
+data/sentences_polished/supermarket.jsonl
+  s_9aefe4a2760245::t_27380fce4bdcbf 16,167
+data/sentences_polished/taxi.jsonl
+  s_9aefe4a2760245::t_f475b3714b3654 36
+data/sentences_polished/weather_smalltalk.jsonl
+  s_9aefe4a2760245::t_c3fc0e33b20d3c 101
+scripts/audit_pilot.py
+  s_9aefe4a2760245::t_cc7a648bb314e7 1-537
+scripts/test_polish_overrides.py
+  s_9aefe4a2760245::t_c94f1d0f196939 1-374
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a759aecb679fa0c2cc64731e6a2fab83f35e9cd",
+  "prompts": {},
+  "sessions": {
+    "s_9aefe4a2760245": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48d90204-caa4-4c1c-8d56-1c633be7693d",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
