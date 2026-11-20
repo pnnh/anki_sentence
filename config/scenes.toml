@@ -1209,3 +1209,1161 @@ micros = [
   { id = "intentional", zh = "故意" },
   { id = "accident", zh = "不小心" },
 ]
+
+[[scenes]]
+id = "func_requests"
+zh = "功能·礼貌请求"
+en = "Functional: Polite Requests"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_requests"
+micros = [
+  { id = "work", zh = "工作与生活请求" },
+  { id = "outside", zh = "外出与服务" },
+]
+
+[[scenes]]
+id = "func_permission"
+zh = "功能·请求许可"
+en = "Functional: Asking Permission"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_permission"
+micros = [
+  { id = "work", zh = "工作场合" },
+  { id = "daily", zh = "日常场合" },
+]
+
+[[scenes]]
+id = "func_suggestions"
+zh = "功能·提出建议"
+en = "Functional: Making Suggestions"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_suggestions"
+micros = [
+  { id = "work", zh = "工作建议" },
+  { id = "life", zh = "生活建议" },
+]
+
+[[scenes]]
+id = "func_complaints"
+zh = "功能·表达不满"
+en = "Functional: Complaining Politely"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_complaints"
+micros = [
+  { id = "service", zh = "服务问题" },
+  { id = "people", zh = "身边问题" },
+]
+
+[[scenes]]
+id = "func_apologies"
+zh = "功能·道歉与补救"
+en = "Functional: Apologizing"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_apologies"
+micros = [
+  { id = "mistake", zh = "小失误" },
+  { id = "others", zh = "影响他人" },
+]
+
+[[scenes]]
+id = "func_clarification"
+zh = "功能·澄清与确认"
+en = "Functional: Clarifying"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_clarification"
+micros = [
+  { id = "hearing", zh = "听清信息" },
+  { id = "details", zh = "确认细节" },
+]
+
+[[scenes]]
+id = "func_negotiation"
+zh = "功能·商量协商"
+en = "Functional: Negotiating"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_negotiation"
+micros = [
+  { id = "service", zh = "服务协商" },
+  { id = "work", zh = "工作协商" },
+]
+
+[[scenes]]
+id = "func_opinions"
+zh = "功能·表达看法"
+en = "Functional: Giving Opinions"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_opinions"
+micros = [
+  { id = "review", zh = "评价好坏" },
+  { id = "choice", zh = "选择取舍" },
+]
+
+[[scenes]]
+id = "func_agreement"
+zh = "功能·表示同意"
+en = "Functional: Agreeing"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_agreement"
+micros = [
+  { id = "opinion", zh = "赞同观点" },
+  { id = "plan", zh = "接受安排" },
+]
+
+[[scenes]]
+id = "func_disagreement"
+zh = "功能·表示不同意"
+en = "Functional: Disagreeing Politely"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_disagreement"
+micros = [
+  { id = "opinion", zh = "不同意观点" },
+  { id = "plan", zh = "反对安排" },
+]
+
+[[scenes]]
+id = "func_refusal"
+zh = "功能·委婉拒绝"
+en = "Functional: Refusing Politely"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_refusal"
+micros = [
+  { id = "request", zh = "拒绝请求" },
+  { id = "invite", zh = "拒绝邀请" },
+]
+
+[[scenes]]
+id = "func_reassurance"
+zh = "功能·安慰安抚"
+en = "Functional: Reassuring Someone"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_reassurance"
+micros = [
+  { id = "comfort", zh = "安慰他人" },
+  { id = "relax", zh = "让人放心" },
+]
+
+[[scenes]]
+id = "func_invitations"
+zh = "功能·发出邀请"
+en = "Functional: Inviting People"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_invitations"
+micros = [
+  { id = "friends", zh = "朋友同事" },
+  { id = "family", zh = "家人客人" },
+]
+
+[[scenes]]
+id = "func_thanks"
+zh = "功能·感谢与回应"
+en = "Functional: Thanks and Replies"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_thanks"
+micros = [
+  { id = "thanks", zh = "表达感谢" },
+  { id = "reply", zh = "回应感谢" },
+]
+
+[[scenes]]
+id = "func_offers"
+zh = "功能·主动帮忙"
+en = "Functional: Offering Help"
+group = "功能语言"
+phase = 5
+target = 20
+mode = "functional"
+pack = "functional"
+pattern = "func_offers"
+micros = [
+  { id = "people", zh = "帮身边人" },
+  { id = "service", zh = "服务他人" },
+]
+
+[[scenes]]
+id = "coll_make"
+zh = "搭配·make 组合"
+en = "Collocations: Make"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_make"
+micros = [
+  { id = "plan", zh = "决定与计划" },
+  { id = "mistake", zh = "犯错与确认" },
+]
+
+[[scenes]]
+id = "coll_take"
+zh = "搭配·take 组合"
+en = "Collocations: Take"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_take"
+micros = [
+  { id = "rest", zh = "休息与日常" },
+  { id = "travel", zh = "出行与照顾" },
+]
+
+[[scenes]]
+id = "coll_have"
+zh = "搭配·have 组合"
+en = "Collocations: Have"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_have"
+micros = [
+  { id = "chat", zh = "看一看与聊天" },
+  { id = "time", zh = "时间与安排" },
+]
+
+[[scenes]]
+id = "coll_get"
+zh = "搭配·get 组合"
+en = "Collocations: Get"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_get"
+micros = [
+  { id = "ready", zh = "准备与状态" },
+  { id = "chance", zh = "机会与习惯" },
+]
+
+[[scenes]]
+id = "coll_keep_pay"
+zh = "搭配·keep 与 pay"
+en = "Collocations: Keep and Pay"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_keep_pay"
+micros = [
+  { id = "keep", zh = "保持与坚持" },
+  { id = "pay", zh = "付出与费用" },
+]
+
+[[scenes]]
+id = "coll_prepositions"
+zh = "搭配·介词组合"
+en = "Collocations: Prepositions"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_prepositions"
+micros = [
+  { id = "interest", zh = "兴趣与能力" },
+  { id = "expect", zh = "期待与担心" },
+]
+
+[[scenes]]
+id = "coll_word_family_decide"
+zh = "词族·决定与选择"
+en = "Word Families: Decide and Choose"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_word_family_decide"
+micros = [
+  { id = "decide", zh = "决定与建议" },
+  { id = "choose", zh = "选择与解释" },
+]
+
+[[scenes]]
+id = "coll_word_family_success"
+zh = "词族·成功与进步"
+en = "Word Families: Success and Growth"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_word_family_success"
+micros = [
+  { id = "success", zh = "成功与突破" },
+  { id = "growth", zh = "进步与发展" },
+]
+
+[[scenes]]
+id = "coll_frequency"
+zh = "搭配·频率副词"
+en = "Collocations: Frequency Adverbs"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_frequency"
+micros = [
+  { id = "habit", zh = "习惯与频率" },
+  { id = "past", zh = "过去与例外" },
+]
+
+[[scenes]]
+id = "coll_time_money"
+zh = "搭配·时间与金钱"
+en = "Collocations: Time and Money"
+group = "搭配词族"
+phase = 5
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "coll_time_money"
+micros = [
+  { id = "time", zh = "时间安排" },
+  { id = "money", zh = "花钱省钱" },
+]
+
+# ---- Batch 5: grammar 2 + easily confused word pairs ----
+
+[[scenes]]
+id = "grammar_present_continuous"
+zh = "语法·现在进行时"
+en = "Grammar: Present Continuous"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "present_continuous"
+micros = [
+  { id = "now", zh = "此刻正在" },
+  { id = "around", zh = "近期状态" },
+]
+
+[[scenes]]
+id = "grammar_past_perfect"
+zh = "语法·过去完成时"
+en = "Grammar: Past Perfect"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "past_perfect"
+micros = [
+  { id = "before", zh = "过去的过去" },
+  { id = "realize", zh = "事后发现" },
+]
+
+[[scenes]]
+id = "grammar_third_conditional"
+zh = "语法·第三条件句"
+en = "Grammar: Third Conditional"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "third_conditional"
+micros = [
+  { id = "regret", zh = "后悔与假设" },
+  { id = "advice", zh = "事后建议" },
+]
+
+[[scenes]]
+id = "grammar_quantifiers"
+zh = "语法·数量表达"
+en = "Grammar: Quantifiers"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "quantifiers"
+micros = [
+  { id = "countable", zh = "可数与不可数" },
+  { id = "enough", zh = "够与不够" },
+]
+
+[[scenes]]
+id = "grammar_prepositions_time"
+zh = "语法·时间介词"
+en = "Grammar: Prepositions of Time"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "prepositions_time"
+micros = [
+  { id = "clock", zh = "钟点与星期" },
+  { id = "season", zh = "月份与季节" },
+]
+
+[[scenes]]
+id = "grammar_question_words"
+zh = "语法·特殊疑问句"
+en = "Grammar: Wh- Questions"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "question_words"
+micros = [
+  { id = "where_when", zh = "地点与时间" },
+  { id = "why_how", zh = "原因与方式" },
+]
+
+[[scenes]]
+id = "grammar_too_enough"
+zh = "语法·too 与 enough"
+en = "Grammar: Too and Enough"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "too_enough"
+micros = [
+  { id = "too", zh = "太过与不足" },
+  { id = "enough", zh = "足够与底线" },
+]
+
+[[scenes]]
+id = "grammar_so_such"
+zh = "语法·so 与 such"
+en = "Grammar: So and Such"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "so_such"
+micros = [
+  { id = "so", zh = "程度加深" },
+  { id = "such", zh = "感叹与评价" },
+]
+
+[[scenes]]
+id = "grammar_causative"
+zh = "语法·使役结构"
+en = "Grammar: Causatives"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "causative"
+micros = [
+  { id = "repair", zh = "请人修理" },
+  { id = "service", zh = "外包服务" },
+]
+
+[[scenes]]
+id = "grammar_modals_deduction"
+zh = "语法·推测情态"
+en = "Grammar: Modals of Deduction"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "modals_deduction"
+micros = [
+  { id = "present", zh = "对现在的推测" },
+  { id = "past", zh = "对过去的推测" },
+]
+
+[[scenes]]
+id = "grammar_present_perfect_continuous"
+zh = "语法·现在完成进行时"
+en = "Grammar: Present Perfect Continuous"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "present_perfect_continuous"
+micros = [
+  { id = "ongoing", zh = "持续进行" },
+  { id = "recent", zh = "最近状态" },
+]
+
+[[scenes]]
+id = "grammar_indirect_questions"
+zh = "语法·间接疑问句"
+en = "Grammar: Indirect Questions"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "indirect_questions"
+micros = [
+  { id = "ask_way", zh = "问路与询问" },
+  { id = "ask_info", zh = "打听信息" },
+]
+
+[[scenes]]
+id = "grammar_gerund_subject"
+zh = "语法·动名词作主语"
+en = "Grammar: Gerund Subjects"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "gerund_subject"
+micros = [
+  { id = "health", zh = "健康与习惯" },
+  { id = "life", zh = "生活与选择" },
+]
+
+[[scenes]]
+id = "grammar_adverbs_manner"
+zh = "语法·方式副词"
+en = "Grammar: Adverbs of Manner"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "adverbs_manner"
+micros = [
+  { id = "work", zh = "做事方式" },
+  { id = "speak", zh = "说话方式" },
+]
+
+[[scenes]]
+id = "grammar_reflexive_pronouns"
+zh = "语法·反身代词"
+en = "Grammar: Reflexive Pronouns"
+group = "语法进阶"
+phase = 6
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "reflexive_pronouns"
+micros = [
+  { id = "self", zh = "自己动手" },
+  { id = "others", zh = "自己与他人" },
+]
+
+[[scenes]]
+id = "word_pairs_say_tell"
+zh = "词族·say 与 tell"
+en = "Word Pairs: Say and Tell"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_say_tell"
+micros = [
+  { id = "say", zh = "说与讲" },
+  { id = "tell", zh = "告诉与转述" },
+]
+
+[[scenes]]
+id = "word_pairs_speak_talk"
+zh = "词族·speak 与 talk"
+en = "Word Pairs: Speak and Talk"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_speak_talk"
+micros = [
+  { id = "language", zh = "说语言" },
+  { id = "conversation", zh = "交谈与发言" },
+]
+
+[[scenes]]
+id = "word_pairs_borrow_lend"
+zh = "词族·borrow 与 lend"
+en = "Word Pairs: Borrow and Lend"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_borrow_lend"
+micros = [
+  { id = "borrow", zh = "借入" },
+  { id = "lend", zh = "借出" },
+]
+
+[[scenes]]
+id = "word_pairs_bring_take"
+zh = "词族·bring 与 take"
+en = "Word Pairs: Bring and Take"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_bring_take"
+micros = [
+  { id = "bring", zh = "带来" },
+  { id = "take", zh = "带去与拿走" },
+]
+
+[[scenes]]
+id = "word_pairs_learn_study_teach"
+zh = "词族·learn、study 与 teach"
+en = "Word Pairs: Learn, Study, Teach"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_learn_study_teach"
+micros = [
+  { id = "learn", zh = "学会与学习" },
+  { id = "teach", zh = "教与上课" },
+]
+
+[[scenes]]
+id = "word_pairs_see_look_watch"
+zh = "词族·see、look 与 watch"
+en = "Word Pairs: See, Look, Watch"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_see_look_watch"
+micros = [
+  { id = "see", zh = "看见与看到" },
+  { id = "watch", zh = "观看与注视" },
+]
+
+[[scenes]]
+id = "word_pairs_hear_listen"
+zh = "词族·hear 与 listen"
+en = "Word Pairs: Hear and Listen"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_hear_listen"
+micros = [
+  { id = "hear", zh = "听见" },
+  { id = "listen", zh = "倾听" },
+]
+
+[[scenes]]
+id = "word_pairs_hope_wish"
+zh = "词族·hope 与 wish"
+en = "Word Pairs: Hope and Wish"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_hope_wish"
+micros = [
+  { id = "hope", zh = "希望" },
+  { id = "wish", zh = "但愿" },
+]
+
+[[scenes]]
+id = "word_pairs_remember_remind"
+zh = "词族·remember 与 remind"
+en = "Word Pairs: Remember and Remind"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_remember_remind"
+micros = [
+  { id = "remember", zh = "记得" },
+  { id = "remind", zh = "提醒" },
+]
+
+[[scenes]]
+id = "word_pairs_win_earn"
+zh = "词族·win 与 earn"
+en = "Word Pairs: Win and Earn"
+group = "易混词族"
+phase = 6
+target = 20
+mode = "collocation"
+pack = "collocation"
+pattern = "word_pairs_win_earn"
+micros = [
+  { id = "win", zh = "赢与打败" },
+  { id = "earn", zh = "挣钱与赚取" },
+]
+
+[[scenes]]
+id = "role_restaurant"
+zh = "角色·餐厅服务员"
+en = "Role Play: Restaurant Server"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "greet", zh = "接待与点单" },
+  { id = "problem", zh = "上菜与处理问题" },
+]
+angles = [
+  "接待客人并确认人数",
+  "带客人入座或安排等位",
+  "介绍今日推荐菜",
+  "确认点单并复述一遍",
+  "回答菜品价格和分量",
+  "上菜并提醒小心烫",
+  "处理菜品不合口味",
+  "提出换菜或退款方案",
+  "说明营业时间和支付方式",
+  "收拾餐具并道别",
+]
+
+[[scenes]]
+id = "role_hotel"
+zh = "角色·酒店前台"
+en = "Role Play: Hotel Front Desk"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "checkin", zh = "入住与介绍" },
+  { id = "request", zh = "回应客人需求" },
+]
+angles = [
+  "确认预订并核对姓名",
+  "介绍入住和退房时间",
+  "说明房费和押金",
+  "登记身份证件",
+  "介绍早餐和无线网络",
+  "回应房间问题并安排维修",
+  "提供行李寄存服务",
+  "推荐房型或安排换房",
+  "提醒退房时间",
+  "道别并祝住得愉快",
+]
+
+[[scenes]]
+id = "role_clinic"
+zh = "角色·诊所医生"
+en = "Role Play: Clinic Doctor"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "ask", zh = "问诊与建议" },
+  { id = "explain", zh = "解释用药与复诊" },
+]
+angles = [
+  "询问病人哪里不舒服",
+  "询问症状持续多久",
+  "量体温或测血压",
+  "说明挂号费和缴费地点",
+  "开药并说明用法",
+  "提醒饮食和休息",
+  "安排复诊时间",
+  "解释检查流程",
+  "回答多久能好",
+  "安抚病人并道别",
+]
+
+[[scenes]]
+id = "role_driver"
+zh = "角色·出租车司机"
+en = "Role Play: Taxi Driver"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "route", zh = "确认路线与到达" },
+  { id = "pay", zh = "收费与提醒" },
+]
+angles = [
+  "确认目的地",
+  "询问走高速还是市里",
+  "说明大概车费",
+  "提醒系好安全带",
+  "介绍预计到达时间",
+  "遇到堵车说明情况",
+  "回答能不能刷卡或扫码",
+  "到达后提醒带好随身物品",
+  "找零或开发票",
+  "道别并提醒下车小心",
+]
+
+[[scenes]]
+id = "role_landlord"
+zh = "角色·房东"
+en = "Role Play: Landlord"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "show", zh = "带看与介绍房屋" },
+  { id = "rule", zh = "说明规则与维修" },
+]
+angles = [
+  "确认看房时间",
+  "介绍房子面积和楼层",
+  "说明月租和押金",
+  "说明水电费怎么算",
+  "介绍家具和家电",
+  "说明能不能养宠物",
+  "回答什么时候可以入住",
+  "介绍周边超市和地铁",
+  "约签合同的时间",
+  "留下联系方式",
+]
+
+[[scenes]]
+id = "role_teacher"
+zh = "角色·老师"
+en = "Role Play: Teacher"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "class", zh = "课堂安排与提醒" },
+  { id = "feedback", zh = "反馈与鼓励" },
+]
+angles = [
+  "确认上课时间",
+  "介绍课程内容和进度",
+  "布置本周作业",
+  "提醒带课本和文具",
+  "回答班级人数",
+  "说明学费和请假规则",
+  "反馈孩子的课堂表现",
+  "建议在家怎么练习",
+  "安排测验或家长会",
+  "鼓励学生并道别",
+]
+
+[[scenes]]
+id = "role_shop"
+zh = "角色·商店店员"
+en = "Role Play: Shop Assistant"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "help", zh = "介绍商品与建议" },
+  { id = "pay", zh = "结账与售后" },
+]
+angles = [
+  "打招呼并问需要什么",
+  "介绍商品价格",
+  "推荐合适的尺码或颜色",
+  "说明库存还有没有",
+  "回答问题或使用方法",
+  "告诉试衣间在哪里",
+  "说明促销和会员价",
+  "结账并问支付方式",
+  "说明退换货规则",
+  "道别欢迎再来",
+]
+
+[[scenes]]
+id = "role_support"
+zh = "角色·客服"
+en = "Role Play: Customer Support"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "listen", zh = "确认问题与流程" },
+  { id = "fix", zh = "给出方案与跟进" },
+]
+angles = [
+  "确认订单号或账号",
+  "复述客户遇到的问题",
+  "说明处理需要多长时间",
+  "解释退换货政策",
+  "提供两个解决方案",
+  "确认地址和联系方式",
+  "告知退款多久到账",
+  "提醒后续怎么查询进度",
+  "为不便道歉",
+  "结束通话并道别",
+]
+
+[[scenes]]
+id = "role_neighbor"
+zh = "角色·邻居"
+en = "Role Play: Neighbor"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "borrow", zh = "借东西与帮忙" },
+  { id = "noise", zh = "噪音与协调" },
+]
+angles = [
+  "打招呼并自我介绍",
+  "问能不能借工具或调料",
+  "说明借用多久",
+  "感谢并归还东西",
+  "提醒楼道不要放杂物",
+  "商量噪音或装修时间",
+  "告知可以代收快递",
+  "邀请一起吃饭或散步",
+  "说明物业电话",
+  "道别并说有事随时敲门",
+]
+
+[[scenes]]
+id = "role_interviewer"
+zh = "角色·面试官"
+en = "Role Play: Interviewer"
+group = "角色反转"
+phase = 7
+target = 20
+mode = "roleplay"
+pack = "roleplay"
+pattern = "roleplay"
+micros = [
+  { id = "ask", zh = "询问经历与能力" },
+  { id = "brief", zh = "介绍岗位与流程" },
+]
+angles = [
+  "请对方做个自我介绍",
+  "询问上一份工作和职责",
+  "询问为什么想换工作",
+  "询问擅长的技能",
+  "说明岗位职责",
+  "介绍上班时间和薪资结构",
+  "说明试用期和培训",
+  "回答对方的问题",
+  "告知后续面试流程",
+  "感谢对方并道别",
+]
+
+[[scenes]]
+id = "dlg_cafe"
+zh = "对话·咖啡店点单"
+en = "Dialogue: Ordering at a Cafe"
+group = "多轮对话"
+phase = 7
+target = 20
+mode = "dialogue"
+pack = "dialogue"
+pattern = "dialogue"
+micros = [
+  { id = "ask", zh = "顾客询问" },
+  { id = "answer", zh = "店员回应" },
+]
+angles = [
+  "问营业时间",
+  "问饮品价格",
+  "问有没有无糖或素食选择",
+  "问能不能外带",
+  "问无线网络密码",
+  "点单并确认温度或杯型",
+  "问需要等多久",
+  "问有没有会员优惠",
+  "问能不能分开付款",
+  "道谢并道别",
+]
+
+[[scenes]]
+id = "dlg_clinic"
+zh = "对话·诊所预约"
+en = "Dialogue: Booking at a Clinic"
+group = "多轮对话"
+phase = 7
+target = 20
+mode = "dialogue"
+pack = "dialogue"
+pattern = "dialogue"
+micros = [
+  { id = "ask", zh = "病人询问" },
+  { id = "answer", zh = "前台回应" },
+]
+angles = [
+  "问今天还能不能挂号",
+  "问挂号费多少",
+  "预约明天上午的号",
+  "说明头疼或发烧症状",
+  "问要不要空腹检查",
+  "问药怎么吃",
+  "问多久复诊一次",
+  "问能不能开病假条",
+  "确认预约时间",
+  "道谢并道别",
+]
+
+[[scenes]]
+id = "dlg_rent"
+zh = "对话·租房看房"
+en = "Dialogue: Renting a Flat"
+group = "多轮对话"
+phase = 7
+target = 20
+mode = "dialogue"
+pack = "dialogue"
+pattern = "dialogue"
+micros = [
+  { id = "ask", zh = "租客询问" },
+  { id = "answer", zh = "房东回应" },
+]
+angles = [
+  "问租金和押金",
+  "问什么时候能看房",
+  "问房子多大",
+  "问离地铁多远",
+  "问能不能养宠物",
+  "问水电怎么算",
+  "问家具是否齐全",
+  "问最短租多久",
+  "约签合同的时间",
+  "道谢并道别",
+]
+
+[[scenes]]
+id = "dlg_travel"
+zh = "对话·问路与交通"
+en = "Dialogue: Asking for Directions"
+group = "多轮对话"
+phase = 7
+target = 20
+mode = "dialogue"
+pack = "dialogue"
+pattern = "dialogue"
+micros = [
+  { id = "ask", zh = "路人询问" },
+  { id = "answer", zh = "对方指路" },
+]
+angles = [
+  "问地铁站怎么走",
+  "问坐几号线",
+  "问到目的地要多久",
+  "问票价多少",
+  "问末班车几点",
+  "问在哪一站换乘",
+  "问附近有没有公交站",
+  "问能不能打车到",
+  "确认路线方向",
+  "道谢并道别",
+]
+
+[[scenes]]
+id = "dlg_return"
+zh = "对话·退换商品"
+en = "Dialogue: Returning an Item"
+group = "多轮对话"
+phase = 7
+target = 20
+mode = "dialogue"
+pack = "dialogue"
+pattern = "dialogue"
+micros = [
+  { id = "ask", zh = "顾客说明情况" },
+  { id = "answer", zh = "店员处理" },
+]
+angles = [
+  "说明要退换商品",
+  "说明商品的问题",
+  "问退换期限",
+  "问需要带什么凭证",
+  "问能不能换成别的颜色",
+  "问退款多久到账",
+  "问能不能换货不退款",
+  "确认处理结果",
+  "留下联系方式",
+  "道谢并道别",
+]
+

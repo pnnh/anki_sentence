@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_hope_wish",
+  "pattern": "word_pairs_hope_wish",
+  "items": [
+    {
+      "zh": "希望明天天气好一点。",
+      "angle": 1,
+      "angle_zh": "希望明天天气好",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望明天不要下雨。",
+      "angle": 1,
+      "angle_zh": "希望明天天气好",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望你能来参加聚会。",
+      "angle": 2,
+      "angle_zh": "希望你能来",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望大家玩得开心。",
+      "angle": 2,
+      "angle_zh": "希望你能来",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望这次考试能通过。",
+      "angle": 3,
+      "angle_zh": "希望考试通过",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望他能早点好起来。",
+      "angle": 3,
+      "angle_zh": "希望考试通过",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望我们能早点到家。",
+      "angle": 4,
+      "angle_zh": "希望早点到家",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "希望这次旅行一切顺利。",
+      "angle": 4,
+      "angle_zh": "希望早点到家",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "但愿明天别再下雨。",
+      "angle": 5,
+      "angle_zh": "但愿别再下雨",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "但愿这次我没有迟到。",
+      "angle": 5,
+      "angle_zh": "但愿别再下雨",
+      "micro": "hope",
+      "micro_zh": "希望"
+    },
+    {
+      "zh": "要是当时努力就好了。",
+      "angle": 6,
+      "angle_zh": "要是当时努力就好了",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "要是早点出门就好了。",
+      "angle": 6,
+      "angle_zh": "要是当时努力就好了",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望你喜欢这份礼物。",
+      "angle": 7,
+      "angle_zh": "希望你喜欢这份礼物",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望这次旅行愉快。",
+      "angle": 7,
+      "angle_zh": "希望你喜欢这份礼物",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望孩子快点好起来。",
+      "angle": 8,
+      "angle_zh": "希望孩子快点好起来",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望奶奶身体健康。",
+      "angle": 8,
+      "angle_zh": "希望孩子快点好起来",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "但愿这次我没有记错。",
+      "angle": 9,
+      "angle_zh": "但愿我没记错",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "但愿他说的是真的。",
+      "angle": 9,
+      "angle_zh": "但愿我没记错",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望下次还有机会。",
+      "angle": 10,
+      "angle_zh": "希望下次有机会",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    },
+    {
+      "zh": "希望我们以后常联系。",
+      "angle": 10,
+      "angle_zh": "希望下次有机会",
+      "micro": "wish",
+      "micro_zh": "但愿"
+    }
+  ],
+  "source": "manual"
+}

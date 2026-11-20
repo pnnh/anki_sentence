@@ -1,0 +1,146 @@
+{
+  "scene": "func_thanks",
+  "pattern": "func_thanks",
+  "items": [
+    {
+      "zh": "谢谢你帮我修改报告。",
+      "angle": 1,
+      "angle_zh": "感谢同事帮忙改报告",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "你帮我改好了报告，真感谢你。",
+      "angle": 1,
+      "angle_zh": "感谢同事帮忙改报告",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "谢谢你帮我拿行李。",
+      "angle": 2,
+      "angle_zh": "感谢朋友去机场接你",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "你帮我拿行李了，真感谢。",
+      "angle": 2,
+      "angle_zh": "感谢朋友去机场接你",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "谢谢你帮我打扫房间。",
+      "angle": 3,
+      "angle_zh": "回应别人的感谢",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "你帮我打扫房间了，真感谢。",
+      "angle": 3,
+      "angle_zh": "回应别人的感谢",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "谢谢你帮我收快递。",
+      "angle": 4,
+      "angle_zh": "感谢邻居帮忙收快递",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "你帮我收了快递，真感谢。",
+      "angle": 4,
+      "angle_zh": "感谢邻居帮忙收快递",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "谢谢你耐心地给我讲解。",
+      "angle": 5,
+      "angle_zh": "感谢医生耐心解释",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "你耐心给我解释，我真的很感谢。",
+      "angle": 5,
+      "angle_zh": "感谢医生耐心解释",
+      "micro": "thanks",
+      "micro_zh": "表达感谢"
+    },
+    {
+      "zh": "谢谢你帮我找尺码，真合适。",
+      "angle": 6,
+      "angle_zh": "感谢店员帮忙找尺码",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "你帮我找到了合适的尺码，真的感谢。",
+      "angle": 6,
+      "angle_zh": "感谢店员帮忙找尺码",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "谢谢你帮我打印文档。",
+      "angle": 7,
+      "angle_zh": "回应同事的道谢",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "你帮我打印好了文档，真感谢。",
+      "angle": 7,
+      "angle_zh": "回应同事的道谢",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "谢谢你借我这本书。",
+      "angle": 8,
+      "angle_zh": "感谢朋友借书给你",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "这本书帮了我大忙，谢谢你。",
+      "angle": 8,
+      "angle_zh": "感谢朋友借书给你",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "谢谢你等我这么长时间。",
+      "angle": 9,
+      "angle_zh": "感谢司机等你",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "你今天等我真是太好了，真感谢。",
+      "angle": 9,
+      "angle_zh": "感谢司机等你",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "谢谢你做了这顿饭。",
+      "angle": 10,
+      "angle_zh": "感谢家人做饭",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    },
+    {
+      "zh": "这顿饭做得真好，谢谢你。",
+      "angle": 10,
+      "angle_zh": "感谢家人做饭",
+      "micro": "reply",
+      "micro_zh": "回应感谢"
+    }
+  ]
+}

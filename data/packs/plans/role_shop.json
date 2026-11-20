@@ -1,0 +1,146 @@
+{
+  "scene": "role_shop",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "您好，需要看些什么吗？",
+      "angle": 1,
+      "angle_zh": "打招呼并问需要什么",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "欢迎光临，请问您想买什么？",
+      "angle": 1,
+      "angle_zh": "打招呼并问需要什么",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这件衣服是一百二十元。",
+      "angle": 2,
+      "angle_zh": "介绍商品价格",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这款手机的价格是九百九十元。",
+      "angle": 2,
+      "angle_zh": "介绍商品价格",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这件衣服有大号和中号，您穿哪种合适？",
+      "angle": 3,
+      "angle_zh": "推荐合适的尺码或颜色",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这款鞋子有黑色和白色，您喜欢哪种颜色？",
+      "angle": 3,
+      "angle_zh": "推荐合适的尺码或颜色",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这款背包现在还有库存，需要看一下吗？",
+      "angle": 4,
+      "angle_zh": "说明库存还有没有",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这件衬衫目前只剩下最后一个了，您需要吗？",
+      "angle": 4,
+      "angle_zh": "说明库存还有没有",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "请问您是用现金还是刷卡支付？",
+      "angle": 8,
+      "angle_zh": "结账并问支付方式",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "这款洗发水适合干性头发使用。",
+      "angle": 5,
+      "angle_zh": "回答问题或使用方法",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "这款面膜适合所有肤质，您可以试试。",
+      "angle": 5,
+      "angle_zh": "回答问题或使用方法",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    },
+    {
+      "zh": "试衣间在那边，请往里走。",
+      "angle": 6,
+      "angle_zh": "告诉试衣间在哪里",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "如果尺码不合适，可以免费更换。",
+      "angle": 6,
+      "angle_zh": "告诉试衣间在哪里",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "会员可以享受九折优惠，您有会员卡吗？",
+      "angle": 7,
+      "angle_zh": "说明促销和会员价",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "我们现在有促销活动，买二送一，您有兴趣吗？",
+      "angle": 7,
+      "angle_zh": "说明促销和会员价",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "如果商品有问题，您可以七天内退换货。",
+      "angle": 9,
+      "angle_zh": "说明退换货规则",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "这款商品支持无理由退货，您放心购买。",
+      "angle": 9,
+      "angle_zh": "说明退换货规则",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "谢谢惠顾，欢迎下次再来。",
+      "angle": 10,
+      "angle_zh": "道别欢迎再来",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "您的会员卡积分可以下次使用。",
+      "angle": 10,
+      "angle_zh": "道别欢迎再来",
+      "micro": "pay",
+      "micro_zh": "结账与售后"
+    },
+    {
+      "zh": "这款手机的电池可以用一天，您满意吗？",
+      "angle": 5,
+      "angle_zh": "回答问题或使用方法",
+      "micro": "help",
+      "micro_zh": "介绍商品与建议"
+    }
+  ]
+}

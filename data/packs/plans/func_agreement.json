@@ -1,0 +1,146 @@
+{
+  "scene": "func_agreement",
+  "pattern": "func_agreement",
+  "items": [
+    {
+      "zh": "你的方案确实很好。",
+      "angle": 1,
+      "angle_zh": "同意同事的方案",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "我觉得你分析得有道理，我同意。",
+      "angle": 2,
+      "angle_zh": "觉得朋友说得有道理",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "你说得对，这个主意不错。",
+      "angle": 2,
+      "angle_zh": "觉得朋友说得有道理",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "我同意周末一起去郊游。",
+      "angle": 3,
+      "angle_zh": "同意周末聚会",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "你说得对，周末天气正好。",
+      "angle": 3,
+      "angle_zh": "同意周末聚会",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "我同意早点出发，这样不会赶时间。",
+      "angle": 4,
+      "angle_zh": "赞同早点出发",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "早点出门确实好，不会堵车。",
+      "angle": 4,
+      "angle_zh": "赞同早点出发",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "这家餐厅确实不错，我同意去这里吃饭。",
+      "angle": 5,
+      "angle_zh": "认同这家餐厅好吃",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "你说得对，这家餐厅味道很好。",
+      "angle": 5,
+      "angle_zh": "认同这家餐厅好吃",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    },
+    {
+      "zh": "我同意把会议改到下午。",
+      "angle": 6,
+      "angle_zh": "同意把会议改到下午",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "下午的日程确实宽松些，我同意。",
+      "angle": 6,
+      "angle_zh": "同意把会议改到下午",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "我觉得价格合理，同意这个价格。",
+      "angle": 7,
+      "angle_zh": "觉得价格合理",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "你考虑得没错，这个价格确实合适。",
+      "angle": 7,
+      "angle_zh": "觉得价格合理",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "我同意让孩子先写作业。",
+      "angle": 8,
+      "angle_zh": "同意孩子先写作业",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "你说得对，先写作业比较好。",
+      "angle": 8,
+      "angle_zh": "同意孩子先写作业",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "我觉得这部电影的结局不错，你同意吗？",
+      "angle": 9,
+      "angle_zh": "觉得电影结局不错",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "这部电影确实挺好看的，我同意你的看法。",
+      "angle": 9,
+      "angle_zh": "觉得电影结局不错",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "我同意这个安排，可以早点休息。",
+      "angle": 10,
+      "angle_zh": "认同同事的担心",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "你说得对，明天早起一点没关系。",
+      "angle": 10,
+      "angle_zh": "认同同事的担心",
+      "micro": "plan",
+      "micro_zh": "接受安排"
+    },
+    {
+      "zh": "这个方案确实不错。",
+      "angle": 1,
+      "angle_zh": "同意同事的方案",
+      "micro": "opinion",
+      "micro_zh": "赞同观点"
+    }
+  ]
+}

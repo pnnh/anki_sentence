@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_say_tell",
+  "pattern": "word_pairs_say_tell",
+  "items": [
+    {
+      "zh": "他告诉我明天放假。",
+      "angle": 1,
+      "angle_zh": "他告诉我明天放假",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "他告诉我们周末休息。",
+      "angle": 1,
+      "angle_zh": "他告诉我明天放假",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "妈妈跟我说早点回家。",
+      "angle": 2,
+      "angle_zh": "妈妈让我早点回家",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "老师跟学生说明天交作业。",
+      "angle": 2,
+      "angle_zh": "妈妈让我早点回家",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "老师跟我们说考试推迟了。",
+      "angle": 3,
+      "angle_zh": "老师跟我们说考试推迟了",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "他跟我说会议改到下午。",
+      "angle": 3,
+      "angle_zh": "老师跟我们说考试推迟了",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "他说他今天不会来。",
+      "angle": 4,
+      "angle_zh": "他说他不会来",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "她说她现在还不饿。",
+      "angle": 4,
+      "angle_zh": "他说他不会来",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "说实话，我不太喜欢这个。",
+      "angle": 5,
+      "angle_zh": "说实话我不太喜欢",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "老实说，我觉得很一般。",
+      "angle": 5,
+      "angle_zh": "说实话我不太喜欢",
+      "micro": "say",
+      "micro_zh": "说与讲"
+    },
+    {
+      "zh": "她讲故事给孩子听。",
+      "angle": 6,
+      "angle_zh": "她讲故事给孩子听",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "爷爷讲了一个老故事。",
+      "angle": 6,
+      "angle_zh": "她讲故事给孩子听",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "他激动得说不出话来。",
+      "angle": 7,
+      "angle_zh": "他说不出话来",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "她难过得说不出话。",
+      "angle": 7,
+      "angle_zh": "他说不出话来",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "请你说得更清楚一点。",
+      "angle": 8,
+      "angle_zh": "请你说清楚一点",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "你能说得慢一点吗？",
+      "angle": 8,
+      "angle_zh": "请你说清楚一点",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "他没有告诉我这件事。",
+      "angle": 9,
+      "angle_zh": "他没告诉我这件事",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "她没跟我说一声就搬走了。",
+      "angle": 9,
+      "angle_zh": "他没告诉我这件事",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "医生告诉他要多喝水。",
+      "angle": 10,
+      "angle_zh": "医生说要多喝水",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    },
+    {
+      "zh": "护士告诉病人按时吃药。",
+      "angle": 10,
+      "angle_zh": "医生说要多喝水",
+      "micro": "tell",
+      "micro_zh": "告诉与转述"
+    }
+  ],
+  "source": "manual"
+}

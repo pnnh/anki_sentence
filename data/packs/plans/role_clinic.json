@@ -1,0 +1,146 @@
+{
+  "scene": "role_clinic",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "您这个症状持续几天了？",
+      "angle": 2,
+      "angle_zh": "询问症状持续多久",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "您这个症状多久了？",
+      "angle": 2,
+      "angle_zh": "询问症状持续多久",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "我帮您量一下体温，可以吗？",
+      "angle": 3,
+      "angle_zh": "量体温或测血压",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "我们需要为您测一下血压，您看可以吗？",
+      "angle": 3,
+      "angle_zh": "量体温或测血压",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "挂号费是二十元，请到那边缴费。",
+      "angle": 4,
+      "angle_zh": "说明挂号费和缴费地点",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "请您先去那边挂号窗口缴费，挂号费是五十元。",
+      "angle": 4,
+      "angle_zh": "说明挂号费和缴费地点",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "您哪里感觉不舒服？",
+      "angle": 1,
+      "angle_zh": "询问病人哪里不舒服",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "如果症状加重，请马上再来。",
+      "angle": 5,
+      "angle_zh": "开药并说明用法",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "您需要吃这种药，每次三片，一天三次。",
+      "angle": 5,
+      "angle_zh": "开药并说明用法",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "饮食清淡一些，要多休息。",
+      "angle": 6,
+      "angle_zh": "提醒饮食和休息",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "您下周三再来复查。",
+      "angle": 7,
+      "angle_zh": "安排复诊时间",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "请您两周后回来看一下。",
+      "angle": 7,
+      "angle_zh": "安排复诊时间",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "请您好好休息，祝您早日康复。",
+      "angle": 10,
+      "angle_zh": "安抚病人并道别",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "希望您快点好起来，再见。",
+      "angle": 10,
+      "angle_zh": "安抚病人并道别",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "我们需要先做血液检查，可以开始了吗？",
+      "angle": 8,
+      "angle_zh": "解释检查流程",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "您的情况需要一个星期左右才能好转，您觉得可以吗？",
+      "angle": 9,
+      "angle_zh": "回答多久能好",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "您大概需要休息两周时间，您看行吗？",
+      "angle": 9,
+      "angle_zh": "回答多久能好",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    },
+    {
+      "zh": "这个药一天四次，每次一片。",
+      "angle": 5,
+      "angle_zh": "开药并说明用法",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "您需要每天吃三次这种药，每次两片。",
+      "angle": 5,
+      "angle_zh": "开药并说明用法",
+      "micro": "ask",
+      "micro_zh": "问诊与建议"
+    },
+    {
+      "zh": "您对这种药过敏吗？",
+      "angle": 6,
+      "angle_zh": "提醒饮食和休息",
+      "micro": "explain",
+      "micro_zh": "解释用药与复诊"
+    }
+  ]
+}

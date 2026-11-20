@@ -1,0 +1,147 @@
+{
+  "scene": "coll_word_family_success",
+  "pattern": "coll_word_family_success",
+  "items": [
+    {
+      "zh": "这个项目终于成功了。",
+      "angle": 1,
+      "angle_zh": "项目终于成功",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "经过大家的努力，项目成功了。",
+      "angle": 1,
+      "angle_zh": "项目终于成功",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "她的英语进步很快。",
+      "angle": 2,
+      "angle_zh": "英语进步很大",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "每天练习，我的英语有了进步。",
+      "angle": 2,
+      "angle_zh": "英语进步很大",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "这座城市发展得很快。",
+      "angle": 3,
+      "angle_zh": "城市发展很快",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "新的地铁让城市发展得更好了。",
+      "angle": 3,
+      "angle_zh": "城市发展很快",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "孩子这一年成长了不少。",
+      "angle": 4,
+      "angle_zh": "孩子一年长高不少",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "小树在春天长得很快。",
+      "angle": 4,
+      "angle_zh": "孩子一年长高不少",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "这次面试很成功，他拿到了工作。",
+      "angle": 5,
+      "angle_zh": "面试很成功",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "他的演讲非常成功。",
+      "angle": 5,
+      "angle_zh": "面试很成功",
+      "micro": "success",
+      "micro_zh": "成功与突破"
+    },
+    {
+      "zh": "新方法提高了工作效率。",
+      "angle": 6,
+      "angle_zh": "提高了工作效率",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "坚持练习能提高口语水平。",
+      "angle": 6,
+      "angle_zh": "提高了工作效率",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "公司的业务发展顺利。",
+      "angle": 7,
+      "angle_zh": "公司业务发展顺利",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "这个行业发展得很快。",
+      "angle": 7,
+      "angle_zh": "公司业务发展顺利",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "他终于学会了游泳，是一个很大的突破。",
+      "angle": 8,
+      "angle_zh": "学游泳有了突破",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "这次考试他有了突破。",
+      "angle": 8,
+      "angle_zh": "学游泳有了突破",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "这家店的生意发展得不错。",
+      "angle": 9,
+      "angle_zh": "生意越来越好",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "这几年，公司的发展越来越好。",
+      "angle": 9,
+      "angle_zh": "生意越来越好",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "早睡让他的睡眠改善了很多。",
+      "angle": 10,
+      "angle_zh": "改善了睡眠",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    },
+    {
+      "zh": "运动改善了她的心情。",
+      "angle": 10,
+      "angle_zh": "改善了睡眠",
+      "micro": "growth",
+      "micro_zh": "进步与发展"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -132,8 +132,8 @@ def note_for(rec, deck, model):
         "deckName": deck,
         "modelName": model,
         "fields": {
-            "Chinese": rec["zh"],
-            "English": rec["en"],
+            "Chinese": rec["zh"].replace("\n", "<br>"),
+            "English": rec["en"].replace("\n", "<br>"),
             "SceneZH": rec["scene_zh"],
             "SceneEN": rec["scene_en"],
         },

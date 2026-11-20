@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_prepositions_time",
+  "pattern": "prepositions_time",
+  "items": [
+    {
+      "zh": "我在早上七点起床。",
+      "angle": 1,
+      "angle_zh": "早上七点起床",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "他每天早上七点去上班。",
+      "angle": 1,
+      "angle_zh": "早上七点起床",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "我们周一上午开会。",
+      "angle": 2,
+      "angle_zh": "周一开会",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "会议安排在周一上午九点。",
+      "angle": 2,
+      "angle_zh": "周一开会",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "我们晚上八点去看电影。",
+      "angle": 3,
+      "angle_zh": "晚上八点看电影",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "电影在晚上八点开始。",
+      "angle": 3,
+      "angle_zh": "晚上八点看电影",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "周末我们去看父母。",
+      "angle": 4,
+      "angle_zh": "周末去看父母",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "我们周末去父母家吃饭。",
+      "angle": 4,
+      "angle_zh": "周末去看父母",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "我们在五月去南方旅行。",
+      "angle": 5,
+      "angle_zh": "五月去旅行",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "他打算在八月搬到新家。",
+      "angle": 5,
+      "angle_zh": "五月去旅行",
+      "micro": "clock",
+      "micro_zh": "钟点与星期"
+    },
+    {
+      "zh": "我下午三点去见客户。",
+      "angle": 6,
+      "angle_zh": "下午三点见客户",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "我们约在下午三点见面。",
+      "angle": 6,
+      "angle_zh": "下午三点见客户",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "我们在半夜被雨声吵醒了。",
+      "angle": 7,
+      "angle_zh": "半夜下起雨",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "雨在半夜突然下了起来。",
+      "angle": 7,
+      "angle_zh": "半夜下起雨",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "我们在夏天常去海边。",
+      "angle": 8,
+      "angle_zh": "夏天去海边",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "夏天我们一家人去海边度假。",
+      "angle": 8,
+      "angle_zh": "夏天去海边",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "我们在中午十二点吃饭。",
+      "angle": 9,
+      "angle_zh": "中午十二点吃饭",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "我们定在中午十二点开会。",
+      "angle": 9,
+      "angle_zh": "中午十二点吃饭",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "北方的冬天早上很冷。",
+      "angle": 10,
+      "angle_zh": "冬天早上很冷",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    },
+    {
+      "zh": "这个城市的冬天早上很冷。",
+      "angle": 10,
+      "angle_zh": "冬天早上很冷",
+      "micro": "season",
+      "micro_zh": "月份与季节"
+    }
+  ],
+  "source": "manual"
+}

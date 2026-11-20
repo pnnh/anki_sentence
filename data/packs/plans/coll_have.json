@@ -1,0 +1,147 @@
+{
+  "scene": "coll_have",
+  "pattern": "coll_have",
+  "items": [
+    {
+      "zh": "买之前，我先看一看这件衣服。",
+      "angle": 1,
+      "angle_zh": "买东西前先看一看",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "你可以看一看菜单，再决定点什么。",
+      "angle": 1,
+      "angle_zh": "买东西前先看一看",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "午休的时候，我和同事聊了聊天。",
+      "angle": 2,
+      "angle_zh": "和朋友聊聊天",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "好久没见，我们坐下来聊聊天吧。",
+      "angle": 2,
+      "angle_zh": "和朋友聊聊天",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "忙了一上午，我想休息一下。",
+      "angle": 3,
+      "angle_zh": "中午休息一下",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "中午休息一下，下午才有精神。",
+      "angle": 3,
+      "angle_zh": "中午休息一下",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "我的车出了点问题，得去修一下。",
+      "angle": 4,
+      "angle_zh": "车出了点问题",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "他的电脑出了点问题，开不了机。",
+      "angle": 4,
+      "angle_zh": "车出了点问题",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "昨天的聚会，大家玩得很开心。",
+      "angle": 5,
+      "angle_zh": "聚会上玩得开心",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "孩子们在公园里玩得很开心。",
+      "angle": 5,
+      "angle_zh": "聚会上玩得开心",
+      "micro": "chat",
+      "micro_zh": "看一看与聊天"
+    },
+    {
+      "zh": "今天太忙了，我没有时间做饭。",
+      "angle": 6,
+      "angle_zh": "今天没有时间",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "你这周有时间吗？我们聚一聚吧。",
+      "angle": 6,
+      "angle_zh": "今天没有时间",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "今天晚上我们一起吃晚饭吧。",
+      "angle": 7,
+      "angle_zh": "一起吃晚饭",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "我们六点吃晚饭，你别迟到。",
+      "angle": 7,
+      "angle_zh": "一起吃晚饭",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "早上我习惯喝一杯咖啡。",
+      "angle": 8,
+      "angle_zh": "喝杯咖啡",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "你要不要坐下来喝杯咖啡？",
+      "angle": 8,
+      "angle_zh": "喝杯咖啡",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "下午三点我们有一个会议。",
+      "angle": 9,
+      "angle_zh": "下午开会",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "明天上午的会议改到十点了。",
+      "angle": 9,
+      "angle_zh": "下午开会",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "我预约了明天下午看医生。",
+      "angle": 10,
+      "angle_zh": "预约看医生",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    },
+    {
+      "zh": "医院很难约，我提前预约了。",
+      "angle": 10,
+      "angle_zh": "预约看医生",
+      "micro": "time",
+      "micro_zh": "时间与安排"
+    }
+  ],
+  "source": "plan+manual"
+}

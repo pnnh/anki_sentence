@@ -1,0 +1,146 @@
+{
+  "scene": "role_interviewer",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "你最擅长哪方面的技能？",
+      "angle": 4,
+      "angle_zh": "询问擅长的技能",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "你觉得你在哪些方面特别有优势？",
+      "angle": 4,
+      "angle_zh": "询问擅长的技能",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "这个职位主要负责接待客户和处理订单。",
+      "angle": 5,
+      "angle_zh": "说明岗位职责",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "这个岗位还需要每周整理一次销售报表。",
+      "angle": 5,
+      "angle_zh": "说明岗位职责",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "我们每天工作八小时，周末轮班。",
+      "angle": 6,
+      "angle_zh": "介绍上班时间和薪资结构",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "我们提供固定薪资，试用期三个月。",
+      "angle": 6,
+      "angle_zh": "介绍上班时间和薪资结构",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "请介绍一下你自己。",
+      "angle": 1,
+      "angle_zh": "请对方做个自我介绍",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "请简单说说你的经历。",
+      "angle": 1,
+      "angle_zh": "请对方做个自我介绍",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "上一家公司你是做什么的？",
+      "angle": 2,
+      "angle_zh": "询问上一份工作和职责",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "你之前的工作职责有哪些？",
+      "angle": 2,
+      "angle_zh": "询问上一份工作和职责",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "为什么想要换工作呢？",
+      "angle": 3,
+      "angle_zh": "询问为什么想换工作",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "你觉得现在的工作不适合你吗？",
+      "angle": 3,
+      "angle_zh": "询问为什么想换工作",
+      "micro": "ask",
+      "micro_zh": "询问经历与能力"
+    },
+    {
+      "zh": "入职后我们会安排两周的岗前培训。",
+      "angle": 7,
+      "angle_zh": "说明试用期和培训",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "我来向您介绍一下这个职位的职责。",
+      "angle": 8,
+      "angle_zh": "回答对方的问题",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "关于你的问题，我可以给你详细解答。",
+      "angle": 8,
+      "angle_zh": "回答对方的问题",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "接下来我们会安排一次小组面试。",
+      "angle": 9,
+      "angle_zh": "告知后续面试流程",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "面试结束后我们会通知你下一步流程。",
+      "angle": 9,
+      "angle_zh": "告知后续面试流程",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "谢谢你的宝贵时间，祝你一天愉快。",
+      "angle": 10,
+      "angle_zh": "感谢对方并道别",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "感谢你来参加面试，再见。",
+      "angle": 10,
+      "angle_zh": "感谢对方并道别",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    },
+    {
+      "zh": "我们这边的工作时间是早上九点到下午六点。",
+      "angle": 6,
+      "angle_zh": "介绍上班时间和薪资结构",
+      "micro": "brief",
+      "micro_zh": "介绍岗位与流程"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_so_such",
+  "pattern": "so_such",
+  "items": [
+    {
+      "zh": "今天怎么这么冷啊？",
+      "angle": 1,
+      "angle_zh": "今天这么冷",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "今天这么冷，多穿一件吧。",
+      "angle": 1,
+      "angle_zh": "今天这么冷",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "这个蛋糕这么好吃。",
+      "angle": 2,
+      "angle_zh": "这个蛋糕这么好吃",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "你做的蛋糕这么好吃，再给我一块。",
+      "angle": 2,
+      "angle_zh": "这个蛋糕这么好吃",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "他跑得这么快，我跟不上。",
+      "angle": 3,
+      "angle_zh": "他跑得这么快",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "你怎么跑得这么快？",
+      "angle": 3,
+      "angle_zh": "他跑得这么快",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "这么难的问题，他一下就解出来了。",
+      "angle": 4,
+      "angle_zh": "这么难的问题",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "这么难的问题，我真的不会。",
+      "angle": 4,
+      "angle_zh": "这么难的问题",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "那么远的地方，我们坐车去吧。",
+      "angle": 5,
+      "angle_zh": "那么远的地方",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "那么远的地方，一天回不来。",
+      "angle": 5,
+      "angle_zh": "那么远的地方",
+      "micro": "so",
+      "micro_zh": "程度加深"
+    },
+    {
+      "zh": "天气那么好，我们出去走走。",
+      "angle": 6,
+      "angle_zh": "天气那么好",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "今天天气这么好，别待在家里。",
+      "angle": 6,
+      "angle_zh": "天气那么好",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "这么小的孩子，不能一个人在家。",
+      "angle": 7,
+      "angle_zh": "这么小的孩子",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "这么小的孩子，已经会自己吃饭了。",
+      "angle": 7,
+      "angle_zh": "这么小的孩子",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "你真是太好了，帮了我大忙。",
+      "angle": 8,
+      "angle_zh": "你真是太好了",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "你真是太好了，一直陪着我。",
+      "angle": 8,
+      "angle_zh": "你真是太好了",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "餐厅那么吵，我们换一家吧。",
+      "angle": 9,
+      "angle_zh": "餐厅那么吵",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "那家店那么吵，说话都听不清。",
+      "angle": 9,
+      "angle_zh": "餐厅那么吵",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "这么重要的会议，你不能迟到。",
+      "angle": 10,
+      "angle_zh": "这么重要的会议",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    },
+    {
+      "zh": "这么重要的会议，你怎么没参加？",
+      "angle": 10,
+      "angle_zh": "这么重要的会议",
+      "micro": "such",
+      "micro_zh": "感叹与评价"
+    }
+  ],
+  "source": "manual"
+}

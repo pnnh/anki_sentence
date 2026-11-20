@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_question_words",
+  "pattern": "question_words",
+  "items": [
+    {
+      "zh": "这班火车几点出发？",
+      "angle": 1,
+      "angle_zh": "火车几点出发",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "下一班火车几点开？",
+      "angle": 1,
+      "angle_zh": "火车几点出发",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "附近哪里有好吃的？",
+      "angle": 2,
+      "angle_zh": "附近哪里有好吃的",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "这附近哪里可以吃饭？",
+      "angle": 2,
+      "angle_zh": "附近哪里有好吃的",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "桌上的这本书是谁的？",
+      "angle": 3,
+      "angle_zh": "这是谁的书",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "门口那把伞是谁的？",
+      "angle": 3,
+      "angle_zh": "这是谁的书",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "你今天为什么迟到了？",
+      "angle": 4,
+      "angle_zh": "你为什么迟到",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "他为什么没有来上班？",
+      "angle": 4,
+      "angle_zh": "你为什么迟到",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "请问怎么去火车站？",
+      "angle": 5,
+      "angle_zh": "怎么去火车站",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "从这里怎么走到地铁站？",
+      "angle": 5,
+      "angle_zh": "怎么去火车站",
+      "micro": "where_when",
+      "micro_zh": "地点与时间"
+    },
+    {
+      "zh": "这件红色的外套多少钱？",
+      "angle": 6,
+      "angle_zh": "这件衣服多少钱",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "这双运动鞋多少钱？",
+      "angle": 6,
+      "angle_zh": "这件衣服多少钱",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "你觉得哪个颜色好看？",
+      "angle": 7,
+      "angle_zh": "哪个颜色好看",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "这两个包哪个更实用？",
+      "angle": 7,
+      "angle_zh": "哪个颜色好看",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "会议什么时候开始？",
+      "angle": 8,
+      "angle_zh": "会议什么时候开始",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "明天的活动什么时候结束？",
+      "angle": 8,
+      "angle_zh": "会议什么时候开始",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "你家现在住在哪儿？",
+      "angle": 9,
+      "angle_zh": "你住在哪儿",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "他老家具体在哪儿？",
+      "angle": 9,
+      "angle_zh": "你住在哪儿",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "从这里需要多久到机场？",
+      "angle": 10,
+      "angle_zh": "需要多久到机场",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    },
+    {
+      "zh": "坐地铁到机场要多久？",
+      "angle": 10,
+      "angle_zh": "需要多久到机场",
+      "micro": "why_how",
+      "micro_zh": "原因与方式"
+    }
+  ],
+  "source": "manual"
+}

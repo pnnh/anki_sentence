@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_too_enough",
+  "pattern": "too_enough",
+  "items": [
+    {
+      "zh": "这件外套太贵了，买不起。",
+      "angle": 1,
+      "angle_zh": "这件外套太贵",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "这双鞋太贵了，我买不起。",
+      "angle": 1,
+      "angle_zh": "这件外套太贵",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "行李箱太重了，我拿不动。",
+      "angle": 2,
+      "angle_zh": "行李太重拿不动",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "这个箱子太沉了，我搬不动。",
+      "angle": 2,
+      "angle_zh": "行李太重拿不动",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "这个房间不够大，住三个人太挤。",
+      "angle": 3,
+      "angle_zh": "房间不够大",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "客厅不够宽敞，放不下大沙发。",
+      "angle": 3,
+      "angle_zh": "房间不够大",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "汤不够热，帮我热一下。",
+      "angle": 4,
+      "angle_zh": "汤不够热",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "洗澡水不够热，等一会儿再洗。",
+      "angle": 4,
+      "angle_zh": "汤不够热",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "他跑得不够快，没赶上比赛。",
+      "angle": 5,
+      "angle_zh": "他跑得不够快",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "我跑得不够快，追不上他们。",
+      "angle": 5,
+      "angle_zh": "他跑得不够快",
+      "micro": "too",
+      "micro_zh": "太过与不足"
+    },
+    {
+      "zh": "时间太短了，这些工作做不完。",
+      "angle": 6,
+      "angle_zh": "时间太短做不完",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "一个小时太短了，根本做不完。",
+      "angle": 6,
+      "angle_zh": "时间太短做不完",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "咖啡太烫了，等凉一点再喝。",
+      "angle": 7,
+      "angle_zh": "咖啡太烫",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "这杯茶太烫了，小心一点。",
+      "angle": 7,
+      "angle_zh": "咖啡太烫",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "车上的座位不够，有人站着。",
+      "angle": 8,
+      "angle_zh": "座位不够",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "椅子不够，再去搬两把。",
+      "angle": 8,
+      "angle_zh": "座位不够",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "孩子已经够大了，可以自己决定。",
+      "angle": 9,
+      "angle_zh": "年纪够大了可以自己决定",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "你年纪够大了，应该自己做选择。",
+      "angle": 9,
+      "angle_zh": "年纪够大了可以自己决定",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "今天太冷了，我不想出门。",
+      "angle": 10,
+      "angle_zh": "天气太冷不想出门",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    },
+    {
+      "zh": "外面太冷了，孩子不想出去。",
+      "angle": 10,
+      "angle_zh": "天气太冷不想出门",
+      "micro": "enough",
+      "micro_zh": "足够与底线"
+    }
+  ],
+  "source": "manual"
+}

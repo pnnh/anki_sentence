@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_adverbs_manner",
+  "pattern": "adverbs_manner",
+  "items": [
+    {
+      "zh": "他认真地准备了报告。",
+      "angle": 1,
+      "angle_zh": "他认真地准备了报告",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "她仔细地检查了每一页。",
+      "angle": 1,
+      "angle_zh": "他认真地准备了报告",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "她慢慢地走进了房间。",
+      "angle": 2,
+      "angle_zh": "她慢慢地走进房间",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "老人慢慢地走下楼梯。",
+      "angle": 2,
+      "angle_zh": "她慢慢地走进房间",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "请你大声地把话说清楚。",
+      "angle": 3,
+      "angle_zh": "请大声一点说",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "老师让他大声地读课文。",
+      "angle": 3,
+      "angle_zh": "请大声一点说",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "孩子们安静地看书。",
+      "angle": 4,
+      "angle_zh": "孩子们安静地看书",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "图书馆里，大家安静地学习。",
+      "angle": 4,
+      "angle_zh": "孩子们安静地看书",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "他礼貌地拒绝了邀请。",
+      "angle": 5,
+      "angle_zh": "他礼貌地拒绝了邀请",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "她礼貌地跟客人打招呼。",
+      "angle": 5,
+      "angle_zh": "他礼貌地拒绝了邀请",
+      "micro": "work",
+      "micro_zh": "做事方式"
+    },
+    {
+      "zh": "她清楚地解释了原因。",
+      "angle": 6,
+      "angle_zh": "她清楚地解释了原因",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "请你清楚地说一遍。",
+      "angle": 6,
+      "angle_zh": "她清楚地解释了原因",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "我们安全地到了家。",
+      "angle": 7,
+      "angle_zh": "我们安全地到了家",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "司机安全地把我们送到门口。",
+      "angle": 7,
+      "angle_zh": "我们安全地到了家",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "他很快完成了工作。",
+      "angle": 8,
+      "angle_zh": "他很快完成了工作",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "她很快写完了作业。",
+      "angle": 8,
+      "angle_zh": "他很快完成了工作",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "听到好消息，她开心地笑了。",
+      "angle": 9,
+      "angle_zh": "她开心地笑了",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "孩子们开心地跑来跑去。",
+      "angle": 9,
+      "angle_zh": "她开心地笑了",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "请仔细地检查一遍。",
+      "angle": 10,
+      "angle_zh": "请仔细地检查一遍",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    },
+    {
+      "zh": "出发前请仔细地检查行李。",
+      "angle": 10,
+      "angle_zh": "请仔细地检查一遍",
+      "micro": "speak",
+      "micro_zh": "说话方式"
+    }
+  ],
+  "source": "manual"
+}

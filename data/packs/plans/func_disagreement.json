@@ -1,0 +1,146 @@
+{
+  "scene": "func_disagreement",
+  "pattern": "func_disagreement",
+  "items": [
+    {
+      "zh": "我不认为周末应该加班。",
+      "angle": 1,
+      "angle_zh": "不同意周末加班",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意这个位置这么偏。",
+      "angle": 2,
+      "angle_zh": "觉得这家店没那么好吃",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意买最贵的那个。",
+      "angle": 3,
+      "angle_zh": "不认同买最贵的",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我觉得最贵的那个不一定最好。",
+      "angle": 3,
+      "angle_zh": "不认同买最贵的",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意孩子现在就开始学钢琴。",
+      "angle": 4,
+      "angle_zh": "觉得孩子还太小",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意现在就签这个合同。",
+      "angle": 5,
+      "angle_zh": "不同意马上搬家",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意这个价格，我们再看看别的吧。",
+      "angle": 6,
+      "angle_zh": "觉得价格太高",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意再等一个月。",
+      "angle": 7,
+      "angle_zh": "认为不必再等",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意取消这次旅行。",
+      "angle": 8,
+      "angle_zh": "不赞同取消旅行",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我觉得这个方案风险大，我不太同意。",
+      "angle": 9,
+      "angle_zh": "觉得这个方案风险大",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "这个计划太冒险了，我不同意。",
+      "angle": 9,
+      "angle_zh": "觉得这个方案风险大",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意马上做这个决定。",
+      "angle": 10,
+      "angle_zh": "不同意现在就决定",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意这个项目这么急着上马。",
+      "angle": 1,
+      "angle_zh": "不同意周末加班",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我觉得周末加班会影响家庭生活，我不太同意。",
+      "angle": 1,
+      "angle_zh": "不同意周末加班",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意这家店那么好吃。",
+      "angle": 2,
+      "angle_zh": "觉得这家店没那么好吃",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我觉得最贵的那款电脑不一定最适合你。",
+      "angle": 3,
+      "angle_zh": "不认同买最贵的",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我不太同意现在就搬家，等天气暖和些再搬吧。",
+      "angle": 5,
+      "angle_zh": "不同意马上搬家",
+      "micro": "opinion",
+      "micro_zh": "不同意观点"
+    },
+    {
+      "zh": "我觉得价格太高了，我不太同意。",
+      "angle": 6,
+      "angle_zh": "觉得价格太高",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意这个价格，我们再考虑考虑。",
+      "angle": 6,
+      "angle_zh": "觉得价格太高",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    },
+    {
+      "zh": "我不太同意再等，天气马上变冷了。",
+      "angle": 7,
+      "angle_zh": "认为不必再等",
+      "micro": "plan",
+      "micro_zh": "反对安排"
+    }
+  ]
+}

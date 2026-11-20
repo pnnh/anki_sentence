@@ -1,0 +1,146 @@
+{
+  "scene": "role_support",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "您的订单号是多少？",
+      "angle": 1,
+      "angle_zh": "确认订单号或账号",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "请告诉我您的账号，好吗？",
+      "angle": 1,
+      "angle_zh": "确认订单号或账号",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "您遇到了什么问题呢？",
+      "angle": 2,
+      "angle_zh": "复述客户遇到的问题",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "请问是什么时候下的单？",
+      "angle": 2,
+      "angle_zh": "复述客户遇到的问题",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "处理需要大概五分钟时间。",
+      "angle": 3,
+      "angle_zh": "说明处理需要多长时间",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "这个问题需要技术支持，我们会尽快联系您。",
+      "angle": 3,
+      "angle_zh": "说明处理需要多长时间",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "我们的退换货政策是七天内有效。",
+      "angle": 4,
+      "angle_zh": "解释退换货政策",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "退款会在三十天内原路退回。",
+      "angle": 4,
+      "angle_zh": "解释退换货政策",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "您可以登录账户查看退款进度。",
+      "angle": 8,
+      "angle_zh": "提醒后续怎么查询进度",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "进度有更新时，我们会发邮件通知您。",
+      "angle": 8,
+      "angle_zh": "提醒后续怎么查询进度",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "非常抱歉给您带来不便。",
+      "angle": 9,
+      "angle_zh": "为不便道歉",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "我们会尽快处理，请您放心。",
+      "angle": 9,
+      "angle_zh": "为不便道歉",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "我们可以为您安排快递或自取，您看哪种方便？",
+      "angle": 5,
+      "angle_zh": "提供两个解决方案",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "货到付款也可以，您收货时再付钱。",
+      "angle": 5,
+      "angle_zh": "提供两个解决方案",
+      "micro": "listen",
+      "micro_zh": "确认问题与流程"
+    },
+    {
+      "zh": "请告诉我您的地址，方便我们寄送商品。",
+      "angle": 6,
+      "angle_zh": "确认地址和联系方式",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "请您提供联系电话，我们需要与您确认一些细节。",
+      "angle": 6,
+      "angle_zh": "确认地址和联系方式",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "退款通常会在两到三个工作日内到账，请您留意。",
+      "angle": 7,
+      "angle_zh": "告知退款多久到账",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "退款已经提交，预计明天到账。",
+      "angle": 7,
+      "angle_zh": "告知退款多久到账",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "感谢您的来电，祝您生活愉快，再见。",
+      "angle": 10,
+      "angle_zh": "结束通话并道别",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    },
+    {
+      "zh": "感谢您的耐心等待，再见。",
+      "angle": 10,
+      "angle_zh": "结束通话并道别",
+      "micro": "fix",
+      "micro_zh": "给出方案与跟进"
+    }
+  ]
+}

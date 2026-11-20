@@ -1,0 +1,146 @@
+{
+  "scene": "func_apologies",
+  "pattern": "func_apologies",
+  "items": [
+    {
+      "zh": "我弄丢了借来的书，很抱歉。",
+      "angle": 4,
+      "angle_zh": "弄丢了借来的书",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "我弄丢了借来的书，很不好意思。",
+      "angle": 4,
+      "angle_zh": "弄丢了借来的书",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "昨天开会我迟到了，真的很抱歉。",
+      "angle": 1,
+      "angle_zh": "迟到向朋友道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "我把咖啡洒在桌上，赶紧向同事道歉。",
+      "angle": 2,
+      "angle_zh": "打翻咖啡向同事道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "我不小心打翻了咖啡，一直跟同事说对不起。",
+      "angle": 2,
+      "angle_zh": "打翻咖啡向同事道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "对不起，我忘记回你的消息了。",
+      "angle": 3,
+      "angle_zh": "忘记回消息向朋友道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "我真的不好意思，忘记回你消息了。",
+      "angle": 3,
+      "angle_zh": "忘记回消息向朋友道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "我走错了会议室，很抱歉。",
+      "angle": 5,
+      "angle_zh": "走错了会议室",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "吵到邻居休息了，真对不起。",
+      "angle": 6,
+      "angle_zh": "吵到邻居休息",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "吵到邻居睡不着，我好抱歉。",
+      "angle": 6,
+      "angle_zh": "吵到邻居休息",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "我把你的笔弄丢了，真对不起。",
+      "angle": 7,
+      "angle_zh": "忘了带答应带的东西",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "我忘了还你的伞，很不好意思。",
+      "angle": 7,
+      "angle_zh": "忘了带答应带的东西",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "临时取消约定，对不起，可能给你添麻烦了。",
+      "angle": 8,
+      "angle_zh": "临时取消约定",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "明天活动取消了，很抱歉，让你白等了。",
+      "angle": 8,
+      "angle_zh": "临时取消约定",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "昨天我说错话了，让同事很难过，对不起。",
+      "angle": 9,
+      "angle_zh": "说错话让同事不舒服",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "我说话太直接，让同事不舒服，真对不起。",
+      "angle": 9,
+      "angle_zh": "说错话让同事不舒服",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "我把孩子的水杯摔坏了，真不好意思。",
+      "angle": 10,
+      "angle_zh": "把孩子的水杯摔坏",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "那个杯子是我弄坏的，对不起。",
+      "angle": 10,
+      "angle_zh": "把孩子的水杯摔坏",
+      "micro": "others",
+      "micro_zh": "影响他人"
+    },
+    {
+      "zh": "我迟到了，真的很对不起。",
+      "angle": 1,
+      "angle_zh": "迟到向朋友道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    },
+    {
+      "zh": "这次会议我来晚了，很抱歉。",
+      "angle": 1,
+      "angle_zh": "迟到向朋友道歉",
+      "micro": "mistake",
+      "micro_zh": "小失误"
+    }
+  ]
+}

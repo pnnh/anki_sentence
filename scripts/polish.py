@@ -53,6 +53,8 @@ def parse_args():
     p.add_argument("--retries", type=int, default=2)
     p.add_argument("--timeout", type=int, default=600)
     p.add_argument("--ollama-url", default="http://127.0.0.1:11434")
+    p.add_argument("--think", dest="think", action="store_true", default=None)
+    p.add_argument("--no-think", dest="think", action="store_false")
     p.add_argument("--data-dir", default=str(ROOT / "data" / "sentences"))
     p.add_argument("--out-dir", default=str(ROOT / "data" / "sentences_polished"))
     p.add_argument("--patch-dir", default=str(ROOT / "data" / "patches"))
@@ -97,19 +99,24 @@ def validate_en(old_en, new_en, zh, max_words=16):
 
 
 def call_ollama(args, prompt):
+    budget = max(400, args.batch * 60 + 300)
+    if args.think:
+        budget *= 4
     payload = {
         "model": args.model,
         "stream": False,
         "format": "json",
         "options": {
             "temperature": args.temperature,
-            "num_predict": max(400, args.batch * 60 + 300),
+            "num_predict": budget,
         },
         "messages": [
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": prompt},
         ],
     }
+    if args.think is not None:
+        payload["think"] = args.think
     req = request.Request(
         args.ollama_url.rstrip("/") + "/api/chat",
         data=json.dumps(payload).encode("utf-8"),
@@ -146,7 +153,9 @@ def polish_scene(args, scene_path, out_dir, patch_dir):
             rec["en"] = patches[rec["uid"]]["new_en"]
     if not records:
         return 0, 0
-    pending = [r for r in records if r["uid"] not in patches]
+    pending = [
+        r for r in records if r["uid"] not in patches and r.get("pack") != "dialogue"
+    ]
     if args.limit:
         pending = pending[: args.limit]
     print(f"{scene_id}: {len(records)} cards, {len(pending)} to polish, {len(patches)} resumed", flush=True)

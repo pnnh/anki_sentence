@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_causative",
+  "pattern": "causative",
+  "items": [
+    {
+      "zh": "空调坏了，我找人修好了。",
+      "angle": 1,
+      "angle_zh": "找人修空调",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "天太热，他请人修了空调。",
+      "angle": 1,
+      "angle_zh": "找人修空调",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "周末我请人打扫了房间。",
+      "angle": 2,
+      "angle_zh": "请人打扫房间",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "搬家前，她找人打扫了一遍。",
+      "angle": 2,
+      "angle_zh": "请人打扫房间",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "我请人剪了头发，看起来清爽多了。",
+      "angle": 3,
+      "angle_zh": "去理发店剪头发",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "她让人给她剪了头发。",
+      "angle": 3,
+      "angle_zh": "去理发店剪头发",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "电脑死机了，我让人修好了。",
+      "angle": 4,
+      "angle_zh": "让人修电脑",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "他请人修了电脑，花了不少钱。",
+      "angle": 4,
+      "angle_zh": "让人修电脑",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "新家找人装了窗帘。",
+      "angle": 5,
+      "angle_zh": "找人装窗帘",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "她请人装好了客厅的窗帘。",
+      "angle": 5,
+      "angle_zh": "找人装窗帘",
+      "micro": "repair",
+      "micro_zh": "请人修理"
+    },
+    {
+      "zh": "我把车送去洗车店洗了。",
+      "angle": 6,
+      "angle_zh": "送去洗车",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "周末他把车送去保养了。",
+      "angle": 6,
+      "angle_zh": "送去洗车",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "家里没水了，我叫人送了一桶。",
+      "angle": 7,
+      "angle_zh": "叫人送水",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "他打电话叫人送水。",
+      "angle": 7,
+      "angle_zh": "叫人送水",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "这份文件我请人翻译了。",
+      "angle": 8,
+      "angle_zh": "请人翻译文件",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "合同太专业，他找人翻译了一遍。",
+      "angle": 8,
+      "angle_zh": "请人翻译文件",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "我找人做了一个书架。",
+      "angle": 9,
+      "angle_zh": "找人做书架",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "她请人做了一套木家具。",
+      "angle": 9,
+      "angle_zh": "找人做书架",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "手表不走了，我拿去修了。",
+      "angle": 10,
+      "angle_zh": "拿去修手表",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    },
+    {
+      "zh": "他把坏掉的表拿去修了。",
+      "angle": 10,
+      "angle_zh": "拿去修手表",
+      "micro": "service",
+      "micro_zh": "外包服务"
+    }
+  ],
+  "source": "manual"
+}

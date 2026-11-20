@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_learn_study_teach",
+  "pattern": "word_pairs_learn_study_teach",
+  "items": [
+    {
+      "zh": "我最近一直在学游泳。",
+      "angle": 1,
+      "angle_zh": "我在学游泳",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "他最近一直在学做菜。",
+      "angle": 1,
+      "angle_zh": "我在学游泳",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "他平时学习很努力。",
+      "angle": 2,
+      "angle_zh": "他学习很努力",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "她每天学习到很晚。",
+      "angle": 2,
+      "angle_zh": "他学习很努力",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "老师每天教我们数学。",
+      "angle": 3,
+      "angle_zh": "老师教我们数学",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "她周末教孩子们画画。",
+      "angle": 3,
+      "angle_zh": "老师教我们数学",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "我每天学一小时英语。",
+      "angle": 4,
+      "angle_zh": "我每天学一小时英语",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "他每周学两次钢琴。",
+      "angle": 4,
+      "angle_zh": "我每天学一小时英语",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "她教孩子做简单的饭。",
+      "angle": 5,
+      "angle_zh": "她教孩子做饭",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "妈妈手把手教我做菜。",
+      "angle": 5,
+      "angle_zh": "她教孩子做饭",
+      "micro": "learn",
+      "micro_zh": "学会与学习"
+    },
+    {
+      "zh": "我想利用假期学开车。",
+      "angle": 6,
+      "angle_zh": "我想学开车",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "我想学一门新语言。",
+      "angle": 6,
+      "angle_zh": "我想学开车",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "他在大学里学经济。",
+      "angle": 7,
+      "angle_zh": "他在大学学经济",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "她高中时学过法语。",
+      "angle": 7,
+      "angle_zh": "他在大学学经济",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "她自学了计算机编程。",
+      "angle": 8,
+      "angle_zh": "她自学了编程",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "他自学了摄影和剪辑。",
+      "angle": 8,
+      "angle_zh": "她自学了编程",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "教别人也是一种学习。",
+      "angle": 9,
+      "angle_zh": "教别人也是一种学习",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "教孩子需要很大的耐心。",
+      "angle": 9,
+      "angle_zh": "教别人也是一种学习",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "这门课真的很难学。",
+      "angle": 10,
+      "angle_zh": "这门课很难学",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    },
+    {
+      "zh": "这门手艺真的不好学。",
+      "angle": 10,
+      "angle_zh": "这门课很难学",
+      "micro": "teach",
+      "micro_zh": "教与上课"
+    }
+  ],
+  "source": "manual"
+}

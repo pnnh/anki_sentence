@@ -1,0 +1,146 @@
+{
+  "scene": "func_invitations",
+  "pattern": "func_invitations",
+  "items": [
+    {
+      "zh": "你是不是有空，一起下班喝杯咖啡？",
+      "angle": 1,
+      "angle_zh": "邀请同事下班喝一杯",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你下班后要不要一起喝一杯？",
+      "angle": 1,
+      "angle_zh": "邀请同事下班喝一杯",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你周末有空吗，一起来家里吃饭吧？",
+      "angle": 2,
+      "angle_zh": "邀请朋友周末来家里吃饭",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你周末想不想来我家吃饭？",
+      "angle": 2,
+      "angle_zh": "邀请朋友周末来家里吃饭",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "周六下午，我家孩子想请你家孩子一起玩，好不好？",
+      "angle": 3,
+      "angle_zh": "邀请邻居孩子一起玩",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "周末要不要让你家孩子来我们家玩？",
+      "angle": 3,
+      "angle_zh": "邀请邻居孩子一起玩",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "这周六我过生日，想请你们来参加聚会。",
+      "angle": 4,
+      "angle_zh": "邀请同事参加生日聚会",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你明天有空吗，一起去参加朋友的生日派对？",
+      "angle": 4,
+      "angle_zh": "邀请同事参加生日聚会",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "最近有部新电影，你想不想一起去看？",
+      "angle": 5,
+      "angle_zh": "邀请朋友一起看电影",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你周末想不想和我一起看电影？",
+      "angle": 5,
+      "angle_zh": "邀请朋友一起看电影",
+      "micro": "friends",
+      "micro_zh": "朋友同事"
+    },
+    {
+      "zh": "你今天有空吗，一起去新展厅看看？",
+      "angle": 6,
+      "angle_zh": "邀请客户参观新展厅",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "你周末有空吗，一起参观新展厅吧？",
+      "angle": 6,
+      "angle_zh": "邀请客户参观新展厅",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "你是不是有空，一起参加婚礼？",
+      "angle": 7,
+      "angle_zh": "邀请同学参加婚礼",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "婚礼那天你有空吗，一起参加？",
+      "angle": 7,
+      "angle_zh": "邀请同学参加婚礼",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "你周末有空吗，一起晨跑吧？",
+      "angle": 8,
+      "angle_zh": "邀请朋友一起晨跑",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "你今天晚上有空吗，一起去公园晨跑？",
+      "angle": 8,
+      "angle_zh": "邀请朋友一起晨跑",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "周五晚上我们有个读书会，你要不要来参加？",
+      "angle": 9,
+      "angle_zh": "邀请同事参加读书会",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "这个月的读书会，你有兴趣参加吗？",
+      "angle": 9,
+      "angle_zh": "邀请同事参加读书会",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "下个月全家一起去旅行，你要不要一起？",
+      "angle": 10,
+      "angle_zh": "邀请家人一起旅行",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    },
+    {
+      "zh": "这个假期我们全家去旅行，你想不想一起来？",
+      "angle": 10,
+      "angle_zh": "邀请家人一起旅行",
+      "micro": "family",
+      "micro_zh": "家人客人"
+    }
+  ]
+}

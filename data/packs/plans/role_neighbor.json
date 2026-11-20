@@ -1,0 +1,146 @@
+{
+  "scene": "role_neighbor",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "你好，我是新搬来的邻居。",
+      "angle": 1,
+      "angle_zh": "打招呼并自我介绍",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "你好，我住在三楼，刚搬来不久。",
+      "angle": 1,
+      "angle_zh": "打招呼并自我介绍",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "可以借我一把梯子吗？",
+      "angle": 2,
+      "angle_zh": "问能不能借工具或调料",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "请问可以借我一些盐吗？",
+      "angle": 2,
+      "angle_zh": "问能不能借工具或调料",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "我只需要用一个小时。",
+      "angle": 3,
+      "angle_zh": "说明借用多久",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "谢谢，我会尽快还给你。",
+      "angle": 4,
+      "angle_zh": "感谢并归还东西",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "谢谢你，东西已经还到你家门口了。",
+      "angle": 4,
+      "angle_zh": "感谢并归还东西",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "楼道不要放杂物，会影响大家通行。",
+      "angle": 5,
+      "angle_zh": "提醒楼道不要放杂物",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "请把杂物收进屋，方便大家出入。",
+      "angle": 5,
+      "angle_zh": "提醒楼道不要放杂物",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    },
+    {
+      "zh": "装修可以周末进行吗？",
+      "angle": 6,
+      "angle_zh": "商量噪音或装修时间",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "晚上十点后尽量不要制造噪音。",
+      "angle": 6,
+      "angle_zh": "商量噪音或装修时间",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "我可以帮你代收快递。",
+      "angle": 7,
+      "angle_zh": "告知可以代收快递",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "我出门时帮你把垃圾带下去。",
+      "angle": 7,
+      "angle_zh": "告知可以代收快递",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "一起吃个饭怎么样？",
+      "angle": 8,
+      "angle_zh": "邀请一起吃饭或散步",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "想不想一起出去散步？",
+      "angle": 8,
+      "angle_zh": "邀请一起吃饭或散步",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "这是物业的电话，有事可以联系他们。",
+      "angle": 9,
+      "angle_zh": "说明物业电话",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "如果需要帮忙，可以打电话给物业。",
+      "angle": 9,
+      "angle_zh": "说明物业电话",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "有事随时敲门，再见。",
+      "angle": 10,
+      "angle_zh": "道别并说有事随时敲门",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "谢谢你的帮忙，改天请你吃饭。",
+      "angle": 10,
+      "angle_zh": "道别并说有事随时敲门",
+      "micro": "noise",
+      "micro_zh": "噪音与协调"
+    },
+    {
+      "zh": "谢谢你借我充电器，用完马上还你。",
+      "angle": 4,
+      "angle_zh": "感谢并归还东西",
+      "micro": "borrow",
+      "micro_zh": "借东西与帮忙"
+    }
+  ]
+}

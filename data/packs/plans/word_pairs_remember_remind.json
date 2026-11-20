@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_remember_remind",
+  "pattern": "word_pairs_remember_remind",
+  "items": [
+    {
+      "zh": "出门前记得检查门窗。",
+      "angle": 1,
+      "angle_zh": "记得检查门窗",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "记得明天早点起床。",
+      "angle": 1,
+      "angle_zh": "记得带钥匙",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "睡觉之前记得关灯。",
+      "angle": 2,
+      "angle_zh": "记得关灯",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "出门之前记得锁门。",
+      "angle": 2,
+      "angle_zh": "记得关灯",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "记得提醒我下午开会。",
+      "angle": 3,
+      "angle_zh": "提醒我下午开会",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "记得提醒他按时吃药。",
+      "angle": 3,
+      "angle_zh": "提醒我下午开会",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "请记得提醒我带伞。",
+      "angle": 4,
+      "angle_zh": "提醒他吃药",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "记得提醒我明天交报告。",
+      "angle": 4,
+      "angle_zh": "提醒他吃药",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "我想不起来他的名字。",
+      "angle": 5,
+      "angle_zh": "我想不起来他的名字",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "我不记得他说过什么。",
+      "angle": 5,
+      "angle_zh": "我想不起来他的名字",
+      "micro": "remember",
+      "micro_zh": "记得"
+    },
+    {
+      "zh": "我不记得放在哪儿了。",
+      "angle": 6,
+      "angle_zh": "我不记得放在哪儿了",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "我记得我已经关门了。",
+      "angle": 6,
+      "angle_zh": "我不记得放在哪儿了",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "记得给妈妈打电话。",
+      "angle": 7,
+      "angle_zh": "记得给妈妈打电话",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "别忘了给家里回电话。",
+      "angle": 7,
+      "angle_zh": "记得给妈妈打电话",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "请提醒我给他回电话。",
+      "angle": 8,
+      "angle_zh": "请提醒我带伞",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "你能提醒我一下吗？",
+      "angle": 8,
+      "angle_zh": "请提醒我带伞",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "我记得他以前来过。",
+      "angle": 9,
+      "angle_zh": "我记得关过门",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "我突然想起一件事。",
+      "angle": 9,
+      "angle_zh": "我记得关过门",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "提醒我明天带文件。",
+      "angle": 10,
+      "angle_zh": "提醒我明天交报告",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    },
+    {
+      "zh": "提醒我晚上买牛奶。",
+      "angle": 10,
+      "angle_zh": "提醒我明天交报告",
+      "micro": "remind",
+      "micro_zh": "提醒"
+    }
+  ],
+  "source": "manual"
+}

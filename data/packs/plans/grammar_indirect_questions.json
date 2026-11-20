@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_indirect_questions",
+  "pattern": "indirect_questions",
+  "items": [
+    {
+      "zh": "你知道附近有没有超市吗？",
+      "angle": 1,
+      "angle_zh": "你知道附近有没有超市",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "请问这附近有超市吗？",
+      "angle": 1,
+      "angle_zh": "你知道附近有没有超市",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "能不能告诉我怎么走？",
+      "angle": 2,
+      "angle_zh": "能不能告诉我怎么走",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "你知道去火车站怎么走吗？",
+      "angle": 2,
+      "angle_zh": "能不能告诉我怎么走",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "请问电梯在几楼？",
+      "angle": 3,
+      "angle_zh": "请问电梯在几楼",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "你知道洗手间在哪儿吗？",
+      "angle": 3,
+      "angle_zh": "请问洗手间在哪里",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "你知道他什么时候回来吗？",
+      "angle": 4,
+      "angle_zh": "你知道他什么时候回来",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "能不能告诉我他几点回来？",
+      "angle": 4,
+      "angle_zh": "你知道他什么时候回来",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "我想知道票价是多少。",
+      "angle": 5,
+      "angle_zh": "我想知道票价多少",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "请问一张门票多少钱？",
+      "angle": 5,
+      "angle_zh": "我想知道票价多少",
+      "micro": "ask_way",
+      "micro_zh": "问路与询问"
+    },
+    {
+      "zh": "请问你们几点关门？",
+      "angle": 6,
+      "angle_zh": "请问几点关门",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "你知道这家店几点开门吗？",
+      "angle": 6,
+      "angle_zh": "请问几点关门",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "你知道这班车到不到火车站吗？",
+      "angle": 7,
+      "angle_zh": "你知道这班车到不到火车站",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "请问这班车去火车站吗？",
+      "angle": 7,
+      "angle_zh": "你知道这班车到不到火车站",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "能不能告诉我他的名字？",
+      "angle": 8,
+      "angle_zh": "能不能告诉我他的名字",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "你知道他叫什么名字吗？",
+      "angle": 8,
+      "angle_zh": "能不能告诉我他的名字",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "你知道哪里可以修手机吗？",
+      "angle": 9,
+      "angle_zh": "你知道哪里可以修手机",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "请问附近哪里能修手机？",
+      "angle": 9,
+      "angle_zh": "你知道哪里可以修手机",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "我想问这里还招不招人。",
+      "angle": 10,
+      "angle_zh": "我想问这里还招不招人",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    },
+    {
+      "zh": "请问你们还需要人手吗？",
+      "angle": 10,
+      "angle_zh": "我想问这里还招不招人",
+      "micro": "ask_info",
+      "micro_zh": "打听信息"
+    }
+  ],
+  "source": "manual"
+}

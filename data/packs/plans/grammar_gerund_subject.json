@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_gerund_subject",
+  "pattern": "gerund_subject",
+  "items": [
+    {
+      "zh": "学好英语需要很多时间。",
+      "angle": 1,
+      "angle_zh": "学英语需要时间",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "学一门新语言需要时间和耐心。",
+      "angle": 1,
+      "angle_zh": "学英语需要时间",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "跑步对身体很有好处。",
+      "angle": 2,
+      "angle_zh": "跑步对身体好",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "跑步是一项很好的运动。",
+      "angle": 2,
+      "angle_zh": "跑步对身体好",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "早睡早起对身体很好。",
+      "angle": 3,
+      "angle_zh": "早睡早起很健康",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "早睡早起是一种好习惯。",
+      "angle": 3,
+      "angle_zh": "早睡早起很健康",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "做饭比在外面吃省钱。",
+      "angle": 4,
+      "angle_zh": "做饭比外面吃省钱",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "做饭其实比点外卖便宜。",
+      "angle": 4,
+      "angle_zh": "做饭比外面吃省钱",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "游泳是最好的运动。",
+      "angle": 5,
+      "angle_zh": "游泳是最好的运动",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "游泳对膝盖的负担很小。",
+      "angle": 5,
+      "angle_zh": "游泳是最好的运动",
+      "micro": "health",
+      "micro_zh": "健康与习惯"
+    },
+    {
+      "zh": "读书能让人放松心情。",
+      "angle": 6,
+      "angle_zh": "读书能让人放松",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "读书是很好的放松方式。",
+      "angle": 6,
+      "angle_zh": "读书能让人放松",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "开车上班确实更方便。",
+      "angle": 7,
+      "angle_zh": "开车上班更方便",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "开车去郊区比坐车快。",
+      "angle": 7,
+      "angle_zh": "开车上班更方便",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "存钱其实不太容易。",
+      "angle": 8,
+      "angle_zh": "存钱不容易",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "存钱需要长期坚持。",
+      "angle": 8,
+      "angle_zh": "存钱不容易",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "听音乐能让人放松。",
+      "angle": 9,
+      "angle_zh": "听音乐能减压",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "听音乐是很好的减压方式。",
+      "angle": 9,
+      "angle_zh": "听音乐能减压",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "养花让我心情很好。",
+      "angle": 10,
+      "angle_zh": "养花让我开心",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    },
+    {
+      "zh": "养花需要耐心和细心。",
+      "angle": 10,
+      "angle_zh": "养花让我开心",
+      "micro": "life",
+      "micro_zh": "生活与选择"
+    }
+  ],
+  "source": "manual"
+}

@@ -150,6 +150,126 @@ DISCOURSE_EN = {
         r"\b(on purpose|by mistake|by accident|accidentally)\b", re.I),
 }
 
+FUNCTIONAL_EN = {
+    "func_requests": re.compile(
+        r"\b(can|could|would)\s+you\b|\bwould you mind\b|\bdo you mind\b", re.I),
+    "func_permission": re.compile(
+        r"\b(can|could|may|might)\s+i\b|\bis it (okay|ok|all right|fine) if\b|"
+        r"\bam i allowed to\b", re.I),
+    "func_suggestions": re.compile(
+        r"\b(how about|what about|why don't|why not|maybe we should|we could|you could|"
+        r"let's|let us|shall we)\b", re.I),
+    "func_complaints": re.compile(
+        r"\b(i am afraid|there is a problem|there's a problem|doesn't work|does not work|"
+        r"keeps \w+ing|not happy|i am worried|i am concerned)\b|"
+        r"\b(this|it|the \w+) (is|are) too\b|"
+        r"\btoo (salty|sweet|spicy|cold|hot|expensive|noisy|loud|slow|dirty|small|big|crowded|dark|bright)\b",
+        re.I),
+    "func_apologies": re.compile(
+        r"\b(sorry|apologize|apologise|my fault|excuse me|forgive me)\b", re.I),
+    "func_clarification": re.compile(
+        r"\b(what do you mean|do you mean|are you saying|just to be clear|to clarify|"
+        r"i mean)\b", re.I),
+    "func_negotiation": re.compile(
+        r"\b(could we|would it be possible|what if|maybe we can|can we|"
+        r"is there any way|would that work)\b", re.I),
+    "func_opinions": re.compile(
+        r"\b(i think|i don't think|i do not think|in my opinion|to me|personally|"
+        r"i feel|i believe)\b", re.I),
+    "func_agreement": re.compile(
+        r"\b(i agree|that's true|that is true|exactly|you're right|you are right|"
+        r"good point|i think so too|absolutely|(do|don't) you agree)\b", re.I),
+    "func_disagreement": re.compile(
+        r"\b(i don't think|i do not think|i'm not sure|i am not sure|i see your point|"
+        r"i disagree|that's not quite|not really|i'm afraid not|i am afraid not)\b", re.I),
+    "func_refusal": re.compile(
+        r"\b(i would rather not|i'd rather not|i am afraid i can not|i'm afraid i can't|"
+        r"maybe another time|not this time)\b|"
+        r"\bi (can not|can't) (come|go|make it|stay|tonight|today)\b", re.I),
+    "func_reassurance": re.compile(
+        r"\b(don't worry|do not worry|no worries|it's okay|it is okay|it's fine|it is fine|"
+        r"take your time|it happens|that's all right|that is all right)\b", re.I),
+    "func_invitations": re.compile(
+        r"\b(would you like|do you want)( \w+){0,3} to\b|\bare you free\b|"
+        r"\bwhy don't you\b|\bcome join\b|\bhow about joining\b|\bwant to join\b", re.I),
+    "func_thanks": re.compile(
+        r"\b(thanks|thank you|i (really )?appreciate|you're welcome|you are welcome|no problem|"
+        r"my pleasure|don't mention it)\b", re.I),
+    "func_offers": re.compile(
+        r"\b(can i help|shall i|let me|would you like me to|do you need help|"
+        r"i can \w+ (it|that) for you|need a hand|offered to help|needed a hand)\b", re.I),
+}
+
+COLLOCATION_EN = {
+    "coll_make": re.compile(
+        r"\b(make|makes|made|making)\s+(?:\w+\s+){0,3}"
+        r"(decision|mistake|call|effort|friends|sure|plan|choice|difference|list|appointment)\b",
+        re.I),
+    "coll_take": re.compile(
+        r"\b(take|takes|took|taken|taking)\s+(?:\w+\s+){0,3}"
+        r"(break|look|seat|walk|care|time|rest|shower|bus|train|subway|metro|photo|photos|pictures|turn|turns|chance)\b",
+        re.I),
+    "coll_have": re.compile(
+        r"\b(have|has|had|having)\s+(?:\w+\s+){0,3}"
+        r"(look|chat|rest|break|problem|fun|time|dinner|lunch|breakfast|coffee|meeting|appointment)\b",
+        re.I),
+    "coll_get": re.compile(
+        r"\b(get|gets|got|gotten|getting)\s+(?:\w+\s+){0,3}"
+        r"(ready|better|lost|chance|dressed|home|started|used to|tired|hungry|angry|permission)\b",
+        re.I),
+    "coll_keep_pay": re.compile(
+        r"\b(keep|keeps|kept|keeping)\s+(?:\w+\s+){0,3}"
+        r"(in touch|calm|promise|promises|quiet|going|warm|cool|fit|exercising|practicing)\b|"
+        r"\b(pay|pays|paid|paying)\s+(?:\w+\s+){0,3}"
+        r"(attention|visit|bill|rent|fine|price|tax)\b", re.I),
+    "coll_prepositions": re.compile(
+        r"\b(depend on|depends on|depended on|interested in|good at|afraid of|"
+        r"wait for|waiting for|waited for|look forward to|looking forward to|"
+        r"worried about|proud of|famous for|ready for|different from|similar to)\b", re.I),
+    "coll_word_family_decide": re.compile(
+        r"\b(decide|decides|decided|deciding|decision|decisions|choose|chooses|chose|"
+        r"chosen|choosing|choice|choices|advise|advises|advised|advice|explain|explains|"
+        r"explained|explanation)\b", re.I),
+    "coll_word_family_success": re.compile(
+        r"\b(succeed|succeeds|succeeded|success|successful|successfully|improve|improves|"
+        r"improved|improvement|develop|develops|developed|developing|development|grow|grows|growing|grew|grown|growth|"
+        r"breakthrough|breakthroughs)\b",
+        re.I),
+    "coll_frequency": re.compile(
+        r"\b(always|usually|often|sometimes|occasionally|rarely|seldom|never|ever|once|every day|every week|"
+        r"once a week|twice a week)\b", re.I),
+    "coll_time_money": re.compile(
+        r"\b(on time|in time|in advance)\b|"
+        r"\b(afford|affords|afforded)\b|"
+        r"\b(spend|spends|spent|spending|waste|wastes|wasted|wasting|save|saves|saved|saving|"
+        r"afford|affords|afforded|cost|costs|take|takes|took|taking)\b[^.;]{0,30}"
+        r"\b(time|money|hours|minutes)\b|"
+        r"\b(time|money)\b[^.;]{0,30}\b(spend|waste|save|cost|afford)\w*\b", re.I),
+    "word_pairs_say_tell": re.compile(
+        r"\b(say|says|said|saying|tell|tells|told|telling)\b", re.I),
+    "word_pairs_speak_talk": re.compile(
+        r"\b(speak|speaks|spoke|spoken|speaking|talk|talks|talked|talking)\b", re.I),
+    "word_pairs_borrow_lend": re.compile(
+        r"\b(borrow|borrows|borrowed|borrowing|lend|lends|lent|lending)\b", re.I),
+    "word_pairs_bring_take": re.compile(
+        r"\b(bring|brings|brought|bringing|take|takes|took|taken|taking)\b", re.I),
+    "word_pairs_learn_study_teach": re.compile(
+        r"\b(learn|learns|learned|learnt|learning|study|studies|studied|studying|"
+        r"teach|teaches|taught|teaching)\b", re.I),
+    "word_pairs_see_look_watch": re.compile(
+        r"\b(see|sees|saw|seen|seeing|look|looks|looked|looking|"
+        r"watch|watches|watched|watching)\b", re.I),
+    "word_pairs_hear_listen": re.compile(
+        r"\b(hear|hears|heard|hearing|listen|listens|listened|listening)\b", re.I),
+    "word_pairs_hope_wish": re.compile(
+        r"\b(hope|hopes|hoped|hoping|wish|wishes|wished|wishing)\b", re.I),
+    "word_pairs_remember_remind": re.compile(
+        r"\b(remember|remembers|remembered|remembering|remind|reminds|reminded|reminding)\b", re.I),
+    "word_pairs_win_earn": re.compile(
+        r"\b(win|wins|won|winning|earn|earns|earned|earning|"
+        r"beat|beats|beaten|beating)\b", re.I),
+}
+
 
 def has_past(text):
     return bool(PAST_RE.search(text) or PAST_ED_RE.search(text))
@@ -162,6 +282,7 @@ def expand(text):
     t = re.sub(r"\bwon't\b", "will not", t)
     t = re.sub(r"\bshan't\b", "shall not", t)
     t = re.sub(r"\b(\w+)n't\b", r"\1 not", t)
+    t = re.sub(r"\b(he|she|it)'s(?=\s+\w+ing\b)", r"\1 is", t)
     t = re.sub(r"\b(he|she|it)'s(?=\s+going to\b)", r"\1 is", t)
     t = re.sub(r"\b(i|you|we|they)'ve\b", r"\1 have", t)
     t = re.sub(r"\b(he|she|it)'s\b", r"\1 has", t)
@@ -179,6 +300,10 @@ def passes_en(pattern, en):
         return bool(PHRASAL_EN[pattern].search(n))
     if pattern in DISCOURSE_EN:
         return bool(DISCOURSE_EN[pattern].search(t))
+    if pattern in FUNCTIONAL_EN:
+        return bool(FUNCTIONAL_EN[pattern].search(t) or FUNCTIONAL_EN[pattern].search(n))
+    if pattern in COLLOCATION_EN:
+        return bool(COLLOCATION_EN[pattern].search(t) or COLLOCATION_EN[pattern].search(n))
     if pattern == "past_simple":
         return has_past(n) and bool(TIME_RE.search(n))
     if pattern == "past_continuous":
@@ -241,6 +366,81 @@ def passes_en(pattern, en):
             or bool(RELATION_RE.search(n))
     if pattern == "narrative_wishes_regrets":
         return bool(re.search(r"\b(wish|if only|should have|regret)\b", n))
+    if pattern == "present_continuous":
+        return bool(re.search(
+            r"\b(am|is|are)\s+(?:(?:not|still|just|now)\s+)?(?:\w+ing|busy\s+\w+ing)\b", n)) \
+            and not re.search(r"\bgoing to\b", n)
+    if pattern == "past_perfect":
+        return bool(re.search(
+            r"\bhad\s+(?:already\s+|just\s+|never\s+|not\s+|only\s+|recently\s+)?"
+            r"(left|arrived|finished|started|seen|met|gone|been|done|eaten|paid|lost|found|"
+            r"forgotten|told|said|bought|booked|sent|taken|made|heard|read|written|"
+            r"changed|moved|cleaned|closed|opened|stopped|ended|begun|come|known|"
+            r"got|gotten|waited|worked|studied|cooked|fixed|returned|sold|"
+            r"\w{3,}ed)\b", n)) \
+            or bool(re.search(r"\bhad not\s+\w+\b", n))
+    if pattern == "third_conditional":
+        return bool(re.search(r"\bif\b", n)) and bool(re.search(r"\bhad\s+\w+", n)) \
+            and bool(re.search(r"\bwould(?: not)?\s+have\s+\w+", n))
+    if pattern == "quantifiers":
+        return bool(re.search(
+            r"\b(some|any|many|much|a few|a little|a lot of|lots of|enough|"
+            r"too many|too much|a couple of|several|none|plenty of)\b", n))
+    if pattern == "prepositions_time":
+        return bool(re.search(
+            r"\b(in|on|at)\s+(?:the\s+)?(morning|afternoon|evening|night|weekend|"
+            r"monday|tuesday|wednesday|thursday|friday|saturday|sunday|"
+            r"january|february|march|april|may|june|july|august|september|october|"
+            r"november|december|spring|summer|autumn|fall|winter|noon|midnight|"
+            r"weekends|weekdays|weekend|weekday)\b", n)) \
+            or bool(re.search(r"\b(at|around)\s+\d{1,2}(?::\d{2})?\b", n))
+    if pattern == "question_words":
+        return bool(re.match(r"\s*(what|where|when|who|why|how|which|whose)\b", t))
+    if pattern == "too_enough":
+        return bool(re.search(r"\btoo\s+\w+\b|\b\w+\s+enough\b|\benough\s+\w+\b", n))
+    if pattern == "so_such":
+        return bool(re.search(
+            r"\bso\s+(happy|tired|busy|expensive|cold|hot|kind|funny|good|bad|nice|"
+            r"difficult|easy|late|early|fast|slow|loud|quiet|beautiful|delicious|angry|"
+            r"nervous|excited|worried|surprised|interesting|boring|far|close|small|big)\b", n)) \
+            or bool(re.search(r"\bsuch\s+(a|an)\b", n))
+    if pattern == "causative":
+        return bool(re.search(
+            r"\b(have|has|had|get|gets|got|getting)\s+(?:\w+\s+){0,5}"
+            r"(done|fixed|repaired|cleaned|cut|washed|delivered|installed|checked|painted|"
+            r"built|made|served|printed|sent|translated|changed|replaced|upgraded)\b", n))
+    if pattern == "modals_deduction":
+        return bool(re.search(
+            r"\b(must be|must have|can not be|could not be|could be|could have|"
+            r"might be|might have|may be|should be|must not be)\b", n))
+    if pattern == "present_perfect_continuous":
+        return bool(re.search(r"\b(have|has)\s+been\s+\w+ing\b", n))
+    if pattern == "indirect_questions":
+        return bool(re.search(
+            r"\b(do you know|did you know|can you tell me|could you tell me|"
+            r"i wonder|i was wondering|do you remember|can you remember)\b", n))
+    if pattern == "gerund_subject":
+        return bool(re.match(
+            r"\s*(swimming|reading|cooking|walking|learning|exercising|traveling|"
+            r"travelling|saving|driving|running|sleeping|shopping|working|studying|"
+            r"listening|speaking|cleaning|gardening|eating|drinking|smoking|jogging|"
+            r"cycling|writing|painting|singing|dancing|going|getting)\b", t)) \
+            or bool(re.search(
+                r"\b(swimming|reading|cooking|walking|learning|exercising|traveling|"
+                r"travelling|saving|driving|running|shopping|studying|cleaning)\b"
+                r"\s+(is|was|can|helps|makes|takes)\b", n))
+    if pattern == "adverbs_manner":
+        return bool(re.search(
+            r"\b(quickly|carefully|quietly|slowly|loudly|politely|clearly|easily|"
+            r"suddenly|immediately|seriously|properly|neatly|safely|gently|firmly|"
+            r"honestly|kindly|badly|well|fast|hard|early|late|angrily|happily|calmly)\b", n))
+    if pattern == "reflexive_pronouns":
+        return bool(re.search(
+            r"\b(myself|yourself|himself|herself|itself|ourselves|yourselves|themselves)\b", n))
+    if pattern == "roleplay":
+        return True
+    if pattern == "dialogue":
+        return bool(re.search(r"(^|\n)\s*a[::]", n)) and bool(re.search(r"(^|\n)\s*b[::]", n))
     raise ValueError(f"Unknown pattern: {pattern}")
 
 
@@ -295,6 +495,58 @@ ZH_CHECKS = {
     "discourse_at_least": r"(至少|最后|毕竟|总算|还是)",
     "discourse_no_wonder": r"(难怪|怪不得|原来如此|所以)",
     "discourse_on_purpose": r"(故意|不小心|无意|误|不是故意|留一盏灯)",
+    "func_requests": r"(请|能|能不能|可以|帮我|帮忙|麻烦|好吗|行吗|一下)",
+    "func_permission": r"(可以|能不能|能|允许|行吗|好吗|我想问|介意)",
+    "func_suggestions": r"(建议|不如|要不|怎么样|咱们|可以试试|试试|要不要|最好)",
+    "func_complaints": r"(太|不满|有问题|坏了|不工作|吵|慢|不对|一直|总是|投诉|不满意|漏水|不制冷)",
+    "func_apologies": r"(对不起|抱歉|不好意思|是我的错|怪我|道歉)",
+    "func_clarification": r"(什么意思|你是说|我的意思是|确认|再说一遍|听不太懂|是指|指的是)",
+    "func_negotiation": r"(能不能|可不可以|商量|换个|要不|各让一步|折中|延迟|提前|优惠|分期)",
+    "func_opinions": r"(我觉得|我认为|在我看来|个人|感觉|我的看法)",
+    "func_agreement": r"(同意|赞同|没错|确实|说得对|我也这么想|有道理|对呀)",
+    "func_disagreement": r"(不同意|不觉得|不太同意|不这么认为|不认为|不一定|恐怕不行|保留意见|不太对)",
+    "func_refusal": r"(不了|不行|不能|不方便|下次|改天|算了|恐怕|不想|拒绝|婉拒|就不|不去了)",
+    "func_reassurance": r"(别担心|别急|没关系|没事|慢慢来|放心|不用担心|会好的|不怪你)",
+    "func_invitations": r"(要不要|一起|参加|有空|邀请|愿意|来我家|聚一聚|赏脸)",
+    "func_thanks": r"(谢谢|感谢|多谢|不客气|不用谢|应该的|帮了大忙)",
+    "func_offers": r"(我帮你|需要|要我|让我|帮你|需不需要|我来|帮忙吗|搭把手)",
+    "coll_make": r"(做|决定|犯.{0,4}错|打.{0,2}电话|努力|交.{0,3}朋友|确保|确认|安排|预约|清单|区别|计划|选择|选)",
+    "coll_take": r"(休息|看一下|坐|散步|照顾|花.{0,4}时间|洗.{0,2}澡|坐车|拍.{0,3}照片|轮流|轮到|机会)",
+    "coll_have": r"(看一看|看一下|聊天|休息|问题|玩得|时间|吃晚饭|咖啡|会议|预约)",
+    "coll_get": r"(准备|好转|迷路|机会|穿好|到家|习惯|累|饿|生气|许可)",
+    "coll_keep_pay": r"(保持联系|冷静|守信|安静|坚持|保温|注意|听讲|看望|付账|付钱|房租|罚单|罚款)",
+    "coll_prepositions": r"(取决于|依靠|对.{0,6}感兴趣|擅长|害怕|等|期待|担心|骄傲|有名|闻名|准备好|做.{0,3}准备|不同于|相似)",
+    "coll_word_family_decide": r"(决定|选择|建议|解释|选|劝|说明)",
+    "coll_word_family_success": r"(成功|进步|提高|发展|成长|长得|长大|改善|失败|突破)",
+    "coll_frequency": r"(总是|经常|通常|有时|偶尔|从不|从来不|从没|很少|每天|每周|一次|两次|曾经)",
+    "coll_time_money": r"(按时|准时|及时|提前|花.{0,4}(时间|钱|小时|分钟)|浪费时间|时间.{0,3}浪费|省钱|花钱|省.{0,3}钱|存.{0,2}钱|负担|价格|费用|赶时间|买不起)",
+    "present_continuous": r"(正在|正|在).{0,10}(呢|着|做|看|等|听|吃|写|打|修|开会|忙|下|刮|找|跑|接|哭|玩|洗|用|学|说)|现在.{0,12}(在|正)",
+    "past_perfect": r"(已经|早就|之前|那时|等到|发现|才想起|才想到).{0,26}(了|过)|到.{0,12}的时候",
+    "third_conditional": r"(如果|要是).{0,34}(就|早就).{0,14}(会|不会|能|就)",
+    "quantifiers": r"(一些|一点|一点儿|很多|许多|不少|几个|够|太多|太少|没什么|有些|大量|多少)",
+    "prepositions_time": r"(在|到|从).{0,8}(早上|上午|中午|下午|晚上|夜里|周末|星期|周一|周二|周三|周四|周五|周六|周日|春天|夏天|秋天|冬天|半夜)|(在|到|从).{0,8}[一二三四五六七八九十0-9]{1,2}月|(周一|周二|周三|周四|周五|周六|周日|周末|春天|夏天|秋天|冬天).{0,12}(见面|开会|出发|回来|去|很)|(早上|下午|晚上).{0,12}(去|见面|开会|出发|回来)",
+    "question_words": r"(什么|哪里|哪儿|谁|为什么|怎么|几点|哪个|哪些|多少|多久|多远|什么时候)",
+    "too_enough": r"(太.{0,8}了|不够|够.{0,3}(了|吗)|太.{0,8}(不能|没法|拿不动|做不完|吃不下))",
+    "so_such": r"(这么|那么|如此|真是.{0,12}了)",
+    "causative": r"(让人|请人|找人|叫.{0,8}(修|洗|剪|装|做|送|打扫)|让.{0,8}(修|洗|剪|装|做|送|打扫)|送去|拿去.{0,5}(修|洗)|让人.{0,6}(送|修|做|装))",
+    "modals_deduction": r"(一定|肯定|可能|也许|应该|不可能|不会|说不定|想必)",
+    "present_perfect_continuous": r"(一直|最近|这些天|这几年|很久|已经).{0,24}(学|等|做|工作|住|锻炼|找|忙|加班|下雨|准备|哭|睡|写|开会|装修)|(学|等|做|工作|住|锻炼|哭).{0,12}了.{0,6}(年|个月|天|小时)",
+    "indirect_questions": r"(你知道|知不知道|能不能告诉我|可不可以告诉我|我想知道|我想问|请问|帮我问问)",
+    "gerund_subject": r"^(学|跑|走|游泳|做饭|读书|阅读|开车|旅行|存钱|锻炼|早睡|早起|听音乐|打扫|画画|唱歌|跳舞|养花|喝茶|熬夜|运动)",
+    "adverbs_manner": r"(认真地|仔细地|慢慢地|轻轻地|安静地|大声地|清楚地|礼貌地|顺利地|安全地|紧紧地|开心地|生气地|很快|很慢|很仔细|很认真|得很好|得很快|得很早|得很晚|说得好|做得好)",
+    "reflexive_pronouns": r"(我自己|你自己|他自己|她自己|它自己|我们自己|你们自己|他们自己|自己)",
+    "word_pairs_say_tell": r"(说|告诉|讲|跟.{0,6}说|对.{0,6}说|说不出|说实话|说清楚)",
+    "word_pairs_speak_talk": r"(说英语|会说|说话|讲话|聊天|聊|谈|讨论|演讲|发言|小声|大声|流利|说得)",
+    "word_pairs_borrow_lend": r"(借|借给|借出|借来|向.{0,6}借)",
+    "word_pairs_bring_take": r"(带|带来|带去|拿去|带回|带走|拿走|拿给|拿出去|拿到|带孩子|带朋友)",
+    "word_pairs_learn_study_teach": r"(学|学习|学会|教|自学|上课|复习)",
+    "word_pairs_see_look_watch": r"(看见|看到|看|观看|盯着|望|瞧)",
+    "word_pairs_hear_listen": r"(听见|听到|听|倾听|听不清)",
+    "word_pairs_hope_wish": r"(希望|但愿|要是.{0,20}就好了|盼着|期望)",
+    "word_pairs_remember_remind": r"(记得|记住|想起|想起来|想不起来|记不起来|提醒|忘了|忘记)",
+    "word_pairs_win_earn": r"(赢|赢得|挣|赚|打败|获胜|拿第一)",
+    "roleplay": r"[\u4e00-\u9fff]",
+    "dialogue": r"A[:：][\s\S]{2,60}B[:：]",
 }
 
 
@@ -305,7 +557,10 @@ def passes_zh(pattern, zh):
     return bool(re.search(rx, zh))
 
 
-MAX_WORDS = {"grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20}
+MAX_WORDS = {
+    "grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20,
+    "functional": 20, "collocation": 18, "roleplay": 20, "dialogue": 70,
+}
 MIN_WORDS = 4
 
 
@@ -364,6 +619,113 @@ LABELS = {
     "discourse_at_least": "at least / in the end / after all",
     "discourse_no_wonder": "no wonder / that explains why",
     "discourse_on_purpose": "on purpose / by mistake / accidentally",
+    "func_requests": "Could you / Can you / Would you mind (a polite request)",
+    "func_permission": "Can I / Could I / May I / Is it okay if I (asking permission)",
+    "func_suggestions": "How about / Why don't we / We could / Maybe we should",
+    "func_complaints": "I'm afraid ... / This is too ... / It keeps ... (a complaint)",
+    "func_apologies": "Sorry / I apologize / It was my fault",
+    "func_clarification": "What do you mean / Do you mean / Just to be clear",
+    "func_negotiation": "Could we / Would it be possible / What if",
+    "func_opinions": "I think / In my opinion / To me / Personally",
+    "func_agreement": "I agree / Exactly / That's true / You're right",
+    "func_disagreement": "I don't think / I'm not sure / I see your point, but",
+    "func_refusal": "I'd rather not / I'm afraid I can't / Maybe another time",
+    "func_reassurance": "Don't worry / It's okay / Take your time / No worries",
+    "func_invitations": "Would you like to / Do you want to / Are you free",
+    "func_thanks": "Thanks / I appreciate it / You're welcome / My pleasure",
+    "func_offers": "Can I help / Shall I / Let me / Would you like me to",
+    "coll_make": "make + noun (make a decision, make a mistake, make sure, make a call, make a plan, make a list)",
+    "coll_take": "take + noun (take a break, take a look, take care, take time, take a seat, take turns, take the subway, take photos)",
+    "coll_have": "have + noun (have a look, have a chat, have fun, have time, have a rest, have dinner, have coffee, have a meeting)",
+    "coll_get": "get + adjective/participle (get ready, get better, get lost, get a chance, get tired, get hungry, get used to, get permission)",
+    "coll_keep_pay": "keep (keep in touch / keep calm / keep a promise / keep quiet) or pay (pay attention / pay the bill / pay rent / pay a fine / pay a visit)",
+    "coll_prepositions": "verb/adjective + preposition (depend on, interested in, good at, afraid of, wait for, look forward to)",
+    "coll_word_family_decide": "decide/decision, choose/choice, advise/advice, explain/explanation",
+    "coll_word_family_success": "succeed/success/successful, improve/improvement, develop/development, grow/growth",
+    "coll_frequency": "a frequency adverb (always, usually, often, sometimes, rarely, never)",
+    "coll_time_money": "time or money collocation (on time, in time, in advance, spend/waste/save time, spend/save money, afford, cost)",
+    "present_continuous": "am/is/are + verb-ing (an action happening now)",
+    "past_perfect": "had + past participle (an action before another past action)",
+    "third_conditional": "if + had + past participle, would have + past participle",
+    "quantifiers": "a quantifier such as some, any, many, much, a few, a little, enough",
+    "prepositions_time": "in/on/at + a time expression (at 7, on Monday, in the morning)",
+    "question_words": "a wh-question starting with what, where, when, who, why, how, or which",
+    "too_enough": "too + adjective, or adjective + enough",
+    "so_such": "so + adjective, or such a + noun",
+    "causative": "have/get + object + past participle (have it fixed, get my hair cut)",
+    "modals_deduction": "must be / might be / can't be (a deduction about the situation)",
+    "present_perfect_continuous": "have/has been + verb-ing",
+    "indirect_questions": "Do you know ...? / Could you tell me ...? / I wonder ...",
+    "gerund_subject": "an -ing verb as the subject (Swimming is good for you)",
+    "adverbs_manner": "an adverb of manner (quickly, carefully, politely, well)",
+    "reflexive_pronouns": "a reflexive pronoun (myself, yourself, himself, ourselves)",
+    "word_pairs_say_tell": "say (say something) or tell (tell someone something)",
+    "word_pairs_speak_talk": "speak (a language / formally) or talk (talk to someone)",
+    "word_pairs_borrow_lend": "borrow (take and return) or lend (give for a while)",
+    "word_pairs_bring_take": "bring (toward the speaker) or take (away from the speaker)",
+    "word_pairs_learn_study_teach": "learn (gain knowledge), study (work at it), or teach (help someone learn)",
+    "word_pairs_see_look_watch": "see (notice), look (direct your eyes), or watch (view for a while)",
+    "word_pairs_hear_listen": "hear (receive sound) or listen (pay attention to sound)",
+    "word_pairs_hope_wish": "hope + present/future, or wish + past (an unreal wish)",
+    "word_pairs_remember_remind": "remember (keep in mind) or remind (help someone remember)",
+    "word_pairs_win_earn": "win (a game or prize), earn (money), or beat (an opponent)",
+    "roleplay": "the service worker's direct reply to the customer, with you/your or an offer to help",
+    "dialogue": "both turns of the exchange, kept on two lines as A: ... and B: ...",
+}
+
+# Chinese phrasing the planner must use for the newest packs, so the English
+# translation can keep the exact target structure.
+ZH_HINTS = {
+    "func_requests": "请你……好吗 / 你能……吗 / 你方便……吗 / 你介意……吗",
+    "func_permission": "我可以……吗 / 能不能…… / 我能不能……",
+    "func_suggestions": "要不…… / 不如…… / 我们……怎么样 / 可以试试",
+    "func_complaints": "太……了 / 一直…… / 有点问题（语气礼貌）",
+    "func_apologies": "对不起 / 抱歉 / 不好意思 / 是我的错",
+    "func_clarification": "你是说……吗 / 我的意思是…… / 确认一下",
+    "func_negotiation": "能不能…… / 可不可以…… / 要不我们…… / 各让一步",
+    "func_opinions": "我觉得…… / 我认为…… / 在我看来……",
+    "func_agreement": "我同意 / 你说得对 / 确实 / 没错",
+    "func_disagreement": "我不这么认为 / 我不同意 / 我觉得不太对",
+    "func_refusal": "这次我就不去了 / 恐怕不行 / 下次吧",
+    "func_reassurance": "别担心 / 没关系 / 慢慢来 / 没事",
+    "func_invitations": "你要不要…… / 一起来……吧 / 有空吗",
+    "func_thanks": "谢谢你 / 感谢 / 不客气 / 不用谢",
+    "func_offers": "我来帮你…… / 需要我……吗 / 要不要我……",
+    "coll_make": "做决定、犯错、打电话、确认、交朋友",
+    "coll_take": "休息、看一下、照顾、花时间",
+    "coll_have": "看一看、聊天、玩得开心、有时间",
+    "coll_get": "准备好、好转、迷路、得到机会",
+    "coll_keep_pay": "保持联系、冷静、注意、付账",
+    "coll_prepositions": "取决于、对……感兴趣、擅长、害怕、等、期待、担心、为……骄傲",
+    "coll_word_family_decide": "决定、选择、建议、解释",
+    "coll_word_family_success": "成功、进步、改善、发展、成长",
+    "coll_frequency": "总是、通常、经常、有时、很少、从不",
+    "coll_time_money": "准时、及时、花时间、浪费时间、存钱、买得起",
+    "present_continuous": "现在正在…… / 正在……呢 / 这会儿在……",
+    "past_perfect": "到……的时候，已经……了 / 早就……了 / 才发现……",
+    "third_conditional": "如果当时……，就……了 / 要是……，早就……",
+    "quantifiers": "一些、一点儿、很多、几个、够、太多、太少",
+    "prepositions_time": "在……点 / 在星期…… / 在……月 / 在早上、下午、晚上",
+    "question_words": "什么、哪里、谁、为什么、怎么、几点、哪个",
+    "too_enough": "太……了 / ……不够 / 够……了",
+    "so_such": "这么…… / 那么…… / 真是……",
+    "causative": "让人…… / 找人…… / 叫……修 / 送去……",
+    "modals_deduction": "一定…… / 可能…… / 不可能…… / 应该……",
+    "present_perfect_continuous": "一直在…… / 最近一直…… / 已经……多久了",
+    "indirect_questions": "你知道……吗 / 能不能告诉我…… / 请问……",
+    "gerund_subject": "学…… / 跑步…… / 早睡……（用动词短语作主语）",
+    "adverbs_manner": "认真地、仔细地、慢慢地、大声地、很好地",
+    "reflexive_pronouns": "我自己、你自己、他自己、我们自己、自己",
+    "word_pairs_say_tell": "说…… / 告诉某人…… / 跟我说…… / 说实话",
+    "word_pairs_speak_talk": "说英语 / 说话 / 聊天 / 跟某人谈一谈",
+    "word_pairs_borrow_lend": "向某人借…… / 借给某人…… / 借我……",
+    "word_pairs_bring_take": "带来 / 带去 / 拿去 / 带孩子去…… / 带……回家",
+    "word_pairs_learn_study_teach": "学…… / 学习…… / 教…… / 自学",
+    "word_pairs_see_look_watch": "看见 / 看一下 / 看电视 / 看比赛",
+    "word_pairs_hear_listen": "听见 / 听音乐 / 听我说 / 听不清",
+    "word_pairs_hope_wish": "希望…… / 但愿…… / 要是……就好了",
+    "word_pairs_remember_remind": "记得…… / 提醒我…… / 想起来……",
+    "word_pairs_win_earn": "赢了…… / 赢得…… / 挣……钱 / 赚…… / 打败……",
 }
 
 
@@ -621,5 +983,283 @@ ANGLES = {
         "故意不说话", "不小心打翻杯子", "不是故意迟到的", "误把盐当成糖",
         "故意绕远路散步", "不小心删了文件", "故意留一盏灯", "不小心说漏嘴",
         "故意早点到", "不小心坐过站",
+    ],
+    "func_requests": [
+        "请同事帮忙打印文件", "请朋友顺路带杯咖啡", "请服务员拿餐具",
+        "请邻居帮忙收快递", "请室友把音乐调小", "请路人帮忙拍照",
+        "请同事把会议时间发过来", "请前台多给一条毛巾", "请朋友等你十分钟",
+        "请店员换一个尺码",
+    ],
+    "func_permission": [
+        "问能不能提前下班", "问能不能在会议室吃东西", "问能不能借充电器",
+        "问能否带朋友来聚会", "问能不能把车停在门口", "问老师能否晚点交作业",
+        "问房东能不能养宠物", "问能不能刷卡", "问能否先看菜单",
+        "问能不能拍照",
+    ],
+    "func_suggestions": [
+        "建议同事早点出发", "建议朋友先打电话确认", "建议周末去公园走走",
+        "建议点少一点菜", "建议先看评价再订酒店", "建议把会议改到下午",
+        "建议累了就休息一下", "建议带孩子去动物园", "建议买之前先试一下",
+        "建议下雨天带伞",
+    ],
+    "func_complaints": [
+        "房间太吵睡不着", "外卖送得太慢", "新杯子漏水", "空调不制冷",
+        "同事开会总迟到", "网速太慢影响工作", "餐厅的菜太咸", "酒店热水不热",
+        "快递被放错了地方", "预约被无故取消",
+    ],
+    "func_apologies": [
+        "迟到向朋友道歉", "打翻咖啡向同事道歉", "忘记回消息向朋友道歉",
+        "弄丢了借来的书", "走错了会议室", "吵到邻居休息",
+        "忘了带答应带的东西", "临时取消约定", "说错话让同事不舒服",
+        "把孩子的水杯摔坏",
+    ],
+    "func_clarification": [
+        "没听清会议时间", "确认见面地址", "确认付款方式",
+        "确认明天是上午还是下午", "确认要带的材料", "澄清自己不是那个意思",
+        "问价格是否含税", "确认集合地点", "问药一天吃几次",
+        "确认改期后的时间",
+    ],
+    "func_negotiation": [
+        "和房东谈租金", "和同事换班", "请店家晚点关门", "和客户谈交付时间",
+        "和室友商量打扫分工", "请酒店延迟退房", "和维修师傅约上门时间",
+        "退货时协商方案", "和教练改上课时间", "请朋友分担费用",
+    ],
+    "func_opinions": [
+        "谈一部电影好不好看", "谈一家餐厅值不值得去", "谈换工作的想法",
+        "谈孩子该不该早点睡", "谈周末去哪玩", "谈网购还是去实体店",
+        "谈公司搬到新地方", "谈学开车难不难", "谈养宠物的责任",
+        "谈早起的好处",
+    ],
+    "func_agreement": [
+        "同意同事的方案", "觉得朋友说得有道理", "同意周末聚会",
+        "赞同早点出发", "认同这家餐厅好吃", "同意把会议改到下午",
+        "觉得价格合理", "同意孩子先写作业", "觉得电影结局不错",
+        "认同同事的担心",
+    ],
+    "func_disagreement": [
+        "不同意周末加班", "觉得这家店没那么好吃", "不认同买最贵的",
+        "觉得孩子还太小", "不同意马上搬家", "觉得价格太高",
+        "认为不必再等", "不赞同取消旅行", "觉得这个方案风险大",
+        "不同意现在就决定",
+    ],
+    "func_refusal": [
+        "拒绝同事的加班请求", "婉拒朋友的聚会邀请", "拒绝推销电话",
+        "不接额外的工作", "拒绝借出车子", "婉拒周末帮忙搬家",
+        "拒绝换座位", "不参加晚上的活动", "拒绝先付全款",
+        "婉拒再吃一块蛋糕",
+    ],
+    "func_reassurance": [
+        "安慰迟到的朋友", "告诉孩子打碎杯子没关系", "安慰面试失败的同事",
+        "让新手慢慢来", "安慰丢了东西的室友", "告诉对方不用急着回复",
+        "安慰第一次上台的同事", "安抚生气的家人", "让担心费用的朋友放心",
+        "安慰把菜做咸了的朋友",
+    ],
+    "func_invitations": [
+        "邀请同事下班喝一杯", "邀请朋友周末来家里吃饭", "邀请邻居孩子一起玩",
+        "邀请同事参加生日聚会", "邀请朋友一起看电影", "邀请客户参观新展厅",
+        "邀请同学参加婚礼", "邀请朋友一起晨跑", "邀请同事参加读书会",
+        "邀请家人一起旅行",
+    ],
+    "func_thanks": [
+        "感谢同事帮忙改报告", "感谢朋友去机场接你", "回应别人的感谢",
+        "感谢邻居帮忙收快递", "感谢医生耐心解释", "感谢店员帮忙找尺码",
+        "回应同事的道谢", "感谢朋友借书给你", "感谢司机等你",
+        "感谢家人做饭",
+    ],
+    "func_offers": [
+        "主动帮同事搬东西", "问朋友需不需要带饭", "主动帮邻居拿快递",
+        "问老人需不需要扶一把", "提出帮同事看报告", "问朋友需不需要送站",
+        "主动帮室友洗碗", "提出帮客户叫车", "问同事需不需要代班",
+        "主动帮孩子收拾书包",
+    ],
+    "coll_make": [
+        "做决定前先商量", "工作中犯了个错", "给朋友打个电话", "努力学英语",
+        "在新城市交朋友", "出门前确认带钥匙", "给下周做个计划", "选颜色时做选择",
+        "列一张购物清单", "打电话预约牙医",
+    ],
+    "coll_take": [
+        "工作累了休息一下", "试衣服前看一眼", "在公园找个座位", "晚饭后散步",
+        "照顾生病的家人", "学新技能需要时间", "早上洗个澡", "坐地铁上班",
+        "旅行时拍照", "和家人轮流做饭",
+    ],
+    "coll_have": [
+        "买东西前先看一看", "和朋友聊聊天", "中午休息一下", "车出了点问题",
+        "聚会上玩得开心", "今天没有时间", "一起吃晚饭", "喝杯咖啡",
+        "下午开会", "预约看医生",
+    ],
+    "coll_get": [
+        "出门前准备好", "感冒慢慢好转", "在陌生地方迷路", "得到一个面试机会",
+        "孩子自己穿好衣服", "下班后到家", "慢慢习惯新工作", "忙了一天很累",
+        "饿了找点东西吃", "得到老板的许可",
+    ],
+    "coll_keep_pay": [
+        "和朋友保持联系", "遇到事先冷静", "答应的事要做到", "图书馆里保持安静",
+        "坚持每天锻炼", "认真听讲", "周末去看望老师", "在餐厅付账",
+        "交房租", "收到停车罚单",
+    ],
+    "coll_prepositions": [
+        "周末的安排取决于天气", "对摄影很感兴趣", "很擅长做饭", "害怕坐飞机",
+        "在车站等朋友", "期待假期", "担心孩子的成绩", "为团队感到骄傲",
+        "家乡以美食有名", "准备好面试",
+    ],
+    "coll_word_family_decide": [
+        "决定换工作", "选一份礼物", "建议朋友早点睡", "解释迟到的原因",
+        "做了一个重要的决定", "在两种颜色中选择", "听医生的建议",
+        "老师解释这道题", "决定周末不加班", "选择坐火车而不是飞机",
+    ],
+    "coll_word_family_success": [
+        "项目终于成功", "英语进步很大", "城市发展很快", "孩子一年长高不少",
+        "面试很成功", "提高了工作效率", "公司业务发展顺利", "学游泳有了突破",
+        "生意越来越好", "改善了睡眠",
+    ],
+    "coll_frequency": [
+        "总是忘记带伞", "经常周末去爬山", "通常六点下班", "有时和朋友吃饭",
+        "偶尔去看电影", "很少熬夜", "从不喝咖啡", "每天早起",
+        "每周锻炼两次", "曾经去过那家店",
+    ],
+    "coll_time_money": [
+        "上班总是准时", "赶上了最后一班车", "做家务花了很多时间",
+        "不要把时间浪费在手机上", "每月存一点钱", "这个月花钱太多",
+        "买不起新手机", "修车花了不少钱", "提前准备好材料", "为了省钱自己做饭",
+    ],
+    "present_continuous": [
+        "现在外面正在下雨", "孩子正在写作业", "我在等公交车", "他在接电话",
+        "妈妈在厨房做饭", "同事们在开会", "我在找钥匙", "邻居在装修",
+        "爸爸在看电视", "她们在公园跑步",
+    ],
+    "past_perfect": [
+        "到车站时火车已经开走", "到家发现钥匙忘在公司", "吃完饭才想起没带钱包",
+        "到机场时航班已经取消", "开会前他已经准备好材料", "到公司时会议已经开始",
+        "睡觉前已经把作业做完", "到医院时医生已经下班", "出门后才想起没关窗",
+        "到餐厅时朋友已经点好菜",
+    ],
+    "third_conditional": [
+        "如果昨天早点出门就不会迟到", "如果带伞就不会淋雨", "如果当时多穿点就不会感冒",
+        "如果知道会堵车就坐地铁", "如果早点订票就买到便宜票", "如果听你的建议就不会犯错",
+        "如果没忘带钥匙就不用等", "如果多复习就能考好", "如果按时出发就赶上火车",
+        "如果那天没加班就去聚会",
+    ],
+    "quantifiers": [
+        "冰箱里还有一些鸡蛋", "需要买多少水果", "家里没有多少米了", "来了不少客人",
+        "汤里放一点盐", "书包里有很多书", "只剩几个苹果", "时间不够了",
+        "人太多了", "菜点太多了",
+    ],
+    "prepositions_time": [
+        "早上七点起床", "周一开会", "晚上八点看电影", "周末去看父母",
+        "五月去旅行", "下午三点见客户", "半夜下起雨", "夏天去海边",
+        "中午十二点吃饭", "冬天早上很冷",
+    ],
+    "question_words": [
+        "火车几点出发", "附近哪里有好吃的", "这是谁的书", "你为什么迟到",
+        "怎么去火车站", "这件衣服多少钱", "哪个颜色好看", "会议什么时候开始",
+        "你住在哪儿", "需要多久到机场",
+    ],
+    "too_enough": [
+        "这件外套太贵", "行李太重拿不动", "房间不够大", "汤不够热",
+        "他跑得不够快", "时间太短做不完", "咖啡太烫", "座位不够",
+        "年纪够大了可以自己决定", "天气太冷不想出门",
+    ],
+    "so_such": [
+        "今天这么冷", "这个蛋糕这么好吃", "他跑得这么快", "这么难的问题",
+        "那么远的地方", "天气那么好", "这么小的孩子", "你真是太好了",
+        "餐厅那么吵", "这么重要的会议",
+    ],
+    "causative": [
+        "找人修空调", "请人打扫房间", "去理发店剪头发", "让人修电脑",
+        "找人装窗帘", "送去洗车", "叫人送水", "请人翻译文件",
+        "找人做书架", "拿去修手表",
+    ],
+    "modals_deduction": [
+        "他一定在开会", "灯关着可能出门了", "这么晚不可能还在工作", "他应该是忘了",
+        "地上有水一定下过雨", "电话没人接可能睡了", "她脸色不好一定很累", "不可能这么快到",
+        "这份礼物应该是给孩子的", "钥匙可能在包里",
+    ],
+    "present_perfect_continuous": [
+        "一直在学英语", "最近一直加班", "在门口等了一个小时", "这几天一直下雨",
+        "在这家公司工作了五年", "一直在找房子", "孩子一直在哭", "最近一直在锻炼",
+        "学开车学了两个月", "一直在准备考试",
+    ],
+    "indirect_questions": [
+        "你知道附近有没有超市", "能不能告诉我怎么走", "请问洗手间在哪里",
+        "你知道他什么时候回来", "我想知道票价多少", "请问几点关门",
+        "你知道这班车到不到火车站", "能不能告诉我他的名字", "你知道哪里可以修手机",
+        "我想问这里还招不招人",
+    ],
+    "gerund_subject": [
+        "学英语需要时间", "跑步对身体好", "早睡早起很健康", "做饭比外面吃省钱",
+        "游泳是最好的运动", "读书能让人放松", "开车上班更方便", "存钱不容易",
+        "听音乐能减压", "养花让我开心",
+    ],
+    "adverbs_manner": [
+        "他认真地准备了报告", "她慢慢地走进房间", "请大声一点说", "孩子们安静地看书",
+        "他礼貌地拒绝了邀请", "她清楚地解释了原因", "我们安全地到了家", "他很快完成了工作",
+        "她开心地笑了", "请仔细地检查一遍",
+    ],
+    "reflexive_pronouns": [
+        "我自己做的晚饭", "你自己要小心", "他自己修好了电脑", "她自己搬了家",
+        "孩子自己穿好了衣服", "我们自己想办法", "你们自己决定吧", "他们自己解决了问题",
+        "猫自己打开了门", "我自己去就行",
+    ],
+    "word_pairs_say_tell": [
+        "他告诉我明天放假", "妈妈让我早点回家", "老师跟我们说考试推迟了", "他说他不会来",
+        "说实话我不太喜欢", "她讲故事给孩子听", "他说不出话来", "请你说清楚一点",
+        "他没告诉我这件事", "医生说要多喝水",
+    ],
+    "word_pairs_speak_talk": [
+        "我会说一点英语", "他们用英语交谈", "我想跟你谈谈", "她说话声音很小",
+        "老板在会议上发言", "我们聊了很久", "他说话很直接", "你可以跟经理谈",
+        "她英语说得很流利", "别在图书馆大声说话",
+    ],
+    "word_pairs_borrow_lend": [
+        "我借了同学一支笔", "他向我借了雨伞", "图书馆可以借书", "我把车借给朋友",
+        "能借我手机用一下吗", "他借给我一本书", "请不要把书借给别人", "我向邻居借了工具",
+        "相机借我几天", "她把钱借给了弟弟",
+    ],
+    "word_pairs_bring_take": [
+        "明天带伞", "他带了水果来", "请把文件带给我", "我要带孩子去医院",
+        "她带走了我的书", "记得带护照", "把垃圾拿出去", "我带了礼物给父母",
+        "请把杯子拿到厨房", "他带朋友回家吃饭",
+    ],
+    "word_pairs_learn_study_teach": [
+        "我在学游泳", "他学习很努力", "老师教我们数学", "我每天学一小时英语",
+        "她教孩子做饭", "我想学开车", "他在大学学经济", "她自学了编程",
+        "教别人也是一种学习", "这门课很难学",
+    ],
+    "word_pairs_see_look_watch": [
+        "我在街上看见老王", "看一下这个菜单", "孩子们在看电视", "我们昨晚看了一部电影",
+        "你看这张照片", "我下午去看医生", "她看着窗外发呆", "你看比赛了吗",
+        "我看见彩虹了", "帮我看着孩子",
+    ],
+    "word_pairs_hear_listen": [
+        "我听见有人敲门", "我在听音乐", "电话里听不清", "请听我说完",
+        "他每天听广播", "你听见外面的声音了吗", "她听讲座很认真", "我们应该听医生的建议",
+        "我听出他的声音了", "孩子们在听故事",
+    ],
+    "word_pairs_hope_wish": [
+        "希望明天天气好", "希望你能来", "希望考试通过", "希望早点到家",
+        "但愿别再下雨", "要是当时努力就好了", "希望你喜欢这份礼物", "希望孩子快点好起来",
+        "但愿我没记错", "希望下次有机会",
+    ],
+    "word_pairs_remember_remind": [
+        "记得带钥匙", "记得关灯", "提醒我下午开会", "提醒他吃药",
+        "我想不起来他的名字", "我不记得放在哪儿了", "记得给妈妈打电话", "请提醒我带伞",
+        "我记得关过门", "提醒我明天交报告",
+    ],
+    "word_pairs_win_earn": [
+        "我们队赢了比赛", "他赢得了冠军", "她每月挣八千块", "他靠兼职赚钱",
+        "我们打败了强队", "这场球我们赢了", "他挣的钱不多", "她赚够了学费",
+        "我们赢了第一名", "他靠写作挣钱",
+    ],
+    "roleplay": [
+        "问候并确认对方的预约或需求", "回答价格、时间或地点", "解释一条规则或流程",
+        "给出建议或提醒注意事项", "处理对方的问题或投诉", "提供两个可选的方案",
+        "核对姓名、数量或联系方式", "说明下一步该怎么做", "为不便道歉并给出补偿",
+        "结束对话并道别",
+    ],
+    "dialogue": [
+        "询问营业时间与对方回答", "询问价格与对方回答", "询问位置与对方指路",
+        "询问是否有空位或库存与对方确认", "提出要求与对方接受或拒绝",
+        "说明问题与对方给出解决办法", "商量时间与对方确认安排", "点单或预订与对方复述确认",
+        "询问流程与对方讲解步骤", "道谢道别与对方回应",
     ],
 }

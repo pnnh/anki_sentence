@@ -1,0 +1,146 @@
+{
+  "scene": "func_negotiation",
+  "pattern": "func_negotiation",
+  "items": [
+    {
+      "zh": "我们能不能把房租降一点？",
+      "angle": 1,
+      "angle_zh": "和房东谈租金",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "要不我们各让一步，房租再少一点怎么样？",
+      "angle": 1,
+      "angle_zh": "和房东谈租金",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "我们可不可以提前下班？",
+      "angle": 2,
+      "angle_zh": "和同事换班",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "要不我们换班，你上白班，我上夜班。",
+      "angle": 2,
+      "angle_zh": "和同事换班",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "要不我们关门时间延后一些？",
+      "angle": 3,
+      "angle_zh": "请店家晚点关门",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "我们能不能把交货时间往后挪一挪？",
+      "angle": 4,
+      "angle_zh": "和客户谈交付时间",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "要不我们商量一下交货时间？",
+      "angle": 4,
+      "angle_zh": "和客户谈交付时间",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "我们能不能轮流打扫厨房？",
+      "angle": 5,
+      "angle_zh": "和室友商量打扫分工",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "要不我们各自打扫自己的房间？",
+      "angle": 5,
+      "angle_zh": "和室友商量打扫分工",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    },
+    {
+      "zh": "我们可不可以把退房时间延长到下午五点？",
+      "angle": 6,
+      "angle_zh": "请酒店延迟退房",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "要不我们延迟退房到明天早上怎么样？",
+      "angle": 6,
+      "angle_zh": "请酒店延迟退房",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "我们可不可以明天再约上门时间？",
+      "angle": 7,
+      "angle_zh": "和维修师傅约上门时间",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "要不我们改在周末上门维修？",
+      "angle": 7,
+      "angle_zh": "和维修师傅约上门时间",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "退货时，我们能不能先换货？",
+      "angle": 8,
+      "angle_zh": "退货时协商方案",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "退货时，要不我们先修理再退换？",
+      "angle": 8,
+      "angle_zh": "退货时协商方案",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "我们能不能改改上课时间？",
+      "angle": 9,
+      "angle_zh": "和教练改上课时间",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "要不我们上课时间换一换？",
+      "angle": 9,
+      "angle_zh": "和教练改上课时间",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "我们可不可以请朋友帮忙分担一些费用？",
+      "angle": 10,
+      "angle_zh": "请朋友分担费用",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "要不我们商量一下，请朋友多出一些钱？",
+      "angle": 10,
+      "angle_zh": "请朋友分担费用",
+      "micro": "work",
+      "micro_zh": "工作协商"
+    },
+    {
+      "zh": "我们能不能把租金分两期付？",
+      "angle": 1,
+      "angle_zh": "和房东谈租金",
+      "micro": "service",
+      "micro_zh": "服务协商"
+    }
+  ]
+}

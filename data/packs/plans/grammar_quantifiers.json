@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_quantifiers",
+  "pattern": "quantifiers",
+  "items": [
+    {
+      "zh": "冰箱里还有一些鸡蛋。",
+      "angle": 1,
+      "angle_zh": "冰箱里还有一些鸡蛋",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "冰箱里只剩几个鸡蛋了。",
+      "angle": 1,
+      "angle_zh": "冰箱里还有一些鸡蛋",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "明天需要买多少水果？",
+      "angle": 2,
+      "angle_zh": "需要买多少水果",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "这次聚会要准备多少饮料？",
+      "angle": 2,
+      "angle_zh": "需要买多少水果",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "家里没有多少米了，得去买。",
+      "angle": 3,
+      "angle_zh": "家里没有多少米了",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "厨房里没有多少油了。",
+      "angle": 3,
+      "angle_zh": "家里没有多少米了",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "今天家里来了不少客人。",
+      "angle": 4,
+      "angle_zh": "来了不少客人",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "周末店里来了很多客人。",
+      "angle": 4,
+      "angle_zh": "来了不少客人",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "汤里再放一点盐会更香。",
+      "angle": 5,
+      "angle_zh": "汤里放一点盐",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "菜里加一点儿酱油会更香。",
+      "angle": 5,
+      "angle_zh": "汤里放一点盐",
+      "micro": "countable",
+      "micro_zh": "可数与不可数"
+    },
+    {
+      "zh": "书包里装了很多书。",
+      "angle": 6,
+      "angle_zh": "书包里有很多书",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "桌上堆着许多文件。",
+      "angle": 6,
+      "angle_zh": "书包里有很多书",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "水果篮里只剩几个苹果了。",
+      "angle": 7,
+      "angle_zh": "只剩几个苹果",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "盘子里还有几个饺子。",
+      "angle": 7,
+      "angle_zh": "只剩几个苹果",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "时间不够了，我们快点走。",
+      "angle": 8,
+      "angle_zh": "时间不够了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "材料不够，明天再买。",
+      "angle": 8,
+      "angle_zh": "时间不够了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "今天公园里的人太多了。",
+      "angle": 9,
+      "angle_zh": "人太多了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "周末商场里人太多，我们改天再去。",
+      "angle": 9,
+      "angle_zh": "人太多了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "菜点太多了，我们吃不完。",
+      "angle": 10,
+      "angle_zh": "菜点太多了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    },
+    {
+      "zh": "饮料买得太多了，放不下冰箱。",
+      "angle": 10,
+      "angle_zh": "菜点太多了",
+      "micro": "enough",
+      "micro_zh": "够与不够"
+    }
+  ],
+  "source": "manual"
+}

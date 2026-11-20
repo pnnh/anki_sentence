@@ -1,0 +1,147 @@
+{
+  "scene": "coll_take",
+  "pattern": "coll_take",
+  "items": [
+    {
+      "zh": "工作了两个小时，我们休息一下吧。",
+      "angle": 1,
+      "angle_zh": "工作累了休息一下",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "他忙了一上午，中午想休息一会儿。",
+      "angle": 1,
+      "angle_zh": "工作累了休息一下",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "买衣服之前，我先看一下价格。",
+      "angle": 2,
+      "angle_zh": "试衣服前看一眼",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "你帮我看一下这件外套合不合身。",
+      "angle": 2,
+      "angle_zh": "试衣服前看一眼",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "公园里人很多，我们找了个地方坐。",
+      "angle": 3,
+      "angle_zh": "在公园找个座位",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "走累了，我们在长椅上坐一会儿。",
+      "angle": 3,
+      "angle_zh": "在公园找个座位",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "吃完晚饭，我们一起去散步。",
+      "angle": 4,
+      "angle_zh": "晚饭后散步",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "晚饭后散步，对身体很好。",
+      "angle": 4,
+      "angle_zh": "晚饭后散步",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "妈妈生病了，我在家照顾她。",
+      "angle": 5,
+      "angle_zh": "照顾生病的家人",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "他请假照顾生病的父亲。",
+      "angle": 5,
+      "angle_zh": "照顾生病的家人",
+      "micro": "rest",
+      "micro_zh": "休息与日常"
+    },
+    {
+      "zh": "学一门新技能需要花很多时间。",
+      "angle": 6,
+      "angle_zh": "学新技能需要时间",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "我每天花时间练习弹琴。",
+      "angle": 6,
+      "angle_zh": "学新技能需要时间",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "我早上起床后先洗个澡。",
+      "angle": 7,
+      "angle_zh": "早上洗个澡",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "运动完出了一身汗，我想洗个澡。",
+      "angle": 7,
+      "angle_zh": "早上洗个澡",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "地铁站离家很近，我出门就能坐。",
+      "angle": 8,
+      "angle_zh": "坐地铁上班",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "今天下雨，我决定坐地铁去公司。",
+      "angle": 8,
+      "angle_zh": "坐地铁上班",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "旅行的时候，我喜欢拍很多照片。",
+      "angle": 9,
+      "angle_zh": "旅行时拍照",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "他在海边拍了很多照片。",
+      "angle": 9,
+      "angle_zh": "旅行时拍照",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "我和室友轮流做饭。",
+      "angle": 10,
+      "angle_zh": "和家人轮流做饭",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    },
+    {
+      "zh": "今天轮到我做饭，明天轮到你。",
+      "angle": 10,
+      "angle_zh": "和家人轮流做饭",
+      "micro": "travel",
+      "micro_zh": "出行与照顾"
+    }
+  ],
+  "source": "plan+manual"
+}

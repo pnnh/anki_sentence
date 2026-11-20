@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_present_continuous",
+  "pattern": "present_continuous",
+  "items": [
+    {
+      "zh": "现在外面正在下雨。",
+      "angle": 1,
+      "angle_zh": "现在外面正在下雨",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "你看，外面正下着大雨呢。",
+      "angle": 1,
+      "angle_zh": "现在外面正在下雨",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "孩子正在房间里写作业。",
+      "angle": 2,
+      "angle_zh": "孩子正在写作业",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "女儿这会儿正在写作业呢。",
+      "angle": 2,
+      "angle_zh": "孩子正在写作业",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "我在车站等公交车呢。",
+      "angle": 3,
+      "angle_zh": "我在等公交车",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "我正站在门口等公交车。",
+      "angle": 3,
+      "angle_zh": "我在等公交车",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "他正在接电话，等一会儿再说。",
+      "angle": 4,
+      "angle_zh": "他在接电话",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "爸爸正接着电话，先别打扰他。",
+      "angle": 4,
+      "angle_zh": "他在接电话",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "妈妈正在厨房做晚饭。",
+      "angle": 5,
+      "angle_zh": "妈妈在厨房做饭",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "奶奶在厨房忙着做饭呢。",
+      "angle": 5,
+      "angle_zh": "妈妈在厨房做饭",
+      "micro": "now",
+      "micro_zh": "此刻正在"
+    },
+    {
+      "zh": "同事们正在会议室开会。",
+      "angle": 6,
+      "angle_zh": "同事们在开会",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "他们这会儿正在开会，不方便接电话。",
+      "angle": 6,
+      "angle_zh": "同事们在开会",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "我正在到处找钥匙。",
+      "angle": 7,
+      "angle_zh": "我在找钥匙",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "我在客厅找钥匙，你看见了吗？",
+      "angle": 7,
+      "angle_zh": "我在找钥匙",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "邻居正在装修房子，声音很大。",
+      "angle": 8,
+      "angle_zh": "邻居在装修",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "楼上那家在装修，吵得睡不着。",
+      "angle": 8,
+      "angle_zh": "邻居在装修",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "爸爸正在客厅看电视。",
+      "angle": 9,
+      "angle_zh": "爸爸在看电视",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "爷爷在房间里看新闻呢。",
+      "angle": 9,
+      "angle_zh": "爸爸在看电视",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "她们正在公园里跑步。",
+      "angle": 10,
+      "angle_zh": "她们在公园跑步",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    },
+    {
+      "zh": "我们正在公园跑步，你要来吗？",
+      "angle": 10,
+      "angle_zh": "她们在公园跑步",
+      "micro": "around",
+      "micro_zh": "近期状态"
+    }
+  ],
+  "source": "manual"
+}

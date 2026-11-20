@@ -1,0 +1,147 @@
+{
+  "scene": "coll_keep_pay",
+  "pattern": "coll_keep_pay",
+  "items": [
+    {
+      "zh": "搬到别的城市后，我们还一直保持联系。",
+      "angle": 1,
+      "angle_zh": "和朋友保持联系",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "老朋友之间，应该经常保持联系。",
+      "angle": 1,
+      "angle_zh": "和朋友保持联系",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "遇到问题先保持冷静，别着急。",
+      "angle": 2,
+      "angle_zh": "遇到事先冷静",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "他深吸一口气，让自己保持冷静。",
+      "angle": 2,
+      "angle_zh": "遇到事先冷静",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "做人要守信，答应别人的事要做到。",
+      "angle": 3,
+      "angle_zh": "答应的事要做到",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "他答应过的事从来不会忘，很守信。",
+      "angle": 3,
+      "angle_zh": "答应的事要做到",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "图书馆里请保持安静。",
+      "angle": 4,
+      "angle_zh": "图书馆里保持安静",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "孩子在睡觉，我们保持安静一点。",
+      "angle": 4,
+      "angle_zh": "图书馆里保持安静",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "他每天坚持锻炼一个小时。",
+      "angle": 5,
+      "angle_zh": "坚持每天锻炼",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "想身体好，就要坚持锻炼。",
+      "angle": 5,
+      "angle_zh": "坚持每天锻炼",
+      "micro": "keep",
+      "micro_zh": "保持与坚持"
+    },
+    {
+      "zh": "上课的时候要认真听讲。",
+      "angle": 6,
+      "angle_zh": "认真听讲",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "开会时请认真听讲，别玩手机。",
+      "angle": 6,
+      "angle_zh": "认真听讲",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "周末我打算去看望老师。",
+      "angle": 7,
+      "angle_zh": "周末去看望老师",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "好久没见，我们应该去看望老师。",
+      "angle": 7,
+      "angle_zh": "周末去看望老师",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "吃完饭后，他主动去付账。",
+      "angle": 8,
+      "angle_zh": "在餐厅付账",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "今天这顿饭，我来付账吧。",
+      "angle": 8,
+      "angle_zh": "在餐厅付账",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "每个月初，我要交房租。",
+      "angle": 9,
+      "angle_zh": "交房租",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "房租又涨了，这个月得多付一点。",
+      "angle": 9,
+      "angle_zh": "交房租",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "他因为乱停车交了罚款。",
+      "angle": 10,
+      "angle_zh": "收到停车罚单",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    },
+    {
+      "zh": "罚款要在两周内交，别忘了。",
+      "angle": 10,
+      "angle_zh": "收到停车罚单",
+      "micro": "pay",
+      "micro_zh": "付出与费用"
+    }
+  ],
+  "source": "plan+manual"
+}

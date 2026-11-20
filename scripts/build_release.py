@@ -68,7 +68,7 @@ def dedupe(records):
 
 
 def field(text):
-    return html.escape(str(text), quote=False)
+    return html.escape(str(text), quote=False).replace("\n", "<br>")
 
 
 def build_deck(records):

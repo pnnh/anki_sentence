@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_see_look_watch",
+  "pattern": "word_pairs_see_look_watch",
+  "items": [
+    {
+      "zh": "我在街上看见老王。",
+      "angle": 1,
+      "angle_zh": "我在街上看见老王",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "我昨天在超市看见他了。",
+      "angle": 1,
+      "angle_zh": "我在街上看见老王",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "你看一下这个菜单。",
+      "angle": 2,
+      "angle_zh": "看一下这个菜单",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "请看一下这份文件。",
+      "angle": 2,
+      "angle_zh": "看一下这个菜单",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "孩子们正在客厅看电视。",
+      "angle": 3,
+      "angle_zh": "孩子们在看电视",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "我们正在看球赛呢。",
+      "angle": 3,
+      "angle_zh": "孩子们在看电视",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "我们昨晚看了一部电影。",
+      "angle": 4,
+      "angle_zh": "我们昨晚看了一部电影",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "她平时喜欢看纪录片。",
+      "angle": 4,
+      "angle_zh": "我们昨晚看了一部电影",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "你快来看这张照片。",
+      "angle": 5,
+      "angle_zh": "你看这张照片",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "他看了看自己的手表。",
+      "angle": 5,
+      "angle_zh": "你看这张照片",
+      "micro": "see",
+      "micro_zh": "看见与看到"
+    },
+    {
+      "zh": "我下午要去医院看医生。",
+      "angle": 6,
+      "angle_zh": "我下午去看医生",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "她今天去医院看病了。",
+      "angle": 6,
+      "angle_zh": "我下午去看医生",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "她坐在窗边看着窗外发呆。",
+      "angle": 7,
+      "angle_zh": "她看着窗外发呆",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "他盯着屏幕不说话。",
+      "angle": 7,
+      "angle_zh": "她看着窗外发呆",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "你昨天看比赛了吗？",
+      "angle": 8,
+      "angle_zh": "你看比赛了吗",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "他们今晚去看演出了。",
+      "angle": 8,
+      "angle_zh": "你看比赛了吗",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "我在外面看见彩虹了。",
+      "angle": 9,
+      "angle_zh": "我看见彩虹了",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "我在路上看见一只小狗。",
+      "angle": 9,
+      "angle_zh": "我看见彩虹了",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "你帮我看着孩子一会儿。",
+      "angle": 10,
+      "angle_zh": "帮我看着孩子",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    },
+    {
+      "zh": "请你帮我看好行李。",
+      "angle": 10,
+      "angle_zh": "帮我看着孩子",
+      "micro": "watch",
+      "micro_zh": "观看与注视"
+    }
+  ],
+  "source": "manual"
+}

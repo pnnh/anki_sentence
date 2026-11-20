@@ -1,0 +1,146 @@
+{
+  "scene": "dlg_travel",
+  "pattern": "dialogue",
+  "items": [
+    {
+      "zh": "A: 地铁站怎么走？\nB: 直走，第二个路口左转，看见车站。",
+      "angle": 1,
+      "angle_zh": "问地铁站怎么走",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 到学校要多久？\nB: 坐公交大概二十分钟。",
+      "angle": 3,
+      "angle_zh": "问到目的地要多久",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 我要去市中心，坐几号线？\nB: 坐一号线，直达到。",
+      "angle": 2,
+      "angle_zh": "问坐几号线",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 这趟车的票价是多少？\nB: 两块钱，投币就行。",
+      "angle": 4,
+      "angle_zh": "问票价多少",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 在哪一站换乘？\nB: 第二站换乘，别走过了。",
+      "angle": 6,
+      "angle_zh": "问在哪一站换乘",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 附近有公交站吗？\nB: 对面就有，走两分钟到。",
+      "angle": 7,
+      "angle_zh": "问附近有没有公交站",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 这条路是往南吗？\nB: 是的，直走就到。",
+      "angle": 9,
+      "angle_zh": "确认路线方向",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 能打车到那里吗？\nB: 可以，大约五十元。",
+      "angle": 8,
+      "angle_zh": "问能不能打车到",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 末班车几点开？\nB: 十一点半，别错过最后一班。",
+      "angle": 5,
+      "angle_zh": "问末班车几点",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 谢谢你的帮助。\nB: 不客气，祝你旅途愉快。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 能不能打车去火车站？\nB: 可以，大概需要四十分钟。",
+      "angle": 8,
+      "angle_zh": "问能不能打车到",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 这条路是往东吗？\nB: 对，直走然后左转。",
+      "angle": 9,
+      "angle_zh": "确认路线方向",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 谢谢你的指路。\nB: 不客气，路上小心。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 最近的银行怎么走？\nB: 出门右转，走五十米就到。",
+      "angle": 1,
+      "angle_zh": "问地铁站怎么走",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 这里可以过马路吗？\nB: 可以，前面有斑马线。",
+      "angle": 9,
+      "angle_zh": "确认路线方向",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 我走错方向了吗？\nB: 是的，您要走另一边。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "对方指路"
+    },
+    {
+      "zh": "A: 书店在这附近吗？\nB: 在街对面，过个马路就是。",
+      "angle": 1,
+      "angle_zh": "问地铁站怎么走",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 应该坐哪条线？\nB: 坐二号线，到那边换乘。",
+      "angle": 2,
+      "angle_zh": "问坐几号线",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 坐地铁要转车吗？\nB: 不用转，直达很方便。",
+      "angle": 3,
+      "angle_zh": "问到目的地要多久",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    },
+    {
+      "zh": "A: 这附近有超市吗？\nB: 有，往前走两分钟就到。",
+      "angle": 1,
+      "angle_zh": "问地铁站怎么走",
+      "micro": "ask",
+      "micro_zh": "路人询问"
+    }
+  ]
+}

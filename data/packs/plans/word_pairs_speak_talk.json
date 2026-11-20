@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_speak_talk",
+  "pattern": "word_pairs_speak_talk",
+  "items": [
+    {
+      "zh": "我会说一点日常英语。",
+      "angle": 1,
+      "angle_zh": "我会说一点英语",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "他英语说得很流利。",
+      "angle": 1,
+      "angle_zh": "我会说一点英语",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "他们用英语互相交谈。",
+      "angle": 2,
+      "angle_zh": "他们用英语交谈",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "我们用英语讨论问题。",
+      "angle": 2,
+      "angle_zh": "他们用英语交谈",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "我想跟你谈谈工作。",
+      "angle": 3,
+      "angle_zh": "我想跟你谈谈",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "我们找个时间谈一谈。",
+      "angle": 3,
+      "angle_zh": "我想跟你谈谈",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "她说话的声音很小。",
+      "angle": 4,
+      "angle_zh": "她说话声音很小",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "他说话的声音很大。",
+      "angle": 4,
+      "angle_zh": "她说话声音很小",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "老板在会议上发言。",
+      "angle": 5,
+      "angle_zh": "老板在会议上发言",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "她在会上作了简短发言。",
+      "angle": 5,
+      "angle_zh": "老板在会议上发言",
+      "micro": "language",
+      "micro_zh": "说语言"
+    },
+    {
+      "zh": "我们在电话里聊了很久。",
+      "angle": 6,
+      "angle_zh": "我们聊了很久",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "他们坐在那儿聊了很久。",
+      "angle": 6,
+      "angle_zh": "我们聊了很久",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "他说话一向很直接。",
+      "angle": 7,
+      "angle_zh": "他说话很直接",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "她说话比较委婉客气。",
+      "angle": 7,
+      "angle_zh": "他说话很直接",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "你可以直接跟经理谈。",
+      "angle": 8,
+      "angle_zh": "你可以跟经理谈",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "你有空的时候我们再谈。",
+      "angle": 8,
+      "angle_zh": "你可以跟经理谈",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "她英语说得非常流利。",
+      "angle": 9,
+      "angle_zh": "她英语说得很流利",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "他的中文说得很自然。",
+      "angle": 9,
+      "angle_zh": "她英语说得很流利",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "别在图书馆大声说话。",
+      "angle": 10,
+      "angle_zh": "别在图书馆大声说话",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    },
+    {
+      "zh": "在医院里请小声说话。",
+      "angle": 10,
+      "angle_zh": "别在图书馆大声说话",
+      "micro": "conversation",
+      "micro_zh": "交谈与发言"
+    }
+  ],
+  "source": "manual"
+}

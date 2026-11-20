@@ -1,0 +1,147 @@
+{
+  "scene": "coll_frequency",
+  "pattern": "coll_frequency",
+  "items": [
+    {
+      "zh": "每次出门，我总是忘记带伞。",
+      "angle": 1,
+      "angle_zh": "总是忘记带伞",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "他出门总是丢三落四。",
+      "angle": 1,
+      "angle_zh": "总是忘记带伞",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "我经常周末去爬山。",
+      "angle": 2,
+      "angle_zh": "经常周末去爬山",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "她经常下班后去跑步。",
+      "angle": 2,
+      "angle_zh": "经常周末去爬山",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "工作不忙的时候，我通常六点下班。",
+      "angle": 3,
+      "angle_zh": "通常六点下班",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "他生活很规律，通常七点起床。",
+      "angle": 3,
+      "angle_zh": "通常六点下班",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "我有时和朋友一起吃饭。",
+      "angle": 4,
+      "angle_zh": "有时和朋友吃饭",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "周末我有时会睡个懒觉。",
+      "angle": 4,
+      "angle_zh": "有时和朋友吃饭",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "我偶尔去看一场电影。",
+      "angle": 5,
+      "angle_zh": "偶尔去看电影",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "他偶尔会买一束花。",
+      "angle": 5,
+      "angle_zh": "偶尔去看电影",
+      "micro": "habit",
+      "micro_zh": "习惯与频率"
+    },
+    {
+      "zh": "为了身体健康，我很少熬夜。",
+      "angle": 6,
+      "angle_zh": "很少熬夜",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "她很少吃甜食，也不喝饮料。",
+      "angle": 6,
+      "angle_zh": "很少熬夜",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "为了睡得好，我从来不喝咖啡。",
+      "angle": 7,
+      "angle_zh": "从不喝咖啡",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "上班这么多年，他从不迟到。",
+      "angle": 7,
+      "angle_zh": "从不喝咖啡",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "我每天早上六点起床。",
+      "angle": 8,
+      "angle_zh": "每天早起",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "她每天坚持读书，从不间断。",
+      "angle": 8,
+      "angle_zh": "每天早起",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "为了保持健康，我每周锻炼两次。",
+      "angle": 9,
+      "angle_zh": "每周锻炼两次",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "他每周上两次英语课。",
+      "angle": 9,
+      "angle_zh": "每周锻炼两次",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "我曾经去过那家店。",
+      "angle": 10,
+      "angle_zh": "曾经去过那家店",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    },
+    {
+      "zh": "我以前从没吃过这种水果。",
+      "angle": 10,
+      "angle_zh": "曾经去过那家店",
+      "micro": "past",
+      "micro_zh": "过去与例外"
+    }
+  ],
+  "source": "plan+manual"
+}

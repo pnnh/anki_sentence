@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_modals_deduction",
+  "pattern": "modals_deduction",
+  "items": [
+    {
+      "zh": "他现在一定在开会。",
+      "angle": 1,
+      "angle_zh": "他一定在开会",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "会议室灯亮着，他肯定在里面。",
+      "angle": 1,
+      "angle_zh": "他一定在开会",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "灯关着，他可能出门了。",
+      "angle": 2,
+      "angle_zh": "灯关着可能出门了",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "家里没人应门，也许他们出去了。",
+      "angle": 2,
+      "angle_zh": "灯关着可能出门了",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "这么晚了，他不可能还在工作。",
+      "angle": 3,
+      "angle_zh": "这么晚不可能还在工作",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "都十二点了，办公室不可能还有人。",
+      "angle": 3,
+      "angle_zh": "这么晚不可能还在工作",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "他应该是忘记时间了。",
+      "angle": 4,
+      "angle_zh": "他应该是忘了",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "他没有回消息，应该是太忙了。",
+      "angle": 4,
+      "angle_zh": "他应该是忘了",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "地上有水，刚才一定下过雨。",
+      "angle": 5,
+      "angle_zh": "地上有水一定下过雨",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "路上都是湿的，昨晚肯定下雨了。",
+      "angle": 5,
+      "angle_zh": "地上有水一定下过雨",
+      "micro": "present",
+      "micro_zh": "对现在的推测"
+    },
+    {
+      "zh": "电话没人接，他可能已经睡了。",
+      "angle": 6,
+      "angle_zh": "电话没人接可能睡了",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "这么晚打过去，他也许睡了。",
+      "angle": 6,
+      "angle_zh": "电话没人接可能睡了",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "她脸色不好，一定很累。",
+      "angle": 7,
+      "angle_zh": "她脸色不好一定很累",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "他今天话很少，肯定遇到麻烦了。",
+      "angle": 7,
+      "angle_zh": "她脸色不好一定很累",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "他不可能这么快就到。",
+      "angle": 8,
+      "angle_zh": "不可能这么快到",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "坐公交不可能半小时到公司。",
+      "angle": 8,
+      "angle_zh": "不可能这么快到",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "这份礼物应该是给孩子的。",
+      "angle": 9,
+      "angle_zh": "这份礼物应该是给孩子的",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "这些玩具可能是邻居送的。",
+      "angle": 9,
+      "angle_zh": "这份礼物应该是给孩子的",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "钥匙可能在你的包里。",
+      "angle": 10,
+      "angle_zh": "钥匙可能在包里",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    },
+    {
+      "zh": "我的手机应该在沙发上。",
+      "angle": 10,
+      "angle_zh": "钥匙可能在包里",
+      "micro": "past",
+      "micro_zh": "对过去的推测"
+    }
+  ],
+  "source": "manual"
+}

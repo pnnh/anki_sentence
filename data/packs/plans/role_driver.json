@@ -1,0 +1,146 @@
+{
+  "scene": "role_driver",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "您要去的地方是哪里？",
+      "angle": 1,
+      "angle_zh": "确认目的地",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "您行李多吗？我帮您放到后备箱。",
+      "angle": 1,
+      "angle_zh": "确认目的地",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "您是要走高速还是走市里？",
+      "angle": 2,
+      "angle_zh": "询问走高速还是市里",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "您赶时间吗？我可以开快一点。",
+      "angle": 2,
+      "angle_zh": "询问走高速还是市里",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "大概车费是八十元左右。",
+      "angle": 3,
+      "angle_zh": "说明大概车费",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "预计车费是五十元左右。",
+      "angle": 3,
+      "angle_zh": "说明大概车费",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "请您把安全带系上。",
+      "angle": 4,
+      "angle_zh": "提醒系好安全带",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "预计十五分钟后到达。",
+      "angle": 5,
+      "angle_zh": "介绍预计到达时间",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "大约二十分钟就能到了。",
+      "angle": 5,
+      "angle_zh": "介绍预计到达时间",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "现在有点堵车，请您耐心等待。",
+      "angle": 6,
+      "angle_zh": "遇到堵车说明情况",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "前面有交通拥堵，可能要多等一会儿。",
+      "angle": 6,
+      "angle_zh": "遇到堵车说明情况",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "可以刷卡支付，也可以扫码。",
+      "angle": 7,
+      "angle_zh": "回答能不能刷卡或扫码",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "我们这支持刷卡和手机扫码支付。",
+      "angle": 7,
+      "angle_zh": "回答能不能刷卡或扫码",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "到了，请您拿好随身物品。",
+      "angle": 8,
+      "angle_zh": "到达后提醒带好随身物品",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "请记得带好您的行李和物品。",
+      "angle": 8,
+      "angle_zh": "到达后提醒带好随身物品",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "这是您的发票，请收好。",
+      "angle": 9,
+      "angle_zh": "找零或开发票",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "下车时请注意安全。",
+      "angle": 10,
+      "angle_zh": "道别并提醒下车小心",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    },
+    {
+      "zh": "找您二十元，请拿好。",
+      "angle": 4,
+      "angle_zh": "提醒系好安全带",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "大约十二分钟后就能到了。",
+      "angle": 5,
+      "angle_zh": "介绍预计到达时间",
+      "micro": "route",
+      "micro_zh": "确认路线与到达"
+    },
+    {
+      "zh": "到了，一共三十五元。",
+      "angle": 6,
+      "angle_zh": "遇到堵车说明情况",
+      "micro": "pay",
+      "micro_zh": "收费与提醒"
+    }
+  ]
+}

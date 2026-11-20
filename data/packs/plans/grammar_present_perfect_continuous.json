@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_present_perfect_continuous",
+  "pattern": "present_perfect_continuous",
+  "items": [
+    {
+      "zh": "这两年我一直在学英语。",
+      "angle": 1,
+      "angle_zh": "一直在学英语",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "他从去年开始一直在学英语。",
+      "angle": 1,
+      "angle_zh": "一直在学英语",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "他最近一直在加班。",
+      "angle": 2,
+      "angle_zh": "最近一直加班",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "这段时间我们一直在加班。",
+      "angle": 2,
+      "angle_zh": "最近一直加班",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "我在门口等了一个小时。",
+      "angle": 3,
+      "angle_zh": "在门口等了一个小时",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "她已经在车站等了半个小时。",
+      "angle": 3,
+      "angle_zh": "在门口等了一个小时",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "这几天一直都在下雨。",
+      "angle": 4,
+      "angle_zh": "这几天一直下雨",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "最近一直下雨，出门很不方便。",
+      "angle": 4,
+      "angle_zh": "这几天一直下雨",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "我在这家公司工作了五年。",
+      "angle": 5,
+      "angle_zh": "在这家公司工作了五年",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "他在这家工厂已经工作了八年。",
+      "angle": 5,
+      "angle_zh": "在这家公司工作了五年",
+      "micro": "ongoing",
+      "micro_zh": "持续进行"
+    },
+    {
+      "zh": "我们一直在找房子。",
+      "angle": 6,
+      "angle_zh": "一直在找房子",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "她最近一直在找新工作。",
+      "angle": 6,
+      "angle_zh": "一直在找房子",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "孩子一直在哭，怎么哄都不行。",
+      "angle": 7,
+      "angle_zh": "孩子一直在哭",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "宝宝已经哭了半个小时了。",
+      "angle": 7,
+      "angle_zh": "孩子一直在哭",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "他最近一直在锻炼身体。",
+      "angle": 8,
+      "angle_zh": "最近一直在锻炼",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "为了减肥，她一直在锻炼。",
+      "angle": 8,
+      "angle_zh": "最近一直在锻炼",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "我学开车学了两个月。",
+      "angle": 9,
+      "angle_zh": "学开车学了两个月",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "她学游泳学了三个月。",
+      "angle": 9,
+      "angle_zh": "学开车学了两个月",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "我一直在准备考试。",
+      "angle": 10,
+      "angle_zh": "一直在准备考试",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    },
+    {
+      "zh": "最近他一直在准备考试，很少出门。",
+      "angle": 10,
+      "angle_zh": "一直在准备考试",
+      "micro": "recent",
+      "micro_zh": "最近状态"
+    }
+  ],
+  "source": "manual"
+}

@@ -1,0 +1,146 @@
+{
+  "scene": "func_permission",
+  "pattern": "func_permission",
+  "items": [
+    {
+      "zh": "我可以早点下班吗？",
+      "angle": 1,
+      "angle_zh": "问能不能提前下班",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "今天能提前离开办公室吗？",
+      "angle": 1,
+      "angle_zh": "问能不能提前下班",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我可以在这里吃东西吗？",
+      "angle": 2,
+      "angle_zh": "问能不能在会议室吃东西",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我能在会议室吃点东西吗？",
+      "angle": 2,
+      "angle_zh": "问能不能在会议室吃东西",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我可以借你的充电器用一下吗？",
+      "angle": 3,
+      "angle_zh": "问能不能借充电器",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我可以带朋友来参加聚会吗？",
+      "angle": 4,
+      "angle_zh": "问能否带朋友来聚会",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "今天我能带朋友一起过来玩吗？",
+      "angle": 4,
+      "angle_zh": "问能否带朋友来聚会",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我可以把车停在门口吗？",
+      "angle": 5,
+      "angle_zh": "问能不能把车停在门口",
+      "micro": "work",
+      "micro_zh": "工作场合"
+    },
+    {
+      "zh": "我可以晚点交作业吗？",
+      "angle": 6,
+      "angle_zh": "问老师能否晚点交作业",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "今天作业多，我能明天交吗？",
+      "angle": 6,
+      "angle_zh": "问老师能否晚点交作业",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我可以养只小狗吗？",
+      "angle": 7,
+      "angle_zh": "问房东能不能养宠物",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我能不能先养几天试试？",
+      "angle": 7,
+      "angle_zh": "问房东能不能养宠物",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我可以刷卡付账吗？",
+      "angle": 8,
+      "angle_zh": "问能不能刷卡",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "能不能先用一下你的卡？",
+      "angle": 8,
+      "angle_zh": "问能不能刷卡",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我可以先看菜单吗？",
+      "angle": 9,
+      "angle_zh": "问能否先看菜单",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我先看看菜单可以吗？",
+      "angle": 9,
+      "angle_zh": "问能否先看菜单",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我可以在这里拍照吗？",
+      "angle": 10,
+      "angle_zh": "问能不能拍照",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "今天天气好，我们可以在公园拍张照吗？",
+      "angle": 10,
+      "angle_zh": "问能不能拍照",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我作业写得差不多了，可以明天交吗？",
+      "angle": 6,
+      "angle_zh": "问老师能否晚点交作业",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    },
+    {
+      "zh": "我能不能先在家里养几天？",
+      "angle": 7,
+      "angle_zh": "问房东能不能养宠物",
+      "micro": "daily",
+      "micro_zh": "日常场合"
+    }
+  ]
+}

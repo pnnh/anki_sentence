@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_win_earn",
+  "pattern": "word_pairs_win_earn",
+  "items": [
+    {
+      "zh": "我们队赢了这场篮球比赛。",
+      "angle": 1,
+      "angle_zh": "我们队赢了比赛",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "这场比赛我们终于赢了。",
+      "angle": 1,
+      "angle_zh": "我们队赢了比赛",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "他赢得了这次比赛的冠军。",
+      "angle": 2,
+      "angle_zh": "他赢得了冠军",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "她在比赛中赢了第一名。",
+      "angle": 2,
+      "angle_zh": "他赢得了冠军",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "她每个月挣八千块钱。",
+      "angle": 3,
+      "angle_zh": "她每月挣八千块",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "他一个月能挣多少钱？",
+      "angle": 3,
+      "angle_zh": "她每月挣八千块",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "他靠做兼职赚了不少钱。",
+      "angle": 4,
+      "angle_zh": "他靠兼职赚钱",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "她靠写文章挣生活费。",
+      "angle": 4,
+      "angle_zh": "他靠兼职赚钱",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "我们打败了一支强队。",
+      "angle": 5,
+      "angle_zh": "我们打败了强队",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "他打败了所有的对手。",
+      "angle": 5,
+      "angle_zh": "我们打败了强队",
+      "micro": "win",
+      "micro_zh": "赢与打败"
+    },
+    {
+      "zh": "我们赢了这场重要的比赛。",
+      "angle": 6,
+      "angle_zh": "这场球我们赢了",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "他们赢了最后一场决赛。",
+      "angle": 6,
+      "angle_zh": "这场球我们赢了",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "他每个月挣的钱不多。",
+      "angle": 7,
+      "angle_zh": "他挣的钱不多",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "她靠做设计赚了不少钱。",
+      "angle": 7,
+      "angle_zh": "他挣的钱不多",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "她终于赚够了学费。",
+      "angle": 8,
+      "angle_zh": "她赚够了学费",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "她赚够了出国留学的钱。",
+      "angle": 8,
+      "angle_zh": "她赚够了学费",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "我们队最后赢了三分。",
+      "angle": 9,
+      "angle_zh": "我们赢了第一名",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "他们以两分的优势获胜。",
+      "angle": 9,
+      "angle_zh": "我们赢了第一名",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "他靠送外卖挣钱养家。",
+      "angle": 10,
+      "angle_zh": "他靠写作挣钱",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    },
+    {
+      "zh": "她靠做翻译赚外快。",
+      "angle": 10,
+      "angle_zh": "他靠写作挣钱",
+      "micro": "earn",
+      "micro_zh": "挣钱与赚取"
+    }
+  ],
+  "source": "manual"
+}

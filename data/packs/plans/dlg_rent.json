@@ -1,0 +1,146 @@
+{
+  "scene": "dlg_rent",
+  "pattern": "dialogue",
+  "items": [
+    {
+      "zh": "A: 一个月租金多少？\nB: 两千五百元，押金两个月。",
+      "angle": 1,
+      "angle_zh": "问租金和押金",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 哪天可以来看房？\nB: 星期六下午三点，可以看。",
+      "angle": 2,
+      "angle_zh": "问什么时候能看房",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 离地铁站多远？\nB: 步行五分钟，非常近。",
+      "angle": 4,
+      "angle_zh": "问离地铁多远",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 可以养宠物吗？\nB: 不可以养宠物，规定是这样的。",
+      "angle": 5,
+      "angle_zh": "问能不能养宠物",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 这个房子多大呢？\nB: 七十平方米，正好三室一厅。",
+      "angle": 3,
+      "angle_zh": "问房子多大",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 水电费怎么算？\nB: 按表收费，每个月月底结算。",
+      "angle": 6,
+      "angle_zh": "问水电怎么算",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 家具都齐全吗？\nB: 冰箱洗衣机都有，还有一张大床。",
+      "angle": 7,
+      "angle_zh": "问家具是否齐全",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 最短租多久呢？\nB: 至少半年起租，一年更稳。",
+      "angle": 8,
+      "angle_zh": "问最短租多久",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 什么时候签合同方便？\nB: 这个周末下午四点，可以吗？",
+      "angle": 9,
+      "angle_zh": "约签合同的时间",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 谢谢你带我看房。\nB: 不客气，希望你满意。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 租金每个月多少呢？\nB: 两千五百元，包括网费。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 可以月付吗？\nB: 可以，月付的话租金会高一点。",
+      "angle": 8,
+      "angle_zh": "问最短租多久",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 什么时候签合同方便？\nB: 这个周六上午十点，你看行吗？",
+      "angle": 9,
+      "angle_zh": "约签合同的时间",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 谢谢你的时间和帮助。\nB: 不客气，希望你找到满意的房子。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 附近有超市吗？\nB: 楼下就有一家，很方便。",
+      "angle": 1,
+      "angle_zh": "问租金和押金",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 押金什么时候退？\nB: 退房当天检查完就退给您。",
+      "angle": 9,
+      "angle_zh": "约签合同的时间",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 谢谢你的耐心解释。\nB: 不客气，祝你找到好房子。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    },
+    {
+      "zh": "A: 押金需要交多少呢？\nB: 一个月租金，一千八百元。",
+      "angle": 1,
+      "angle_zh": "问租金和押金",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 这周末能来看房吗？\nB: 周日下午三点，可以吗？",
+      "angle": 2,
+      "angle_zh": "问什么时候能看房",
+      "micro": "ask",
+      "micro_zh": "租客询问"
+    },
+    {
+      "zh": "A: 房子什么时候可以入住？\nB: 下个月一号就可以搬进来。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "房东回应"
+    }
+  ]
+}

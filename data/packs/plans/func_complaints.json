@@ -1,0 +1,146 @@
+{
+  "scene": "func_complaints",
+  "pattern": "func_complaints",
+  "items": [
+    {
+      "zh": "空调不制冷，一直感觉很热。",
+      "angle": 4,
+      "angle_zh": "空调不制冷",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "这台空调不制冷，房间越来越热。",
+      "angle": 4,
+      "angle_zh": "空调不制冷",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "房间太吵，我害怕晚上睡不着。",
+      "angle": 1,
+      "angle_zh": "房间太吵睡不着",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "这个房间隔音太差，吵得我有点睡不着。",
+      "angle": 1,
+      "angle_zh": "房间太吵睡不着",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "外卖送得太慢，我担心饭菜都凉了。",
+      "angle": 2,
+      "angle_zh": "外卖送得太慢",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "这个外卖一直送不到，我怕要饿肚子了。",
+      "angle": 2,
+      "angle_zh": "外卖送得太慢",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "新杯子漏水，我怕会弄湿桌子。",
+      "angle": 3,
+      "angle_zh": "新杯子漏水",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "新买的杯子漏水，有点不太方便。",
+      "angle": 3,
+      "angle_zh": "新杯子漏水",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "我担心会议时间会延误，因为同事们总是迟到。",
+      "angle": 5,
+      "angle_zh": "同事开会总迟到",
+      "micro": "service",
+      "micro_zh": "服务问题"
+    },
+    {
+      "zh": "网速太慢，我怕下载资料会耽误时间。",
+      "angle": 6,
+      "angle_zh": "网速太慢影响工作",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "网速一直很慢，这让我担心项目赶不上期限。",
+      "angle": 6,
+      "angle_zh": "网速太慢影响工作",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "这道菜太咸了，我实在吃不下去。",
+      "angle": 7,
+      "angle_zh": "餐厅的菜太咸",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "这道菜太咸，我怕吃不下。",
+      "angle": 7,
+      "angle_zh": "餐厅的菜太咸",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "酒店的热水不够热，洗澡太难受了。",
+      "angle": 8,
+      "angle_zh": "酒店热水不热",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "这热水一直温度不够，我怕洗完澡会着凉。",
+      "angle": 8,
+      "angle_zh": "酒店热水不热",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "快递一直没送到，我有点着急。",
+      "angle": 9,
+      "angle_zh": "快递被放错了地方",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "预约的出租车一直没来，我担心会迟到。",
+      "angle": 10,
+      "angle_zh": "预约被无故取消",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "这个会议室的空调太冷了，我怕着凉。",
+      "angle": 10,
+      "angle_zh": "预约被无故取消",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "网速太慢了，我怕会影响会议。",
+      "angle": 6,
+      "angle_zh": "网速太慢影响工作",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    },
+    {
+      "zh": "这网速一直不稳定，我怕会耽误工作。",
+      "angle": 6,
+      "angle_zh": "网速太慢影响工作",
+      "micro": "people",
+      "micro_zh": "身边问题"
+    }
+  ]
+}

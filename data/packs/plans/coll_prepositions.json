@@ -1,0 +1,147 @@
+{
+  "scene": "coll_prepositions",
+  "pattern": "coll_prepositions",
+  "items": [
+    {
+      "zh": "周末去不去，取决于天气。",
+      "angle": 1,
+      "angle_zh": "周末的安排取决于天气",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "能不能按时完成，取决于大家的配合。",
+      "angle": 1,
+      "angle_zh": "周末的安排取决于天气",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "我对摄影很感兴趣。",
+      "angle": 2,
+      "angle_zh": "对摄影很感兴趣",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "她对学中文很感兴趣。",
+      "angle": 2,
+      "angle_zh": "对摄影很感兴趣",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "我爸爸很擅长做饭，家人都爱吃。",
+      "angle": 3,
+      "angle_zh": "很擅长做饭",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "我妹妹从小就很擅长画画。",
+      "angle": 3,
+      "angle_zh": "很擅长做饭",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "我有点害怕坐飞机。",
+      "angle": 4,
+      "angle_zh": "害怕坐飞机",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "孩子害怕一个人待在黑屋子里。",
+      "angle": 4,
+      "angle_zh": "害怕坐飞机",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "下午我在车站等朋友，等了半小时。",
+      "angle": 5,
+      "angle_zh": "在车站等朋友",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "你先走吧，我在这里等一个人。",
+      "angle": 5,
+      "angle_zh": "在车站等朋友",
+      "micro": "interest",
+      "micro_zh": "兴趣与能力"
+    },
+    {
+      "zh": "我很期待这次旅行。",
+      "angle": 6,
+      "angle_zh": "期待假期",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "孩子们都很期待放假。",
+      "angle": 6,
+      "angle_zh": "期待假期",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "妈妈很担心我的身体。",
+      "angle": 7,
+      "angle_zh": "担心孩子的成绩",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "他担心明天的考试考不好。",
+      "angle": 7,
+      "angle_zh": "担心孩子的成绩",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "我们都为球队感到骄傲。",
+      "angle": 8,
+      "angle_zh": "为团队感到骄傲",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "父母为孩子的进步感到骄傲。",
+      "angle": 8,
+      "angle_zh": "为团队感到骄傲",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "这座城市以美食有名。",
+      "angle": 9,
+      "angle_zh": "家乡以美食有名",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "这家店以服务好而闻名。",
+      "angle": 9,
+      "angle_zh": "家乡以美食有名",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "面试之前，我已经准备好了。",
+      "angle": 10,
+      "angle_zh": "准备好面试",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    },
+    {
+      "zh": "她为这次旅行做好了准备。",
+      "angle": 10,
+      "angle_zh": "准备好面试",
+      "micro": "expect",
+      "micro_zh": "期待与担心"
+    }
+  ],
+  "source": "plan+manual"
+}

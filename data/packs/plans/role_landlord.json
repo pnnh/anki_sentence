@@ -1,0 +1,146 @@
+{
+  "scene": "role_landlord",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "您明天下午三点有空看房吗？",
+      "angle": 1,
+      "angle_zh": "确认看房时间",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "周日早上十点您方便来看房吗？",
+      "angle": 1,
+      "angle_zh": "确认看房时间",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "这套房子面积是七十平方米。",
+      "angle": 2,
+      "angle_zh": "介绍房子面积和楼层",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "这间公寓在一楼，面积是六十平方米。",
+      "angle": 2,
+      "angle_zh": "介绍房子面积和楼层",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "每月房租是三千元，押金是六千元。",
+      "angle": 3,
+      "angle_zh": "说明月租和押金",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "租金是每月两千五百元，押金是五千元。",
+      "angle": 3,
+      "angle_zh": "说明月租和押金",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "水电费是每个月单独计算，按表收费。",
+      "angle": 4,
+      "angle_zh": "说明水电费怎么算",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "水电气费每个月一起结算，请您注意节约。",
+      "angle": 4,
+      "angle_zh": "说明水电费怎么算",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "这套房子有沙发、电视和冰箱。",
+      "angle": 5,
+      "angle_zh": "介绍家具和家电",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "房间内有床、衣柜和空调。",
+      "angle": 5,
+      "angle_zh": "介绍家具和家电",
+      "micro": "show",
+      "micro_zh": "带看与介绍房屋"
+    },
+    {
+      "zh": "您可以养小型宠物，比如仓鼠。",
+      "angle": 6,
+      "angle_zh": "说明能不能养宠物",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "这里不能养大型宠物，比如狗。",
+      "angle": 6,
+      "angle_zh": "说明能不能养宠物",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "下个月一号您就可以搬进来。",
+      "angle": 7,
+      "angle_zh": "回答什么时候可以入住",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "入住时间是这个月底。",
+      "angle": 7,
+      "angle_zh": "回答什么时候可以入住",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "附近有超市，走路五分钟就到。",
+      "angle": 8,
+      "angle_zh": "介绍周边超市和地铁",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "您可以坐地铁去市中心，非常方便。",
+      "angle": 8,
+      "angle_zh": "介绍周边超市和地铁",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "我们可以在下周三下午签合同。",
+      "angle": 9,
+      "angle_zh": "约签合同的时间",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "下周一上午十点可以来约时间。",
+      "angle": 9,
+      "angle_zh": "约签合同的时间",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "您可以留下您的电话号码。",
+      "angle": 10,
+      "angle_zh": "留下联系方式",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    },
+    {
+      "zh": "房租请每月五号前交。",
+      "angle": 7,
+      "angle_zh": "回答什么时候可以入住",
+      "micro": "rule",
+      "micro_zh": "说明规则与维修"
+    }
+  ]
+}

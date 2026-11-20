@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_borrow_lend",
+  "pattern": "word_pairs_borrow_lend",
+  "items": [
+    {
+      "zh": "我向同学借了一支笔。",
+      "angle": 1,
+      "angle_zh": "我借了同学一支笔",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "我向同事借了一把伞。",
+      "angle": 1,
+      "angle_zh": "我借了同学一支笔",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "他向我借了一把雨伞。",
+      "angle": 2,
+      "angle_zh": "他向我借了雨伞",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "她向我借了充电器。",
+      "angle": 2,
+      "angle_zh": "他向我借了雨伞",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "图书馆可以免费借书。",
+      "angle": 3,
+      "angle_zh": "图书馆可以借书",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "这本书是我从图书馆借的。",
+      "angle": 3,
+      "angle_zh": "图书馆可以借书",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "我把车借给朋友了。",
+      "angle": 4,
+      "angle_zh": "我把车借给朋友",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "她把伞借给邻居了。",
+      "angle": 4,
+      "angle_zh": "我把车借给朋友",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "能借我手机用一下吗？",
+      "angle": 5,
+      "angle_zh": "能借我手机用一下吗",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "可以借我一支笔吗？",
+      "angle": 5,
+      "angle_zh": "能借我手机用一下吗",
+      "micro": "borrow",
+      "micro_zh": "借入"
+    },
+    {
+      "zh": "他借给我一本小说。",
+      "angle": 6,
+      "angle_zh": "他借给我一本书",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "我借给他一件外套。",
+      "angle": 6,
+      "angle_zh": "他借给我一本书",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "请不要把书借给别人。",
+      "angle": 7,
+      "angle_zh": "请不要把书借给别人",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "相机不要随便借出去。",
+      "angle": 7,
+      "angle_zh": "请不要把书借给别人",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "我向邻居借了工具。",
+      "angle": 8,
+      "angle_zh": "我向邻居借了工具",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "他向朋友借了自行车。",
+      "angle": 8,
+      "angle_zh": "我向邻居借了工具",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "相机能借我用几天吗？",
+      "angle": 9,
+      "angle_zh": "相机借我几天",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "这本书能借我看看吗？",
+      "angle": 9,
+      "angle_zh": "相机借我几天",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "她把钱借给了弟弟。",
+      "angle": 10,
+      "angle_zh": "她把钱借给了弟弟",
+      "micro": "lend",
+      "micro_zh": "借出"
+    },
+    {
+      "zh": "我借给同学两百块钱。",
+      "angle": 10,
+      "angle_zh": "她把钱借给了弟弟",
+      "micro": "lend",
+      "micro_zh": "借出"
+    }
+  ],
+  "source": "manual"
+}

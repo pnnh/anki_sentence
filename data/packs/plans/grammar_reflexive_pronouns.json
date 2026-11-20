@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_reflexive_pronouns",
+  "pattern": "reflexive_pronouns",
+  "items": [
+    {
+      "zh": "晚饭是我自己做的。",
+      "angle": 1,
+      "angle_zh": "我自己做的晚饭",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "我自己做了三菜一汤。",
+      "angle": 1,
+      "angle_zh": "我自己做的晚饭",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "路上你自己要小心。",
+      "angle": 2,
+      "angle_zh": "你自己要小心",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "一个人出门，你自己多注意。",
+      "angle": 2,
+      "angle_zh": "你自己要小心",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "他自己修好了电脑。",
+      "angle": 3,
+      "angle_zh": "他自己修好了电脑",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "电脑坏了，他自己动手修好了。",
+      "angle": 3,
+      "angle_zh": "他自己修好了电脑",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "她自己一个人搬了家。",
+      "angle": 4,
+      "angle_zh": "她自己搬了家",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "她没请人帮忙，自己搬了家。",
+      "angle": 4,
+      "angle_zh": "她自己搬了家",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "孩子自己穿好了衣服。",
+      "angle": 5,
+      "angle_zh": "孩子自己穿好了衣服",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "孩子已经会自己穿鞋了。",
+      "angle": 5,
+      "angle_zh": "孩子自己穿好了衣服",
+      "micro": "self",
+      "micro_zh": "自己动手"
+    },
+    {
+      "zh": "我们自己想办法解决。",
+      "angle": 6,
+      "angle_zh": "我们自己想办法",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "这件事我们自己来处理。",
+      "angle": 6,
+      "angle_zh": "我们自己想办法",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "这件事你们自己决定吧。",
+      "angle": 7,
+      "angle_zh": "你们自己决定吧",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "去哪里玩，你们自己商量。",
+      "angle": 7,
+      "angle_zh": "你们自己决定吧",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "他们自己解决了问题。",
+      "angle": 8,
+      "angle_zh": "他们自己解决了问题",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "没有人帮忙，他们自己修好了水管。",
+      "angle": 8,
+      "angle_zh": "他们自己解决了问题",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "那只猫自己打开了门。",
+      "angle": 9,
+      "angle_zh": "猫自己打开了门",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "小猫自己跳上了桌子。",
+      "angle": 9,
+      "angle_zh": "猫自己打开了门",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "这件事我自己去就行了。",
+      "angle": 10,
+      "angle_zh": "我自己去就行",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    },
+    {
+      "zh": "你不用陪我，我自己去。",
+      "angle": 10,
+      "angle_zh": "我自己去就行",
+      "micro": "others",
+      "micro_zh": "自己与他人"
+    }
+  ],
+  "source": "manual"
+}

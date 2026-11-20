@@ -1,0 +1,146 @@
+{
+  "scene": "role_restaurant",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "这边请，我带您入座。",
+      "angle": 2,
+      "angle_zh": "带客人入座或安排等位",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您好，现在暂时没有空位，请稍等片刻。",
+      "angle": 2,
+      "angle_zh": "带客人入座或安排等位",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "今天的特色菜是牛肉面。",
+      "angle": 3,
+      "angle_zh": "介绍今日推荐菜",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "我们今天的推荐是红烧肉，您要不要试试？",
+      "angle": 3,
+      "angle_zh": "介绍今日推荐菜",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您要点的菜是麻婆豆腐和炒青菜，对吗？",
+      "angle": 4,
+      "angle_zh": "确认点单并复述一遍",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您刚才点了糖醋排骨和米饭，我复述一下对吗？",
+      "angle": 4,
+      "angle_zh": "确认点单并复述一遍",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "这道菜分量挺足的，您看可以吗？",
+      "angle": 5,
+      "angle_zh": "回答菜品价格和分量",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "这道菜是六十八元一份。",
+      "angle": 5,
+      "angle_zh": "回答菜品价格和分量",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您的菜上来了，请注意热菜。",
+      "angle": 6,
+      "angle_zh": "上菜并提醒小心烫",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "您觉得这道菜不太合口味吗？",
+      "angle": 7,
+      "angle_zh": "处理菜品不合口味",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "您需要换一道菜吗？",
+      "angle": 7,
+      "angle_zh": "处理菜品不合口味",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "您好，请问几位用餐？",
+      "angle": 1,
+      "angle_zh": "接待客人并确认人数",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您需要更换菜品还是退款呢？",
+      "angle": 8,
+      "angle_zh": "提出换菜或退款方案",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "如果您不满意，我们可以重新做一份。",
+      "angle": 8,
+      "angle_zh": "提出换菜或退款方案",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "我们店营业时间是早上十点到晚上十点。",
+      "angle": 9,
+      "angle_zh": "说明营业时间和支付方式",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "我们接受现金和信用卡，也可以用手机支付。",
+      "angle": 9,
+      "angle_zh": "说明营业时间和支付方式",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "请问您还需要点些什么吗？",
+      "angle": 10,
+      "angle_zh": "收拾餐具并道别",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "需要帮您把剩菜打包吗？",
+      "angle": 10,
+      "angle_zh": "收拾餐具并道别",
+      "micro": "problem",
+      "micro_zh": "上菜与处理问题"
+    },
+    {
+      "zh": "需要我帮您把菜分一下吗？",
+      "angle": 4,
+      "angle_zh": "确认点单并复述一遍",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    },
+    {
+      "zh": "您要的是一份牛肉和一份青菜，对吧？",
+      "angle": 4,
+      "angle_zh": "确认点单并复述一遍",
+      "micro": "greet",
+      "micro_zh": "接待与点单"
+    }
+  ]
+}

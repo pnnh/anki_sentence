@@ -1,0 +1,146 @@
+{
+  "scene": "dlg_cafe",
+  "pattern": "dialogue",
+  "items": [
+    {
+      "zh": "A: 你们几点开店？\nB: 九点开门，您可以早点过来。",
+      "angle": 1,
+      "angle_zh": "问营业时间",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 这个咖啡多少钱？\nB: 二十元，加奶加五元。",
+      "angle": 2,
+      "angle_zh": "问饮品价格",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 有无糖的饮料吗？\nB: 这里有无糖茶，还有素食蛋糕。",
+      "angle": 3,
+      "angle_zh": "问有没有无糖或素食选择",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 可以打包带走吗？\nB: 可以打包，这边请。",
+      "angle": 4,
+      "angle_zh": "问能不能外带",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 无线网络密码是多少？\nB: 密码是123456，写在墙上。",
+      "angle": 5,
+      "angle_zh": "问无线网络密码",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 我要一杯热拿铁。\nB: 好的，中杯还是大杯？",
+      "angle": 6,
+      "angle_zh": "点单并确认温度或杯型",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 我点的咖啡多久能好？\nB: 大概十分钟，这边找个位置等一下。",
+      "angle": 7,
+      "angle_zh": "问需要等多久",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 成为会员有优惠吗？\nB: 有优惠，买十送一，下次来用。",
+      "angle": 8,
+      "angle_zh": "问有没有会员优惠",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 可以分开付钱吗？\nB: 可以，现在就付还是带走时付？",
+      "angle": 9,
+      "angle_zh": "问能不能分开付款",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 谢谢你的帮助。\nB: 不客气，慢慢享用。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 可以充电吗？\nB: 可以，墙边有插座。",
+      "angle": 5,
+      "angle_zh": "问无线网络密码",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 可以刷信用卡吗？\nB: 可以，也可以手机支付。",
+      "angle": 5,
+      "angle_zh": "问无线网络密码",
+      "micro": "ask",
+      "micro_zh": "顾客询问"
+    },
+    {
+      "zh": "A: 我要一杯美式咖啡。\nB: 好的，要冰的还是热的？",
+      "angle": 6,
+      "angle_zh": "点单并确认温度或杯型",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 我点的咖啡多久能做好？\nB: 大概十五分钟，您可以先找个位置休息。",
+      "angle": 7,
+      "angle_zh": "问需要等多久",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 成为会员可以享受优惠吗？\nB: 可以，会员可以享受八折优惠。",
+      "angle": 8,
+      "angle_zh": "问有没有会员优惠",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 我要一杯拿铁。\nB: 好的，要大杯还是中杯？",
+      "angle": 6,
+      "angle_zh": "点单并确认温度或杯型",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 我点的卡布奇诺多久能做好？\nB: 大概十分钟，您可以先找个位置。",
+      "angle": 7,
+      "angle_zh": "问需要等多久",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 成为会员有优惠吗？\nB: 有优惠，每次消费可以积一分。",
+      "angle": 8,
+      "angle_zh": "问有没有会员优惠",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 可以分开付钱吗？\nB: 可以，您现在付还是等会儿一起付？",
+      "angle": 9,
+      "angle_zh": "问能不能分开付款",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    },
+    {
+      "zh": "A: 今天人多，要等很久吗？\nB: 不会太久，大约十到十五分钟。",
+      "angle": 7,
+      "angle_zh": "问需要等多久",
+      "micro": "answer",
+      "micro_zh": "店员回应"
+    }
+  ]
+}

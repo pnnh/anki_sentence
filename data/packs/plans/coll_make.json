@@ -1,0 +1,147 @@
+{
+  "scene": "coll_make",
+  "pattern": "coll_make",
+  "items": [
+    {
+      "zh": "我和家人商量以后才做了决定。",
+      "angle": 1,
+      "angle_zh": "做决定前先商量",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "做决定之前，我们先听听大家的意见。",
+      "angle": 1,
+      "angle_zh": "做决定前先商量",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "我昨天工作里犯了一个小错误。",
+      "angle": 2,
+      "angle_zh": "工作中犯了个错",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "他在报告里犯了个错误，已经改好了。",
+      "angle": 2,
+      "angle_zh": "工作中犯了个错",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "我晚上要给朋友打个电话。",
+      "angle": 3,
+      "angle_zh": "给朋友打个电话",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "你方便的话，给朋友打个电话问问。",
+      "angle": 3,
+      "angle_zh": "给朋友打个电话",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "为了学好英语，我每天都在努力。",
+      "angle": 4,
+      "angle_zh": "努力学英语",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "想学好一门语言，需要付出努力。",
+      "angle": 4,
+      "angle_zh": "努力学英语",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "我搬到新城市后，慢慢交到了朋友。",
+      "angle": 5,
+      "angle_zh": "在新城市交朋友",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "在新环境里交朋友，需要主动一点。",
+      "angle": 5,
+      "angle_zh": "在新城市交朋友",
+      "micro": "plan",
+      "micro_zh": "决定与计划"
+    },
+    {
+      "zh": "出门前确认一下有没有带钥匙。",
+      "angle": 6,
+      "angle_zh": "出门前确认带钥匙",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "我每次出门都会确认门窗关好了。",
+      "angle": 6,
+      "angle_zh": "出门前确认带钥匙",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "周末之前，我们先做个简单的计划。",
+      "angle": 7,
+      "angle_zh": "给下周做个计划",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "下周的安排，我们明天做个计划吧。",
+      "angle": 7,
+      "angle_zh": "给下周做个计划",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "这两个颜色都不错，我很难做出选择。",
+      "angle": 8,
+      "angle_zh": "选颜色时做选择",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "挑礼物的时候，我最后选了蓝色。",
+      "angle": 8,
+      "angle_zh": "选颜色时做选择",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "去超市前，我列了一张购物清单。",
+      "angle": 9,
+      "angle_zh": "列一张购物清单",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "清单上还差两样东西，我再看一遍。",
+      "angle": 9,
+      "angle_zh": "列一张购物清单",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "我打电话预约了明天的牙医。",
+      "angle": 10,
+      "angle_zh": "打电话预约牙医",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    },
+    {
+      "zh": "诊所很忙，我提前一周打电话预约。",
+      "angle": 10,
+      "angle_zh": "打电话预约牙医",
+      "micro": "mistake",
+      "micro_zh": "犯错与确认"
+    }
+  ],
+  "source": "plan+manual"
+}

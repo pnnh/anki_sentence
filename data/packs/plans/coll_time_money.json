@@ -1,0 +1,147 @@
+{
+  "scene": "coll_time_money",
+  "pattern": "coll_time_money",
+  "items": [
+    {
+      "zh": "他每天按时上班，从不迟到。",
+      "angle": 1,
+      "angle_zh": "上班总是准时",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "会议准时开始，没有人迟到。",
+      "angle": 1,
+      "angle_zh": "上班总是准时",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "我跑得很快，及时赶上了末班车。",
+      "angle": 2,
+      "angle_zh": "赶上了最后一班车",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "幸好我们出发得早，及时赶到了车站。",
+      "angle": 2,
+      "angle_zh": "赶上了最后一班车",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "打扫房间花了我两个小时。",
+      "angle": 3,
+      "angle_zh": "做家务花了很多时间",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "做饭花了很长时间。",
+      "angle": 3,
+      "angle_zh": "做家务花了很多时间",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "别把时间都浪费在手机上。",
+      "angle": 4,
+      "angle_zh": "不要把时间浪费在手机上",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "他整天浪费时间，什么也没做。",
+      "angle": 4,
+      "angle_zh": "不要把时间浪费在手机上",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "我每个月都会存一点钱。",
+      "angle": 5,
+      "angle_zh": "每月存一点钱",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "为了存钱，她很少买新衣服。",
+      "angle": 5,
+      "angle_zh": "每月存一点钱",
+      "micro": "time",
+      "micro_zh": "时间安排"
+    },
+    {
+      "zh": "这个月我花了很多钱。",
+      "angle": 6,
+      "angle_zh": "这个月花钱太多",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "他买东西从不看价格，花钱很快。",
+      "angle": 6,
+      "angle_zh": "这个月花钱太多",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "这部手机太贵了，我买不起。",
+      "angle": 7,
+      "angle_zh": "买不起新手机",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "房租太贵，我们负担不起。",
+      "angle": 7,
+      "angle_zh": "买不起新手机",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "修车花了不少钱，他有点心疼。",
+      "angle": 8,
+      "angle_zh": "修车花了不少钱",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "这次旅行花了他很多钱。",
+      "angle": 8,
+      "angle_zh": "修车花了不少钱",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "我提前准备好了所有材料。",
+      "angle": 9,
+      "angle_zh": "提前准备好材料",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "出门前，她提前把东西都准备好了。",
+      "angle": 9,
+      "angle_zh": "提前准备好材料",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "为了省钱，他每天自己做饭。",
+      "angle": 10,
+      "angle_zh": "为了省钱自己做饭",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    },
+    {
+      "zh": "她很少外出吃饭，这样能省不少钱。",
+      "angle": 10,
+      "angle_zh": "为了省钱自己做饭",
+      "micro": "money",
+      "micro_zh": "花钱省钱"
+    }
+  ],
+  "source": "plan+manual"
+}

@@ -1,0 +1,146 @@
+{
+  "scene": "role_teacher",
+  "pattern": "roleplay",
+  "items": [
+    {
+      "zh": "上课时间是下午四点，请提前五分钟到。",
+      "angle": 1,
+      "angle_zh": "确认上课时间",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "请问您现在方便吗？我们这节课是下午四点。",
+      "angle": 1,
+      "angle_zh": "确认上课时间",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "这节课我们要学习哪些内容呢？",
+      "angle": 2,
+      "angle_zh": "介绍课程内容和进度",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "接下来我们会讲到哪些进度？",
+      "angle": 2,
+      "angle_zh": "介绍课程内容和进度",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "这周的作业是读第几章呢？",
+      "angle": 3,
+      "angle_zh": "布置本周作业",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "这周的作业是写一篇作文，您准备好了吗？",
+      "angle": 3,
+      "angle_zh": "布置本周作业",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "上课时记得带课本和笔哦。",
+      "angle": 4,
+      "angle_zh": "提醒带课本和文具",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "请您带好笔记本和铅笔，这节课要用到。",
+      "angle": 4,
+      "angle_zh": "提醒带课本和文具",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "我们班每周上三次课。",
+      "angle": 5,
+      "angle_zh": "回答班级人数",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "这个班级总共有十五名同学。",
+      "angle": 5,
+      "angle_zh": "回答班级人数",
+      "micro": "class",
+      "micro_zh": "课堂安排与提醒"
+    },
+    {
+      "zh": "学费是一学期一千元。",
+      "angle": 6,
+      "angle_zh": "说明学费和请假规则",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "请假的话需要提前通知我。",
+      "angle": 6,
+      "angle_zh": "说明学费和请假规则",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "你孩子上课表现很好。",
+      "angle": 7,
+      "angle_zh": "反馈孩子的课堂表现",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "最近你的孩子课堂上有些不专心。",
+      "angle": 7,
+      "angle_zh": "反馈孩子的课堂表现",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "可以在家练习拼音。",
+      "angle": 8,
+      "angle_zh": "建议在家怎么练习",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "在家多读课文会有帮助。",
+      "angle": 8,
+      "angle_zh": "建议在家怎么练习",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "下周我们将安排一次测验，请做好准备。",
+      "angle": 9,
+      "angle_zh": "安排测验或家长会",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "家长会定在下个月的第一个星期六，请您准时参加。",
+      "angle": 9,
+      "angle_zh": "安排测验或家长会",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "你的进步很大，继续保持哦。",
+      "angle": 10,
+      "angle_zh": "鼓励学生并道别",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    },
+    {
+      "zh": "这学期你很努力，希望假期里也别忘了学习。",
+      "angle": 10,
+      "angle_zh": "鼓励学生并道别",
+      "micro": "feedback",
+      "micro_zh": "反馈与鼓励"
+    }
+  ]
+}

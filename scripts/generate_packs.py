@@ -27,6 +27,7 @@ from pack_patterns import (
     LABELS,
     MAX_WORDS,
     MIN_WORDS,
+    ZH_HINTS,
     passes_en,
     passes_zh,
     word_count,
@@ -49,7 +50,9 @@ ZH_SYSTEM = "You write Chinese example sentences for bilingual flashcards. Outpu
 
 PROPER_ZH_RE = re.compile(
     r"(北京|上海|广州|深圳|杭州|成都|重庆|西安|南京|武汉|天津|苏州|香港|澳门|台北|东京|纽约|伦敦|巴黎|首尔|新加坡|"
-    r"中国|美国|英国|日本|韩国|法国|德国|泰国|加拿大|澳大利亚|微信|支付宝|淘宝|京东|滴滴|美团|星巴克|麦当劳|肯德基|苹果|华为|小米)"
+    r"中国|美国|英国|日本|韩国|法国|德国|泰国|加拿大|澳大利亚|微信|支付宝|淘宝|京东|滴滴|美团|星巴克|麦当劳|肯德基|苹果|华为|小米|"
+    r"(?:张|王|李|赵|刘|陈|杨|黄|周|吴|徐|孙|胡|朱|高|林|何|郭|马|罗|梁|宋|郑|谢|韩|唐|冯|于|董|程|曹|袁|邓|许|傅|沈|曾|彭|吕|苏|卢|蒋|蔡|贾|丁|魏|薛|叶|余|潘|杜|戴|夏|钟|汪|田|任|姜|范|方|石|姚|谭|廖|邹|熊|金|陆|郝|孔|白|崔|康|毛|邱|秦|江|史|顾|侯|邵|孟|龙|万|段|雷|钱|汤|尹|黎|易|常|武|乔|贺|赖|龚|文)"
+    r"\s*(?:小姐|先生|女士|太太|阿姨|叔叔))"
 )
 EN_SYSTEM = "You write English translations for bilingual flashcards. Output only valid JSON."
 
@@ -75,11 +78,30 @@ $angles
 Return JSON only:
 {"items":[{"angle":1,"zh":"中文句子。"},{"angle":1,"zh":"另一个中文句子。"}]}"""
 
+DIALOGUE_ZH_TEMPLATE = """You write short Chinese two-turn dialogues for a Chinese learner's English flashcard deck.
+
+Scene: $scene_zh ($scene_en)
+
+Situations:
+$angles
+
+Rules:
+1. Write one exchange for each numbered situation, in the same order.
+2. Each exchange has exactly two lines. The first line starts with "A：", the second with "B：".
+3. Each line is 6-24 Chinese characters, natural spoken Mandarin, one sentence.
+4. B answers A directly and adds one concrete detail (time, price, place, or option).
+5. Use A1-B2 everyday vocabulary. No brand names and no proper names.
+6. Use Chinese numerals instead of digits, and no English letters.
+7. Do not repeat an exchange that is already in the list.
+
+Return JSON only:
+{"items":[{"angle":1,"zh":"A：……\\nB：……"},{"angle":2,"zh":"A：……\\nB：……"}]}"""
+
 
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--stage", choices=["plan", "sentences"], help="generation stage")
-    p.add_argument("--model", default="qwen2.5:7b")
+    p.add_argument("--model", default="qwen2.5:14b")
     p.add_argument("--scenes", nargs="*", help="only these pack scene ids")
     p.add_argument("--limit", type=int, help="max cards per scene (testing)")
     p.add_argument("--batch", type=int, default=6)
@@ -89,6 +111,8 @@ def parse_args():
     p.add_argument("--timeout", type=int, default=300)
     p.add_argument("--pause", type=float, default=2.0)
     p.add_argument("--ollama-url", default="http://127.0.0.1:11434")
+    p.add_argument("--think", dest="think", action="store_true", default=None)
+    p.add_argument("--no-think", dest="think", action="store_false")
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--finalize", action="store_true")
     p.add_argument("--final-dir", default=str(FINAL_DIR))
@@ -106,7 +130,10 @@ def load_scenes():
 def pack_scenes(only=None):
     scenes = []
     for scene in load_scenes():
-        if scene.get("mode") not in ("grammar", "narrative", "phrasal", "discourse"):
+        if scene.get("mode") not in (
+            "grammar", "narrative", "phrasal", "discourse", "functional", "collocation",
+            "roleplay", "dialogue",
+        ):
             continue
         scene = dict(scene)
         if scene["pack"] == "narrative" and not scene["pattern"].startswith("narrative_"):
@@ -143,6 +170,9 @@ def load_reference_sets():
 
 
 def call_ollama(args, system, prompt, count, temperature):
+    budget = max(400, count * 90 + 250)
+    if args.think:
+        budget *= 4
     payload = {
         "model": args.model,
         "stream": False,
@@ -150,7 +180,7 @@ def call_ollama(args, system, prompt, count, temperature):
         "options": {
             "temperature": temperature,
             "top_p": args.top_p,
-            "num_predict": max(400, count * 90 + 250),
+            "num_predict": budget,
             "seed": random.randint(0, 2**31 - 1),
         },
         "messages": [
@@ -158,6 +188,8 @@ def call_ollama(args, system, prompt, count, temperature):
             {"role": "user", "content": prompt},
         ],
     }
+    if args.think is not None:
+        payload["think"] = args.think
     req = request.Request(
         args.ollama_url.rstrip("/") + "/api/chat",
         data=json.dumps(payload).encode("utf-8"),
@@ -209,6 +241,49 @@ def clean_en(text):
     return en
 
 
+LINE_PREFIX_RE = re.compile(r"^\s*[A-Za-zＡ-Ｚ]\s*[:：]\s*")
+
+
+def dialogue_lines(text):
+    text = str(text).replace("\\n", "\n").strip()
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    if len(lines) == 1 and re.search(r"B\s*[:：]", lines[0]):
+        lines = [p.strip() for p in re.split(r"\s*(?=B\s*[:：])", lines[0]) if p.strip()]
+    return lines
+
+
+def clean_dialogue_zh(text):
+    lines = dialogue_lines(text)
+    if len(lines) != 2:
+        return ""
+    out = []
+    for i, line in enumerate(lines):
+        body = clean_zh(LINE_PREFIX_RE.sub("", line))
+        if not body or re.search(r"[A-Za-z]", body):
+            return ""
+        out.append(("A" if i == 0 else "B") + ": " + body)
+    return "\n".join(out)
+
+
+def clean_dialogue_en(text):
+    lines = dialogue_lines(text)
+    if len(lines) != 2:
+        return ""
+    out = []
+    for i, line in enumerate(lines):
+        body = clean_en(LINE_PREFIX_RE.sub("", line))
+        if not body:
+            return ""
+        out.append(("A" if i == 0 else "B") + ": " + body)
+    return "\n".join(out)
+
+
+def clean_en_for(scene, text):
+    if scene["pattern"] == "dialogue":
+        return clean_dialogue_en(text)
+    return clean_en(text)
+
+
 def near_dup(text, others, threshold):
     key = normalize(text)
     return any(SequenceMatcher(None, key, normalize(o)).ratio() >= threshold for o in others)
@@ -218,7 +293,100 @@ def plan_path(scene_id):
     return PLAN_DIR / f"{scene_id}.json"
 
 
+def plan_dialogue_for_scene(args, scene, done_zh):
+    path = plan_path(scene["id"])
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"items": []}
+    items = data.get("items", [])
+    want = args.limit or scene["target"]
+    if len(items) >= want:
+        print(f"  {scene['id']}: plan already has {len(items)} items, skip")
+        return items
+
+    angles = scene.get("angles") or ANGLES["dialogue"]
+    micros = scene["micros"]
+    seen = [it["zh"] for it in items]
+    covered = {it["angle"] for it in items}
+    attempts = 0
+    while len(items) < want and attempts < 20:
+        attempts += 1
+        uncovered = [i for i in range(len(angles)) if (i + 1) not in covered]
+        if uncovered:
+            chosen_idx = uncovered[:4]
+        else:
+            start = (attempts - 1) % len(angles)
+            chosen_idx = [(start + i) % len(angles) for i in range(4)]
+        chosen = [angles[i] for i in chosen_idx]
+        angle_lines = "\n".join(f"{i}. {a}" for i, a in enumerate(chosen, 1))
+        prompt = (
+            DIALOGUE_ZH_TEMPLATE.replace("$scene_zh", scene["zh"])
+            .replace("$scene_en", scene["en"])
+            .replace("$angles", angle_lines)
+        )
+        prompt += (
+            f"\n\n这个对话严格发生在「{scene['zh']}」（{scene['en']}）这个场景里，"
+            "只写这两个人会说的话，不要换成其他场所或身份。"
+        )
+        if seen:
+            prompt += "\n\nAlready used, do not repeat:\n" + "\n".join(
+                f"- {s.replace(chr(10), ' / ')}" for s in seen[-8:]
+            )
+        try:
+            raw = extract_json(call_ollama(args, ZH_SYSTEM, prompt, 4, 0.55), "items")
+        except (error.URLError, TimeoutError, json.JSONDecodeError, ValueError) as exc:
+            print(f"    retry {scene['id']}: {type(exc).__name__}: {exc}", file=sys.stderr)
+            time.sleep(2)
+            continue
+
+        for entry in raw:
+            if not isinstance(entry, dict):
+                continue
+            zh = clean_dialogue_zh(entry.get("zh", ""))
+            if not zh:
+                continue
+            parts = zh.split("\n")
+            if any(not 6 <= len(CJK_RE.findall(p)) <= 24 for p in parts):
+                continue
+            bodies = [p.split(": ", 1)[-1] for p in parts]
+            if any(re.search(r"[A-Za-z]", b) for b in bodies) or PROPER_ZH_RE.search("".join(bodies)):
+                continue
+            try:
+                slot = int(entry.get("angle", 1))
+            except (TypeError, ValueError):
+                slot = 1
+            if not 1 <= slot <= len(chosen_idx):
+                slot = 1
+            angle = chosen_idx[slot - 1] + 1
+            key = normalize(zh)
+            if key in done_zh or near_dup(zh, seen, 0.86):
+                continue
+            if any(normalize(r["zh"]) == key for r in items):
+                continue
+            micro_cfg = micros[0] if angle <= 5 else micros[-1]
+            items.append({
+                "zh": zh,
+                "angle": angle,
+                "angle_zh": angles[angle - 1],
+                "micro": micro_cfg["id"],
+                "micro_zh": micro_cfg["zh"],
+            })
+            seen.append(zh)
+            covered.add(angle)
+            if len(items) >= want:
+                break
+        if args.pause:
+            time.sleep(args.pause)
+        print(f"  {scene['id']:<26} plan {len(items):>2}/{want}", flush=True)
+
+    data = {"scene": scene["id"], "pattern": scene["pattern"], "items": items}
+    PLAN_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if len(items) < want:
+        print(f"  WARNING: {scene['id']} plan only {len(items)}/{want}")
+
+
 def plan_zh_for_scene(args, scene, ref_zh, done_zh):
+    if scene["pattern"] == "dialogue":
+        return plan_dialogue_for_scene(args, scene, done_zh)
     path = plan_path(scene["id"])
     data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"items": []}
     items = data.get("items", [])
@@ -229,7 +397,7 @@ def plan_zh_for_scene(args, scene, ref_zh, done_zh):
         return items
 
     micros = scene["micros"]
-    angles = ANGLES[pattern]
+    angles = scene.get("angles") or ANGLES[pattern]
     per_angle = 2
     angle_total = max(1, (want + per_angle - 1) // per_angle)
     angle_total = min(angle_total, len(angles))
@@ -256,10 +424,24 @@ def plan_zh_for_scene(args, scene, ref_zh, done_zh):
             .replace("$angles", angle_lines)
             .replace("$expected", str(len(chosen) * per_angle))
         )
+        hint = ZH_HINTS.get(pattern)
+        if hint:
+            prompt += (
+                f"\n\n每个句子都必须自然使用这类中文说法：{hint}。"
+                "不要换成其他近义结构，也不要写成解释。"
+                "中文句子里绝对不能出现任何英文字母或英文短语，目标搭配只用中文表达。"
+                "每句至少十个汉字，写成一个完整的句子。"
+            )
+        prompt += (
+            f"\n\n这个场景严格限定为「{scene['zh']}」（{scene['en']}）。"
+            "每句都必须是这个场景里这一方会说的话，直接称呼对方。"
+            "不要换成其他场所或身份，不要出现别的场景才有的东西，"
+            "也不要写成旁白或解释。"
+        )
         if seen:
             prompt += "\n\nAlready used, do not repeat or paraphrase:\n" + "\n".join(f"- {s}" for s in seen[-12:])
         try:
-            raw = extract_json(call_ollama(args, ZH_SYSTEM, prompt, len(chosen) * per_angle, 0.7), "items")
+            raw = extract_json(call_ollama(args, ZH_SYSTEM, prompt, len(chosen) * per_angle, 0.55), "items")
         except (error.URLError, TimeoutError, json.JSONDecodeError, ValueError) as exc:
             print(f"    retry {scene['id']}: {type(exc).__name__}: {exc}", file=sys.stderr)
             time.sleep(2)
@@ -317,7 +499,10 @@ def seeds_for(scene):
         rows = load_jsonl(path)
     else:
         rows = []
-        for name in ("grammar.jsonl", "narrative.jsonl", "phrasal.jsonl", "discourse.jsonl"):
+        for name in (
+            "grammar.jsonl", "narrative.jsonl", "phrasal.jsonl", "discourse.jsonl",
+            "functional.jsonl", "collocation.jsonl",
+        ):
             p = SEED_DIR / name
             if p.exists():
                 rows += [r for r in load_jsonl(p) if r.get("scene") == scene["id"]]
@@ -364,8 +549,17 @@ def stage_plan(args):
 def build_en_prompt(scene, batch):
     lines = []
     for i, item in enumerate(batch, 1):
-        lines.append(f'{i}. zh: {item["zh"]} | target: {LABELS[scene["pattern"]]}')
-    return TEMPLATE.read_text(encoding="utf-8").replace("{items}", "\n".join(lines))
+        zh = item["zh"].replace("\n", " / ")
+        lines.append(f'{i}. zh: {zh} | target: {LABELS[scene["pattern"]]}')
+    prompt = TEMPLATE.read_text(encoding="utf-8").replace("{items}", "\n".join(lines))
+    if scene["pattern"] == "dialogue":
+        prompt += (
+            "\n\nEach Chinese item is a two-turn exchange: A: ... then B: .... "
+            "Translate both turns. Return one string with the two English lines on "
+            "two lines: the first line starts with \"A: \", the second with \"B: \". "
+            "Keep each line at most 20 words."
+        )
+    return prompt
 
 
 def record_for(scene, item, en, model):
@@ -401,6 +595,10 @@ def validate_en(scene, zh, en, known_en):
     limit = MAX_WORDS[scene["pack"]]
     if n < MIN_WORDS or n > limit:
         return f"word_count_{n}"
+    if scene["pattern"] == "dialogue":
+        lines = en.split("\n")
+        if len(lines) != 2 or any(word_count(line) < 3 for line in lines):
+            return "dialogue_lines"
     if re.search(r"[0-9]", en) and not re.search(r"[0-9零一二三四五六七八九十百千万亿两]", zh):
         return "invented_number"
     if not passes_en(scene["pattern"], en):
@@ -450,7 +648,7 @@ def translate_scene(args, scene, ref_en):
                 if isinstance(pid, int):
                     by_id[pid] = p.get("en", "")
         for i, item in enumerate(batch, 1):
-            en = clean_en(by_id.get(i, "") or "")
+            en = clean_en_for(scene, by_id.get(i, "") or "")
             reason = validate_en(scene, item["zh"], en, known_en) if en else "missing"
             if reason:
                 failures.append(item)
@@ -486,7 +684,7 @@ def translate_scene(args, scene, ref_en):
             except (error.URLError, TimeoutError, json.JSONDecodeError, ValueError):
                 time.sleep(2)
                 continue
-            en = clean_en((pairs[0] or {}).get("en", "")) if pairs else ""
+            en = clean_en_for(scene, (pairs[0] or {}).get("en", "")) if pairs else ""
             reason = validate_en(scene, item["zh"], en, known_en) if en else "missing"
             if reason:
                 print(f"    reject {item['zh']} {reason}: {en}", file=sys.stderr)

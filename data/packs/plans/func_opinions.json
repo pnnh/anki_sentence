@@ -1,0 +1,146 @@
+{
+  "scene": "func_opinions",
+  "pattern": "func_opinions",
+  "items": [
+    {
+      "zh": "我觉得这部电影挺好看的。",
+      "angle": 1,
+      "angle_zh": "谈一部电影好不好看",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得这家餐厅值得一去。",
+      "angle": 2,
+      "angle_zh": "谈一家餐厅值不值得去",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得这家菜很好吃。",
+      "angle": 2,
+      "angle_zh": "谈一家餐厅值不值得去",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得这个工作挺适合他的。",
+      "angle": 3,
+      "angle_zh": "谈换工作的想法",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "在我看来，这个职位更有挑战性。",
+      "angle": 3,
+      "angle_zh": "谈换工作的想法",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得孩子早点睡觉对身体好。",
+      "angle": 4,
+      "angle_zh": "谈孩子该不该早点睡",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得去公园比较好，空气新鲜。",
+      "angle": 5,
+      "angle_zh": "谈周末去哪玩",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得在家附近玩更好，方便。",
+      "angle": 5,
+      "angle_zh": "谈周末去哪玩",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得网购更方便，不用出门。",
+      "angle": 6,
+      "angle_zh": "谈网购还是去实体店",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "我觉得新地方更有发展潜力。",
+      "angle": 7,
+      "angle_zh": "谈公司搬到新地方",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "新地方交通便利，我觉得搬到那里更好。",
+      "angle": 7,
+      "angle_zh": "谈公司搬到新地方",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "我觉得学开车不容易，要经常练习。",
+      "angle": 8,
+      "angle_zh": "谈学开车难不难",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "我觉得养猫比养狗好照顾。",
+      "angle": 9,
+      "angle_zh": "谈养宠物的责任",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "在我看来，养狗需要更多时间和精力。",
+      "angle": 9,
+      "angle_zh": "谈养宠物的责任",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "我觉得早起有助于一天都保持清醒。",
+      "angle": 10,
+      "angle_zh": "谈早起的好处",
+      "micro": "choice",
+      "micro_zh": "选择取舍"
+    },
+    {
+      "zh": "我觉得这部电影很感人。",
+      "angle": 1,
+      "angle_zh": "谈一部电影好不好看",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "这家餐厅的菜不错，我觉得值得推荐。",
+      "angle": 2,
+      "angle_zh": "谈一家餐厅值不值得去",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "我觉得这家公司的福利比较好。",
+      "angle": 3,
+      "angle_zh": "谈换工作的想法",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "新公司的工作环境我觉得更好一些。",
+      "angle": 3,
+      "angle_zh": "谈换工作的想法",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    },
+    {
+      "zh": "在我们家，我觉得早点睡觉有助于孩子更好地学习。",
+      "angle": 4,
+      "angle_zh": "谈孩子该不该早点睡",
+      "micro": "review",
+      "micro_zh": "评价好坏"
+    }
+  ]
+}

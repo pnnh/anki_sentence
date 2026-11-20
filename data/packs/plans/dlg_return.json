@@ -1,0 +1,146 @@
+{
+  "scene": "dlg_return",
+  "pattern": "dialogue",
+  "items": [
+    {
+      "zh": "A: 我想退这个商品。\nB: 好的，请问您什么时候购买的？",
+      "angle": 1,
+      "angle_zh": "说明要退换商品",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 这件衣服有点小。\nB: 请问您能告诉我具体哪里不合适吗？",
+      "angle": 2,
+      "angle_zh": "说明商品的问题",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 这个还能退换吗？\nB: 只要在七天内都可以退换。",
+      "angle": 3,
+      "angle_zh": "问退换期限",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 退换时需要带什么吗？\nB: 需要带上购物小票和商品。",
+      "angle": 4,
+      "angle_zh": "问需要带什么凭证",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 可以换成别的颜色吗？\nB: 可以的，您看这个颜色如何？",
+      "angle": 5,
+      "angle_zh": "问能不能换成别的颜色",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 退款多久能到账？\nB: 一般三到五个工作日会到账。",
+      "angle": 6,
+      "angle_zh": "问退款多久到账",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 可以换货不退款吗？\nB: 当然可以，您看这件商品合适吗？",
+      "angle": 7,
+      "angle_zh": "问能不能换货不退款",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 处理结果是什么？\nB: 您的退款申请已经通过，预计很快到账。",
+      "angle": 8,
+      "angle_zh": "确认处理结果",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 这是我的电话号码。\nB: 好的，我会在三天内给您回复。",
+      "angle": 9,
+      "angle_zh": "留下联系方式",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 感谢您的帮助。\nB: 不客气，祝您生活愉快。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 退换商品需要什么证明吗？\nB: 需要带上收据和身份证。",
+      "angle": 4,
+      "angle_zh": "问需要带什么凭证",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 这件衣服能换成绿色吗？\nB: 可以，绿色的这款现在有货。",
+      "angle": 5,
+      "angle_zh": "问能不能换成别的颜色",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 退款大概要等多久？\nB: 通常一到两周内会处理完。",
+      "angle": 6,
+      "angle_zh": "问退款多久到账",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 换货需要多久？\nB: 大概三天，货到了我会通知您。",
+      "angle": 7,
+      "angle_zh": "问能不能换货不退款",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 这件衣服能换成别的尺码吗？\nB: 可以，我们这里还有大号的货。",
+      "angle": 5,
+      "angle_zh": "问能不能换成别的颜色",
+      "micro": "ask",
+      "micro_zh": "顾客说明情况"
+    },
+    {
+      "zh": "A: 退款大概多久能到账？\nB: 一般七个工作日内会处理完毕。",
+      "angle": 6,
+      "angle_zh": "问退款多久到账",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 能换货不退款吗？\nB: 当然可以，您看这件商品如何？",
+      "angle": 7,
+      "angle_zh": "问能不能换货不退款",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 处理结果是什么？\nB: 您的换货申请已经批准，新的商品会尽快寄出。",
+      "angle": 8,
+      "angle_zh": "确认处理结果",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 退款会退到哪里？\nB: 会原路退回您的付款账户。",
+      "angle": 6,
+      "angle_zh": "问退款多久到账",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    },
+    {
+      "zh": "A: 可以退一部分钱吗？\nB: 如果只是小问题，可以部分退款。",
+      "angle": 7,
+      "angle_zh": "问能不能换货不退款",
+      "micro": "answer",
+      "micro_zh": "店员处理"
+    }
+  ]
+}

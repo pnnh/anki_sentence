@@ -1,0 +1,146 @@
+{
+  "scene": "dlg_clinic",
+  "pattern": "dialogue",
+  "items": [
+    {
+      "zh": "A: 今天还能挂上号吗？\nB: 可以，今天还有下午的号。",
+      "angle": 1,
+      "angle_zh": "问今天还能不能挂号",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 挂号费是多少呢？\nB: 挂号费是五十元。",
+      "angle": 2,
+      "angle_zh": "问挂号费多少",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 我想预约明天上午的号。\nB: 明天上午十点的号可以。",
+      "angle": 3,
+      "angle_zh": "预约明天上午的号",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 我头疼还发烧。\nB: 您最好早点来，病情可能会加重。",
+      "angle": 4,
+      "angle_zh": "说明头疼或发烧症状",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 检查前要空腹吗？\nB: 要空腹，早上六点前不能吃东西。",
+      "angle": 5,
+      "angle_zh": "问要不要空腹检查",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 这个药一天吃几次？\nB: 一天三次，饭后吃。",
+      "angle": 6,
+      "angle_zh": "问药怎么吃",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 下次应该多久再来复查？\nB: 一个月后请再来复查。",
+      "angle": 7,
+      "angle_zh": "问多久复诊一次",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 可以给我开张病假条吗？\nB: 可以，需要写几天的假？",
+      "angle": 8,
+      "angle_zh": "问能不能开病假条",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 预约明天下午可以吗？\nB: 可以，明天下午两点的号还有。",
+      "angle": 9,
+      "angle_zh": "确认预约时间",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 谢谢你的帮助。\nB: 不客气，祝您早日康复。",
+      "angle": 10,
+      "angle_zh": "道谢并道别",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 我嗓子疼，还有点痰。\nB: 可能是咽炎，我们先检查一下。",
+      "angle": 4,
+      "angle_zh": "说明头疼或发烧症状",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 抽血要抽多少？\nB: 只要一小管，很快就好。",
+      "angle": 5,
+      "angle_zh": "问要不要空腹检查",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 这个药有副作用吗？\nB: 可能会有点犯困，这是正常的。",
+      "angle": 6,
+      "angle_zh": "问药怎么吃",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 多久后需要再来复查？\nB: 如果情况没有好转，一周后再来。",
+      "angle": 7,
+      "angle_zh": "问多久复诊一次",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 检查要多久？\nB: 大概二十分钟，很快结束。",
+      "angle": 5,
+      "angle_zh": "问要不要空腹检查",
+      "micro": "ask",
+      "micro_zh": "病人询问"
+    },
+    {
+      "zh": "A: 这种药一天吃几次？\nB: 早晚各一次，饭后服用。",
+      "angle": 6,
+      "angle_zh": "问药怎么吃",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 多久需要再来复查一次？\nB: 两周后请再来复查。",
+      "angle": 7,
+      "angle_zh": "问多久复诊一次",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 复查需要带什么？\nB: 带上上次的检查报告就行。",
+      "angle": 7,
+      "angle_zh": "问多久复诊一次",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 这些药要吃多久？\nB: 先吃一周，看看效果。",
+      "angle": 8,
+      "angle_zh": "问能不能开病假条",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    },
+    {
+      "zh": "A: 预约时间是几点？\nB: 预约时间是下午三点，请准时到达。",
+      "angle": 9,
+      "angle_zh": "确认预约时间",
+      "micro": "answer",
+      "micro_zh": "前台回应"
+    }
+  ]
+}

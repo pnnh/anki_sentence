@@ -1,0 +1,147 @@
+{
+  "scene": "coll_get",
+  "pattern": "coll_get",
+  "items": [
+    {
+      "zh": "出门前，我要先准备好雨伞。",
+      "angle": 1,
+      "angle_zh": "出门前准备好",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "明天的材料，你今天准备好。",
+      "angle": 1,
+      "angle_zh": "出门前准备好",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "吃了药以后，他的感冒慢慢好转了。",
+      "angle": 2,
+      "angle_zh": "感冒慢慢好转",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "休息几天，他的身体慢慢好转。",
+      "angle": 2,
+      "angle_zh": "感冒慢慢好转",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "我第一次来这个城市，结果迷路了。",
+      "angle": 3,
+      "angle_zh": "在陌生地方迷路",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "他在商场里迷路了，只好问路。",
+      "angle": 3,
+      "angle_zh": "在陌生地方迷路",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "我终于得到了一个面试机会。",
+      "angle": 4,
+      "angle_zh": "得到一个面试机会",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "这次比赛，他得到了一次展示自己的机会。",
+      "angle": 4,
+      "angle_zh": "得到一个面试机会",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "孩子自己穿好了衣服和鞋子。",
+      "angle": 5,
+      "angle_zh": "孩子自己穿好衣服",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "天冷了，你快穿好外套再出门。",
+      "angle": 5,
+      "angle_zh": "孩子自己穿好衣服",
+      "micro": "ready",
+      "micro_zh": "准备与状态"
+    },
+    {
+      "zh": "我下班到家已经七点了。",
+      "angle": 6,
+      "angle_zh": "下班后到家",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "他到家以后先给妈妈打了个电话。",
+      "angle": 6,
+      "angle_zh": "下班后到家",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "我慢慢习惯了新工作。",
+      "angle": 7,
+      "angle_zh": "慢慢习惯新工作",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "刚搬来的时候，她还不习惯这里的生活。",
+      "angle": 7,
+      "angle_zh": "慢慢习惯新工作",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "忙了一整天，我真的很累。",
+      "angle": 8,
+      "angle_zh": "忙了一天很累",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "走了很远的路，孩子们都累了。",
+      "angle": 8,
+      "angle_zh": "忙了一天很累",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "中午没吃饭，我现在很饿。",
+      "angle": 9,
+      "angle_zh": "饿了找点东西吃",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "孩子们玩了一下午，都饿了。",
+      "angle": 9,
+      "angle_zh": "饿了找点东西吃",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "我问了老板，得到了提前下班的许可。",
+      "angle": 10,
+      "angle_zh": "得到老板的许可",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    },
+    {
+      "zh": "没有许可，不能把车停在这里。",
+      "angle": 10,
+      "angle_zh": "得到老板的许可",
+      "micro": "chance",
+      "micro_zh": "机会与习惯"
+    }
+  ],
+  "source": "plan+manual"
+}

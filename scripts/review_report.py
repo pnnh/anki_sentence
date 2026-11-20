@@ -87,6 +87,10 @@ def parse_args():
     return p.parse_args()
 
 
+def fmt_line(text):
+    return html.escape(text).replace("\n", "<br>")
+
+
 def load_records(data_dir):
     records = []
     for path in sorted(Path(data_dir).glob("*.jsonl")):
@@ -141,8 +145,8 @@ def main():
             f'data-search="{html.escape(search_blob)}">'
             f'<div class="scene">[{html.escape(rec["scene_zh"])}] · '
             f'{html.escape(rec.get("micro_zh", rec["micro"]))}</div>'
-            f'<div class="zh">{html.escape(rec["zh"])}</div>'
-            f'<div class="en">{html.escape(rec["en"])}</div>'
+            f'<div class="zh">{fmt_line(rec["zh"])}</div>'
+            f'<div class="en">{fmt_line(rec["en"])}</div>'
             f'<div class="badges">{badges}</div>'
             f'<div class="meta">{html.escape(rec["uid"])} · {html.escape(rec.get("model", ""))}</div>'
             f"</article>"

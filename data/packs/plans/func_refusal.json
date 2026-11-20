@@ -1,0 +1,146 @@
+{
+  "scene": "func_refusal",
+  "pattern": "func_refusal",
+  "items": [
+    {
+      "zh": "这次我就不加班了。",
+      "angle": 1,
+      "angle_zh": "拒绝同事的加班请求",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这次我就不去了，下次吧。",
+      "angle": 2,
+      "angle_zh": "婉拒朋友的聚会邀请",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "恐怕我这次不能参加。",
+      "angle": 2,
+      "angle_zh": "婉拒朋友的聚会邀请",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这次我恐怕不能接电话，改天吧。",
+      "angle": 3,
+      "angle_zh": "拒绝推销电话",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这个时间我恐怕不行，换个时间再打过来吧。",
+      "angle": 3,
+      "angle_zh": "拒绝推销电话",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "恐怕这次帮不了这个忙。",
+      "angle": 4,
+      "angle_zh": "不接额外的工作",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这次我就不借给你了，我的车有点问题。",
+      "angle": 5,
+      "angle_zh": "拒绝借出车子",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "我不方便把车借给你，你看看其他人吧。",
+      "angle": 5,
+      "angle_zh": "拒绝借出车子",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这次我恐怕不能帮你搬家了。",
+      "angle": 6,
+      "angle_zh": "婉拒周末帮忙搬家",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我就不换了，给你留着吧。",
+      "angle": 7,
+      "angle_zh": "拒绝换座位",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "恐怕这次不能换座位了，我得坐这里。",
+      "angle": 7,
+      "angle_zh": "拒绝换座位",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我就不参加了，改天吧。",
+      "angle": 8,
+      "angle_zh": "不参加晚上的活动",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次恐怕不行，下次吧。",
+      "angle": 8,
+      "angle_zh": "不参加晚上的活动",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我就不先付全款了，下次吧。",
+      "angle": 9,
+      "angle_zh": "拒绝先付全款",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "恐怕这次不能先付全款，还是等下次吧。",
+      "angle": 9,
+      "angle_zh": "拒绝先付全款",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我恐怕不能陪你再吃一块蛋糕了，下次吧。",
+      "angle": 10,
+      "angle_zh": "婉拒再吃一块蛋糕",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我真的不好意思再吃一块蛋糕了，改天吧。",
+      "angle": 10,
+      "angle_zh": "婉拒再吃一块蛋糕",
+      "micro": "invite",
+      "micro_zh": "拒绝邀请"
+    },
+    {
+      "zh": "这次我恐怕不能加班了，家里有点事。",
+      "angle": 1,
+      "angle_zh": "拒绝同事的加班请求",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "我这就不加班了，孩子放学需要接。",
+      "angle": 1,
+      "angle_zh": "拒绝同事的加班请求",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    },
+    {
+      "zh": "这次我就不去了，你先走吧。",
+      "angle": 2,
+      "angle_zh": "婉拒朋友的聚会邀请",
+      "micro": "request",
+      "micro_zh": "拒绝请求"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "scene": "func_requests",
+  "pattern": "func_requests",
+  "items": [
+    {
+      "zh": "你能帮我打印这份文件吗？",
+      "angle": 1,
+      "angle_zh": "请同事帮忙打印文件",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你方便帮我打印一下这份材料吗？",
+      "angle": 1,
+      "angle_zh": "请同事帮忙打印文件",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你能帮我带杯咖啡来吗？",
+      "angle": 2,
+      "angle_zh": "请朋友顺路带杯咖啡",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你方便顺路帮我带杯咖啡吗？",
+      "angle": 2,
+      "angle_zh": "请朋友顺路带杯咖啡",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你能帮我拿双筷子吗？",
+      "angle": 3,
+      "angle_zh": "请服务员拿餐具",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你有空帮我拿筷子吗？",
+      "angle": 3,
+      "angle_zh": "请服务员拿餐具",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你可以帮我收一下快递吗？",
+      "angle": 4,
+      "angle_zh": "请邻居帮忙收快递",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你介意帮我去楼下取一下快递吗？",
+      "angle": 4,
+      "angle_zh": "请邻居帮忙收快递",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "你能把音乐调小点吗？",
+      "angle": 5,
+      "angle_zh": "请室友把音乐调小",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "请问您方便帮我拍张照吗？",
+      "angle": 6,
+      "angle_zh": "请路人帮忙拍照",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "可以请你帮我拍张照吗？",
+      "angle": 6,
+      "angle_zh": "请路人帮忙拍照",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "请你把会议时间发过来，可以吗？",
+      "angle": 7,
+      "angle_zh": "请同事把会议时间发过来",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "你能帮我查一下明天的会议时间吗？",
+      "angle": 7,
+      "angle_zh": "请同事把会议时间发过来",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "请你多给一条毛巾，好吗？",
+      "angle": 8,
+      "angle_zh": "请前台多给一条毛巾",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "你能帮我多拿一条毛巾吗？",
+      "angle": 8,
+      "angle_zh": "请前台多给一条毛巾",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "请你等我一下，可以吗？",
+      "angle": 9,
+      "angle_zh": "请朋友等你十分钟",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "你能帮我把窗户开一下吗？",
+      "angle": 5,
+      "angle_zh": "请室友把音乐调小",
+      "micro": "work",
+      "micro_zh": "工作与生活请求"
+    },
+    {
+      "zh": "请你帮我拿个热水瓶，好吗？",
+      "angle": 10,
+      "angle_zh": "请店员换一个尺码",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "你能帮我找一下大号尺码吗？",
+      "angle": 10,
+      "angle_zh": "请店员换一个尺码",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    },
+    {
+      "zh": "请你等我十分钟，可以吗？",
+      "angle": 9,
+      "angle_zh": "请朋友等你十分钟",
+      "micro": "outside",
+      "micro_zh": "外出与服务"
+    }
+  ]
+}

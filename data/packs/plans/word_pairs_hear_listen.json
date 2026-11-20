@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_hear_listen",
+  "pattern": "word_pairs_hear_listen",
+  "items": [
+    {
+      "zh": "我听见门外有人敲门。",
+      "angle": 1,
+      "angle_zh": "我听见有人敲门",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "我听见楼下有声音。",
+      "angle": 1,
+      "angle_zh": "我听见有人敲门",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "我正在房间里听音乐。",
+      "angle": 2,
+      "angle_zh": "我在听音乐",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "他每天早上听广播。",
+      "angle": 2,
+      "angle_zh": "我在听音乐",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "电话里听不清你说什么。",
+      "angle": 3,
+      "angle_zh": "电话里听不清",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "信号不好，我听不清。",
+      "angle": 3,
+      "angle_zh": "电话里听不清",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "请你先听我把话说完。",
+      "angle": 4,
+      "angle_zh": "请听我说完",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "你先听我解释一下。",
+      "angle": 4,
+      "angle_zh": "请听我说完",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "他每天晚上听新闻。",
+      "angle": 5,
+      "angle_zh": "他每天听广播",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "我平时喜欢听播客。",
+      "angle": 5,
+      "angle_zh": "他每天听广播",
+      "micro": "hear",
+      "micro_zh": "听见"
+    },
+    {
+      "zh": "你听见外面的声音了吗？",
+      "angle": 6,
+      "angle_zh": "你听见外面的声音了吗",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "你听见有人叫你吗？",
+      "angle": 6,
+      "angle_zh": "你听见外面的声音了吗",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "她听讲座时非常认真。",
+      "angle": 7,
+      "angle_zh": "她听讲座很认真",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "他听课时总做笔记。",
+      "angle": 7,
+      "angle_zh": "她听讲座很认真",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "我们应该听医生的话。",
+      "angle": 8,
+      "angle_zh": "我们应该听医生的建议",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "你要听老师的建议。",
+      "angle": 8,
+      "angle_zh": "我们应该听医生的建议",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "我听出他的声音了。",
+      "angle": 9,
+      "angle_zh": "我听出他的声音了",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "我听见电话那头笑了。",
+      "angle": 9,
+      "angle_zh": "我听出他的声音了",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "孩子们正在听故事。",
+      "angle": 10,
+      "angle_zh": "孩子们在听故事",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    },
+    {
+      "zh": "他们今晚在听音乐会。",
+      "angle": 10,
+      "angle_zh": "孩子们在听故事",
+      "micro": "listen",
+      "micro_zh": "倾听"
+    }
+  ],
+  "source": "manual"
+}

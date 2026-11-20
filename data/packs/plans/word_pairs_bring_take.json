@@ -1,0 +1,147 @@
+{
+  "scene": "word_pairs_bring_take",
+  "pattern": "word_pairs_bring_take",
+  "items": [
+    {
+      "zh": "明天出门记得带伞。",
+      "angle": 1,
+      "angle_zh": "明天带伞",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "出门时记得带钥匙。",
+      "angle": 1,
+      "angle_zh": "明天带伞",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "他带了一些水果来。",
+      "angle": 2,
+      "angle_zh": "他带了水果来",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "妈妈带了饭菜来看我。",
+      "angle": 2,
+      "angle_zh": "他带了水果来",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "请把文件带给我看看。",
+      "angle": 3,
+      "angle_zh": "请把文件带给我",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "你带资料过来了吗？",
+      "angle": 3,
+      "angle_zh": "请把文件带给我",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "我要带孩子去医院。",
+      "angle": 4,
+      "angle_zh": "我要带孩子去医院",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "她带孩子去公园玩。",
+      "angle": 4,
+      "angle_zh": "我要带孩子去医院",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "她走的时候带走了我的书。",
+      "angle": 5,
+      "angle_zh": "她带走了我的书",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "他下楼时把垃圾拿走了。",
+      "angle": 5,
+      "angle_zh": "她带走了我的书",
+      "micro": "bring",
+      "micro_zh": "带来"
+    },
+    {
+      "zh": "出国旅行记得带护照。",
+      "angle": 6,
+      "angle_zh": "记得带护照",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "出门别忘了带身份证。",
+      "angle": 6,
+      "angle_zh": "记得带护照",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "请你把垃圾拿出去。",
+      "angle": 7,
+      "angle_zh": "把垃圾拿出去",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "请把杯子拿到厨房去。",
+      "angle": 7,
+      "angle_zh": "把垃圾拿出去",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "我带了礼物给父母。",
+      "angle": 8,
+      "angle_zh": "我带了礼物给父母",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "他带了特产给同事。",
+      "angle": 8,
+      "angle_zh": "我带了礼物给父母",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "请把作业拿去给老师。",
+      "angle": 9,
+      "angle_zh": "请把杯子拿到厨房",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "请把报告拿去打印。",
+      "angle": 9,
+      "angle_zh": "请把杯子拿到厨房",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "他带朋友回家吃饭。",
+      "angle": 10,
+      "angle_zh": "他带朋友回家吃饭",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    },
+    {
+      "zh": "她带同事来家里做客。",
+      "angle": 10,
+      "angle_zh": "他带朋友回家吃饭",
+      "micro": "take",
+      "micro_zh": "带去与拿走"
+    }
+  ],
+  "source": "manual"
+}

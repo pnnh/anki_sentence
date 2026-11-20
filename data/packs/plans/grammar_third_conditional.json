@@ -1,0 +1,147 @@
+{
+  "scene": "grammar_third_conditional",
+  "pattern": "third_conditional",
+  "items": [
+    {
+      "zh": "如果昨天早点出门，就不会迟到了。",
+      "angle": 1,
+      "angle_zh": "如果昨天早点出门就不会迟到",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "要是昨天早出门十分钟，我就不会迟到。",
+      "angle": 1,
+      "angle_zh": "如果昨天早点出门就不会迟到",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "如果当时带了伞，就不会淋雨了。",
+      "angle": 2,
+      "angle_zh": "如果带伞就不会淋雨",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "要是出门时带上伞，现在就不会感冒了。",
+      "angle": 2,
+      "angle_zh": "如果带伞就不会淋雨",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "如果当时多穿一件外套，就不会感冒了。",
+      "angle": 3,
+      "angle_zh": "如果当时多穿点就不会感冒",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "要是那天穿得厚一点，我就不会着凉。",
+      "angle": 3,
+      "angle_zh": "如果当时多穿点就不会感冒",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "如果知道会堵车，我就会坐地铁了。",
+      "angle": 4,
+      "angle_zh": "如果知道会堵车就坐地铁",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "要是早知道路上这么堵，我们就会坐地铁。",
+      "angle": 4,
+      "angle_zh": "如果知道会堵车就坐地铁",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "如果早点订票，就能买到便宜的机票了。",
+      "angle": 5,
+      "angle_zh": "如果早点订票就买到便宜票",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "要是提前一个月订票，我们就能省不少钱。",
+      "angle": 5,
+      "angle_zh": "如果早点订票就买到便宜票",
+      "micro": "regret",
+      "micro_zh": "后悔与假设"
+    },
+    {
+      "zh": "如果当时听了你的建议，就不会犯这个错了。",
+      "angle": 6,
+      "angle_zh": "如果听你的建议就不会犯错",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "要是早听你的，我就不会做错决定了。",
+      "angle": 6,
+      "angle_zh": "如果听你的建议就不会犯错",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "如果钥匙没忘在家里，我们现在就能进门了。",
+      "angle": 7,
+      "angle_zh": "如果没忘带钥匙就不用等",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "要是带了钥匙，我们就能早点进去了。",
+      "angle": 7,
+      "angle_zh": "如果没忘带钥匙就不用等",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "如果平时多复习，这次就能考得更好。",
+      "angle": 8,
+      "angle_zh": "如果多复习就能考好",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "要是考前多复习几天，我就能通过考试了。",
+      "angle": 8,
+      "angle_zh": "如果多复习就能考好",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "如果按时出发，我们就能赶上那班火车。",
+      "angle": 9,
+      "angle_zh": "如果按时出发就赶上火车",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "要是早十分钟出发，就不会错过火车了。",
+      "angle": 9,
+      "angle_zh": "如果按时出发就赶上火车",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "如果那天没有加班，我就会去参加聚会了。",
+      "angle": 10,
+      "angle_zh": "如果那天没加班就去聚会",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    },
+    {
+      "zh": "要是那天不加班，我们就能一起吃饭了。",
+      "angle": 10,
+      "angle_zh": "如果那天没加班就去聚会",
+      "micro": "advice",
+      "micro_zh": "事后建议"
+    }
+  ],
+  "source": "manual"
+}

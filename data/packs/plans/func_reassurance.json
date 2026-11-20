@@ -1,0 +1,146 @@
+{
+  "scene": "func_reassurance",
+  "pattern": "func_reassurance",
+  "items": [
+    {
+      "zh": "别担心，下次再努力。",
+      "angle": 1,
+      "angle_zh": "安慰迟到的朋友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "这次没赶上没关系，还有下次机会。",
+      "angle": 1,
+      "angle_zh": "安慰迟到的朋友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "打碎杯子没关系，去买个新的。",
+      "angle": 2,
+      "angle_zh": "告诉孩子打碎杯子没关系",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "别担心，这次面试没通过还有下次。",
+      "angle": 3,
+      "angle_zh": "安慰面试失败的同事",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "这次的报告没做好没关系，下次改进就好。",
+      "angle": 3,
+      "angle_zh": "安慰面试失败的同事",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "新手刚开始，慢慢来就行。",
+      "angle": 4,
+      "angle_zh": "让新手慢慢来",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "丢了书包别担心，先去吃饭。",
+      "angle": 5,
+      "angle_zh": "安慰丢了东西的室友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "书包没找着没关系，先别着急。",
+      "angle": 5,
+      "angle_zh": "安慰丢了东西的室友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "不用急着回复，慢慢来。",
+      "angle": 6,
+      "angle_zh": "告诉对方不用急着回复",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "别担心，晚上再发也行。",
+      "angle": 6,
+      "angle_zh": "告诉对方不用急着回复",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "第一次上台讲话别担心，慢慢来就好。",
+      "angle": 7,
+      "angle_zh": "安慰第一次上台的同事",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "第一次演讲紧张正常，慢慢来别着急。",
+      "angle": 7,
+      "angle_zh": "安慰第一次上台的同事",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "别担心，孩子还小，慢慢来。",
+      "angle": 8,
+      "angle_zh": "安抚生气的家人",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "他把房间弄得乱七八糟没关系，慢慢收拾。",
+      "angle": 8,
+      "angle_zh": "安抚生气的家人",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "费用的事别担心，我们可以一起想办法。",
+      "angle": 9,
+      "angle_zh": "让担心费用的朋友放心",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "费用的事别着急，我们慢慢来就行。",
+      "angle": 9,
+      "angle_zh": "让担心费用的朋友放心",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "这次考试没做好没关系，下次再努力。",
+      "angle": 10,
+      "angle_zh": "安慰把菜做咸了的朋友",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "你刚刚没听清楚没关系，我再说一遍。",
+      "angle": 10,
+      "angle_zh": "安慰把菜做咸了的朋友",
+      "micro": "relax",
+      "micro_zh": "让人放心"
+    },
+    {
+      "zh": "朋友迟到了没关系，这次晚一点也行。",
+      "angle": 1,
+      "angle_zh": "安慰迟到的朋友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    },
+    {
+      "zh": "他迟到了别担心，可能是路上堵车。",
+      "angle": 1,
+      "angle_zh": "安慰迟到的朋友",
+      "micro": "comfort",
+      "micro_zh": "安慰他人"
+    }
+  ]
+}

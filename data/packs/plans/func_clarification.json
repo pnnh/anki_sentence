@@ -1,0 +1,146 @@
+{
+  "scene": "func_clarification",
+  "pattern": "func_clarification",
+  "items": [
+    {
+      "zh": "你是说会议是明天下午吗？",
+      "angle": 1,
+      "angle_zh": "没听清会议时间",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说在这里见面吗？",
+      "angle": 2,
+      "angle_zh": "确认见面地址",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说信用卡付款吗？",
+      "angle": 3,
+      "angle_zh": "确认付款方式",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说今天是星期六吗？",
+      "angle": 4,
+      "angle_zh": "确认明天是上午还是下午",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说绿色的笔吗？",
+      "angle": 5,
+      "angle_zh": "确认要带的材料",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "确认一下，是要黑色笔还是蓝色笔？",
+      "angle": 5,
+      "angle_zh": "确认要带的材料",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说我不需要做那个任务吗？",
+      "angle": 6,
+      "angle_zh": "澄清自己不是那个意思",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "你是说这件衣服不含税吗？",
+      "angle": 7,
+      "angle_zh": "问价格是否含税",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "你是说我们七点钟在这里见面吗？",
+      "angle": 8,
+      "angle_zh": "确认集合地点",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "确认一下，我们是八点钟集合吧？",
+      "angle": 8,
+      "angle_zh": "确认集合地点",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "你是说这个药一天吃三次吗？",
+      "angle": 9,
+      "angle_zh": "问药一天吃几次",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "你是说后天下午两点吗？",
+      "angle": 10,
+      "angle_zh": "确认改期后的时间",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "确认一下，我们是下午五点见吗？",
+      "angle": 10,
+      "angle_zh": "确认改期后的时间",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    },
+    {
+      "zh": "你是说会议在三点半开始吗？",
+      "angle": 1,
+      "angle_zh": "没听清会议时间",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "确认一下，我们是四点钟开会吧？",
+      "angle": 1,
+      "angle_zh": "没听清会议时间",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说在公司一楼见面吗？",
+      "angle": 2,
+      "angle_zh": "确认见面地址",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说今天下午三点的会议吗？",
+      "angle": 4,
+      "angle_zh": "确认明天是上午还是下午",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "确认一下，我们是明天上午十点见？",
+      "angle": 4,
+      "angle_zh": "确认明天是上午还是下午",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "确认一下，是今天下午两点开会吗？",
+      "angle": 5,
+      "angle_zh": "确认要带的材料",
+      "micro": "hearing",
+      "micro_zh": "听清信息"
+    },
+    {
+      "zh": "你是说这个方案不包括市场调研吗？",
+      "angle": 6,
+      "angle_zh": "澄清自己不是那个意思",
+      "micro": "details",
+      "micro_zh": "确认细节"
+    }
+  ]
+}

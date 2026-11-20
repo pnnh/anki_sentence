@@ -86,12 +86,13 @@ def check_proper_nouns(en):
     for match in TOKEN_RE.finditer(en):
         token = match.group(0)
         before = en[: match.start()].rstrip()
-        at_start = not before or before[-1] in ".?!"
+        at_start = not before or before[-1] in ".?!:"
         if at_start:
             continue
         if token in {
             "I", "I'm", "I'd", "I'll", "I've", "Mr", "Mrs", "Ms", "Dr",
             "S", "M", "L", "XL", "XXL", "OK", "App", "SIM", "ATM", "ID", "PIN", "Wi", "Fi",
+            "AM", "PM", "RMB",
         }:
             continue
         if token[0].isupper():
@@ -152,12 +153,15 @@ def main():
             add_issue(issues, "error", "en_contains_chinese", rec, en)
         if cjk_len(zh) < 4:
             add_issue(issues, "warn", "zh_too_short", rec, str(cjk_len(zh)))
-        if cjk_len(zh) > 45:
+        group = scene.get("group") if scene else ""
+        if cjk_len(zh) > (100 if group == "多轮对话" else 45):
             add_issue(issues, "warn", "zh_too_long", rec, str(cjk_len(zh)))
         words = WORD_RE.findall(en)
-        max_words = {"个人叙事": 24, "语法句型": 18, "短语动词": 18, "口语衔接": 20}.get(
-            scene.get("group") if scene else "", 16
-        )
+        max_words = {
+            "个人叙事": 24, "语法句型": 18, "短语动词": 18, "口语衔接": 20,
+            "功能语言": 20, "搭配词族": 18, "语法进阶": 18, "易混词族": 18,
+            "角色反转": 20, "多轮对话": 70,
+        }.get(group, 16)
         if len(words) < 4 or len(words) > max_words:
             add_issue(issues, "warn", "en_word_count", rec, str(len(words)))
         if en and en[-1] not in ".?!":
