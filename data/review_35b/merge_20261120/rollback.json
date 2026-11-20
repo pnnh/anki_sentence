@@ -1,0 +1,239 @@
+{
+  "status": "evidence_only_not_executed",
+  "scope": "Undo the local 60-English merge and its override persistence; keep the earlier serviced validator fix and all audit evidence.",
+  "preconditions": [
+    "Obtain rollback authorization.",
+    "Check git status and preserve any subsequent edits.",
+    "Require each live file to match the recorded after_sha256; stop on drift."
+  ],
+  "restore": [
+    {
+      "path": "data/packs/final/coll_make.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/coll_make.jsonl",
+      "before_sha256": "143e8fb3bdb97921ee91b76a9d7e6f39813f4ff0cd8b01ef64f41e4965c5e9c5",
+      "after_sha256": "5f8ed80c13192c7e112d2bf4da296e18e865b883198063901d88b5d1040c99ec"
+    },
+    {
+      "path": "data/packs/final/discourse_at_least.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/discourse_at_least.jsonl",
+      "before_sha256": "80c95e1e6fb417064693d88bc0e94526fa2edc2d00e92e5029bc949506d3d8b6",
+      "after_sha256": "1d63c4888d87ec2649f87ce95f6ba626999ed0ef9854f930ad9a9b1e3bc20f17"
+    },
+    {
+      "path": "data/packs/final/func_offers.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/func_offers.jsonl",
+      "before_sha256": "7aa849b3a5448029de3cbe53b507ae67bd6c87669364f755413685b949fd6887",
+      "after_sha256": "4ebf7b9770e78923ec77f41741a504ceb04b327b72690ddcf4cd0305c96ca4d1"
+    },
+    {
+      "path": "data/packs/final/grammar_causative.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_causative.jsonl",
+      "before_sha256": "cbc320b6516464da1f5d67b1b31cb27c7938ddac093b0eafe24e2262b9620993",
+      "after_sha256": "2ccb37c46c72c644e3fd3d09b8fc149afb5b74bfb8e4541dec7752db85e77848"
+    },
+    {
+      "path": "data/packs/final/grammar_first_conditional.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_first_conditional.jsonl",
+      "before_sha256": "15df35ebf767ddceedcba004a339d24ffee6acd0efb2f60a389fd081356cbe49",
+      "after_sha256": "3598e013c99c1a63350f5dfa40d39d558a2a5341e48b24975fc8cb5e06552a0d"
+    },
+    {
+      "path": "data/packs/final/grammar_modals_deduction.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_modals_deduction.jsonl",
+      "before_sha256": "73d763c030faf201e9386713db5537890c99f98485c51a2c4e3b12c06d8081e2",
+      "after_sha256": "792de8f973c8c2e437ad63b24398d27da542c5597b00b52b8dd99c154fb18528"
+    },
+    {
+      "path": "data/packs/final/grammar_modals_obligation.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_modals_obligation.jsonl",
+      "before_sha256": "c526b24153d1ce6376cb3afb7e75e2b9b6c50b284da2df64edea2ff8cb15fa84",
+      "after_sha256": "8afdcee1740489c7820e5d839fd48e73677a6dce1eff389e8243f06cfe3fed9f"
+    },
+    {
+      "path": "data/packs/final/grammar_prepositions_time.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_prepositions_time.jsonl",
+      "before_sha256": "e46c46fc68b5add3ae5c1ef6045b9e117a0eebf4e99f364ba9e594f0ebe14696",
+      "after_sha256": "1a418ee97f932e1bd5dd156551defe12c7ce2c78d213a9806876697a02068360"
+    },
+    {
+      "path": "data/packs/final/grammar_relative_clauses.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/grammar_relative_clauses.jsonl",
+      "before_sha256": "95bebda5129caa30de1a76ed63ac603062c3e23407ead91bffde307a049e8475",
+      "after_sha256": "df09782bccb1b2b17c83d76efd3f2cae41a2a318f281d2e7053282220f2f0af6"
+    },
+    {
+      "path": "data/packs/final/narrative_future_plans.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/narrative_future_plans.jsonl",
+      "before_sha256": "e0b81e95379ab247e334a46ddba9fdde811cde805025f22eb6366a80f01030b3",
+      "after_sha256": "2b59cd8ce9d58ad12f8e73e877cccdca8ad348bc90c402fef020cd6e954cd931"
+    },
+    {
+      "path": "data/packs/final/narrative_last_weekend.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/narrative_last_weekend.jsonl",
+      "before_sha256": "c9e5e237390d32ddc6213a7c05b20c92fc77bda83bfa6653f960fc0b1b861803",
+      "after_sha256": "a9f7fe2a7e6c7c467b5f88289d7f37bb581f359fcca2b2bba500322c1645fb80"
+    },
+    {
+      "path": "data/packs/final/phrasal_calm_down.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/phrasal_calm_down.jsonl",
+      "before_sha256": "345cb6307ba9294e0703052ca015cb97cfec1c3c667a9ee4c0e39c461886c7c6",
+      "after_sha256": "27337ce44a8877c859e7b216e2903553c17de6c7e41d6d48e15f65af1f1878cd"
+    },
+    {
+      "path": "data/packs/final/word_pairs_win_earn.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/final/word_pairs_win_earn.jsonl",
+      "before_sha256": "c4c3d8c97558a476d4bd485329a12dcffd6c3d4d3885ad2d977f10c895fd7b4f",
+      "after_sha256": "9fa7b9c331966bc9fec9cb00ab83f976ca0b08621582eff34212f87d638bec11"
+    },
+    {
+      "path": "data/packs/overrides.json",
+      "backup": "data/review_35b/merge_20261120/backup/data/packs/overrides.json",
+      "before_sha256": "d06a8114607819bf8c5a9d345249c6f7791e7166072a88e7747a9b54945bf8f3",
+      "after_sha256": "d590fc9a6292cc061c628ec17a95e17fab14727465ea0a25ee748ca0c189bc61"
+    },
+    {
+      "path": "data/sentences_polished/airport.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/airport.jsonl",
+      "before_sha256": "23a743c8a5b14e4663ff31761688148c4776b40391fa4a5b6da54dd7efeffdf3",
+      "after_sha256": "8ffd42354d359891e4c6aa2bf6792964038bafd184db40111f3f6efd78df04f9"
+    },
+    {
+      "path": "data/sentences_polished/cafe_fastfood.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/cafe_fastfood.jsonl",
+      "before_sha256": "c05eee1cd679ebc0ce9ec3222758c919a8375f3432f0ea5e00ae34b4c08293cb",
+      "after_sha256": "8cd89e04c2379ccd466d21250deebc772fd08cac643bef0fcc79cd7ea7a78437"
+    },
+    {
+      "path": "data/sentences_polished/car_parking.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/car_parking.jsonl",
+      "before_sha256": "4e31f04f2bc17c901ddfa10781feb4823eeb2da5ad9178566da2de72ddebfb4f",
+      "after_sha256": "91ad5a3efa552c6297c80289dc1c10b851eaa28f102d83034dfccbc61cbf343d"
+    },
+    {
+      "path": "data/sentences_polished/courier.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/courier.jsonl",
+      "before_sha256": "6e19678d77cb744ef1e462c2c3ebff1277716680ce197081cf3cfb4cf62e0fe1",
+      "after_sha256": "3631722eff5eb34868c7d44f8f9f2009e06f5e690c141216379877c4bc8c2608"
+    },
+    {
+      "path": "data/sentences_polished/directions.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/directions.jsonl",
+      "before_sha256": "9f7919e76ece914720f364ea9c39d7141fcbbd5ca59e03943d8aa4fdae11fbcb",
+      "after_sha256": "d7d754258735cdd2cc92c1921bed8c7f1153edbb8f6648ed73dab84fe41361d7"
+    },
+    {
+      "path": "data/sentences_polished/doctor_pharmacy.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/doctor_pharmacy.jsonl",
+      "before_sha256": "c298c70b4fb7e9b17031aed6f09ff72683e51877a9a4ca0ecf0ffccbb0a53bae",
+      "after_sha256": "e6ce1a07d262149d8811596ee48fcebf16d0ce09845751735f3e7c5e8be7c6c2"
+    },
+    {
+      "path": "data/sentences_polished/food_delivery.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/food_delivery.jsonl",
+      "before_sha256": "5862bdaec7859d10405be8fad6ff20a4ef6169050e1693c91b10b0a4b4aca1ce",
+      "after_sha256": "149b91ea73909872dd84a15a142294fb91e6da017398ca1a705a3a35c8b5ccdc"
+    },
+    {
+      "path": "data/sentences_polished/hair_salon.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/hair_salon.jsonl",
+      "before_sha256": "74240d94477e4654056130a1d9b65034805e26f2e24df38469cd51689754bbbe",
+      "after_sha256": "1351b2c5fcb80fa60871510f0efcf83c31216f289ffbe788bd455d16d4990992"
+    },
+    {
+      "path": "data/sentences_polished/hotel.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/hotel.jsonl",
+      "before_sha256": "3087309ca6e4012a5fb27f501caa657e42e8575691ef95b37aa3c2f0f3f23657",
+      "after_sha256": "080920a56fc22b3b15f6041fbd8f22a21d25053bf2d4140b8b54d71c87303c58"
+    },
+    {
+      "path": "data/sentences_polished/online_shopping.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/online_shopping.jsonl",
+      "before_sha256": "cb837e691d1c6e38305c3060fa5cd0563ff01c690181824159ea1fd5464d470f",
+      "after_sha256": "bc6df81ce104c2b3ec312bb7b0c67e19f90378e7faaf9320f2e5db9e5c0c0e16"
+    },
+    {
+      "path": "data/sentences_polished/phone_internet.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/phone_internet.jsonl",
+      "before_sha256": "5bad8936b1416dd7c3ee3889306092a3c26f8544efd6fab1bd58c1b796272f35",
+      "after_sha256": "77db54be176aaebb1eabd76aff05e4c053417f13585b2752fd9092d8b16c3347"
+    },
+    {
+      "path": "data/sentences_polished/phone_service.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/phone_service.jsonl",
+      "before_sha256": "470869119dd3a90cc5d59e01888b3cd233bc438148da4861aca3fa96573e7c27",
+      "after_sha256": "c78b1710df4e0a534982e931461bd70d3bbe6588d1d174e300f0dd425e84c272"
+    },
+    {
+      "path": "data/sentences_polished/public_transport.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/public_transport.jsonl",
+      "before_sha256": "26162b892ef887fb502e18afcc73bfbc3c63ae001551d4e65b8ecb3266943a26",
+      "after_sha256": "97943617e5916457d48ac056d85760df617822f97eb586a98bf09e50d79e52ad"
+    },
+    {
+      "path": "data/sentences_polished/renting_repair.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/renting_repair.jsonl",
+      "before_sha256": "096b6e59844827b7324097d468d8d67e24d5e1b79fd5500e938cdb37812147d8",
+      "after_sha256": "07885af764e050174cbe202ba444baf2177e91279bad37937cca14fd9afa6d41"
+    },
+    {
+      "path": "data/sentences_polished/restaurant.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/restaurant.jsonl",
+      "before_sha256": "a6b669c66e5d9640da6e6e21d9101bb01925eaaeff85e1e35befeab76db3ae3b",
+      "after_sha256": "02d39b70caf39a7e8f723c2514f2946378d04af28cf270be886caec7f52f8905"
+    },
+    {
+      "path": "data/sentences_polished/shopping_clothes.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/shopping_clothes.jsonl",
+      "before_sha256": "02c538e3d800d5e244d796006715afe937017128ac5f05eb4468f9f25472ce95",
+      "after_sha256": "af4e9bd4ff109b81135a9279b554b84140229f76b77beb3c1caadfef2117e179"
+    },
+    {
+      "path": "data/sentences_polished/sightseeing.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/sightseeing.jsonl",
+      "before_sha256": "ef86eb400f3a1411759465fdb41f9f4834a4303fc6d7be3aef156638e91f752d",
+      "after_sha256": "b6a91bef3f1ad9629559aa9455021bcb8c97d681bd9f374e210f1896f5f6aa34"
+    },
+    {
+      "path": "data/sentences_polished/socializing.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/socializing.jsonl",
+      "before_sha256": "91dd87ff7865f0aaafd0e97ff847efd75a11de7d4711631072df0b21a1bc89be",
+      "after_sha256": "9dcef9740a51290e95ebbd0e48d310a3f30371d9f066a075a1b2766d6b0b4227"
+    },
+    {
+      "path": "data/sentences_polished/supermarket.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/supermarket.jsonl",
+      "before_sha256": "135b734a72c068cac9d6b81f9203a95169c8c0f6b6676548ad8ad8b218aa6f2a",
+      "after_sha256": "7e2ce064e74f9adf7ceaf82397cb68722a9cd87a243f6036fe2eec6966a7cb92"
+    },
+    {
+      "path": "data/sentences_polished/taxi.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/taxi.jsonl",
+      "before_sha256": "7fb18bc04cec710a87452d482c4dec27c604b5cf9d48aba704879aa6deb2bd9c",
+      "after_sha256": "d68339d2d16fd3f05ce889cb7126246874bec5260c94846989985ac277cab7e6"
+    },
+    {
+      "path": "data/sentences_polished/weather_smalltalk.jsonl",
+      "backup": "data/review_35b/merge_20261120/backup/data/sentences_polished/weather_smalltalk.jsonl",
+      "before_sha256": "53557cac916e8bbb0fe3246f7219d1fd2318b8ded42a231399b40a6e35ff68cf",
+      "after_sha256": "389df844cc925c48676d63b4e9e966378db0b3dd62a99b510a7e20642ee74516"
+    },
+    {
+      "path": "scripts/polish.py",
+      "backup": "data/review_35b/merge_20261120/backup/scripts/polish.py",
+      "before_sha256": "d038d14f7217e8eddcb4a68a1e5037a02ce5de6b20eac364e8f147eb719e774b",
+      "after_sha256": "9f97305f80be1374104f90eee2398362eaf439a03b056001ad4bbb56435a5661"
+    }
+  ],
+  "retire_created_files": [
+    {
+      "path": "data/sentence_overrides.json",
+      "after_sha256": "c4e014b73811f36c3b66c8fdf41f4be09e322e1623b5ab59853fdb2b01d84381",
+      "action": "Move aside only after authorization; do not delete unknown subsequent work."
+    }
+  ],
+  "postconditions": [
+    "All 213 original official file hashes match official_before_sha256.",
+    "The 60 approved UID English values equal candidates.old_en.",
+    "Do not roll back unrelated work or touch Anki."
+  ]
+}

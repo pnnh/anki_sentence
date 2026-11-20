@@ -58,6 +58,7 @@ def parse_args():
     p.add_argument("--data-dir", default=str(ROOT / "data" / "sentences"))
     p.add_argument("--out-dir", default=str(ROOT / "data" / "sentences_polished"))
     p.add_argument("--patch-dir", default=str(ROOT / "data" / "patches"))
+    p.add_argument("--overrides", type=Path, help="approved UID-to-English mapping; base data uses data/sentence_overrides.json by default")
     return p.parse_args()
 
 
@@ -142,7 +143,7 @@ def write_atomic(path, records):
     tmp.replace(path)
 
 
-def polish_scene(args, scene_path, out_dir, patch_dir):
+def polish_scene(args, scene_path, out_dir, patch_dir, overrides):
     scene_id = load_jsonl(scene_path)[0]["scene"]
     out_path = out_dir / f"{scene_id}.jsonl"
     patch_path = patch_dir / f"{scene_id}.jsonl"
@@ -151,10 +152,13 @@ def polish_scene(args, scene_path, out_dir, patch_dir):
     for rec in records:
         if rec["uid"] in patches:
             rec["en"] = patches[rec["uid"]]["new_en"]
+        if rec["uid"] in overrides:
+            rec["en"] = overrides[rec["uid"]]
     if not records:
         return 0, 0
     pending = [
-        r for r in records if r["uid"] not in patches and r.get("pack") != "dialogue"
+        r for r in records
+        if r["uid"] not in patches and r["uid"] not in overrides and r.get("pack") != "dialogue"
     ]
     if args.limit:
         pending = pending[: args.limit]
@@ -226,6 +230,17 @@ def main():
     data_dir = Path(args.data_dir)
     out_dir = Path(args.out_dir)
     patch_dir = Path(args.patch_dir)
+    overrides_path = args.overrides
+    if overrides_path is None and data_dir.resolve() == (ROOT / "data/sentences").resolve():
+        default_overrides = ROOT / "data/sentence_overrides.json"
+        if default_overrides.exists():
+            overrides_path = default_overrides
+    overrides = json.loads(overrides_path.read_text(encoding="utf-8")) if overrides_path else {}
+    if not isinstance(overrides, dict) or not all(
+        isinstance(uid, str) and uid.strip() and isinstance(en, str) and en.strip()
+        for uid, en in overrides.items()
+    ):
+        raise SystemExit("Overrides must map nonempty UIDs to nonempty English strings.")
     out_dir.mkdir(parents=True, exist_ok=True)
     patch_dir.mkdir(parents=True, exist_ok=True)
 
@@ -238,7 +253,7 @@ def main():
 
     total, changed = 0, 0
     for path in paths:
-        n, c = polish_scene(args, path, out_dir, patch_dir)
+        n, c = polish_scene(args, path, out_dir, patch_dir, overrides)
         total += n
         changed += c
     print(f"Done. Polished {total} cards, changed {changed}.")

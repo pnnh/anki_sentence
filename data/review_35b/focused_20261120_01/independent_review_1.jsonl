@@ -1,0 +1,50 @@
+{"audit_id":1,"uid":"directions-8e580a364c","baseline_verdict":"issue","reason":"中文在征求确认，英文变成陈述，丢失询问功能。","preferred_en":"Walking lets you enjoy the scenery more, right?","issue_type":["confirmation_loss"]}
+{"audit_id":2,"uid":"directions-ff58e8c0f5","baseline_verdict":"issue","reason":"把步行能否避开人群的确认问句译成了断言。","preferred_en":"Walking lets you avoid crowded places, right?","issue_type":["confirmation_loss"]}
+{"audit_id":3,"uid":"directions-c47d305041","baseline_verdict":"issue","reason":"缺少系动词，且漏掉了征求确认的语气。","preferred_en":"Walking is good exercise, right?","issue_type":["grammar","confirmation_loss"]}
+{"audit_id":4,"uid":"socializing-cc70ee300d","baseline_verdict":"issue","reason":"中文提出送礼建议并征询意见，英文更像对已有建议表示赞同。","preferred_en":"How about giving a small gift?","issue_type":["speech_act_shift"]}
+{"audit_id":5,"uid":"renting_repair-2328b87291","baseline_verdict":"issue","reason":"漏掉电视没声音这一完整问题陈述，并擅加遥控器；祈使句本身可用。","preferred_en":"The TV has no sound. Try this button.","issue_type":["omitted_clause","unsupported_detail"]}
+{"audit_id":6,"uid":"directions-ff81019888","baseline_verdict":"good","reason":"准确表达步行带包困难，并保留确认语气。","preferred_en":"It's hard to carry a bag while walking, right?","issue_type":[]}
+{"audit_id":7,"uid":"supermarket-e3e4a444ec","baseline_verdict":"issue","reason":"把营业时间大致相同缩窄为相互一致，遗漏了近似程度。","preferred_en":"Are their business hours about the same?","issue_type":["meaning_shift"]}
+{"audit_id":8,"uid":"restaurant-5221e076d1","baseline_verdict":"good","reason":"否定疑问保留了确认不辣的内容，无须强改为附加问句。","preferred_en":"Is this dish not spicy?","issue_type":[]}
+{"audit_id":9,"uid":"doctor_pharmacy-a67a99dd60","baseline_verdict":"issue","reason":"中文问医生口碑，英文泛问医生好不好，丢失评价依据。","preferred_en":"Does this doctor have a good reputation?","issue_type":["meaning_shift"]}
+{"audit_id":10,"uid":"socializing-85af1d3ec1","baseline_verdict":"issue","reason":"中文确认没有其他计划，英文仅询问是否有计划，丢失否定预期。","preferred_en":"You don't have other plans this weekend, do you?","issue_type":["negative_confirmation_loss"]}
+{"audit_id":11,"uid":"shopping_clothes-f9e04c8037","baseline_verdict":"good","reason":"free of irritants 在材质过敏场景中保留无刺激物的确认内容。","preferred_en":"Is this shirt free of irritants?","issue_type":[]}
+{"audit_id":12,"uid":"public_transport-3008ad8c9f","baseline_verdict":"good","reason":"自然表达确认站一会儿是否没问题，人物和时长均一致。","preferred_en":"Is it okay if I stand for a while?","issue_type":[]}
+{"audit_id":13,"uid":"socializing-73bcddbb6b","baseline_verdict":"good","reason":"准确表达改去喝茶这一替代建议。","preferred_en":"Shall we go for tea instead?","issue_type":[]}
+{"audit_id":14,"uid":"directions-747a98ec1e","baseline_verdict":"good","reason":"不太方便及否定确认语气均完整保留。","preferred_en":"Walking isn't very convenient, is it?","issue_type":[]}
+{"audit_id":15,"uid":"weather_smalltalk-3a920bc046","baseline_verdict":"good","reason":"自然表达天气导致出门困难，并保留试探确认语气。","preferred_en":"Going out in this weather might be tough, huh?","issue_type":[]}
+{"audit_id":16,"uid":"restaurant-694d70d346","baseline_verdict":"good","reason":"明确询问菜里没有虾，保留过敏场景关键否定内容。","preferred_en":"Is there no shrimp in this dish?","issue_type":[]}
+{"audit_id":17,"uid":"phone_internet-620d2e617c","baseline_verdict":"good","reason":"买卡语境下 different cards 可自然指不同种类，无须补写卡种。","preferred_en":"Do you have different cards?","issue_type":[]}
+{"audit_id":18,"uid":"online_shopping-e0257c5fa8","baseline_verdict":"good","reason":"比较对象和之前购买的时间关系准确。","preferred_en":"Is this different from what I bought before?","issue_type":[]}
+{"audit_id":19,"uid":"cafe_fastfood-0221ef77c9","baseline_verdict":"good","reason":"准确询问各杯型是否同价。","preferred_en":"Are all cup sizes the same price?","issue_type":[]}
+{"audit_id":20,"uid":"shopping_clothes-bd5c1c84b7","baseline_verdict":"issue","reason":"exchange 和 try on 在此缺少必要宾语，试穿分句也需明确施事。","preferred_en":"Can I exchange it if it doesn't fit after I try it on?","issue_type":["grammar","missing_object"]}
+{"audit_id":21,"uid":"courier-eb6e5b729d","baseline_verdict":"good","reason":"直接疑问自然实现核对地址的功能。","preferred_en":"Is this the correct address?","issue_type":[]}
+{"audit_id":22,"uid":"shopping_clothes-a7d2a7f7e9","baseline_verdict":"good","reason":"准确询问同款异色，this 在购物现场指代清楚。","preferred_en":"Do you have this in a different color?","issue_type":[]}
+{"audit_id":23,"uid":"restaurant-c6ab5ecf16","baseline_verdict":"good","reason":"leftovers 已包含未吃完的食物，take 在餐厅语境可表达带走。","preferred_en":"Can I take the leftovers?","issue_type":[]}
+{"audit_id":24,"uid":"online_shopping-cfafb46e64","baseline_verdict":"issue","reason":"英文只要求另一双，未保留明确提出补偿的性质。","preferred_en":"The replacement shoes still don't fit. Can I get another pair as compensation?","issue_type":["meaning_omission"]}
+{"audit_id":25,"uid":"online_shopping-2a18d4f130","baseline_verdict":"good","reason":"unopened 准确压缩未拆封状态，退货请求完整。","preferred_en":"Can I return this unopened item?","issue_type":[]}
+{"audit_id":26,"uid":"phone_service-bbad1d644a","baseline_verdict":"good","reason":"没听清及请求对方重复均准确，Can you 是常规请求。","preferred_en":"I didn't hear that clearly. Can you repeat it?","issue_type":[]}
+{"audit_id":27,"uid":"courier-91fe2e1627","baseline_verdict":"ambiguous","reason":"中文说送件，微场景却是上门取件；无人时优先取送的意图需主审澄清。","preferred_en":"Can you deliver it first since no one's home?","issue_type":["source_ambiguity","context_conflict"]}
+{"audit_id":28,"uid":"airport-ec943b130d","baseline_verdict":"good","reason":"手机丢失及请对方协助寻找的方向准确。","preferred_en":"I lost my phone. Can you help me look for it?","issue_type":[]}
+{"audit_id":29,"uid":"airport-5d5dd9be2e","baseline_verdict":"good","reason":"electronics 可指随身电子设备，look 的对象由前句明确。","preferred_en":"I can't find my electronics. Can you help me look?","issue_type":[]}
+{"audit_id":30,"uid":"phone_service-0ddafc2d7c","baseline_verdict":"good","reason":"still not picking up 自然表达客服仍未接听。","preferred_en":"Is customer service still not picking up?","issue_type":[]}
+{"audit_id":31,"uid":"doctor_pharmacy-37fc581d8a","baseline_verdict":"issue","reason":"整句漏掉尚未康复的病情，并弱化先开药的请求。","preferred_en":"I'm not fully recovered yet. Can you prescribe some medicine for now?","issue_type":["omitted_clause","meaning_omission"]}
+{"audit_id":32,"uid":"airport-feb0851c55","baseline_verdict":"issue","reason":"两个独立分句仅用逗号连接，且遗漏电子登机牌的类型。","preferred_en":"My electronic boarding pass is missing. Can you help?","issue_type":["comma_splice","meaning_omission"]}
+{"audit_id":33,"uid":"restaurant-4a8ee9a336","baseline_verdict":"good","reason":"leftovers 与 to go 自然表达剩菜打包带走。","preferred_en":"Can I take the leftovers to go?","issue_type":[]}
+{"audit_id":34,"uid":"airport-826263dca7","baseline_verdict":"good","reason":"钱包找不到和协助寻找均准确，末句无需重复宾语。","preferred_en":"I can't find my wallet. Can you help me look?","issue_type":[]}
+{"audit_id":35,"uid":"school-25e21cd200","baseline_verdict":"good","reason":"口语 get 表示理解，问题陈述和求助均完整。","preferred_en":"I don't get this question. Can you help?","issue_type":[]}
+{"audit_id":36,"uid":"hotel-d69fbc2a4c","baseline_verdict":"good","reason":"缺热水及送水请求完整，客房位置可由服务语境补足。","preferred_en":"There's no hot water. Can you bring some?","issue_type":[]}
+{"audit_id":37,"uid":"sightseeing-6378ce3871","baseline_verdict":"ambiguous","reason":"位置不稳所指不明，不能径定为地面不平；英文另有逗号拼接，需主审。","preferred_en":"The ground is uneven, can I use a tripod?","issue_type":["source_ambiguity","unsupported_detail","comma_splice"]}
+{"audit_id":38,"uid":"restaurant-6d609a167c","baseline_verdict":"good","reason":"再要两双已传达餐具不足的实际需求，数量和请求方向准确。","preferred_en":"Can you bring two more pairs of chopsticks?","issue_type":[]}
+{"audit_id":39,"uid":"hotel-e0158a8658","baseline_verdict":"good","reason":"无烟房、免费网络及询问功能均准确。","preferred_en":"Does the non-smoking room have free Wi-Fi?","issue_type":[]}
+{"audit_id":40,"uid":"phone_internet-d3b3f08576","baseline_verdict":"good","reason":"自然询问该店是否修不了，维修对象可由上下文确定。","preferred_en":"Can't this shop fix it?","issue_type":[]}
+{"audit_id":41,"uid":"food_delivery-0db6da1b66","baseline_verdict":"issue","reason":"外卖场景是要求少配筷子，use 变成要求对方少使用筷子。","preferred_en":"Can you include fewer chopsticks?","issue_type":["action_mismatch"]}
+{"audit_id":42,"uid":"phone_service-3aa0c8585f","baseline_verdict":"good","reason":"改变主意并取消退款自然表达不再想退款。","preferred_en":"I changed my mind. Can I cancel the refund?","issue_type":[]}
+{"audit_id":43,"uid":"car_parking-3fb60d5a4c","baseline_verdict":"good","reason":"disabled parking spots 是无障碍专用车位的常见说法。","preferred_en":"Do you have disabled parking spots?","issue_type":[]}
+{"audit_id":44,"uid":"hair_salon-fcdb16d2cd","baseline_verdict":"good","reason":"赶时间及请理发师加快洗头均准确。","preferred_en":"I'm in a rush. Can you wash my hair faster?","issue_type":[]}
+{"audit_id":45,"uid":"hair_salon-6351d380fd","baseline_verdict":"issue","reason":"陈述句与独立问句之间出现逗号拼接；取消对象可由预约语境补足。","preferred_en":"I don't want to go anymore. Can I cancel?","issue_type":["comma_splice"]}
+{"audit_id":46,"uid":"phone_service-7f53cbfeb2","baseline_verdict":"issue","reason":"中文确认是否已无其他办法，英文变成中性询问，丢失否定预期。","preferred_en":"Are there no other options?","issue_type":["negative_confirmation_loss"]}
+{"audit_id":47,"uid":"car_parking-d32d96e1e2","baseline_verdict":"good","reason":"disabled parking 自然指供残障人士使用的停车位。","preferred_en":"Do you have disabled parking?","issue_type":[]}
+{"audit_id":48,"uid":"hair_salon-190e5a9a2e","baseline_verdict":"good","reason":"两个询问都保留，No need to book 是自然的口语省略问句。","preferred_en":"Can I come today? No need to book?","issue_type":[]}
+{"audit_id":49,"uid":"hotel-45736f8024","baseline_verdict":"good","reason":"Can I have 自然实现请求提供无烟房的意图。","preferred_en":"Can I have a non-smoking room?","issue_type":[]}
+{"audit_id":50,"uid":"phone_service-2a6a547e51","baseline_verdict":"good","reason":"未收到货这一否定条件及退款询问均完整保留。","preferred_en":"Can I get a refund if I don't receive the item?","issue_type":[]}

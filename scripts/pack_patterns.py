@@ -466,7 +466,10 @@ def passes_en(pattern, en):
         return bool(re.search(
             r"\b(have|has|had|get|gets|got|getting)\s+(?:\w+\s+){0,5}"
             r"(done|fixed|repaired|cleaned|cut|washed|delivered|installed|checked|painted|"
-            r"built|made|served|printed|sent|translated|changed|replaced|upgraded)\b", n))
+            r"built|made|served|printed|sent|translated|changed|replaced|upgraded)\b", n)) or bool(re.search(
+            r"\b(have|has|had|get|gets|got|getting)\s+(?:it|them|"
+            r"(?:a|an|the|my|your|his|her|its|our|their|this|that|these|those)\s+"
+            r"(?:\w+\s+){0,3}\w+)\s+serviced\b", n))
     if pattern == "modals_deduction":
         return bool(re.search(
             r"\b(must be|must have|can not be|could not be|could be|could have|"
@@ -715,8 +718,8 @@ LABELS = {
     "first_conditional": "if + present tense, will/can/may + verb (no would)",
     "second_conditional": "if + past tense, would/could/might + verb",
     "modals_obligation": "must / have to / should / not allowed to",
-    "comparatives": "comparative adjective + than, or as ... as",
-    "tag_questions": "statement + comma + a negative tag such as isn't it, don't you, haven't you",
+    "comparatives": "comparative adjective/adverb, with than for an explicit comparison, or (not) as ... as",
+    "tag_questions": "statement + comma + an appropriately positive or negative question tag",
     "relative_clauses": "a clause with who / which / where / that",
     "gerund_infinitive": "verb + -ing (enjoy swimming) AND verb + to + verb (plan to save)",
     "passive": "be + past participle (is cleaned, was rejected, is already prepared)",
@@ -730,7 +733,7 @@ LABELS = {
     "narrative_travel_story": "past tense + a connector such as when, while, so, but, then",
     "narrative_movies_books": "a media noun + an opinion or comparative",
     "narrative_relationships": "present perfect (have/has + participle) or a who/that clause",
-    "narrative_wishes_regrets": "wish / if only / should have",
+    "narrative_wishes_regrets": "wish / if only / should have / regret (wishes or regrets about the past)",
     "phrasal_get_up": "wake up or get up (phrasal verb)",
     "phrasal_put_on": "put on or take off (clothes or shoes)",
     "phrasal_pick_up": "pick up or drop off (a person or thing)",
@@ -740,7 +743,7 @@ LABELS = {
     "phrasal_go_back": "come back or go back",
     "phrasal_go_out": "go out or hang out",
     "phrasal_work_out": "work out (exercise or solve)",
-    "phrasal_run_out": "run out of (something)",
+    "phrasal_run_out": "run out (of something)",
     "phrasal_end_up": "show up or end up",
     "phrasal_turn_out": "turn out (the result was ...)",
     "phrasal_fill_out": "fill out / fill in a form, or check out",
@@ -771,10 +774,10 @@ LABELS = {
     "func_invitations": "Would you like to / Do you want to / Are you free",
     "func_thanks": "Thanks / I appreciate it / You're welcome / My pleasure",
     "func_offers": "Can I help / Shall I / Let me / Would you like me to",
-    "coll_make": "make + noun (make a decision, make a mistake, make sure, make a call, make a plan, make a list)",
+    "coll_make": "make collocation (make a decision, make a mistake, make sure, make a call, make a plan, make a list)",
     "coll_take": "take + noun (take a break, take a look, take care, take time, take a seat, take turns, take the subway, take photos)",
     "coll_have": "have + noun (have a look, have a chat, have fun, have time, have a rest, have dinner, have coffee, have a meeting)",
-    "coll_get": "get + adjective/participle (get ready, get better, get lost, get a chance, get tired, get hungry, get used to, get permission)",
+    "coll_get": "get collocation (get ready, get better, get lost, get a chance, get tired, get hungry, get used to, get permission)",
     "coll_keep_pay": "keep (keep in touch / keep calm / keep a promise / keep quiet) or pay (pay attention / pay the bill / pay rent / pay a fine / pay a visit)",
     "coll_prepositions": "verb/adjective + preposition (depend on, interested in, good at, afraid of, wait for, look forward to)",
     "coll_word_family_decide": "decide/decision, choose/choice, advise/advice, explain/explanation",
@@ -787,10 +790,10 @@ LABELS = {
     "quantifiers": "a quantifier such as some, any, many, much, a few, a little, enough",
     "prepositions_time": "in/on/at + a time expression (at 7, on Monday, in the morning)",
     "question_words": "a wh-question starting with what, where, when, who, why, how, or which",
-    "too_enough": "too + adjective, or adjective + enough",
+    "too_enough": "too + adjective/adverb, adjective/adverb + enough, or enough + noun",
     "so_such": "so + adjective, or such a + noun",
     "causative": "have/get + object + past participle (have it fixed, get my hair cut)",
-    "modals_deduction": "must be / might be / can't be (a deduction about the situation)",
+    "modals_deduction": "present or past deduction: e.g. must/might/could be, can't be, must/might/could have + past participle",
     "present_perfect_continuous": "have/has been + verb-ing",
     "indirect_questions": "Do you know ...? / Could you tell me ...? / I wonder ...",
     "gerund_subject": "an -ing verb as the subject (Swimming is good for you)",

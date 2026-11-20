@@ -1,0 +1,75 @@
+{"audit_id":1,"uid":"airport-13d733d126","zh":"可以帮我转机吗？","baseline_verdict":"good","reason":"机场语境下transfer可指转机，求助功能准确。","preferred_en":"Can you assist with my transfer?","issue_type":"none"}
+{"audit_id":2,"uid":"airport-e97ff5f1bc","zh":"有没有工作人员能帮我？","baseline_verdict":"good","reason":"询问有无工作人员可提供帮助，意思完整。","preferred_en":"Can any staff help me?","issue_type":"none"}
+{"audit_id":3,"uid":"airport-f375ee9963","zh":"我的航班几点？","baseline_verdict":"good","reason":"自然询问本人航班时间。","preferred_en":"What time is my flight?","issue_type":"none"}
+{"audit_id":4,"uid":"airport-5e399a09a7","zh":"酒精能托运吗？","baseline_verdict":"good","reason":"托运行李语境中check和alcohol均能准确承载原意。","preferred_en":"Can I check alcohol?","issue_type":"none"}
+{"audit_id":5,"uid":"banking-d2a42cba8e","zh":"确认下收款人的信息吧？","baseline_verdict":"good","reason":"Let's保留提议核对的语气，不必按问号硬译成疑问句。","preferred_en":"Let's check the recipient's info.","issue_type":"none"}
+{"audit_id":6,"uid":"banking-b9e41eaebe","zh":"开户一般需要多久？","baseline_verdict":"good","reason":"开户所需时长及一般情况均准确。","preferred_en":"How long does it usually take to open an account?","issue_type":"none"}
+{"audit_id":7,"uid":"banking-ef5d4fc552","zh":"电子支付平台收多少手续费？","baseline_verdict":"good","reason":"支付平台语境下charge明确指收费，询问金额准确。","preferred_en":"How much do electronic payment platforms charge?","issue_type":"none"}
+{"audit_id":8,"uid":"banking-b6945e4070","zh":"你们这里新开户有礼品吗？","baseline_verdict":"good","reason":"新开户赠礼的条件及询问对象均保留。","preferred_en":"Do you give gifts for new accounts?","issue_type":"none"}
+{"audit_id":9,"uid":"cafe_fastfood-c3ae815d4f","zh":"来杯香草风味的吧？","baseline_verdict":"good","reason":"点单省略句自然，please承载软化请求的语气。","preferred_en":"A vanilla-flavored one, please.","issue_type":"none"}
+{"audit_id":10,"uid":"cafe_fastfood-f569111be0","zh":"有没有大号的杯子？","baseline_verdict":"good","reason":"准确询问大号杯子，未擅改成更大一号。","preferred_en":"Do you have a large cup?","issue_type":"none"}
+{"audit_id":11,"uid":"cafe_fastfood-012b987771","zh":"请问我的订单是什么？","baseline_verdict":"good","reason":"核对自己所点内容的问句成立，无须为更口语而改写。","preferred_en":"What is my order?","issue_type":"none"}
+{"audit_id":12,"uid":"cafe_fastfood-40c5e68a16","zh":"这个汉堡有多少卡路里？","baseline_verdict":"good","reason":"用is询问食物热量是可接受的日常表达。","preferred_en":"How many calories is this burger?","issue_type":"none"}
+{"audit_id":13,"uid":"car_parking-aa34a7b279","zh":"无障碍停车位在哪？","baseline_verdict":"good","reason":"handicap parking为常见美式称呼，地点询问准确。","preferred_en":"Where's the handicap parking?","issue_type":"none"}
+{"audit_id":14,"uid":"car_parking-7a1b90bd09","zh":"租车多少钱一天？","baseline_verdict":"good","reason":"租车询价的口语省略自然，按天计价清楚。","preferred_en":"How much per day to rent a car?","issue_type":"none"}
+{"audit_id":15,"uid":"car_parking-3035e688f3","zh":"能提前预订车吗？","baseline_verdict":"good","reason":"提前预订及许可询问均准确。","preferred_en":"Can I book a car ahead of time?","issue_type":"none"}
+{"audit_id":16,"uid":"car_parking-18599f024a","zh":"我需要拖车来拖我的车。","baseline_verdict":"good","reason":"车出问题语境下拖自己的车已可推知，省略不损失交际意义。","preferred_en":"I need a tow truck.","issue_type":"none"}
+{"audit_id":17,"uid":"courier-8f53642a6f","zh":"这两种服务有什么区别？","baseline_verdict":"good","reason":"两种服务及比较差异的功能均准确。","preferred_en":"What's the difference between these two services?","issue_type":"none"}
+{"audit_id":18,"uid":"courier-539b3109d8","zh":"包裹已经好几天没到了，怎么处理？","baseline_verdict":"good","reason":"数日未到的否定状态及询问处理办法均保留。","preferred_en":"What should I do since the package hasn't arrived for several days?","issue_type":"none"}
+{"audit_id":19,"uid":"courier-25f549044e","zh":"能用快递吗？","baseline_verdict":"good","reason":"邮寄语境下询问快递服务，表达成立。","preferred_en":"Can I use express delivery?","issue_type":"none"}
+{"audit_id":20,"uid":"courier-95c5e767c4","zh":"可以补寄吗？","baseline_verdict":"ambiguous","reason":"丢件场景未明示由谁补寄，原句限定为我；建议被动式避免角色预设。","preferred_en":"Can a replacement be sent?","issue_type":"ambiguous"}
+{"audit_id":21,"uid":"directions-04dc48581e","zh":"打车不用排队等吧？","baseline_verdict":"issue","reason":"把带吧的求证变成断言，且漏掉排队。","preferred_en":"You don't need to wait in line for a taxi, right?","issue_type":"function"}
+{"audit_id":22,"uid":"directions-1184bd3c63","zh":"走路带包不方便吧？","baseline_verdict":"issue","reason":"缺少系动词is，也未保留吧的求证语气。","preferred_en":"Carrying a bag while walking is tough, isn't it?","issue_type":"grammar"}
+{"audit_id":23,"uid":"directions-9a55e8c321","zh":"医院怎么走？","baseline_verdict":"good","reason":"问路表达自然准确。","preferred_en":"How do I get to the hospital?","issue_type":"none"}
+{"audit_id":24,"uid":"directions-5b84657745","zh":"停车场入口在哪？","baseline_verdict":"good","reason":"停车场入口的位置询问准确。","preferred_en":"Where's the parking lot entrance?","issue_type":"none"}
+{"audit_id":25,"uid":"doctor_pharmacy-0bbcfbe200","zh":"咳了几天了，还是不停。","baseline_verdict":"issue","reason":"后半句缺主语，易误连成我不肯停；应明确指咳嗽不停。","preferred_en":"I've been coughing for days, and it won't stop.","issue_type":"grammar"}
+{"audit_id":26,"uid":"doctor_pharmacy-6f58f32126","zh":"嗓子疼得说不出话，喝水都难受。","baseline_verdict":"issue","reason":"语义准确，但两个独立分句仅用逗号连接；只需修正句界。","preferred_en":"My throat hurts so much I can't talk. Even drinking hurts.","issue_type":"grammar"}
+{"audit_id":27,"uid":"doctor_pharmacy-565e9232f9","zh":"医生，我能不能开个药？","baseline_verdict":"good","reason":"按患者求处方理解自然，未把患者误译为开药的医生。","preferred_en":"Doctor, can I get a prescription?","issue_type":"none"}
+{"audit_id":28,"uid":"doctor_pharmacy-8bc3693b86","zh":"这种药治什么病？","baseline_verdict":"good","reason":"询问药物治疗用途准确自然。","preferred_en":"What does this medicine treat?","issue_type":"none"}
+{"audit_id":29,"uid":"emergencies-74d2ae8aed","zh":"我吐了几次，还有腹泻。","baseline_verdict":"good","reason":"过去数次呕吐和当前腹泻均准确，并列关系保留还有。","preferred_en":"I threw up a few times and have diarrhea.","issue_type":"none"}
+{"audit_id":30,"uid":"emergencies-c64fc583de","zh":"可以借用一下电话吗？","baseline_verdict":"good","reason":"借用对方电话的请求自然，人物角色准确。","preferred_en":"Can I use your phone?","issue_type":"none"}
+{"audit_id":31,"uid":"emergencies-f747763215","zh":"出口怎么走？","baseline_verdict":"good","reason":"询问如何找到出口可自然实现紧急问路功能。","preferred_en":"How do I find the exit?","issue_type":"none"}
+{"audit_id":32,"uid":"emergencies-de9dbf758c","zh":"有人心脏病发作。","baseline_verdict":"good","reason":"进行时准确表达正在发生的急症。","preferred_en":"Someone is having a heart attack.","issue_type":"none"}
+{"audit_id":33,"uid":"food_delivery-efe49ff065","zh":"再快点行不行？","baseline_verdict":"good","reason":"speed it up保留加快速度的催促及请求功能。","preferred_en":"Can you speed it up?","issue_type":"none"}
+{"audit_id":34,"uid":"food_delivery-f4dd459e82","zh":"下次能不能每次都固定时间送？","baseline_verdict":"issue","reason":"每次都固定的持续要求被缩成仅下次，遗漏频次范围。","preferred_en":"Can you set a fixed delivery time for all future orders?","issue_type":"meaning"}
+{"audit_id":35,"uid":"food_delivery-5bc487666a","zh":"我家在8楼,靠楼梯。","baseline_verdict":"good","reason":"八楼及靠近楼梯的位置细节均准确。","preferred_en":"My place is on the 8th floor, near the stairs.","issue_type":"none"}
+{"audit_id":36,"uid":"food_delivery-426ab7fbfb","zh":"快点送过来！","baseline_verdict":"good","reason":"保留直接催促的强度，不应擅自柔化。","preferred_en":"Hurry up and deliver it!","issue_type":"none"}
+{"audit_id":37,"uid":"hair_salon-710a9c1deb","zh":"能不能帮我用点润发乳？","baseline_verdict":"good","reason":"理发师给说话人用润发乳的角色和请求均清楚。","preferred_en":"Can you put some conditioner in my hair?","issue_type":"none"}
+{"audit_id":38,"uid":"hair_salon-a8b0f44a59","zh":"这个效果我不满意。","baseline_verdict":"good","reason":"对结果不满意的否定评价准确自然。","preferred_en":"I'm not happy with the result.","issue_type":"none"}
+{"audit_id":39,"uid":"hair_salon-ab0dcd734a","zh":"我想用这款保湿洗发水。","baseline_verdict":"good","reason":"保湿洗发水及使用意愿完整，定冠词可指现场选定产品。","preferred_en":"I want to use the moisturizing shampoo.","issue_type":"none"}
+{"audit_id":40,"uid":"hair_salon-dac7bde1ad","zh":"染发效果怎么样？","baseline_verdict":"good","reason":"询问染后外观即染发效果，意义成立。","preferred_en":"How does the hair look after dyeing?","issue_type":"none"}
+{"audit_id":41,"uid":"hotel-60b7bd1bc7","zh":"有不能带的物品吗？","baseline_verdict":"good","reason":"询问禁止携带物品，否定范围正确。","preferred_en":"Are there items I can't bring?","issue_type":"none"}
+{"audit_id":42,"uid":"hotel-79cb21091a","zh":"外面声音太大了，能帮我关一下窗户吗？","baseline_verdict":"good","reason":"外部噪音、关窗请求和受益人均完整。","preferred_en":"It's too noisy outside. Can you close the window for me?","issue_type":"none"}
+{"audit_id":43,"uid":"hotel-bfe93c5952","zh":"有寄存自行车的服务吗？","baseline_verdict":"good","reason":"store bikes自然表达自行车寄存服务。","preferred_en":"Do you store bikes?","issue_type":"none"}
+{"audit_id":44,"uid":"hotel-7f733794d9","zh":"有免费早餐吗？","baseline_verdict":"good","reason":"免费早餐的有无询问准确。","preferred_en":"Is there free breakfast?","issue_type":"none"}
+{"audit_id":45,"uid":"office-55e1b8c8dd","zh":"为什么还没收到回复邮件？","baseline_verdict":"good","reason":"否定完成时及why表达迟迟未收到的预期，邮件语境明确。","preferred_en":"Why haven't I got the reply?","issue_type":"none"}
+{"audit_id":46,"uid":"office-7f1c978d7b","zh":"这个部分还需要多久？","baseline_verdict":"good","reason":"until完成自然表达剩余所需时间。","preferred_en":"How long until this part is done?","issue_type":"none"}
+{"audit_id":47,"uid":"office-7ee02cf02f","zh":"邮件寄出去了吗？","baseline_verdict":"good","reason":"完成时被动准确询问邮件是否已发出。","preferred_en":"Has the email been sent?","issue_type":"none"}
+{"audit_id":48,"uid":"office-bda39b49dd","zh":"附件能发过来吗？","baseline_verdict":"good","reason":"请求发送附件准确，收件方向可由对话推知。","preferred_en":"Can you send the attachment?","issue_type":"none"}
+{"audit_id":49,"uid":"online_shopping-20d327340e","zh":"不同地址配送时间一样吗？","baseline_verdict":"issue","reason":"把是否一样改成是否不同，颠倒了是非问句的回答极性。","preferred_en":"Are delivery times the same for different addresses?","issue_type":"meaning"}
+{"audit_id":50,"uid":"online_shopping-0e1df8744a","zh":"有没有评价里说得好用的？","baseline_verdict":"issue","reason":"询问评价称好用的商品，却变成要求展示一条好评。","preferred_en":"Are there any products that reviewers say work well?","issue_type":"meaning"}
+{"audit_id":51,"uid":"online_shopping-7e4dccadbf","zh":"这个优惠券能用在所有商品上吗？","baseline_verdict":"good","reason":"优惠券适用范围所有商品完整保留。","preferred_en":"Can this coupon be used on all items?","issue_type":"none"}
+{"audit_id":52,"uid":"online_shopping-3b29408814","zh":"能不能便宜点？","baseline_verdict":"good","reason":"议价请求及更低价格准确自然。","preferred_en":"Can you offer a lower price?","issue_type":"none"}
+{"audit_id":53,"uid":"phone_internet-1ec6a792fc","zh":"附近没有修手机的地方吗？","baseline_verdict":"issue","reason":"否定疑问所含的意外或求证语气被改成中性有无询问。","preferred_en":"Isn't there a place nearby to fix phones?","issue_type":"tense_negation"}
+{"audit_id":54,"uid":"phone_internet-5e64ab4955","zh":"帮我看看Wi-Fi通不通。","baseline_verdict":"good","reason":"Can you自然承载求助，检查连接是否可用的意义准确。","preferred_en":"Can you check if my Wi-Fi is working?","issue_type":"none"}
+{"audit_id":55,"uid":"phone_internet-c038b7dda9","zh":"其他运营商速度快吗？","baseline_verdict":"good","reason":"网络慢的比较语境支持faster，networks可指运营商网络。","preferred_en":"Are other networks faster?","issue_type":"none"}
+{"audit_id":56,"uid":"phone_internet-4a50addc48","zh":"应用数据怎么同步？","baseline_verdict":"good","reason":"询问同步应用数据的方法准确自然。","preferred_en":"How do I sync app data?","issue_type":"none"}
+{"audit_id":57,"uid":"phone_service-fd59b07743","zh":"这个错误信息我怎么看不懂呢？","baseline_verdict":"good","reason":"中文主要表达看不懂的困惑，陈述式口语可实现同一求助意图。","preferred_en":"I can't understand this error message.","issue_type":"none"}
+{"audit_id":58,"uid":"phone_service-d063d6eb49","zh":"我账户里还有100块吗？","baseline_verdict":"good","reason":"100及余额含义保留，账户语境允许省略双方已知的币种。","preferred_en":"Do I have 100 left in my account?","issue_type":"none"}
+{"audit_id":59,"uid":"phone_service-140afbd6d9","zh":"这个情况很紧急。","baseline_verdict":"good","reason":"紧急程度与所指情况准确。","preferred_en":"This situation is very urgent.","issue_type":"none"}
+{"audit_id":60,"uid":"phone_service-ff0bb6c6ab","zh":"有使用手册吗？","baseline_verdict":"good","reason":"使用手册的有无询问准确自然。","preferred_en":"Do you have a user manual?","issue_type":"none"}
+{"audit_id":61,"uid":"public_transport-e216aee6a6","zh":"这张卡里还有多少钱？","baseline_verdict":"good","reason":"交通卡语境下how much is on准确询问当前余额。","preferred_en":"How much is on this card?","issue_type":"none"}
+{"audit_id":62,"uid":"public_transport-90d74788a1","zh":"您能帮我吗？我找不到路。","baseline_verdict":"good","reason":"礼貌求助及迷路原因完整，角色无误。","preferred_en":"Can you help me? I can't find my way.","issue_type":"none"}
+{"audit_id":63,"uid":"public_transport-f5e4a97720","zh":"我要去对面的出口，要不给我个靠近的座位？","baseline_verdict":"good","reason":"对面出口及请求更近座位完整，Can I保留商量式请求。","preferred_en":"I'm going to the opposite exit. Can I have a closer seat?","issue_type":"none"}
+{"audit_id":64,"uid":"public_transport-97dfbe8bc9","zh":"晚点了，为什么呢？","baseline_verdict":"issue","reason":"陈述与独立疑问句仅用逗号连接；保留措辞，只修正句界。","preferred_en":"There's a delay. Why is that?","issue_type":"grammar"}
+{"audit_id":65,"uid":"renting_repair-2b6ea55e7a","zh":"电视没声音了，检查下线缆？","baseline_verdict":"issue","reason":"漏掉电视无声的故障信息，并把试探请求变成命令。","preferred_en":"The TV has no sound now. Can you check the cables?","issue_type":"meaning"}
+{"audit_id":66,"uid":"renting_repair-f3381a9e1c","zh":"电视没声音了？","baseline_verdict":"issue","reason":"确认问句被写成陈述，需保留疑问及当前变化。","preferred_en":"The TV has no sound now?","issue_type":"function"}
+{"audit_id":67,"uid":"renting_repair-ccb2ae22a0","zh":"可以用现金支付押金吗？","baseline_verdict":"good","reason":"现金支付押金的许可询问准确自然。","preferred_en":"Can I pay the deposit in cash?","issue_type":"none"}
+{"audit_id":68,"uid":"renting_repair-840e506699","zh":"能否改造一下排水管？","baseline_verdict":"issue","reason":"改造管道不等于修好故障，fix改变了所请求的工作。","preferred_en":"Can we modify the drain pipe?","issue_type":"meaning"}
+{"audit_id":69,"uid":"restaurant-c17aed3acb","zh":"给我来份汤怎么样？","baseline_verdict":"issue","reason":"给我一份变成我们一起要汤，改变受益人且弱化商量问句。","preferred_en":"How about a serving of soup for me?","issue_type":"roles"}
+{"audit_id":70,"uid":"restaurant-f06bd509aa","zh":"你们预计还要多久能上菜？","baseline_verdict":"good","reason":"询问上菜前剩余等待时间自然，预估语义可由场景承载。","preferred_en":"How long until our food arrives?","issue_type":"none"}
+{"audit_id":71,"uid":"restaurant-88eaf40d76","zh":"你们这里有无麸质选项吗？","baseline_verdict":"good","reason":"无麸质选项的有无询问准确。","preferred_en":"Do you have gluten-free options?","issue_type":"none"}
+{"audit_id":72,"uid":"restaurant-59cb79c7d2","zh":"你们支持分开结账吗？","baseline_verdict":"good","reason":"分账服务的询问意图清楚，服务语境下support可接受。","preferred_en":"Do you support splitting the bill?","issue_type":"none"}
+{"audit_id":73,"uid":"school-ffbea334e7","zh":"这部分我不太懂，能帮我吗？","baseline_verdict":"good","reason":"表达理解困难并求助，口语中不必把程度差异硬判成错译。","preferred_en":"I don't understand this part. Can you help?","issue_type":"none"}
+{"audit_id":74,"uid":"school-b460a81f5b","zh":"这本书我可以再借几天吗？","baseline_verdict":"good","reason":"a few more days准确保留再借几天的续借请求。","preferred_en":"Can I keep this book a few more days?","issue_type":"none"}
+{"audit_id":75,"uid":"school-556243d6d5","zh":"我选的课时间冲突怎么办？","baseline_verdict":"good","reason":"What if自然询问课时冲突时怎么办，中文也允许条件式理解。","preferred_en":"What if my class times clash?","issue_type":"none"}
