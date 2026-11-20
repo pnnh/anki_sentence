@@ -1,0 +1,102 @@
+config/scenes.toml
+  h_6465a203f88bd5 3786-4009
+data/packs/final/as_as_positive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/in_case_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/register_casual.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/register_formal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/register_neutral.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/register_soft.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/register_workplace.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/unless_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/overrides.json
+  h_6465a203f88bd5 2-13,582-583,773-822,885-887
+data/packs/patches/as_as_positive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/in_case_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/register_casual.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/register_formal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/register_neutral.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/register_soft.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/register_workplace.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/unless_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/plans/as_as_positive.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/in_case_clauses.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/register_casual.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/register_formal.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/register_neutral.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/register_soft.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/register_workplace.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/unless_clauses.json
+  h_6465a203f88bd5 1-146
+data/packs/polished/as_as_positive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/in_case_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/register_casual.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/register_formal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/register_neutral.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/register_soft.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/register_workplace.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/unless_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/as_as_positive.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/in_case_clauses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/register_casual.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/register_formal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/register_neutral.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/register_soft.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/register_workplace.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/unless_clauses.jsonl
+  h_6465a203f88bd5 1-20
+scripts/generate_packs.py
+  h_6465a203f88bd5 81-96,151,457-459,574-576,591-592
+scripts/pack_patterns.py
+  h_6465a203f88bd5 505-518,640,697-704,918-925,934-973
+scripts/qc.py
+  h_6465a203f88bd5 164,179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7b7c4840d0fd334426c87bd877470f7690bd2fb3",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
