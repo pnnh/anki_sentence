@@ -1,0 +1,620 @@
+config/scenes.toml
+  h_6465a203f88bd5 1212-2369
+data/packs/final/coll_frequency.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_get.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_have.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_keep_pay.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_make.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_prepositions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_time_money.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_word_family_decide.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/coll_word_family_success.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dlg_cafe.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dlg_clinic.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dlg_rent.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dlg_return.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dlg_travel.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_agreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_apologies.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_clarification.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_complaints.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_disagreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_invitations.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_negotiation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_offers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_opinions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_permission.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_reassurance.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_refusal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_requests.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_suggestions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/func_thanks.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_adverbs_manner.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_causative.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_gerund_subject.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_indirect_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_modals_deduction.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_past_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_prepositions_time.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_present_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_present_perfect_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_quantifiers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_question_words.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_reflexive_pronouns.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_so_such.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_third_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/grammar_too_enough.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_clinic.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_driver.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_hotel.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_interviewer.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_landlord.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_neighbor.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_restaurant.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_shop.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_support.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/role_teacher.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_borrow_lend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_bring_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_hear_listen.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_hope_wish.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_learn_study_teach.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_remember_remind.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_say_tell.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_see_look_watch.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_speak_talk.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/word_pairs_win_earn.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/overrides.json
+  h_6465a203f88bd5 2-415,418-482,485-486,488-505,508-512,514-520,527,529-532,534-539,541,544,546-547,551-554,558,561,564,567,569-571,573-574,576,578-579,581,583,585,587,589,592-593,597-603,605,607-611,614,616,618,620,622-624,628-629,631,634-637,639-736
+data/packs/patches/func_agreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_apologies.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_clarification.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_complaints.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_disagreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_invitations.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_negotiation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_offers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_opinions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_permission.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_reassurance.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_refusal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_requests.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_suggestions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/func_thanks.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_adverbs_manner.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_causative.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_gerund_subject.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_indirect_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_modals_deduction.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_past_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_prepositions_time.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_present_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_present_perfect_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_quantifiers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_question_words.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_reflexive_pronouns.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_so_such.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_third_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/grammar_too_enough.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_clinic.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_driver.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_hotel.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_interviewer.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_landlord.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_neighbor.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_restaurant.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_shop.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_support.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/role_teacher.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_borrow_lend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_bring_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_hear_listen.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_hope_wish.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_learn_study_teach.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_remember_remind.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_say_tell.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_see_look_watch.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_speak_talk.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/word_pairs_win_earn.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/plans/coll_frequency.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_get.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_have.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_keep_pay.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_make.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_prepositions.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_take.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_time_money.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_word_family_decide.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/coll_word_family_success.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/dlg_cafe.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dlg_clinic.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dlg_rent.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dlg_return.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dlg_travel.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_agreement.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_apologies.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_clarification.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_complaints.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_disagreement.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_invitations.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_negotiation.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_offers.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_opinions.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_permission.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_reassurance.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_refusal.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_requests.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_suggestions.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/func_thanks.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/grammar_adverbs_manner.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_causative.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_gerund_subject.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_indirect_questions.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_modals_deduction.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_past_perfect.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_prepositions_time.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_present_continuous.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_present_perfect_continuous.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_quantifiers.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_question_words.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_reflexive_pronouns.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_so_such.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_third_conditional.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/grammar_too_enough.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/role_clinic.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_driver.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_hotel.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_interviewer.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_landlord.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_neighbor.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_restaurant.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_shop.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_support.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/role_teacher.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/word_pairs_borrow_lend.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_bring_take.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_hear_listen.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_hope_wish.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_learn_study_teach.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_remember_remind.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_say_tell.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_see_look_watch.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_speak_talk.json
+  h_6465a203f88bd5 1-147
+data/packs/plans/word_pairs_win_earn.json
+  h_6465a203f88bd5 1-147
+data/packs/polished/func_agreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_apologies.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_clarification.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_complaints.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_disagreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_invitations.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_negotiation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_offers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_opinions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_permission.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_reassurance.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_refusal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_requests.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_suggestions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/func_thanks.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_adverbs_manner.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_causative.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_gerund_subject.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_indirect_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_modals_deduction.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_past_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_prepositions_time.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_present_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_present_perfect_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_quantifiers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_question_words.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_reflexive_pronouns.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_so_such.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_third_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/grammar_too_enough.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/role_clinic.jsonl
+  h_6465a203f88bd5 1-18
+data/packs/polished/role_driver.jsonl
+  h_6465a203f88bd5 1-16
+data/packs/polished/role_hotel.jsonl
+  h_6465a203f88bd5 1-15
+data/packs/polished/role_interviewer.jsonl
+  h_6465a203f88bd5 1-19
+data/packs/polished/role_landlord.jsonl
+  h_6465a203f88bd5 1-19
+data/packs/polished/role_neighbor.jsonl
+  h_6465a203f88bd5 1-18
+data/packs/polished/role_restaurant.jsonl
+  h_6465a203f88bd5 1-14
+data/packs/polished/role_shop.jsonl
+  h_6465a203f88bd5 1-18
+data/packs/polished/role_support.jsonl
+  h_6465a203f88bd5 1-12
+data/packs/polished/role_teacher.jsonl
+  h_6465a203f88bd5 1-17
+data/packs/polished/word_pairs_borrow_lend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_bring_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_hear_listen.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_hope_wish.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_learn_study_teach.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_remember_remind.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_say_tell.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_see_look_watch.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_speak_talk.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/word_pairs_win_earn.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_frequency.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_get.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_have.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_keep_pay.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_make.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_prepositions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_time_money.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_word_family_decide.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/coll_word_family_success.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dlg_cafe.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dlg_clinic.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dlg_rent.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dlg_return.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dlg_travel.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_agreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_apologies.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_clarification.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_complaints.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_disagreement.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_invitations.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_negotiation.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_offers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_opinions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_permission.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_reassurance.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_refusal.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_requests.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_suggestions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/func_thanks.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_adverbs_manner.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_causative.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_gerund_subject.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_indirect_questions.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_modals_deduction.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_past_perfect.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_prepositions_time.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_present_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_present_perfect_continuous.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_quantifiers.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_question_words.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_reflexive_pronouns.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_so_such.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_third_conditional.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/grammar_too_enough.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_clinic.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_driver.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_hotel.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_interviewer.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_landlord.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_neighbor.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_restaurant.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_shop.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_support.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/role_teacher.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_borrow_lend.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_bring_take.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_hear_listen.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_hope_wish.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_learn_study_teach.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_remember_remind.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_say_tell.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_see_look_watch.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_speak_talk.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/word_pairs_win_earn.jsonl
+  h_6465a203f88bd5 1-20
+scripts/build_release.py
+  h_6465a203f88bd5 71
+scripts/generate_packs.py
+  h_6465a203f88bd5 30,53-55,81-99,104,114-115,133-136,173-175,183,191-192,244-286,296-386,388-389,400,427-440,444,502-505,552-562,598-601,651,687
+scripts/import_anki.py
+  h_6465a203f88bd5 135-136
+scripts/pack_patterns.py
+  h_6465a203f88bd5 153-272,285,303-306,369-443,498-549,560-563,622-728,987-1264
+scripts/polish.py
+  h_6465a203f88bd5 56-57,102-104,111,118-119,156-158
+scripts/qc.py
+  h_6465a203f88bd5 89,95,156-157,160-164
+scripts/review_report.py
+  h_6465a203f88bd5 90-93,148-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ea71e2dbcd6e697151a4dbce5cf3ad90ae68156d",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
