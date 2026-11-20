@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_bring_up",
+  "pattern": "phrasal_bring_up",
+  "items": [
+    {
+      "zh": "我们上次见面时你提到了你小时候的事。",
+      "angle": 1,
+      "angle_zh": "描述最近一次提起旧事或养大孩子的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我记得上次聚会时你提到了你小时候的趣事。",
+      "angle": 4,
+      "angle_zh": "回忆以前提起旧事或养大孩子的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我上次和你提起过我想让孩子学乐器。",
+      "angle": 4,
+      "angle_zh": "回忆以前提起旧事或养大孩子的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "上次你提到过孩子需要更多的户外活动。",
+      "angle": 2,
+      "angle_zh": "提出和提起旧事或养大孩子有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

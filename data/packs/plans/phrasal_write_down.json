@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_write_down",
+  "pattern": "phrasal_write_down",
+  "items": [
+    {
+      "zh": "我刚刚把电话号码写下来了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把信息记下来的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "昨天我把朋友的地址写下来了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把信息记下来的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以把时间写下来吗？",
+      "angle": 2,
+      "angle_zh": "提出和把信息记下来有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请把开会的时间写下来。",
+      "angle": 2,
+      "angle_zh": "提出和把信息记下来有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

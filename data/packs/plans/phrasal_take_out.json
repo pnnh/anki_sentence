@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_take_out",
+  "pattern": "phrasal_take_out",
+  "items": [
+    {
+      "zh": "你可以帮我把钥匙拿出来吗？",
+      "angle": 2,
+      "angle_zh": "提出和拿出来、带出去或点外卖有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们需要早点儿出发，所以请记得把雨伞带出去。",
+      "angle": 2,
+      "angle_zh": "提出和拿出来、带出去或点外卖有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为明天要下雨，我今天把伞拿出来了。",
+      "angle": 3,
+      "angle_zh": "说明拿出来、带出去或点外卖的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天天气好，我把被子拿出来晒一晒。",
+      "angle": 3,
+      "angle_zh": "说明拿出来、带出去或点外卖的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

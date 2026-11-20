@@ -127,6 +127,64 @@ PHRASAL_EN = {
         r"\b(clean|cleans|cleaned|cleaning)\s+(?:\w+\s+){0,2}up\b", re.I),
 }
 
+PHRASAL_FORMS = {
+    "phrasal_ask_for": (("ask", "asks", "asked", "asking"), "for"),
+    "phrasal_back_up": (("back", "backs", "backed", "backing"), "up"),
+    "phrasal_break_up": (("break", "breaks", "broke", "broken", "breaking"), "up"),
+    "phrasal_bring_up": (("bring", "brings", "brought", "bringing"), "up"),
+    "phrasal_call_back": (("call", "calls", "called", "calling"), "back"),
+    "phrasal_call_off": (("call", "calls", "called", "calling"), "off"),
+    "phrasal_carry_on": (("carry", "carries", "carried", "carrying"), "on"),
+    "phrasal_check_in": (("check", "checks", "checked", "checking"), "in"),
+    "phrasal_come_across": (("come", "comes", "came", "coming"), "across"),
+    "phrasal_come_over": (("come", "comes", "came", "coming"), "over"),
+    "phrasal_come_up_with": (("come", "comes", "came", "coming"), "up with"),
+    "phrasal_cut_down": (("cut", "cuts", "cutting"), "down"),
+    "phrasal_deal_with": (("deal", "deals", "dealt", "dealing"), "with"),
+    "phrasal_eat_out": (("eat", "eats", "ate", "eaten", "eating"), "out"),
+    "phrasal_get_along": (("get", "gets", "got", "gotten", "getting"), "along"),
+    "phrasal_get_away": (("get", "gets", "got", "gotten", "getting"), "away"),
+    "phrasal_get_in": (("get", "gets", "got", "gotten", "getting"), "in"),
+    "phrasal_get_off": (("get", "gets", "got", "gotten", "getting"), "off"),
+    "phrasal_get_on": (("get", "gets", "got", "gotten", "getting"), "on"),
+    "phrasal_get_over": (("get", "gets", "got", "gotten", "getting"), "over"),
+    "phrasal_get_through": (("get", "gets", "got", "gotten", "getting"), "through"),
+    "phrasal_give_up": (("give", "gives", "gave", "given", "giving"), "up"),
+    "phrasal_go_ahead": (("go", "goes", "went", "gone", "going"), "ahead"),
+    "phrasal_go_over": (("go", "goes", "went", "gone", "going"), "over"),
+    "phrasal_grow_up": (("grow", "grows", "grew", "grown", "growing"), "up"),
+    "phrasal_hold_on": (("hold", "holds", "held", "holding"), "on"),
+    "phrasal_keep_up": (("keep", "keeps", "kept", "keeping"), "up"),
+    "phrasal_let_down": (("let", "lets", "letting"), "down"),
+    "phrasal_look_after": (("look", "looks", "looked", "looking"), "after"),
+    "phrasal_look_forward_to": (("look", "looks", "looked", "looking"), "forward to"),
+    "phrasal_look_into": (("look", "looks", "looked", "looking"), "into"),
+    "phrasal_look_out": (("look", "looks", "looked", "looking"), "out"),
+    "phrasal_make_up": (("make", "makes", "made", "making"), "up"),
+    "phrasal_pay_back": (("pay", "pays", "paid", "paying"), "back"),
+    "phrasal_point_out": (("point", "points", "pointed", "pointing"), "out"),
+    "phrasal_put_away": (("put", "puts", "putting"), "away"),
+    "phrasal_put_off": (("put", "puts", "putting"), "off"),
+    "phrasal_put_up_with": (("put", "puts", "putting"), "up with"),
+    "phrasal_run_into": (("run", "runs", "ran", "running"), "into"),
+    "phrasal_take_out": (("take", "takes", "took", "taken", "taking"), "out"),
+    "phrasal_throw_away": (("throw", "throws", "threw", "thrown", "throwing"), "away"),
+    "phrasal_turn_down": (("turn", "turns", "turned", "turning"), "down"),
+    "phrasal_turn_up": (("turn", "turns", "turned", "turning"), "up"),
+    "phrasal_wear_out": (("wear", "wears", "wore", "worn", "wearing"), "out"),
+    "phrasal_write_down": (("write", "writes", "wrote", "written", "writing"), "down"),
+}
+
+for _name, (_forms, _particle) in PHRASAL_FORMS.items():
+    _pt = _particle.replace(" ", r"\s+")
+    if _particle == "in":
+        _pt = r"in(?:to)?"
+    PHRASAL_EN[_name] = re.compile(
+        r"\b(?:" + "|".join(_forms) + r")\s+(?:\w+\s+){0,2}" + _pt + r"\b",
+        re.I,
+    )
+del _name, _forms, _particle, _pt
+
 DISCOURSE_EN = {
     "discourse_actually": re.compile(
         r"\b(actually|in fact|to be honest|honestly)\b", re.I),
@@ -437,6 +495,9 @@ def passes_en(pattern, en):
     if pattern == "reflexive_pronouns":
         return bool(re.search(
             r"\b(myself|yourself|himself|herself|itself|ourselves|yourselves|themselves)\b", n))
+    if pattern == "hf_core":
+        return bool(re.search(
+            r"\b(went|came|told|thought|knew|thing|things|job|jobs|most|ever)\b", n))
     if pattern == "roleplay":
         return True
     if pattern == "dialogue":
@@ -560,6 +621,7 @@ def passes_zh(pattern, zh):
 MAX_WORDS = {
     "grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20,
     "functional": 20, "collocation": 18, "roleplay": 20, "dialogue": 70,
+    "hf": 16,
 }
 MIN_WORDS = 4
 
@@ -567,6 +629,56 @@ MIN_WORDS = 4
 def word_count(text):
     return len(WORD_RE.findall(text))
 
+
+PHRASAL_ZH = {
+    "phrasal_ask_for": r"(请求|要求|跟.{0,4}要|找.{0,4}要|申请|开口)",
+    "phrasal_back_up": r"(备份|支持|撑腰|备用)",
+    "phrasal_break_up": r"(分手|散伙|拆开|分开)",
+    "phrasal_bring_up": r"(提起|提到|说起|养大|抚养|提出)",
+    "phrasal_call_back": r"(回电话|打回去|回个电话|再打)",
+    "phrasal_call_off": r"(取消|叫停|不办)",
+    "phrasal_carry_on": r"(继续|接着|坚持下去)",
+    "phrasal_check_in": r"(入住|登记|值机|办手续)",
+    "phrasal_come_across": r"(偶然|碰到|遇到|无意中)",
+    "phrasal_come_over": r"(过来|来我|来一趟|来坐)",
+    "phrasal_come_up_with": r"(想出|想到|提出|想到一个)",
+    "phrasal_cut_down": r"(减少|少吃|少喝|削减|降低)",
+    "phrasal_deal_with": r"(处理|应付|解决|面对)",
+    "phrasal_eat_out": r"(出去吃|下馆子|在外面吃)",
+    "phrasal_get_along": r"(相处|合得来|处得|关系)",
+    "phrasal_get_away": r"(离开|脱身|抽身|走开)",
+    "phrasal_get_in": r"(进.{0,3}屋|进.{0,3}门|上车|进.{0,3}站|进.{0,3}去)",
+    "phrasal_get_off": r"(下车|下飞机|下班|下公交)",
+    "phrasal_get_on": r"(上车|上飞机|上.{0,4}公交|上.{0,4}地铁)",
+    "phrasal_get_over": r"(克服|恢复|走出来|缓过来)",
+    "phrasal_get_through": r"(接通|打通|通过|办完|度过)",
+    "phrasal_give_up": r"(放弃|戒掉|不干了|别想)",
+    "phrasal_go_ahead": r"(先走|继续|开始|往前|你先)",
+    "phrasal_go_over": r"(复习|过一遍|检查一遍|核对)",
+    "phrasal_grow_up": r"(长大|成长|小时候)",
+    "phrasal_hold_on": r"(等一下|稍等|别挂|等等)",
+    "phrasal_keep_up": r"(跟上|保持|跟得上|不落后)",
+    "phrasal_let_down": r"(失望|辜负)",
+    "phrasal_look_after": r"(照顾|照看|看着|帮你管)",
+    "phrasal_look_forward_to": r"(期待|盼望|等不及|盼着)",
+    "phrasal_look_into": r"(调查|查一下|了解|研究)",
+    "phrasal_look_out": r"(小心|当心|注意|留神)",
+    "phrasal_make_up": r"(编造|编个|瞎说|和好|凑)",
+    "phrasal_pay_back": r"(还钱|还给你|还清|报销|回报)",
+    "phrasal_point_out": r"(指出|提醒|说明|指出来)",
+    "phrasal_put_away": r"(收起来|放好|收好|归位)",
+    "phrasal_put_off": r"(推迟|延期|拖到|往后推)",
+    "phrasal_put_up_with": r"(忍受|容忍|受不了|将就)",
+    "phrasal_run_into": r"(碰到|遇到|撞见|偶遇)",
+    "phrasal_take_out": r"(拿出来|带出去|取出|掏出|外卖)",
+    "phrasal_throw_away": r"(扔掉|丢掉|扔了|丢弃)",
+    "phrasal_turn_down": r"(拒绝|调小|关小|降低)",
+    "phrasal_turn_up": r"(出现|调大|开大|露面|到场)",
+    "phrasal_wear_out": r"(磨破|穿坏|累坏|磨损)",
+    "phrasal_write_down": r"(写下|记下|记下来|写下来)",
+    "hf_core": r"[\u4e00-\u9fff]",
+}
+ZH_CHECKS.update(PHRASAL_ZH)
 
 LABELS = {
     "past_simple": "past simple verb + a past time phrase",
@@ -730,6 +842,55 @@ ZH_HINTS = {
 
 
 # Ten concrete everyday angles per pattern. The planner writes two sentences per angle.
+LABELS.update({
+    "phrasal_ask_for": "ask for",
+    "phrasal_back_up": "back up",
+    "phrasal_break_up": "break up",
+    "phrasal_bring_up": "bring up",
+    "phrasal_call_back": "call back",
+    "phrasal_call_off": "call off",
+    "phrasal_carry_on": "carry on",
+    "phrasal_check_in": "check in",
+    "phrasal_come_across": "come across",
+    "phrasal_come_over": "come over",
+    "phrasal_come_up_with": "come up with",
+    "phrasal_cut_down": "cut down",
+    "phrasal_deal_with": "deal with",
+    "phrasal_eat_out": "eat out",
+    "phrasal_get_along": "get along",
+    "phrasal_get_away": "get away",
+    "phrasal_get_in": "get in",
+    "phrasal_get_off": "get off",
+    "phrasal_get_on": "get on",
+    "phrasal_get_over": "get over",
+    "phrasal_get_through": "get through",
+    "phrasal_give_up": "give up",
+    "phrasal_go_ahead": "go ahead",
+    "phrasal_go_over": "go over",
+    "phrasal_grow_up": "grow up",
+    "phrasal_hold_on": "hold on",
+    "phrasal_keep_up": "keep up",
+    "phrasal_let_down": "let down",
+    "phrasal_look_after": "look after",
+    "phrasal_look_forward_to": "look forward to",
+    "phrasal_look_into": "look into",
+    "phrasal_look_out": "look out",
+    "phrasal_make_up": "make up",
+    "phrasal_pay_back": "pay back",
+    "phrasal_point_out": "point out",
+    "phrasal_put_away": "put away",
+    "phrasal_put_off": "put off",
+    "phrasal_put_up_with": "put up with",
+    "phrasal_run_into": "run into",
+    "phrasal_take_out": "take out",
+    "phrasal_throw_away": "throw away",
+    "phrasal_turn_down": "turn down",
+    "phrasal_turn_up": "turn up",
+    "phrasal_wear_out": "wear out",
+    "phrasal_write_down": "write down",
+    "hf_core": "went/came/told/thought/knew or thing/job/most/ever",
+})
+
 ANGLES = {
     "past_simple": [
         "上周末去看爷爷奶奶", "昨天开会时电脑突然坏了", "前天在超市遇到老同学",

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_look_into",
+  "pattern": "phrasal_look_into",
+  "items": [
+    {
+      "zh": "我最近在研究如何提高工作效率。",
+      "angle": 1,
+      "angle_zh": "描述最近一次调查或了解情况的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "这个月我开始调查公司的福利政策。",
+      "angle": 1,
+      "angle_zh": "描述最近一次调查或了解情况的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们需要有人来调查这个问题的原因。",
+      "angle": 2,
+      "angle_zh": "提出和调查或了解情况有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我建议我们找时间了解一下新的市场趋势。",
+      "angle": 2,
+      "angle_zh": "提出和调查或了解情况有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

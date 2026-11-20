@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_over",
+  "pattern": "phrasal_get_over",
+  "items": [
+    {
+      "zh": "我终于可以振作精神，克服这段时间的困难了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次克服困难或恢复过来的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "休息几天后，我感觉好多了，开始努力克服工作中的问题。",
+      "angle": 1,
+      "angle_zh": "描述最近一次克服困难或恢复过来的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们得尽快找方法来帮助他克服这个问题。",
+      "angle": 2,
+      "angle_zh": "提出和克服困难或恢复过来有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "建议你多休息，帮助自己尽快从疲惫中恢复过来。",
+      "angle": 2,
+      "angle_zh": "提出和克服困难或恢复过来有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

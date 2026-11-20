@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_cut_down",
+  "pattern": "phrasal_cut_down",
+  "items": [
+    {
+      "zh": "我最近减少了咖啡的摄入量。",
+      "angle": 1,
+      "angle_zh": "描述最近一次减少数量或摄入的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "为了健康，你应该减少晚上吃东西的次数。",
+      "angle": 2,
+      "angle_zh": "提出和减少数量或摄入有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "最近工作压力大，所以我减少了加班的时间。",
+      "angle": 3,
+      "angle_zh": "说明减少数量或摄入的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "以前我每天都要吃很多零食，现在我减少了吃零食的次数。",
+      "angle": 4,
+      "angle_zh": "回忆以前减少数量或摄入的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

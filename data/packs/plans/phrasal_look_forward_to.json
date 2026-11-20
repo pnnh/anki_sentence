@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_look_forward_to",
+  "pattern": "phrasal_look_forward_to",
+  "items": [
+    {
+      "zh": "我期待周末和朋友去看电影。",
+      "angle": 1,
+      "angle_zh": "描述最近一次期待某件事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我期待下周的旅行，想去很多地方。",
+      "angle": 1,
+      "angle_zh": "描述最近一次期待某件事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我期待这次考试成绩，因为复习得很充分。",
+      "angle": 1,
+      "angle_zh": "描述最近一次期待某件事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我期待这次的假期，因为我需要放松一下。",
+      "angle": 1,
+      "angle_zh": "描述最近一次期待某件事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

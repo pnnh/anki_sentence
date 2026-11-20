@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_back_up",
+  "pattern": "phrasal_back_up",
+  "items": [
+    {
+      "zh": "我昨天帮你把电脑里的文件备份了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次备份或支持别人的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "周末的时候我帮朋友备份了他的照片。",
+      "angle": 1,
+      "angle_zh": "描述最近一次备份或支持别人的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以帮我备份一下这些重要的文档吗？",
+      "angle": 2,
+      "angle_zh": "提出和备份或支持别人有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们最好备份一下最近的聊天记录。",
+      "angle": 2,
+      "angle_zh": "提出和备份或支持别人有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_pay_back",
+  "pattern": "phrasal_pay_back",
+  "items": [
+    {
+      "zh": "昨天我把借你的钱还给你了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次还钱或回报的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我上周把欠你的钱还清了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次还钱或回报的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为朋友帮我买了机票，所以我得还钱给他。",
+      "angle": 3,
+      "angle_zh": "说明还钱或回报的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能提醒我什么时候还钱吗？",
+      "angle": 2,
+      "angle_zh": "提出和还钱或回报有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

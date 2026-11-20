@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_let_down",
+  "pattern": "phrasal_let_down",
+  "items": [
+    {
+      "zh": "我让你失望了，这次考试没考好。",
+      "angle": 1,
+      "angle_zh": "描述最近一次让某人失望的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "这次我没有按时完成任务，让你失望了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次让某人失望的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "这次没帮上忙，我不想让你失望。",
+      "angle": 2,
+      "angle_zh": "提出和让某人失望有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "抱歉这次没做到，希望没让你失望。",
+      "angle": 2,
+      "angle_zh": "提出和让某人失望有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

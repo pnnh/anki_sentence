@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_run_into",
+  "pattern": "phrasal_run_into",
+  "items": [
+    {
+      "zh": "昨天在超市里碰到了老朋友。",
+      "angle": 1,
+      "angle_zh": "描述最近一次偶然碰到某人的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "如果在路上遇到他，可以请他帮我带份报纸。",
+      "angle": 2,
+      "angle_zh": "提出和偶然碰到某人有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "下次如果碰到她，建议跟她聊聊最近的工作。",
+      "angle": 2,
+      "angle_zh": "提出和偶然碰到某人有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为搬家，我在新的小区里遇到了以前的邻居。",
+      "angle": 3,
+      "angle_zh": "说明偶然碰到某人的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

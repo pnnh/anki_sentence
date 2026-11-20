@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_away",
+  "pattern": "phrasal_get_away",
+  "items": [
+    {
+      "zh": "我得赶紧离开这里。",
+      "angle": 1,
+      "angle_zh": "描述最近一次抽身或离开的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能帮我早点离开吗？",
+      "angle": 2,
+      "angle_zh": "提出和抽身或离开有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "能不能早点结束，我想早点离开。",
+      "angle": 2,
+      "angle_zh": "提出和抽身或离开有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我得离开一会儿，有点急事。",
+      "angle": 3,
+      "angle_zh": "说明抽身或离开的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_come_up_with",
+  "pattern": "phrasal_come_up_with",
+  "items": [
+    {
+      "zh": "昨天我终于想出解决这个问题的方法了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次想出一个办法或主意的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我想出一个新点子来提高工作效率。",
+      "angle": 1,
+      "angle_zh": "描述最近一次想出一个办法或主意的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们需要想出一个更好的计划来节省开支。",
+      "angle": 2,
+      "angle_zh": "提出和想出一个办法或主意有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我建议我们想出一些创意来吸引更多的客户。",
+      "angle": 2,
+      "angle_zh": "提出和想出一个办法或主意有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

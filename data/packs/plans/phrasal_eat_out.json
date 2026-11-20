@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_eat_out",
+  "pattern": "phrasal_eat_out",
+  "items": [
+    {
+      "zh": "昨天我和朋友出去吃了晚饭。",
+      "angle": 1,
+      "angle_zh": "描述最近一次出去吃饭的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天加班太累了，出去吃饭放松一下。",
+      "angle": 3,
+      "angle_zh": "说明出去吃饭的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "上次出去吃饭时，我们吃了火锅。",
+      "angle": 4,
+      "angle_zh": "回忆以前出去吃饭的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "记得那次出去吃饭，遇到了老朋友。",
+      "angle": 4,
+      "angle_zh": "回忆以前出去吃饭的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -132,7 +132,7 @@ def pack_scenes(only=None):
     for scene in load_scenes():
         if scene.get("mode") not in (
             "grammar", "narrative", "phrasal", "discourse", "functional", "collocation",
-            "roleplay", "dialogue",
+            "roleplay", "dialogue", "hf",
         ):
             continue
         scene = dict(scene)
@@ -398,7 +398,7 @@ def plan_zh_for_scene(args, scene, ref_zh, done_zh):
 
     micros = scene["micros"]
     angles = scene.get("angles") or ANGLES[pattern]
-    per_angle = 2
+    per_angle = 1 if want <= len(angles) else 2
     angle_total = max(1, (want + per_angle - 1) // per_angle)
     angle_total = min(angle_total, len(angles))
 

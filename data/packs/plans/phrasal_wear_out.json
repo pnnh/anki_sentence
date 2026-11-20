@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_wear_out",
+  "pattern": "phrasal_wear_out",
+  "items": [
+    {
+      "zh": "我的手套用了太久，现在都磨损了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次穿坏或用累的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你应该买一双新鞋，这双已经穿坏了。",
+      "angle": 2,
+      "angle_zh": "提出和穿坏或用累有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "这件外套穿了太久，领口都磨破了。",
+      "angle": 3,
+      "angle_zh": "说明穿坏或用累的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "去年冬天我那双靴子穿坏了，脚都冻坏了。",
+      "angle": 4,
+      "angle_zh": "回忆以前穿坏或用累的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_off",
+  "pattern": "phrasal_get_off",
+  "items": [
+    {
+      "zh": "昨天下班后我直接回家了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次下车或下班的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请提醒我到站时下车。",
+      "angle": 2,
+      "angle_zh": "提出和下车或下班有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "建议你早点下车去超市。",
+      "angle": 2,
+      "angle_zh": "提出和下车或下班有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为下雨所以我提前下车了。",
+      "angle": 3,
+      "angle_zh": "说明下车或下班的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

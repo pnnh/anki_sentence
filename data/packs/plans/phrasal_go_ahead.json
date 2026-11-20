@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_go_ahead",
+  "pattern": "phrasal_go_ahead",
+  "items": [
+    {
+      "zh": "你先走，我待会儿到。",
+      "angle": 1,
+      "angle_zh": "描述最近一次先走或继续做的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你先去吧，我在这里等。",
+      "angle": 1,
+      "angle_zh": "描述最近一次先走或继续做的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以先走了，我来打扫。",
+      "angle": 2,
+      "angle_zh": "提出和先走或继续做有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你先去吃饭，我等一下去。",
+      "angle": 2,
+      "angle_zh": "提出和先走或继续做有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

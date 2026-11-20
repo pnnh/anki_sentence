@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_in",
+  "pattern": "phrasal_get_in",
+  "items": [
+    {
+      "zh": "今天天气冷，我进屋后立刻脱掉外套。",
+      "angle": 1,
+      "angle_zh": "描述最近一次进屋、上车或进站的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以先等我，我们一起上车。",
+      "angle": 2,
+      "angle_zh": "提出和进屋、上车或进站有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为下雨了，我急着进屋躲雨。",
+      "angle": 3,
+      "angle_zh": "说明进屋、上车或进站的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我进站时发现车票忘带了。",
+      "angle": 3,
+      "angle_zh": "说明进屋、上车或进站的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

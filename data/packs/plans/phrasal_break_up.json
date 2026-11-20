@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_break_up",
+  "pattern": "phrasal_break_up",
+  "items": [
+    {
+      "zh": "我们最近是不是该考虑分手了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次分手或散伙的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们能不能找个时间谈谈分手的事。",
+      "angle": 2,
+      "angle_zh": "提出和分手或散伙有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我想提议我们明天晚上正式谈谈分手。",
+      "angle": 2,
+      "angle_zh": "提出和分手或散伙有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们分手是因为没有共同的兴趣。",
+      "angle": 3,
+      "angle_zh": "说明分手或散伙的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

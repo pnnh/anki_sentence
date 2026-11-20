@@ -1,0 +1,146 @@
+{
+  "scene": "hf_core",
+  "pattern": "hf_core",
+  "items": [
+    {
+      "zh": "上周末我去了一趟郊外的公园。",
+      "angle": 1,
+      "angle_zh": "用 went 说一次过去的去处",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "昨天下午我去了超市买水果。",
+      "angle": 1,
+      "angle_zh": "用 went 说一次过去的去处",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "他今天早上很早就来了。",
+      "angle": 2,
+      "angle_zh": "用 came 说一次来过的经历",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我的朋友昨天来我家吃饭。",
+      "angle": 2,
+      "angle_zh": "用 came 说一次来过的经历",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我昨天已经把这件事告诉他了。",
+      "angle": 3,
+      "angle_zh": "用 told 说一次告诉别人的事",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "她上周告诉我这个好消息。",
+      "angle": 3,
+      "angle_zh": "用 told 说一次告诉别人的事",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我以为你今天不来了。",
+      "angle": 4,
+      "angle_zh": "用 thought 说一次当时的想法",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我当时觉得这个主意不错。",
+      "angle": 4,
+      "angle_zh": "用 thought 说一次当时的想法",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我早就知道这家店很好吃。",
+      "angle": 5,
+      "angle_zh": "用 knew 说一次早就知道的事",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "他一进门我就知道出事了。",
+      "angle": 5,
+      "angle_zh": "用 knew 说一次早就知道的事",
+      "micro": "past",
+      "micro_zh": "过去式"
+    },
+    {
+      "zh": "我今天最想做的只有一件事。",
+      "angle": 6,
+      "angle_zh": "用 thing 说一件具体的东西或事情",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "出门前别忘了带好随身的东西。",
+      "angle": 6,
+      "angle_zh": "用 thing 说一件具体的东西或事情",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "我这份工作每天都很忙。",
+      "angle": 7,
+      "angle_zh": "用 job 说一次工作或任务",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "今天你的任务是打扫房间。",
+      "angle": 7,
+      "angle_zh": "用 job 说一次工作或任务",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "大多数同事都住在附近。",
+      "angle": 8,
+      "angle_zh": "用 most 说大多数人或多数的东西",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "大多数时候我都在家吃饭。",
+      "angle": 8,
+      "angle_zh": "用 most 说大多数人或多数的东西",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "你去过最远的地方是哪里？",
+      "angle": 9,
+      "angle_zh": "用 ever 问一次经历",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "这是我吃过最好吃的一家面馆。",
+      "angle": 9,
+      "angle_zh": "用 ever 问一次经历",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "这个问题最重要的是安全。",
+      "angle": 8,
+      "angle_zh": "用 most 说大多数人或多数的东西",
+      "micro": "words",
+      "micro_zh": "常用词"
+    },
+    {
+      "zh": "你这辈子有没有做过后悔的事？",
+      "angle": 9,
+      "angle_zh": "用 ever 问一次经历",
+      "micro": "words",
+      "micro_zh": "常用词"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_throw_away",
+  "pattern": "phrasal_throw_away",
+  "items": [
+    {
+      "zh": "昨天我把过期的面包扔掉了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把东西扔掉的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我今天早上把坏掉的灯泡扔掉了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把东西扔掉的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们应该把旧报纸扔掉。",
+      "angle": 2,
+      "angle_zh": "提出和把东西扔掉有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以把那些不用的书扔掉。",
+      "angle": 2,
+      "angle_zh": "提出和把东西扔掉有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

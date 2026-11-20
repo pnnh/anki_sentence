@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_call_back",
+  "pattern": "phrasal_call_back",
+  "items": [
+    {
+      "zh": "我今天下午五点才给你回电话。",
+      "angle": 1,
+      "angle_zh": "描述最近一次晚点回电话的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以晚一点回电话吗？",
+      "angle": 2,
+      "angle_zh": "提出和晚点回电话有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能不能等我晚上再回电话？",
+      "angle": 2,
+      "angle_zh": "提出和晚点回电话有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我回电话时发现你已经挂断了。",
+      "angle": 3,
+      "angle_zh": "说明晚点回电话的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

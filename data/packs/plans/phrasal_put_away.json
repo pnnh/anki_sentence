@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_put_away",
+  "pattern": "phrasal_put_away",
+  "items": [
+    {
+      "zh": "昨天我把玩具收好了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把东西收好的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以把衣服收起来吗？",
+      "angle": 2,
+      "angle_zh": "提出和把东西收好有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我把东西收起来，这样就不会乱了。",
+      "angle": 3,
+      "angle_zh": "说明把东西收好的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我收好东西，因为要走了。",
+      "angle": 3,
+      "angle_zh": "说明把东西收好的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

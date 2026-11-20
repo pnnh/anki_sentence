@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_call_off",
+  "pattern": "phrasal_call_off",
+  "items": [
+    {
+      "zh": "周末的聚会取消了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次取消约定或活动的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天晚上去看电影的计划取消吧。",
+      "angle": 2,
+      "angle_zh": "提出和取消约定或活动有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为生病，我得取消我们的午餐约会。",
+      "angle": 3,
+      "angle_zh": "说明取消约定或活动的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "天气不好，我们要不要把野餐取消了。",
+      "angle": 3,
+      "angle_zh": "说明取消约定或活动的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

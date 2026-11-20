@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_hold_on",
+  "pattern": "phrasal_hold_on",
+  "items": [
+    {
+      "zh": "等一下，我查一下时间。",
+      "angle": 1,
+      "angle_zh": "描述最近一次稍等或别挂电话的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请稍等，我去找一下钥匙。",
+      "angle": 1,
+      "angle_zh": "描述最近一次稍等或别挂电话的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "麻烦你稍等一下，好吗？",
+      "angle": 2,
+      "angle_zh": "提出和稍等或别挂电话有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请稍等，我接一下另一个电话。",
+      "angle": 3,
+      "angle_zh": "说明稍等或别挂电话的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

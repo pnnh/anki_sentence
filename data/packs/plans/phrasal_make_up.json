@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_make_up",
+  "pattern": "phrasal_make_up",
+  "items": [
+    {
+      "zh": "我跟妈妈说了一个编造的理由。",
+      "angle": 1,
+      "angle_zh": "描述最近一次编理由或和好的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你建议我们找个理由和好吗？",
+      "angle": 2,
+      "angle_zh": "提出和编理由或和好有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们和好后，心情好多了。",
+      "angle": 3,
+      "angle_zh": "说明编理由或和好的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "为了和好，他编了一个理由来解释。",
+      "angle": 4,
+      "angle_zh": "回忆以前编理由或和好的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

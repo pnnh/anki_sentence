@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_go_over",
+  "pattern": "phrasal_go_over",
+  "items": [
+    {
+      "zh": "我们周末一起再过一遍这个项目吧。",
+      "angle": 2,
+      "angle_zh": "提出和再过一遍或检查有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你今天可以再检查一遍这个报告吗？",
+      "angle": 2,
+      "angle_zh": "提出和再过一遍或检查有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为老师说要再过一遍上课的内容。",
+      "angle": 3,
+      "angle_zh": "说明再过一遍或检查的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "为了确保没有错误，我们需要再检查一遍。",
+      "angle": 3,
+      "angle_zh": "说明再过一遍或检查的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_put_off",
+  "pattern": "phrasal_put_off",
+  "items": [
+    {
+      "zh": "我决定把周末的旅行计划推迟到下个月。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把计划往后推的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们把明天的会议推迟到下周二。",
+      "angle": 1,
+      "angle_zh": "描述最近一次把计划往后推的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能把提交报告的时间推迟一周吗？",
+      "angle": 2,
+      "angle_zh": "提出和把计划往后推有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我想把项目启动会推迟到下个星期。",
+      "angle": 2,
+      "angle_zh": "提出和把计划往后推有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

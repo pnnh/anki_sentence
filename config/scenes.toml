@@ -2367,3 +2367,973 @@ angles = [
   "道谢并道别",
 ]
 
+
+[[scenes]]
+id = "phrasal_ask_for"
+zh = "短语·ask for 请求与索要"
+en = "Phrasal: Ask For"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_ask_for"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次开口请求的情况",
+  "提出和开口请求有关的要求或建议",
+  "说明开口请求的原因或结果",
+  "回忆以前开口请求的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_back_up"
+zh = "短语·back up 备份与支持"
+en = "Phrasal: Back Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_back_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次备份或支持别人的情况",
+  "提出和备份或支持别人有关的要求或建议",
+  "说明备份或支持别人的原因或结果",
+  "回忆以前备份或支持别人的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_break_up"
+zh = "短语·break up 分手"
+en = "Phrasal: Break Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_break_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次分手或散伙的情况",
+  "提出和分手或散伙有关的要求或建议",
+  "说明分手或散伙的原因或结果",
+  "回忆以前分手或散伙的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_bring_up"
+zh = "短语·bring up 提起与抚养"
+en = "Phrasal: Bring Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_bring_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次提起旧事或养大孩子的情况",
+  "提出和提起旧事或养大孩子有关的要求或建议",
+  "说明提起旧事或养大孩子的原因或结果",
+  "回忆以前提起旧事或养大孩子的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_call_back"
+zh = "短语·call back 回电话"
+en = "Phrasal: Call Back"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_call_back"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次晚点回电话的情况",
+  "提出和晚点回电话有关的要求或建议",
+  "说明晚点回电话的原因或结果",
+  "回忆以前晚点回电话的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_call_off"
+zh = "短语·call off 取消"
+en = "Phrasal: Call Off"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_call_off"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次取消约定或活动的情况",
+  "提出和取消约定或活动有关的要求或建议",
+  "说明取消约定或活动的原因或结果",
+  "回忆以前取消约定或活动的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_carry_on"
+zh = "短语·carry on 继续"
+en = "Phrasal: Carry On"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_carry_on"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次继续做下去的情况",
+  "提出和继续做下去有关的要求或建议",
+  "说明继续做下去的原因或结果",
+  "回忆以前继续做下去的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_check_in"
+zh = "短语·check in 办理入住"
+en = "Phrasal: Check In"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_check_in"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次登记入住或值机的情况",
+  "提出和登记入住或值机有关的要求或建议",
+  "说明登记入住或值机的原因或结果",
+  "回忆以前登记入住或值机的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_come_across"
+zh = "短语·come across 偶然遇到"
+en = "Phrasal: Come Across"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_come_across"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次偶然碰到人或东西的情况",
+  "提出和偶然碰到人或东西有关的要求或建议",
+  "说明偶然碰到人或东西的原因或结果",
+  "回忆以前偶然碰到人或东西的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_come_over"
+zh = "短语·come over 过来"
+en = "Phrasal: Come Over"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_come_over"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次过来坐坐的情况",
+  "提出和过来坐坐有关的要求或建议",
+  "说明过来坐坐的原因或结果",
+  "回忆以前过来坐坐的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_come_up_with"
+zh = "短语·come up with 想出"
+en = "Phrasal: Come Up With"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_come_up_with"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次想出一个办法或主意的情况",
+  "提出和想出一个办法或主意有关的要求或建议",
+  "说明想出一个办法或主意的原因或结果",
+  "回忆以前想出一个办法或主意的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_cut_down"
+zh = "短语·cut down 减少"
+en = "Phrasal: Cut Down"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_cut_down"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次减少数量或摄入的情况",
+  "提出和减少数量或摄入有关的要求或建议",
+  "说明减少数量或摄入的原因或结果",
+  "回忆以前减少数量或摄入的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_deal_with"
+zh = "短语·deal with 处理"
+en = "Phrasal: Deal With"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_deal_with"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次处理问题或麻烦的情况",
+  "提出和处理问题或麻烦有关的要求或建议",
+  "说明处理问题或麻烦的原因或结果",
+  "回忆以前处理问题或麻烦的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_eat_out"
+zh = "短语·eat out 出去吃饭"
+en = "Phrasal: Eat Out"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_eat_out"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次出去吃饭的情况",
+  "提出和出去吃饭有关的要求或建议",
+  "说明出去吃饭的原因或结果",
+  "回忆以前出去吃饭的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_along"
+zh = "短语·get along 相处"
+en = "Phrasal: Get Along"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_along"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次和别人相处的情况",
+  "提出和和别人相处有关的要求或建议",
+  "说明和别人相处的原因或结果",
+  "回忆以前和别人相处的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_away"
+zh = "短语·get away 离开与脱身"
+en = "Phrasal: Get Away"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_away"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次抽身或离开的情况",
+  "提出和抽身或离开有关的要求或建议",
+  "说明抽身或离开的原因或结果",
+  "回忆以前抽身或离开的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_in"
+zh = "短语·get in 进入与上车"
+en = "Phrasal: Get In"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_in"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次进屋、上车或进站的情况",
+  "提出和进屋、上车或进站有关的要求或建议",
+  "说明进屋、上车或进站的原因或结果",
+  "回忆以前进屋、上车或进站的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_off"
+zh = "短语·get off 下车"
+en = "Phrasal: Get Off"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_off"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次下车或下班的情况",
+  "提出和下车或下班有关的要求或建议",
+  "说明下车或下班的原因或结果",
+  "回忆以前下车或下班的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_on"
+zh = "短语·get on 上车"
+en = "Phrasal: Get On"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_on"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次上车或上飞机的情况",
+  "提出和上车或上飞机有关的要求或建议",
+  "说明上车或上飞机的原因或结果",
+  "回忆以前上车或上飞机的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_over"
+zh = "短语·get over 克服与恢复"
+en = "Phrasal: Get Over"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_over"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次克服困难或恢复过来的情况",
+  "提出和克服困难或恢复过来有关的要求或建议",
+  "说明克服困难或恢复过来的原因或结果",
+  "回忆以前克服困难或恢复过来的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_get_through"
+zh = "短语·get_through 接通与通过"
+en = "Phrasal: Get_Through"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_get_through"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次电话接通或办完事情的情况",
+  "提出和电话接通或办完事情有关的要求或建议",
+  "说明电话接通或办完事情的原因或结果",
+  "回忆以前电话接通或办完事情的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_give_up"
+zh = "短语·give up 放弃"
+en = "Phrasal: Give Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_give_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次放弃或戒掉的情况",
+  "提出和放弃或戒掉有关的要求或建议",
+  "说明放弃或戒掉的原因或结果",
+  "回忆以前放弃或戒掉的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_go_ahead"
+zh = "短语·go ahead 先走与继续"
+en = "Phrasal: Go Ahead"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_go_ahead"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次先走或继续做的情况",
+  "提出和先走或继续做有关的要求或建议",
+  "说明先走或继续做的原因或结果",
+  "回忆以前先走或继续做的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_go_over"
+zh = "短语·go over 复习与检查"
+en = "Phrasal: Go Over"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_go_over"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次再过一遍或检查的情况",
+  "提出和再过一遍或检查有关的要求或建议",
+  "说明再过一遍或检查的原因或结果",
+  "回忆以前再过一遍或检查的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_grow_up"
+zh = "短语·grow up 长大"
+en = "Phrasal: Grow Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_grow_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次长大或成长的情况",
+  "提出和长大或成长有关的要求或建议",
+  "说明长大或成长的原因或结果",
+  "回忆以前长大或成长的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_hold_on"
+zh = "短语·hold on 等一下"
+en = "Phrasal: Hold On"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_hold_on"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次稍等或别挂电话的情况",
+  "提出和稍等或别挂电话有关的要求或建议",
+  "说明稍等或别挂电话的原因或结果",
+  "回忆以前稍等或别挂电话的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_keep_up"
+zh = "短语·keep up 跟上"
+en = "Phrasal: Keep Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_keep_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次跟上进度或保持联系的情况",
+  "提出和跟上进度或保持联系有关的要求或建议",
+  "说明跟上进度或保持联系的原因或结果",
+  "回忆以前跟上进度或保持联系的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_let_down"
+zh = "短语·let down 让人失望"
+en = "Phrasal: Let Down"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_let_down"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次让某人失望的情况",
+  "提出和让某人失望有关的要求或建议",
+  "说明让某人失望的原因或结果",
+  "回忆以前让某人失望的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_look_after"
+zh = "短语·look after 照顾"
+en = "Phrasal: Look After"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_look_after"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次照顾人或物的情况",
+  "提出和照顾人或物有关的要求或建议",
+  "说明照顾人或物的原因或结果",
+  "回忆以前照顾人或物的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_look_forward_to"
+zh = "短语·look forward to 期待"
+en = "Phrasal: Look Forward To"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_look_forward_to"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次期待某件事的情况",
+  "提出和期待某件事有关的要求或建议",
+  "说明期待某件事的原因或结果",
+  "回忆以前期待某件事的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_look_into"
+zh = "短语·look into 调查"
+en = "Phrasal: Look Into"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_look_into"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次调查或了解情况的情况",
+  "提出和调查或了解情况有关的要求或建议",
+  "说明调查或了解情况的原因或结果",
+  "回忆以前调查或了解情况的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_look_out"
+zh = "短语·look out 小心"
+en = "Phrasal: Look Out"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_look_out"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次提醒小心的情况",
+  "提出和提醒小心有关的要求或建议",
+  "说明提醒小心的原因或结果",
+  "回忆以前提醒小心的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_make_up"
+zh = "短语·make up 编造与和好"
+en = "Phrasal: Make Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_make_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次编理由或和好的情况",
+  "提出和编理由或和好有关的要求或建议",
+  "说明编理由或和好的原因或结果",
+  "回忆以前编理由或和好的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_pay_back"
+zh = "短语·pay back 还钱"
+en = "Phrasal: Pay Back"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_pay_back"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次还钱或回报的情况",
+  "提出和还钱或回报有关的要求或建议",
+  "说明还钱或回报的原因或结果",
+  "回忆以前还钱或回报的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_point_out"
+zh = "短语·point out 指出"
+en = "Phrasal: Point Out"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_point_out"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次指出问题或说明的情况",
+  "提出和指出问题或说明有关的要求或建议",
+  "说明指出问题或说明的原因或结果",
+  "回忆以前指出问题或说明的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_put_away"
+zh = "短语·put away 收起来"
+en = "Phrasal: Put Away"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_put_away"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次把东西收好的情况",
+  "提出和把东西收好有关的要求或建议",
+  "说明把东西收好的原因或结果",
+  "回忆以前把东西收好的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_put_off"
+zh = "短语·put off 推迟"
+en = "Phrasal: Put Off"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_put_off"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次把计划往后推的情况",
+  "提出和把计划往后推有关的要求或建议",
+  "说明把计划往后推的原因或结果",
+  "回忆以前把计划往后推的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_put_up_with"
+zh = "短语·put up with 忍受"
+en = "Phrasal: Put Up With"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_put_up_with"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次忍受不喜欢的事的情况",
+  "提出和忍受不喜欢的事有关的要求或建议",
+  "说明忍受不喜欢的事的原因或结果",
+  "回忆以前忍受不喜欢的事的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_run_into"
+zh = "短语·run into 偶遇"
+en = "Phrasal: Run Into"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_run_into"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次偶然碰到某人的情况",
+  "提出和偶然碰到某人有关的要求或建议",
+  "说明偶然碰到某人的原因或结果",
+  "回忆以前偶然碰到某人的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_take_out"
+zh = "短语·take out 拿出与带出"
+en = "Phrasal: Take Out"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_take_out"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次拿出来、带出去或点外卖的情况",
+  "提出和拿出来、带出去或点外卖有关的要求或建议",
+  "说明拿出来、带出去或点外卖的原因或结果",
+  "回忆以前拿出来、带出去或点外卖的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_throw_away"
+zh = "短语·throw away 扔掉"
+en = "Phrasal: Throw Away"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_throw_away"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次把东西扔掉的情况",
+  "提出和把东西扔掉有关的要求或建议",
+  "说明把东西扔掉的原因或结果",
+  "回忆以前把东西扔掉的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_turn_down"
+zh = "短语·turn_down 拒绝与调小"
+en = "Phrasal: Turn_Down"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_turn_down"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次拒绝或调小音量的情况",
+  "提出和拒绝或调小音量有关的要求或建议",
+  "说明拒绝或调小音量的原因或结果",
+  "回忆以前拒绝或调小音量的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_turn_up"
+zh = "短语·turn up 出现与调大"
+en = "Phrasal: Turn Up"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_turn_up"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次出现或调大音量的情况",
+  "提出和出现或调大音量有关的要求或建议",
+  "说明出现或调大音量的原因或结果",
+  "回忆以前出现或调大音量的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_wear_out"
+zh = "短语·wear out 磨损与累坏"
+en = "Phrasal: Wear Out"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_wear_out"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次穿坏或用累的情况",
+  "提出和穿坏或用累有关的要求或建议",
+  "说明穿坏或用累的原因或结果",
+  "回忆以前穿坏或用累的一次经历",
+]
+
+[[scenes]]
+id = "phrasal_write_down"
+zh = "短语·write down 写下"
+en = "Phrasal: Write Down"
+group = "短语动词补全"
+phase = 8
+target = 4
+mode = "phrasal"
+pack = "phrasal"
+pattern = "phrasal_write_down"
+micros = [
+  { id = "daily", zh = "日常场景" },
+  { id = "work", zh = "工作与办事" },
+]
+angles = [
+  "描述最近一次把信息记下来的情况",
+  "提出和把信息记下来有关的要求或建议",
+  "说明把信息记下来的原因或结果",
+  "回忆以前把信息记下来的一次经历",
+]
+[[scenes]]
+id = "hf_core"
+zh = "高频·过去式与常用词"
+en = "High Frequency: Past Forms and Everyday Words"
+group = "高频补全"
+phase = 8
+target = 20
+mode = "hf"
+pack = "hf"
+pattern = "hf_core"
+micros = [
+  { id = "past", zh = "过去式" },
+  { id = "words", zh = "常用词" },
+]
+angles = [
+  "用 went 说一次过去的去处",
+  "用 came 说一次来过的经历",
+  "用 told 说一次告诉别人的事",
+  "用 thought 说一次当时的想法",
+  "用 knew 说一次早就知道的事",
+  "用 thing 说一件具体的东西或事情",
+  "用 job 说一次工作或任务",
+  "用 most 说大多数人或多数的东西",
+  "用 ever 问一次经历",
+]

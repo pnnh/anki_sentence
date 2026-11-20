@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_along",
+  "pattern": "phrasal_get_along",
+  "items": [
+    {
+      "zh": "我和新邻居相处得很愉快。",
+      "angle": 1,
+      "angle_zh": "描述最近一次和别人相处的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "周末我和朋友相处得很融洽。",
+      "angle": 1,
+      "angle_zh": "描述最近一次和别人相处的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们相处时可以多分享一些想法。",
+      "angle": 2,
+      "angle_zh": "提出和和别人相处有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我希望我们可以更好地相处。",
+      "angle": 2,
+      "angle_zh": "提出和和别人相处有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

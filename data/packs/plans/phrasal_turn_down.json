@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_turn_down",
+  "pattern": "phrasal_turn_down",
+  "items": [
+    {
+      "zh": "我刚刚拒绝了朋友的邀请。",
+      "angle": 1,
+      "angle_zh": "描述最近一次拒绝或调小音量的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我把音乐声音调小了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次拒绝或调小音量的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能不能把电视声音调小点？",
+      "angle": 2,
+      "angle_zh": "提出和拒绝或调小音量有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我拒绝了他的求婚。",
+      "angle": 2,
+      "angle_zh": "提出和拒绝或调小音量有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

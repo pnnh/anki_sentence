@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_give_up",
+  "pattern": "phrasal_give_up",
+  "items": [
+    {
+      "zh": "我决定放弃熬夜了。",
+      "angle": 1,
+      "angle_zh": "描述最近一次放弃或戒掉的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "这个月我要戒掉吃甜食。",
+      "angle": 1,
+      "angle_zh": "描述最近一次放弃或戒掉的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们还是放弃这个计划吧。",
+      "angle": 2,
+      "angle_zh": "提出和放弃或戒掉有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我觉得我们应该放弃尝试了。",
+      "angle": 2,
+      "angle_zh": "提出和放弃或戒掉有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_check_in",
+  "pattern": "phrasal_check_in",
+  "items": [
+    {
+      "zh": "我刚刚在酒店前台办了入住手续。",
+      "angle": 1,
+      "angle_zh": "描述最近一次登记入住或值机的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天下午我在机场值机柜台办了登机手续。",
+      "angle": 1,
+      "angle_zh": "描述最近一次登记入住或值机的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我希望可以在入住时免费借用酒店的自行车。",
+      "angle": 2,
+      "angle_zh": "提出和登记入住或值机有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我想知道入住时是否可以提前预订餐厅。",
+      "angle": 2,
+      "angle_zh": "提出和登记入住或值机有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

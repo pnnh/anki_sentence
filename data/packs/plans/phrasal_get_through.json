@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_through",
+  "pattern": "phrasal_get_through",
+  "items": [
+    {
+      "zh": "我终于打通了那个电话。",
+      "angle": 1,
+      "angle_zh": "描述最近一次电话接通或办完事情的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "昨天我打了好几次才接通他的电话。",
+      "angle": 1,
+      "angle_zh": "描述最近一次电话接通或办完事情的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请帮我尽快接通电话。",
+      "angle": 2,
+      "angle_zh": "提出和电话接通或办完事情有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为线路忙，我等了好久才接通。",
+      "angle": 3,
+      "angle_zh": "说明电话接通或办完事情的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

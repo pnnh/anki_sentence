@@ -160,7 +160,7 @@ def main():
         max_words = {
             "个人叙事": 24, "语法句型": 18, "短语动词": 18, "口语衔接": 20,
             "功能语言": 20, "搭配词族": 18, "语法进阶": 18, "易混词族": 18,
-            "角色反转": 20, "多轮对话": 70,
+            "角色反转": 20, "多轮对话": 70, "短语动词补全": 18, "高频补全": 16,
         }.get(group, 16)
         if len(words) < 4 or len(words) > max_words:
             add_issue(issues, "warn", "en_word_count", rec, str(len(words)))

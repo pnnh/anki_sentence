@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_get_on",
+  "pattern": "phrasal_get_on",
+  "items": [
+    {
+      "zh": "我刚刚才上车，感觉有点累。",
+      "angle": 1,
+      "angle_zh": "描述最近一次上车或上飞机的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天早上我上飞机时带了早餐。",
+      "angle": 1,
+      "angle_zh": "描述最近一次上车或上飞机的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你可以在车门关闭前上车。",
+      "angle": 2,
+      "angle_zh": "提出和上车或上飞机有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我上车是因为要赶去开会。",
+      "angle": 3,
+      "angle_zh": "说明上车或上飞机的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

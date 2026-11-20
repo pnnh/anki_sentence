@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_put_up_with",
+  "pattern": "phrasal_put_up_with",
+  "items": [
+    {
+      "zh": "我最近不得不忍受同事的无理取闹。",
+      "angle": 1,
+      "angle_zh": "描述最近一次忍受不喜欢的事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "每天上班都要忍受上司的批评。",
+      "angle": 1,
+      "angle_zh": "描述最近一次忍受不喜欢的事的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "能不能不要总是忍受这种不公平的对待？",
+      "angle": 2,
+      "angle_zh": "提出和忍受不喜欢的事有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我希望公司能改进，让我们不用再忍受这些。",
+      "angle": 2,
+      "angle_zh": "提出和忍受不喜欢的事有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

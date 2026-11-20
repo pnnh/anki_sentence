@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_grow_up",
+  "pattern": "phrasal_grow_up",
+  "items": [
+    {
+      "zh": "我是在这个小区长大的，对这里很有感情。",
+      "angle": 2,
+      "angle_zh": "提出和长大或成长有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "孩子在乡下长大，性格很开朗。",
+      "angle": 2,
+      "angle_zh": "提出和长大或成长有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "因为父母的支持，我才能顺利长大。",
+      "angle": 3,
+      "angle_zh": "说明长大或成长的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "长大以后，我才明白父母的辛苦。",
+      "angle": 3,
+      "angle_zh": "说明长大或成长的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

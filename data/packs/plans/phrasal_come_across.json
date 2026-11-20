@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_come_across",
+  "pattern": "phrasal_come_across",
+  "items": [
+    {
+      "zh": "今天早上在图书馆遇到了一位很久没见的同学。",
+      "angle": 1,
+      "angle_zh": "描述最近一次偶然碰到人或东西的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "去年在旅行中偶然遇到了一位会说多种语言的朋友。",
+      "angle": 4,
+      "angle_zh": "回忆以前偶然碰到人或东西的一次经历",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你去超市的时候，也许会遇到新朋友。",
+      "angle": 2,
+      "angle_zh": "提出和偶然碰到人或东西有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "周末去公园可能会遇到老朋友。",
+      "angle": 2,
+      "angle_zh": "提出和偶然碰到人或东西有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

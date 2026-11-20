@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_deal_with",
+  "pattern": "phrasal_deal_with",
+  "items": [
+    {
+      "zh": "昨天我处理了一个客户的投诉。",
+      "angle": 1,
+      "angle_zh": "描述最近一次处理问题或麻烦的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "上周我解决了办公室打印机的问题。",
+      "angle": 1,
+      "angle_zh": "描述最近一次处理问题或麻烦的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我们需要更多资源来处理这个问题。",
+      "angle": 2,
+      "angle_zh": "提出和处理问题或麻烦有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请尽快处理这个紧急情况。",
+      "angle": 2,
+      "angle_zh": "提出和处理问题或麻烦有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

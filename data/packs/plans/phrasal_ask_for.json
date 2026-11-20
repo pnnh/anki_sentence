@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_ask_for",
+  "pattern": "phrasal_ask_for",
+  "items": [
+    {
+      "zh": "我想请求图书馆延长借书的时间。",
+      "angle": 1,
+      "angle_zh": "描述最近一次开口请求的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我请求老板批准我的假期申请。",
+      "angle": 2,
+      "angle_zh": "提出和开口请求有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我请求朋友帮我复习数学。",
+      "angle": 3,
+      "angle_zh": "说明开口请求的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "我想请求老师多给我一点准备时间。",
+      "angle": 3,
+      "angle_zh": "说明开口请求的原因或结果",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

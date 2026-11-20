@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_look_after",
+  "pattern": "phrasal_look_after",
+  "items": [
+    {
+      "zh": "我上周照顾了生病的朋友。",
+      "angle": 1,
+      "angle_zh": "描述最近一次照顾人或物的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "昨天我帮邻居照顾了宠物。",
+      "angle": 1,
+      "angle_zh": "描述最近一次照顾人或物的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你能帮我照顾一下我的小孩吗？",
+      "angle": 2,
+      "angle_zh": "提出和照顾人或物有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "请帮我照顾一下花园里的植物。",
+      "angle": 2,
+      "angle_zh": "提出和照顾人或物有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

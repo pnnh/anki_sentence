@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_come_over",
+  "pattern": "phrasal_come_over",
+  "items": [
+    {
+      "zh": "你什么时候过来坐坐？",
+      "angle": 1,
+      "angle_zh": "描述最近一次过来坐坐的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "周末可以过来坐坐吗？",
+      "angle": 1,
+      "angle_zh": "描述最近一次过来坐坐的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "今天天气不错，过来坐坐吧。",
+      "angle": 2,
+      "angle_zh": "提出和过来坐坐有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "你路过的时候，可以过来喝杯茶。",
+      "angle": 2,
+      "angle_zh": "提出和过来坐坐有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}

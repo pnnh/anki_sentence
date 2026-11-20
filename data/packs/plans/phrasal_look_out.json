@@ -1,0 +1,34 @@
+{
+  "scene": "phrasal_look_out",
+  "pattern": "phrasal_look_out",
+  "items": [
+    {
+      "zh": "刚才我看到地上有水，提醒你小心滑倒。",
+      "angle": 1,
+      "angle_zh": "描述最近一次提醒小心的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "昨天在楼梯口，我提醒你小心台阶。",
+      "angle": 1,
+      "angle_zh": "描述最近一次提醒小心的情况",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "明天去公园，记得提醒我小心路上的石头。",
+      "angle": 2,
+      "angle_zh": "提出和提醒小心有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    },
+    {
+      "zh": "过马路的时候，请提醒我小心车辆。",
+      "angle": 2,
+      "angle_zh": "提出和提醒小心有关的要求或建议",
+      "micro": "daily",
+      "micro_zh": "日常场景"
+    }
+  ]
+}
