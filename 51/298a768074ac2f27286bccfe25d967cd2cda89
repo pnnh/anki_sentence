@@ -1,0 +1,478 @@
+config/scenes.toml
+  h_6465a203f88bd5 2370-3339
+data/packs/final/hf_core.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/phrasal_ask_for.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_back_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_break_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_bring_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_call_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_call_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_carry_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_check_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_come_across.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_come_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_come_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_cut_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_deal_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_eat_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_along.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_get_through.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_give_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_go_ahead.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_go_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_grow_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_hold_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_keep_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_let_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_look_after.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_look_forward_to.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_look_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_look_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_make_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_pay_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_point_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_put_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_put_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_put_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_run_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_take_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_throw_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_turn_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_turn_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_wear_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/final/phrasal_write_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/overrides.json
+  h_6465a203f88bd5 514-533,559-564,574-576,588-595,621-623,634-637,648-649,656-657,674,687
+data/packs/patches/phrasal_ask_for.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_back_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_break_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_bring_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_call_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_call_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_carry_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_check_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_come_across.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_come_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_come_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_cut_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_deal_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_eat_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_along.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_get_through.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_give_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_go_ahead.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_go_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_grow_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_hold_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_keep_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_let_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_look_after.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_look_forward_to.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_look_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_look_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_make_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_pay_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_point_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_put_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_put_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_put_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_run_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_take_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_throw_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_turn_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_turn_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_wear_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/patches/phrasal_write_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/plans/hf_core.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/phrasal_ask_for.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_back_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_break_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_bring_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_call_back.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_call_off.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_carry_on.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_check_in.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_come_across.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_come_over.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_come_up_with.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_cut_down.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_deal_with.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_eat_out.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_along.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_away.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_in.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_off.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_on.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_over.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_get_through.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_give_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_go_ahead.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_go_over.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_grow_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_hold_on.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_keep_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_let_down.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_look_after.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_look_forward_to.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_look_into.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_look_out.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_make_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_pay_back.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_point_out.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_put_away.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_put_off.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_put_up_with.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_run_into.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_take_out.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_throw_away.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_turn_down.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_turn_up.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_wear_out.json
+  h_6465a203f88bd5 1-34
+data/packs/plans/phrasal_write_down.json
+  h_6465a203f88bd5 1-34
+data/packs/polished/phrasal_ask_for.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_back_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_break_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_bring_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_call_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_call_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_carry_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_check_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_come_across.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_come_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_come_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_cut_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_deal_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_eat_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_along.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_get_through.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_give_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_go_ahead.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_go_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_grow_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_hold_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_keep_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_let_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_look_after.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_look_forward_to.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_look_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_look_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_make_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_pay_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_point_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_put_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_put_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_put_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_run_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_take_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_throw_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_turn_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_turn_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_wear_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/polished/phrasal_write_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/hf_core.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/phrasal_ask_for.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_back_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_break_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_bring_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_call_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_call_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_carry_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_check_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_come_across.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_come_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_come_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_cut_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_deal_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_eat_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_along.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_in.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_get_through.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_give_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_go_ahead.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_go_over.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_grow_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_hold_on.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_keep_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_let_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_look_after.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_look_forward_to.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_look_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_look_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_make_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_pay_back.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_point_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_put_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_put_off.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_put_up_with.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_run_into.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_take_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_throw_away.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_turn_down.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_turn_up.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_wear_out.jsonl
+  h_6465a203f88bd5 1-4
+data/packs/sentences/phrasal_write_down.jsonl
+  h_6465a203f88bd5 1-4
+scripts/generate_packs.py
+  h_6465a203f88bd5 135,401
+scripts/pack_patterns.py
+  h_6465a203f88bd5 130-187,498-500,624,633-682,845-893
+scripts/qc.py
+  h_6465a203f88bd5 163
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "51298a768074ac2f27286bccfe25d967cd2cda89",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
