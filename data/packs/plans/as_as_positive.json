@@ -1,0 +1,146 @@
+{
+  "scene": "as_as_positive",
+  "pattern": "as_as",
+  "items": [
+    {
+      "zh": "我弟弟和我哥哥一样高。",
+      "angle": 1,
+      "angle_zh": "比较两个人的身高",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "我女儿和她同桌一样高。",
+      "angle": 1,
+      "angle_zh": "比较两个人的身高",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "从我家到地铁站和到超市一样远。",
+      "angle": 2,
+      "angle_zh": "比较两个人的身高",
+      "micro": "places",
+      "micro_zh": "地方和距离"
+    },
+    {
+      "zh": "从学校到公园和到图书馆一样近。",
+      "angle": 2,
+      "angle_zh": "比较两个人的身高",
+      "micro": "places",
+      "micro_zh": "地方和距离"
+    },
+    {
+      "zh": "这件外套和那件大衣一样贵。",
+      "angle": 3,
+      "angle_zh": "比较两个地方的距离",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "这台电脑和那台电脑一样便宜。",
+      "angle": 3,
+      "angle_zh": "比较两个地方的距离",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "我妹妹和我朋友跑得一样快。",
+      "angle": 4,
+      "angle_zh": "比较两个地方的距离",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "我同事和我骑车一样慢。",
+      "angle": 4,
+      "angle_zh": "比较两个地方的距离",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "今天和昨天一样冷，要穿厚外套。",
+      "angle": 5,
+      "angle_zh": "比较两样东西的价格",
+      "micro": "places",
+      "micro_zh": "地方和距离"
+    },
+    {
+      "zh": "屋外和屋里一样冷，得多穿点。",
+      "angle": 5,
+      "angle_zh": "比较两样东西的价格",
+      "micro": "places",
+      "micro_zh": "地方和距离"
+    },
+    {
+      "zh": "这家店的包子和那家的一样好吃。",
+      "angle": 6,
+      "angle_zh": "比较两样东西的价格",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "这家店的面条和那家的一样好吃。",
+      "angle": 6,
+      "angle_zh": "比较两样东西的价格",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "安全和速度一样重要。",
+      "angle": 7,
+      "angle_zh": "说两个人跑得一样快",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "健康和赚钱一样重要。",
+      "angle": 7,
+      "angle_zh": "说两个人跑得一样快",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "我姐姐和我一样忙，周末也要加班。",
+      "angle": 8,
+      "angle_zh": "说两个人跑得一样快",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "我同事和我一样忙，午饭都没时间吃。",
+      "angle": 8,
+      "angle_zh": "说两个人跑得一样快",
+      "micro": "people",
+      "micro_zh": "人和人"
+    },
+    {
+      "zh": "这两道题一样简单，我很快就做完了。",
+      "angle": 9,
+      "angle_zh": "说今天和昨天一样冷",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "这两份表格一样简单，十分钟就能填完。",
+      "angle": 9,
+      "angle_zh": "说今天和昨天一样冷",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "这两个背包一样便宜，都在打折。",
+      "angle": 10,
+      "angle_zh": "说今天和昨天一样冷",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    },
+    {
+      "zh": "这两双鞋一样便宜，质量也差不多。",
+      "angle": 10,
+      "angle_zh": "说今天和昨天一样冷",
+      "micro": "things",
+      "micro_zh": "物品和价格"
+    }
+  ]
+}

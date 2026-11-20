@@ -1,0 +1,146 @@
+{
+  "scene": "in_case_clauses",
+  "pattern": "in_case",
+  "items": [
+    {
+      "zh": "以防下雨，你记得带伞。",
+      "angle": 1,
+      "angle_zh": "提醒对方带伞",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防天气变坏，你记得带伞。",
+      "angle": 1,
+      "angle_zh": "提醒对方带伞",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防忘记，出门前检查一下带钥匙了没。",
+      "angle": 2,
+      "angle_zh": "出门前检查有没有带钥匙",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防被锁在门外，出门前确认带了钥匙。",
+      "angle": 2,
+      "angle_zh": "出门前检查有没有带钥匙",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防路上堵车，提前留出时间。",
+      "angle": 3,
+      "angle_zh": "提前留出堵车的时间",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防遇到交通堵塞，早点出门。",
+      "angle": 3,
+      "angle_zh": "提前留出堵车的时间",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防丢失，备份一份重要文件。",
+      "angle": 4,
+      "angle_zh": "备份一份重要文件",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防电脑故障，备份重要文件。",
+      "angle": 4,
+      "angle_zh": "备份一份重要文件",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防计划有变，准备一个备用方案。",
+      "angle": 5,
+      "angle_zh": "准备一个备用方案",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防出现意外情况，提前准备好备用计划。",
+      "angle": 5,
+      "angle_zh": "准备一个备用方案",
+      "micro": "preparation",
+      "micro_zh": "提前准备"
+    },
+    {
+      "zh": "以防以后联系不到，提醒对方存下电话号码。",
+      "angle": 6,
+      "angle_zh": "提醒对方存下电话号码",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防万一找不到我，记得存我的电话号码。",
+      "angle": 6,
+      "angle_zh": "提醒对方存下电话号码",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防身体不适，带一点常用药。",
+      "angle": 7,
+      "angle_zh": "带一点常用药",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防生病，带点常用药在身边。",
+      "angle": 7,
+      "angle_zh": "带一点常用药",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防手机没电，出门前把手机充满电。",
+      "angle": 8,
+      "angle_zh": "出门前把手机充满电",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防在路上手机没电，出门前记得把手机充满。",
+      "angle": 8,
+      "angle_zh": "出门前把手机充满电",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防找不到地方，把地址记下来。",
+      "angle": 9,
+      "angle_zh": "把地址提前记下来",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防走错路，把地址提前记好。",
+      "angle": 9,
+      "angle_zh": "把地址提前记下来",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防下雨，出门前查一下天气预报。",
+      "angle": 10,
+      "angle_zh": "出发前查一下天气",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    },
+    {
+      "zh": "以防天气变冷，出发前查一下温度。",
+      "angle": 10,
+      "angle_zh": "出发前查一下天气",
+      "micro": "reminders",
+      "micro_zh": "提醒和检查"
+    }
+  ]
+}

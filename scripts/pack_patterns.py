@@ -502,6 +502,20 @@ def passes_en(pattern, en):
         return True
     if pattern == "life_scene":
         return True
+    if pattern in (
+        "register_casual", "register_neutral", "register_formal",
+        "register_workplace", "register_soft",
+    ):
+        return True
+    if pattern == "unless":
+        return bool(re.search(r"\bunless\b", n))
+    if pattern == "in_case":
+        return bool(re.search(r"\bin case\b", n))
+    if pattern == "as_as":
+        if re.search(r"\b(not|never)\b|n't\b", n):
+            return False
+        return bool(re.search(
+            r"\bas\s+(?!(?:soon|well)\b)(?!(?:far|long|much|many)\s+as\b)(?:[a-z]+\s+){0,4}as\b", n))
     if pattern == "dialogue":
         return bool(re.search(r"(^|\n)\s*a[::]", n)) and bool(re.search(r"(^|\n)\s*b[::]", n))
     raise ValueError(f"Unknown pattern: {pattern}")
@@ -623,7 +637,7 @@ def passes_zh(pattern, zh):
 MAX_WORDS = {
     "grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20,
     "functional": 20, "collocation": 18, "roleplay": 20, "dialogue": 70,
-    "hf": 16, "life": 20,
+    "hf": 16, "life": 20, "register": 24,
 }
 MIN_WORDS = 4
 
@@ -680,6 +694,14 @@ PHRASAL_ZH = {
     "phrasal_write_down": r"(写下|记下|记下来|写下来)",
     "hf_core": r"[\u4e00-\u9fff]",
     "life_scene": r"[\u4e00-\u9fff]",
+    "register_casual": r"[\u4e00-\u9fff]",
+    "register_neutral": r"[\u4e00-\u9fff]",
+    "register_formal": r"[\u4e00-\u9fff]",
+    "register_workplace": r"[\u4e00-\u9fff]",
+    "register_soft": r"[\u4e00-\u9fff]",
+    "unless": r"(除非|否则|要不然|不然)",
+    "in_case": r"(以防|万一|免得|提前|备用|带上|准备)",
+    "as_as": r"(一样|那么|像.{0,8}一样)",
 }
 ZH_CHECKS.update(PHRASAL_ZH)
 
@@ -893,6 +915,14 @@ LABELS.update({
     "phrasal_write_down": "write down",
     "hf_core": "went/came/told/thought/knew or thing/job/most/ever",
     "life_scene": "one natural everyday spoken sentence for this scene",
+    "register_casual": "a relaxed, casual English sentence for friends or family",
+    "register_neutral": "a standard polite English sentence for everyday situations",
+    "register_formal": "a formal, polite English sentence for an email or official situation",
+    "register_workplace": "a professional, polite English sentence for work",
+    "register_soft": "a soft, indirect English sentence that sounds polite",
+    "unless": "unless + a condition clause",
+    "in_case": "in case + a precaution",
+    "as_as": "as + adjective + as (positive comparison)",
 })
 
 ANGLES = {
@@ -900,6 +930,46 @@ ANGLES = {
         "描述最近一次遇到的情况", "向对方提出一个具体请求", "说明原因或结果",
         "询问细节或价格", "表达担心或不满", "给出建议或提醒",
         "回忆以前的一次经历", "说明自己的计划", "解释一个问题", "确认信息和安排",
+    ],
+    "register_casual": [
+        "约朋友一起吃饭", "请朋友顺手帮个小忙", "跟朋友吐槽今天的事", "跟家人商量周末安排",
+        "问朋友借一样东西", "跟朋友说改时间", "跟室友说家里缺什么", "跟朋友分享好消息",
+        "拒绝朋友的邀请", "出门前跟家人打招呼",
+    ],
+    "register_neutral": [
+        "向同事借办公用品", "请邻居帮忙收快递", "请店员换一件", "向前台询问流程",
+        "请同事改一下时间", "向陌生人问路", "请路人帮忙拍照", "跟老师确认作业要求",
+        "跟房东说家里的小问题", "跟同事换班",
+    ],
+    "register_formal": [
+        "写邮件确认预约", "写信申请退款", "向银行说明账户问题", "向公司申请证明",
+        "正式投诉服务问题", "邮件里请求延长期限", "回复邮件表示感谢", "书面确认合同细节",
+        "向学校申请补考", "正式邀请对方参加会议",
+    ],
+    "register_workplace": [
+        "会上提出不同意见", "向领导汇报进度", "请同事看文件", "向客户确认需求",
+        "在群里说明延期", "跟同事协调分工", "向上级请假", "委婉拒绝额外工作",
+        "确认下一次会议时间", "给新同事介绍流程",
+    ],
+    "register_soft": [
+        "委婉表达不同意见", "委婉拒绝请求", "委婉指出小错误", "委婉表达担心",
+        "委婉提出改进建议", "委婉表达不满", "委婉打断对方", "委婉纠正自己的说法",
+        "委婉请求宽限时间", "委婉结束谈话",
+    ],
+    "unless": [
+        "说明参加活动的条件", "提醒不早出发会迟到", "解释规则例外", "劝对方现在就打电话",
+        "说明退款的条件", "商量取消的时间限制", "提醒带证件才能进门", "说明下雨就改期",
+        "讲清请假要提前说", "说明见面的前提",
+    ],
+    "in_case": [
+        "提醒对方带伞", "出门前检查钥匙", "提前留出堵车时间", "备份重要文件",
+        "准备备用方案", "提醒对方存电话号码", "带一点常用药", "出门前给手机充电",
+        "把地址提前记下来", "出发前查天气",
+    ],
+    "as_as": [
+        "比较两个人的身高", "比较两个地方的距离", "比较两样东西的价格", "说两个人跑得一样快",
+        "说今天和昨天一样冷", "说两种食物一样好吃", "说两件事一样重要", "说两个人一样忙",
+        "说两道题一样简单", "说两个价钱一样便宜",
     ],
     "past_simple": [
         "上周末去看爷爷奶奶", "昨天开会时电脑突然坏了", "前天在超市遇到老同学",

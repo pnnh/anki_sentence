@@ -1,0 +1,146 @@
+{
+  "scene": "register_casual",
+  "pattern": "register_casual",
+  "items": [
+    {
+      "zh": "这周末咱们一起吃个饭吧。",
+      "angle": 1,
+      "angle_zh": "约朋友一起吃饭",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "今晚想不想出去吃点啥？",
+      "angle": 1,
+      "angle_zh": "约朋友一起吃饭",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "你能帮我把快递拿下来吗？",
+      "angle": 2,
+      "angle_zh": "请朋友顺手帮个小忙",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "顺手帮我扔一下垃圾呗。",
+      "angle": 2,
+      "angle_zh": "请朋友顺手帮个小忙",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "今天老板又批评我了。",
+      "angle": 3,
+      "angle_zh": "跟朋友吐槽今天发生的事",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "刚才路上差点被车撞到。",
+      "angle": 3,
+      "angle_zh": "跟朋友吐槽今天发生的事",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "周末咱们去爬山吧。",
+      "angle": 4,
+      "angle_zh": "跟家人商量周末怎么过",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "这个周末你有啥打算吗？",
+      "angle": 4,
+      "angle_zh": "跟家人商量周末怎么过",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "你有手机充电线吗？可以借我一下。",
+      "angle": 5,
+      "angle_zh": "问朋友借一样东西",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "我的钥匙忘家里了，你能帮我开门吗？",
+      "angle": 5,
+      "angle_zh": "问朋友借一样东西",
+      "micro": "friends",
+      "micro_zh": "朋友之间"
+    },
+    {
+      "zh": "咱们见面的时间可以推迟一个小时吗？",
+      "angle": 6,
+      "angle_zh": "跟朋友说改一下时间",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "今天晚上咱们换个时间再聊吧。",
+      "angle": 6,
+      "angle_zh": "跟朋友说改一下时间",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "家里缺糖了，你那边有吗？",
+      "angle": 7,
+      "angle_zh": "跟室友说家里缺什么",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "家里盐没了，你有空买一下吗？",
+      "angle": 7,
+      "angle_zh": "跟室友说家里缺什么",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "我升职了，奖金也多了。",
+      "angle": 8,
+      "angle_zh": "跟朋友分享一个好消息",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "公司今天发了年终奖。",
+      "angle": 8,
+      "angle_zh": "跟朋友分享一个好消息",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "今天不想出门，你去玩吧。",
+      "angle": 9,
+      "angle_zh": "拒绝朋友的邀请",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "我今天累坏了，就不陪你了。",
+      "angle": 9,
+      "angle_zh": "拒绝朋友的邀请",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "出门前跟爸妈说一声。",
+      "angle": 10,
+      "angle_zh": "出门前跟家人打招呼",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    },
+    {
+      "zh": "跟哥哥打声招呼就走了。",
+      "angle": 10,
+      "angle_zh": "出门前跟家人打招呼",
+      "micro": "roommates",
+      "micro_zh": "室友和熟人"
+    }
+  ]
+}

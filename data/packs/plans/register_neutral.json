@@ -1,0 +1,146 @@
+{
+  "scene": "register_neutral",
+  "pattern": "register_neutral",
+  "items": [
+    {
+      "zh": "请问可以借你的笔用一下吗？",
+      "angle": 1,
+      "angle_zh": "向同事借办公用品",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "我可以用一下你的订书机吗？",
+      "angle": 1,
+      "angle_zh": "向同事借办公用品",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "可以请你帮忙收一下快递吗？",
+      "angle": 2,
+      "angle_zh": "请邻居帮忙收快递",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "你能帮我拿一下楼下快递吗？",
+      "angle": 2,
+      "angle_zh": "请邻居帮忙收快递",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "可以帮我换一下这件衣服吗？",
+      "angle": 3,
+      "angle_zh": "在店里请店员换一件",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "这件衣服可以换一下吗？",
+      "angle": 3,
+      "angle_zh": "在店里请店员换一件",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "请问办理入住需要哪些手续？",
+      "angle": 4,
+      "angle_zh": "向前台询问办理流程",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "可以问一下办理流程吗？",
+      "angle": 4,
+      "angle_zh": "向前台询问办理流程",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "可以请你把会议时间改一下吗？",
+      "angle": 5,
+      "angle_zh": "请同事把时间改一下",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "能否把我们开会的时间改一下？",
+      "angle": 5,
+      "angle_zh": "请同事把时间改一下",
+      "micro": "colleagues",
+      "micro_zh": "同事之间"
+    },
+    {
+      "zh": "请问去地铁站怎么走？",
+      "angle": 6,
+      "angle_zh": "向陌生人问路",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "可以问一下去图书馆的路吗？",
+      "angle": 6,
+      "angle_zh": "向陌生人问路",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "可以帮我拍张照片吗？",
+      "angle": 7,
+      "angle_zh": "请路人帮忙拍张照片",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "请帮我拍张和这棵树的合影可以吗？",
+      "angle": 7,
+      "angle_zh": "请路人帮忙拍张照片",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "请问作业需要提交电子版吗？",
+      "angle": 8,
+      "angle_zh": "跟老师确认作业要求",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "能确认一下作业的截止时间吗？",
+      "angle": 8,
+      "angle_zh": "跟老师确认作业要求",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "家里水管有点漏水，麻烦您来看看。",
+      "angle": 9,
+      "angle_zh": "跟房东说家里的小问题",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "厨房的灯坏了，请您帮忙修一下。",
+      "angle": 9,
+      "angle_zh": "跟房东说家里的小问题",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "下周一我有事，可以跟您换班吗？",
+      "angle": 10,
+      "angle_zh": "跟同事换一次班",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    },
+    {
+      "zh": "这周五我想休息，能和您调个班吗？",
+      "angle": 10,
+      "angle_zh": "跟同事换一次班",
+      "micro": "strangers",
+      "micro_zh": "陌生人之间"
+    }
+  ]
+}

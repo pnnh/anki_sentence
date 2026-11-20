@@ -1,0 +1,146 @@
+{
+  "scene": "register_soft",
+  "pattern": "register_soft",
+  "items": [
+    {
+      "zh": "我觉得这个方法可能不太合适，有没有其他的选择？",
+      "angle": 1,
+      "angle_zh": "委婉表达不同意见",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我担心这个方案可能会有些问题，可以再讨论一下吗？",
+      "angle": 1,
+      "angle_zh": "委婉表达不同意见",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我这边有点忙，要不我们换个时间再聊？",
+      "angle": 2,
+      "angle_zh": "委婉拒绝一个请求",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "这个时间我可能不方便，你介意稍后联系我吗？",
+      "angle": 2,
+      "angle_zh": "委婉拒绝一个请求",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "你刚才说的那部分，可能需要再确认一下细节，可以吗？",
+      "angle": 3,
+      "angle_zh": "委婉指出对方的小错误",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "你提到的那个部分，也许需要再核对一下，你看如何？",
+      "angle": 3,
+      "angle_zh": "委婉指出对方的小错误",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我对这个计划有些顾虑，可以再多谈谈吗？",
+      "angle": 4,
+      "angle_zh": "委婉表达自己的担心",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我有点担心这个安排，你介意再商量一下吗？",
+      "angle": 4,
+      "angle_zh": "委婉表达自己的担心",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "这个建议或许还有改进的空间，你认为呢？",
+      "angle": 5,
+      "angle_zh": "委婉提出一个改进建议",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我们是否可以考虑一下其他的方案，你觉得怎么样？",
+      "angle": 5,
+      "angle_zh": "委婉提出一个改进建议",
+      "micro": "disagreeing",
+      "micro_zh": "表达不同意见"
+    },
+    {
+      "zh": "我可能不太满意这个结果，我们能否再探讨一下？",
+      "angle": 6,
+      "angle_zh": "委婉表达不满",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "这个情况或许需要重新评估，你看如何？",
+      "angle": 6,
+      "angle_zh": "委婉表达不满",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "你那边可以稍等一下吗？我这边有些事情需要处理一下。",
+      "angle": 7,
+      "angle_zh": "委婉打断对方的话",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "现在我可能不方便，要不我们换个时间再继续说？",
+      "angle": 7,
+      "angle_zh": "委婉打断对方的话",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "我刚才的表述可能有些不准确，可以重新说一下吗？",
+      "angle": 8,
+      "angle_zh": "委婉纠正自己刚才的说法",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "我刚才说的那部分可能需要再确认一下，你看行吗？",
+      "angle": 8,
+      "angle_zh": "委婉纠正自己刚才的说法",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "这个时间能否稍微推迟一些？",
+      "angle": 9,
+      "angle_zh": "委婉请求宽限一点时间",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "我们的时间能否稍微调整一下？",
+      "angle": 9,
+      "angle_zh": "委婉请求宽限一点时间",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "要不我们换个时间再聊？",
+      "angle": 10,
+      "angle_zh": "委婉结束一次谈话",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    },
+    {
+      "zh": "现在可能不适合讨论，要不稍后再继续？",
+      "angle": 10,
+      "angle_zh": "委婉结束一次谈话",
+      "micro": "concerns",
+      "micro_zh": "担心和建议"
+    }
+  ]
+}

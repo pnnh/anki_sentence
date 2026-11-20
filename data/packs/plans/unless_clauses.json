@@ -1,0 +1,146 @@
+{
+  "scene": "unless_clauses",
+  "pattern": "unless",
+  "items": [
+    {
+      "zh": "除非你提前报名，否则不能参加这个活动。",
+      "angle": 1,
+      "angle_zh": "说明参加活动的唯一条件",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你早点出发，否则会迟到。",
+      "angle": 2,
+      "angle_zh": "提醒对方不早点出发会迟到",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你现在就出发，否则会错过火车。",
+      "angle": 2,
+      "angle_zh": "提醒对方不早点出发会迟到",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非下雨，否则我们照常去公园。",
+      "angle": 3,
+      "angle_zh": "解释一项规则的例外",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非有特殊情况，否则我们得按原计划行事。",
+      "angle": 3,
+      "angle_zh": "解释一项规则的例外",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你现在就打电话，否则他可能不接。",
+      "angle": 4,
+      "angle_zh": "劝对方现在就打电话",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你马上给他发信息，否则他可能不知道。",
+      "angle": 4,
+      "angle_zh": "劝对方现在就打电话",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你提供购买凭证，否则不能退款。",
+      "angle": 5,
+      "angle_zh": "说明退款需要的条件",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你提供收据，否则不能办理退货。",
+      "angle": 5,
+      "angle_zh": "说明退款需要的条件",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    },
+    {
+      "zh": "除非你提前一周取消，否则需要支付违约金。",
+      "angle": 6,
+      "angle_zh": "商量取消预订的时间限制",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你至少三天前通知，否则预订不可取消。",
+      "angle": 6,
+      "angle_zh": "商量取消预订的时间限制",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你带身份证，否则不能进入大楼。",
+      "angle": 7,
+      "angle_zh": "提醒带齐证件才能进门",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你有学生证，否则不能进入实验室。",
+      "angle": 7,
+      "angle_zh": "提醒带齐证件才能进门",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非下雨，否则我们去爬山。",
+      "angle": 8,
+      "angle_zh": "说明下雨就改期",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非天气不好，否则我们照常举行野餐。",
+      "angle": 8,
+      "angle_zh": "说明下雨就改期",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你提前告诉我，否则我不能帮你请假。",
+      "angle": 9,
+      "angle_zh": "讲清请假需要提前说",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你明天之前说，否则这次请假可能不行。",
+      "angle": 9,
+      "angle_zh": "讲清请假需要提前说",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你按时到，否则我们没法开始。",
+      "angle": 10,
+      "angle_zh": "说明见面的前提条件",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你能准时来，否则我们得改时间。",
+      "angle": 10,
+      "angle_zh": "说明见面的前提条件",
+      "micro": "rules",
+      "micro_zh": "规则和例外"
+    },
+    {
+      "zh": "除非你现在就打给他，否则明天就来不及了。",
+      "angle": 4,
+      "angle_zh": "劝对方现在就打电话",
+      "micro": "conditions",
+      "micro_zh": "条件和前提"
+    }
+  ]
+}

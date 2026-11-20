@@ -78,6 +78,22 @@ $angles
 Return JSON only:
 {"items":[{"angle":1,"zh":"中文句子。"},{"angle":1,"zh":"另一个中文句子。"}]}"""
 
+REGISTER_PLAN_HINT = {
+    "register_casual": "这些句子是朋友或家人之间的随意说法，用词口语化、简短自然。",
+    "register_neutral": "这些句子是同事、邻居或陌生人之间的日常客气说法，礼貌但自然。",
+    "register_formal": "这些句子用于邮件、书面申请或官方场合，措辞正式、礼貌、完整。",
+    "register_workplace": "这些句子用于职场沟通，专业、礼貌、简洁。",
+    "register_soft": "这些句子要委婉含蓄，避免直接否定或命令。",
+}
+
+REGISTER_EN_HINT = {
+    "register_casual": "Use relaxed, casual spoken English for friends or family. Contractions are fine; avoid formal vocabulary.",
+    "register_neutral": "Use standard polite everyday English for colleagues, neighbors, or strangers.",
+    "register_formal": "Use formal, polite written English for an email, letter, or official call. Avoid slang and contractions.",
+    "register_workplace": "Use professional workplace English that is polite but efficient.",
+    "register_soft": "Use soft, indirect English that softens disagreement, refusal, or criticism.",
+}
+
 DIALOGUE_ZH_TEMPLATE = """You write short Chinese two-turn dialogues for a Chinese learner's English flashcard deck.
 
 Scene: $scene_zh ($scene_en)
@@ -132,7 +148,7 @@ def pack_scenes(only=None):
     for scene in load_scenes():
         if scene.get("mode") not in (
             "grammar", "narrative", "phrasal", "discourse", "functional", "collocation",
-            "roleplay", "dialogue", "hf", "scene",
+            "roleplay", "dialogue", "hf", "scene", "register",
         ):
             continue
         scene = dict(scene)
@@ -438,6 +454,9 @@ def plan_zh_for_scene(args, scene, ref_zh, done_zh):
             "不要换成其他场所或身份，不要出现别的场景才有的东西，"
             "也不要写成旁白或解释。"
         )
+        register_hint = REGISTER_PLAN_HINT.get(pattern)
+        if register_hint:
+            prompt += f"\n\n语域要求：{register_hint}"
         if seen:
             prompt += "\n\nAlready used, do not repeat or paraphrase:\n" + "\n".join(f"- {s}" for s in seen[-12:])
         try:
@@ -552,6 +571,9 @@ def build_en_prompt(scene, batch):
         zh = item["zh"].replace("\n", " / ")
         lines.append(f'{i}. zh: {zh} | target: {LABELS[scene["pattern"]]}')
     prompt = TEMPLATE.read_text(encoding="utf-8").replace("{items}", "\n".join(lines))
+    register_hint = REGISTER_EN_HINT.get(scene["pattern"])
+    if register_hint:
+        prompt += "\n\n" + register_hint
     if scene["pattern"] == "dialogue":
         prompt += (
             "\n\nEach Chinese item is a two-turn exchange: A: ... then B: .... "
@@ -566,6 +588,8 @@ def record_for(scene, item, en, model):
     tags = [f"pack::{scene['pack']}", f"pattern::{scene['pattern']}"]
     if scene["pack"] == "narrative":
         tags.append(f"topic::{scene['pattern'].replace('narrative_', '')}")
+    if scene["pack"] == "register":
+        tags.append(f"register::{scene['pattern'].replace('register_', '')}")
     return {
         "uid": make_uid(scene["id"], item["zh"]),
         "scene": scene["id"],

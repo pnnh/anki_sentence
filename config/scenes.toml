@@ -3783,3 +3783,227 @@ angles = [
   "退房前把垃圾收拾好",
   "反馈房间里的小问题",
 ]
+
+[[scenes]]
+id = "register_casual"
+zh = "随意口语"
+en = "Casual & Friendly"
+group = "语域礼貌"
+phase = 10
+target = 20
+mode = "register"
+pack = "register"
+pattern = "register_casual"
+micros = [
+  { id = "friends", zh = "朋友之间" },
+  { id = "family", zh = "家人之间" },
+  { id = "roommates", zh = "室友和熟人" },
+]
+angles = [
+  "约朋友一起吃饭",
+  "请朋友顺手帮个小忙",
+  "跟朋友吐槽今天发生的事",
+  "跟家人商量周末怎么过",
+  "问朋友借一样东西",
+  "跟朋友说改一下时间",
+  "跟室友说家里缺什么",
+  "跟朋友分享一个好消息",
+  "拒绝朋友的邀请",
+  "出门前跟家人打招呼",
+]
+
+[[scenes]]
+id = "register_neutral"
+zh = "日常客气"
+en = "Everyday Polite"
+group = "语域礼貌"
+phase = 10
+target = 20
+mode = "register"
+pack = "register"
+pattern = "register_neutral"
+micros = [
+  { id = "colleagues", zh = "同事之间" },
+  { id = "neighbors", zh = "邻居之间" },
+  { id = "strangers", zh = "陌生人之间" },
+]
+angles = [
+  "向同事借办公用品",
+  "请邻居帮忙收快递",
+  "在店里请店员换一件",
+  "向前台询问办理流程",
+  "请同事把时间改一下",
+  "向陌生人问路",
+  "请路人帮忙拍张照片",
+  "跟老师确认作业要求",
+  "跟房东说家里的小问题",
+  "跟同事换一次班",
+]
+
+[[scenes]]
+id = "register_formal"
+zh = "正式书面"
+en = "Formal & Written"
+group = "语域礼貌"
+phase = 10
+target = 20
+mode = "register"
+pack = "register"
+pattern = "register_formal"
+micros = [
+  { id = "email", zh = "邮件往来" },
+  { id = "official", zh = "官方事务" },
+  { id = "application", zh = "书面申请" },
+]
+angles = [
+  "写邮件确认一次预约",
+  "写信申请退款",
+  "向银行说明账户问题",
+  "向公司申请一份证明",
+  "正式投诉一次服务问题",
+  "邮件里请求延长截止时间",
+  "回复邮件表示感谢",
+  "书面确认合同里的细节",
+  "向学校申请一次补考",
+  "正式邀请对方参加会议",
+]
+
+[[scenes]]
+id = "register_workplace"
+zh = "职场得体"
+en = "Professional Workplace"
+group = "语域礼貌"
+phase = 10
+target = 20
+mode = "register"
+pack = "register"
+pattern = "register_workplace"
+micros = [
+  { id = "meeting", zh = "会议讨论" },
+  { id = "reporting", zh = "汇报进度" },
+  { id = "coordination", zh = "协作沟通" },
+]
+angles = [
+  "会上委婉提出不同意见",
+  "向领导汇报项目进度",
+  "请同事帮忙看一份文件",
+  "向客户确认具体需求",
+  "在群里说明项目延期",
+  "跟同事协调任务分工",
+  "向上级请一天假",
+  "委婉拒绝额外的工作",
+  "确认下一次会议时间",
+  "给新同事介绍工作流程",
+]
+
+[[scenes]]
+id = "register_soft"
+zh = "委婉缓和"
+en = "Softening Language"
+group = "语域礼貌"
+phase = 10
+target = 20
+mode = "register"
+pack = "register"
+pattern = "register_soft"
+micros = [
+  { id = "disagreeing", zh = "表达不同意见" },
+  { id = "refusing", zh = "拒绝和纠正" },
+  { id = "concerns", zh = "担心和建议" },
+]
+angles = [
+  "委婉表达不同意见",
+  "委婉拒绝一个请求",
+  "委婉指出对方的小错误",
+  "委婉表达自己的担心",
+  "委婉提出一个改进建议",
+  "委婉表达不满",
+  "委婉打断对方的话",
+  "委婉纠正自己刚才的说法",
+  "委婉请求宽限一点时间",
+  "委婉结束一次谈话",
+]
+
+[[scenes]]
+id = "unless_clauses"
+zh = "条件 unless"
+en = "Unless Clauses"
+group = "语法补充"
+phase = 10
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "unless"
+micros = [
+  { id = "conditions", zh = "条件和前提" },
+  { id = "warnings", zh = "提醒和后果" },
+  { id = "rules", zh = "规则和例外" },
+]
+angles = [
+  "说明参加活动的唯一条件",
+  "提醒对方不早点出发会迟到",
+  "解释一项规则的例外",
+  "劝对方现在就打电话",
+  "说明退款需要的条件",
+  "商量取消预订的时间限制",
+  "提醒带齐证件才能进门",
+  "说明下雨就改期",
+  "讲清请假需要提前说",
+  "说明见面的前提条件",
+]
+
+[[scenes]]
+id = "in_case_clauses"
+zh = "以防 in case"
+en = "In Case Clauses"
+group = "语法补充"
+phase = 10
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "in_case"
+micros = [
+  { id = "preparation", zh = "提前准备" },
+  { id = "backup", zh = "备用方案" },
+  { id = "reminders", zh = "提醒和检查" },
+]
+angles = [
+  "提醒对方带伞",
+  "出门前检查有没有带钥匙",
+  "提前留出堵车的时间",
+  "备份一份重要文件",
+  "准备一个备用方案",
+  "提醒对方存下电话号码",
+  "带一点常用药",
+  "出门前把手机充满电",
+  "把地址提前记下来",
+  "出发前查一下天气",
+]
+
+[[scenes]]
+id = "as_as_positive"
+zh = "同级比较 as…as"
+en = "As … As Comparisons"
+group = "语法补充"
+phase = 10
+target = 20
+mode = "grammar"
+pack = "grammar"
+pattern = "as_as"
+micros = [
+  { id = "people", zh = "人和人" },
+  { id = "places", zh = "地方和距离" },
+  { id = "things", zh = "物品和价格" },
+]
+angles = [
+  "比较两个人的身高",
+  "比较两个地方的距离",
+  "比较两样东西的价格",
+  "说两个人跑得一样快",
+  "说今天和昨天一样冷",
+  "说两种食物一样好吃",
+  "说两件事一样重要",
+  "说两个人一样忙",
+  "说两道题一样简单",
+  "说两个价钱一样便宜",
+]

@@ -1,0 +1,146 @@
+{
+  "scene": "register_workplace",
+  "pattern": "register_workplace",
+  "items": [
+    {
+      "zh": "我认为这个问题可以从另一个角度看。",
+      "angle": 1,
+      "angle_zh": "会上委婉提出不同意见",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "我建议我们考虑一下这个方案的其他可能性。",
+      "angle": 1,
+      "angle_zh": "会上委婉提出不同意见",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "目前项目进度符合预期，请您过目。",
+      "angle": 2,
+      "angle_zh": "向领导汇报项目进度",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "本周项目已经完成了百分之八十，需要您的指导。",
+      "angle": 2,
+      "angle_zh": "向领导汇报项目进度",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "能否请您帮忙审阅一下这份报告？",
+      "angle": 3,
+      "angle_zh": "请同事帮忙看一份文件",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "我这里有一份合同需要您帮忙看一下。",
+      "angle": 3,
+      "angle_zh": "请同事帮忙看一份文件",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "能否确认我们需要的规格是什么？",
+      "angle": 4,
+      "angle_zh": "向客户确认具体需求",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "请确认具体的需求以便我们推进项目。",
+      "angle": 4,
+      "angle_zh": "向客户确认具体需求",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "项目可能需要再延长一周时间。",
+      "angle": 5,
+      "angle_zh": "在群里说明项目延期",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "项目延期到下个月初，请大家理解。",
+      "angle": 5,
+      "angle_zh": "在群里说明项目延期",
+      "micro": "meeting",
+      "micro_zh": "会议讨论"
+    },
+    {
+      "zh": "我们来分配一下接下来的任务吧。",
+      "angle": 6,
+      "angle_zh": "跟同事协调任务分工",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "能否帮我们明确一下后续的任务分工？",
+      "angle": 6,
+      "angle_zh": "跟同事协调任务分工",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "我需要请一天假，可以吗？",
+      "angle": 7,
+      "angle_zh": "向上级请一天假",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "能否批准我明天请一天假？",
+      "angle": 7,
+      "angle_zh": "向上级请一天假",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "这个额外的任务我恐怕无法承担。",
+      "angle": 8,
+      "angle_zh": "委婉拒绝额外的工作",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "我可能暂时无法接受这份额外工作。",
+      "angle": 8,
+      "angle_zh": "委婉拒绝额外的工作",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "我们什么时候安排下一次会议？",
+      "angle": 9,
+      "angle_zh": "确认下一次会议时间",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "请确认下一次会议的时间。",
+      "angle": 9,
+      "angle_zh": "确认下一次会议时间",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "请帮我介绍下工作流程。",
+      "angle": 10,
+      "angle_zh": "给新同事介绍工作流程",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    },
+    {
+      "zh": "能告诉我我们部门的工作流程吗？",
+      "angle": 10,
+      "angle_zh": "给新同事介绍工作流程",
+      "micro": "coordination",
+      "micro_zh": "协作沟通"
+    }
+  ]
+}
