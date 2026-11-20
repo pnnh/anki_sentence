@@ -1,0 +1,186 @@
+.github/workflows/build.yml
+  h_6465a203f88bd5 64-71
+config/scenes.toml
+  h_6465a203f88bd5 3340-3785
+data/packs/final/camping_bnb.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/car_rental.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dating.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/dentist.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/events_shows.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/gym_fitness.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/insurance_utilities.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/job_interview.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/moving_property.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/office_meetings.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/parenting.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/pet_vet.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/recycling_waste.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/tech_privacy.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/university_courses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/final/visa_customs.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/overrides.json
+  h_6465a203f88bd5 2-16,217-225,319-324,544-549,570-585,611-626,757-758,816-825
+data/packs/patches/camping_bnb.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/car_rental.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/dating.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/dentist.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/events_shows.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/gym_fitness.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/insurance_utilities.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/job_interview.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/moving_property.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/office_meetings.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/parenting.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/pet_vet.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/recycling_waste.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/tech_privacy.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/university_courses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/patches/visa_customs.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/plans/camping_bnb.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/car_rental.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dating.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/dentist.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/events_shows.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/gym_fitness.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/insurance_utilities.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/job_interview.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/moving_property.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/office_meetings.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/parenting.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/pet_vet.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/recycling_waste.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/tech_privacy.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/university_courses.json
+  h_6465a203f88bd5 1-146
+data/packs/plans/visa_customs.json
+  h_6465a203f88bd5 1-146
+data/packs/polished/camping_bnb.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/car_rental.jsonl
+  h_6465a203f88bd5 1-14
+data/packs/polished/dating.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/dentist.jsonl
+  h_6465a203f88bd5 1-14
+data/packs/polished/events_shows.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/gym_fitness.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/insurance_utilities.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/job_interview.jsonl
+  h_6465a203f88bd5 1-19
+data/packs/polished/moving_property.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/office_meetings.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/parenting.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/pet_vet.jsonl
+  h_6465a203f88bd5 1-17
+data/packs/polished/recycling_waste.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/tech_privacy.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/university_courses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/polished/visa_customs.jsonl
+  h_6465a203f88bd5 1-19
+data/packs/sentences/camping_bnb.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/car_rental.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dating.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/dentist.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/events_shows.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/gym_fitness.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/insurance_utilities.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/job_interview.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/moving_property.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/office_meetings.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/parenting.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/pet_vet.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/recycling_waste.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/tech_privacy.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/university_courses.jsonl
+  h_6465a203f88bd5 1-20
+data/packs/sentences/visa_customs.jsonl
+  h_6465a203f88bd5 1-20
+scripts/coverage.py
+  h_6465a203f88bd5 1-191
+scripts/generate_packs.py
+  h_6465a203f88bd5 135
+scripts/pack_patterns.py
+  h_6465a203f88bd5 503-504,626,682,895,899-903
+scripts/qc.py
+  h_6465a203f88bd5 163
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "94d775b81a11665066ff310b935fbf7aba45c641",
+  "prompts": {},
+  "humans": {
+    "h_6465a203f88bd5": {
+      "author": "larry <xspanni@gmail.com>"
+    }
+  }
+}
