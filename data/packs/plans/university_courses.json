@@ -1,0 +1,146 @@
+{
+  "scene": "university_courses",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "请问这门课还能加选吗？",
+      "angle": 1,
+      "angle_zh": "问这门课还有没有名额",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "我想选一些跟计算机相关的课程。",
+      "angle": 2,
+      "angle_zh": "说明自己想选的课程方向",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "我打算选修一些跟文学有关的课程。",
+      "angle": 2,
+      "angle_zh": "说明自己想选的课程方向",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "这门课有多少学分？",
+      "angle": 3,
+      "angle_zh": "问学分怎么计算",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "选这门课能拿到几个学分？",
+      "angle": 3,
+      "angle_zh": "问学分怎么计算",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "这学期我的课程排得有点紧。",
+      "angle": 4,
+      "angle_zh": "说这学期课表排得太满",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "这个学期我已经选了太多课了。",
+      "angle": 4,
+      "angle_zh": "说这学期课表排得太满",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "你可以帮我复印一下课堂笔记吗？",
+      "angle": 5,
+      "angle_zh": "请同学分享课堂笔记",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "你能借我你的课堂笔记看看吗？",
+      "angle": 5,
+      "angle_zh": "请同学分享课堂笔记",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    },
+    {
+      "zh": "作业提交到老师的邮箱吗？",
+      "angle": 6,
+      "angle_zh": "问作业的提交方式和截止时间",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "作业什么时候截止提交？",
+      "angle": 6,
+      "angle_zh": "问作业的提交方式和截止时间",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "考试前我要复习两周时间。",
+      "angle": 7,
+      "angle_zh": "说明考试前的复习计划",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "考试前我会每天复习四个小时。",
+      "angle": 7,
+      "angle_zh": "说明考试前的复习计划",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "我想申请换一门课可以吗？",
+      "angle": 8,
+      "angle_zh": "申请换课或退课",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "我要退选这门课，请问可以吗？",
+      "angle": 8,
+      "angle_zh": "申请换课或退课",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "我要办理成绩单和在读证明。",
+      "angle": 9,
+      "angle_zh": "办理成绩单和在读证明",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "我需要申请一份成绩单和在读证明。",
+      "angle": 9,
+      "angle_zh": "办理成绩单和在读证明",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "图书馆自习室的开放时间是几点到几点？",
+      "angle": 10,
+      "angle_zh": "问图书馆和自习室的规定",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "自习室有什么规定吗？",
+      "angle": 10,
+      "angle_zh": "问图书馆和自习室的规定",
+      "micro": "campus",
+      "micro_zh": "校园事务"
+    },
+    {
+      "zh": "我想把课都排在上午。",
+      "angle": 4,
+      "angle_zh": "说这学期课表排得太满",
+      "micro": "courses",
+      "micro_zh": "选课与学分"
+    }
+  ]
+}

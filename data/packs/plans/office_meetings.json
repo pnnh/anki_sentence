@@ -1,0 +1,146 @@
+{
+  "scene": "office_meetings",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "我想在会议上提出一个新的想法。",
+      "angle": 1,
+      "angle_zh": "在会议上提出一个新想法",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "我有一个新方案想要在会议上分享。",
+      "angle": 1,
+      "angle_zh": "在会议上提出一个新想法",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "你能再重复一遍刚才的重点吗？",
+      "angle": 2,
+      "angle_zh": "请同事重复一遍刚才的重点",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "刚才你说的那个关键点能再说一遍吗？",
+      "angle": 2,
+      "angle_zh": "请同事重复一遍刚才的重点",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "我对这个方案有一些担忧。",
+      "angle": 3,
+      "angle_zh": "说自己对某个方案的顾虑",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "我对这个方案有些疑虑，需要讨论一下。",
+      "angle": 3,
+      "angle_zh": "说自己对某个方案的顾虑",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "我们需要确认每个人的分工和截止日期。",
+      "angle": 4,
+      "angle_zh": "确认任务的分工和截止时间",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "请确认一下每个人的任务和完成时间。",
+      "angle": 4,
+      "angle_zh": "确认任务的分工和截止时间",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "我们目前遇到了一些技术问题。",
+      "angle": 5,
+      "angle_zh": "同步项目的进展和困难",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "项目进度有点落后了。",
+      "angle": 5,
+      "angle_zh": "同步项目的进展和困难",
+      "micro": "meeting",
+      "micro_zh": "会议发言"
+    },
+    {
+      "zh": "请你帮忙检查一下这份报告。",
+      "angle": 6,
+      "angle_zh": "请同事帮忙改一下文件",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "请帮我修改一下这份文件。",
+      "angle": 6,
+      "angle_zh": "请同事帮忙改一下文件",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "本周我已经完成了三个任务。",
+      "angle": 7,
+      "angle_zh": "向上级汇报本周完成的事",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "我已经完成了上周分配的工作。",
+      "angle": 7,
+      "angle_zh": "向上级汇报本周完成的事",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "感谢你的宝贵建议。",
+      "angle": 8,
+      "angle_zh": "对别人的建议表示感谢",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "非常感谢你的帮助。",
+      "angle": 8,
+      "angle_zh": "对别人的建议表示感谢",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "我们需要把会议时间改到下午。",
+      "angle": 9,
+      "angle_zh": "提出会议时间需要调整",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "我觉得我们应该推迟会议时间。",
+      "angle": 9,
+      "angle_zh": "提出会议时间需要调整",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "我们需要完成三个任务。",
+      "angle": 10,
+      "angle_zh": "总结下一步要做的三件事",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    },
+    {
+      "zh": "下一步我们要做三件事情。",
+      "angle": 10,
+      "angle_zh": "总结下一步要做的三件事",
+      "micro": "feedback",
+      "micro_zh": "汇报与反馈"
+    }
+  ]
+}

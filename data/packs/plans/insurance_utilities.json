@@ -1,0 +1,146 @@
+{
+  "scene": "insurance_utilities",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "这个月的水电费好像比平时高一些。",
+      "angle": 1,
+      "angle_zh": "说这个月水电费比平时高",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "我发现这个月的水电费比上个月多了。",
+      "angle": 1,
+      "angle_zh": "说这个月水电费比平时高",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "请问这个月的账单什么时候到期？",
+      "angle": 2,
+      "angle_zh": "问账单什么时候到期",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "我想知道水电费的账单什么时候截止。",
+      "angle": 2,
+      "angle_zh": "问账单什么时候到期",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "我已经把上个月的水电费交了。",
+      "angle": 3,
+      "angle_zh": "说明自己已经交过费了",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "我刚刚把这个月的水电费付掉了。",
+      "angle": 3,
+      "angle_zh": "说明自己已经交过费了",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "我想申请开通燃气服务。",
+      "angle": 4,
+      "angle_zh": "申请开通燃气或网络",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "请帮我开通网络服务，谢谢。",
+      "angle": 4,
+      "angle_zh": "申请开通燃气或网络",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "家里突然停电，我赶紧报修。",
+      "angle": 5,
+      "angle_zh": "报修家里突然停电",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "今天家里停电，我打电话报修。",
+      "angle": 5,
+      "angle_zh": "报修家里突然停电",
+      "micro": "bills",
+      "micro_zh": "缴费与账单"
+    },
+    {
+      "zh": "请问师傅什么时候来我家维修？",
+      "angle": 6,
+      "angle_zh": "问维修师傅什么时候上门",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "师傅您什么时候能来我家看看？",
+      "angle": 6,
+      "angle_zh": "问维修师傅什么时候上门",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "我想知道房屋保险都保什么。",
+      "angle": 7,
+      "angle_zh": "咨询房屋保险的保障范围",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "我的房屋保险每年自动续费。",
+      "angle": 7,
+      "angle_zh": "咨询房屋保险的保障范围",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "事故发生后，我详细说明了情况。",
+      "angle": 8,
+      "angle_zh": "说明事故经过和损失",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "我告诉保险公司事故经过和损失。",
+      "angle": 8,
+      "angle_zh": "说明事故经过和损失",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "我需要知道理赔要哪些文件。",
+      "angle": 9,
+      "angle_zh": "问理赔需要哪些材料",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "我把理赔需要的材料都准备好了。",
+      "angle": 9,
+      "angle_zh": "问理赔需要哪些材料",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "保险报销的钱还没到我的账户。",
+      "angle": 10,
+      "angle_zh": "说保险报销还没到账",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    },
+    {
+      "zh": "还没收到保险报销的钱。",
+      "angle": 10,
+      "angle_zh": "说保险报销还没到账",
+      "micro": "insurance",
+      "micro_zh": "保险理赔"
+    }
+  ]
+}

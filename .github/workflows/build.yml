@@ -61,6 +61,14 @@ jobs:
             --check-target \
             --fail-on-error
 
+      - name: Coverage report and new-scene gate
+        run: |
+          python scripts/coverage.py \
+            --report-dir reports_coverage \
+            --gate-group 新生活场景 \
+            --max-question-ratio 0.4 \
+            --fail-on-gate
+
       - name: Build artifacts
         run: python scripts/build_release.py --version "${{ steps.version.outputs.version }}"
 

@@ -1,0 +1,146 @@
+{
+  "scene": "pet_vet",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "狗狗这几天老是咳嗽。",
+      "angle": 1,
+      "angle_zh": "描述宠物最近的症状",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "我的猫最近食欲不振。",
+      "angle": 1,
+      "angle_zh": "描述宠物最近的症状",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "我想约下周三的看诊。",
+      "angle": 2,
+      "angle_zh": "打电话预约看诊",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "我想预约下周一上午的号。",
+      "angle": 2,
+      "angle_zh": "打电话预约看诊",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "请问猫咪的疫苗什么时候打？",
+      "angle": 3,
+      "angle_zh": "问疫苗和驱虫的安排",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "狗狗多久驱一次虫呢？",
+      "angle": 3,
+      "angle_zh": "问疫苗和驱虫的安排",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "我想咨询一下绝育手术。",
+      "angle": 4,
+      "angle_zh": "咨询绝育或手术",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "绝育手术安排在周五上午。",
+      "angle": 4,
+      "angle_zh": "咨询绝育或手术",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "宠物最近吃得太多了，体重增加很多。",
+      "angle": 5,
+      "angle_zh": "讨论饮食和体重问题",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "它的饮食习惯改变了，导致体重下降。",
+      "angle": 5,
+      "angle_zh": "讨论饮食和体重问题",
+      "micro": "symptoms",
+      "micro_zh": "症状与就诊"
+    },
+    {
+      "zh": "我朋友的狗走丢了，请大家帮忙找。",
+      "angle": 6,
+      "angle_zh": "宠物走失时请人帮忙",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "如果你看到一只黄色的小猫，请打电话给我。",
+      "angle": 6,
+      "angle_zh": "宠物走失时请人帮忙",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "我要出国几天，可以请你帮忙照顾我的鱼吗？",
+      "angle": 7,
+      "angle_zh": "出门时托朋友照看宠物",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "我下周要出差，请邻居帮忙喂猫。",
+      "angle": 7,
+      "angle_zh": "出门时托朋友照看宠物",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "我狗狗老是咬家具，怎么办呢？",
+      "angle": 8,
+      "angle_zh": "问怎么训练坏习惯",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "我的猫喜欢抓窗帘，有什么训练方法吗？",
+      "angle": 8,
+      "angle_zh": "问怎么训练坏习惯",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "寄养宠物需要准备哪些东西？",
+      "angle": 9,
+      "angle_zh": "询问用品和看病的费用",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "寄养一天大概多少钱？",
+      "angle": 9,
+      "angle_zh": "询问用品和看病的费用",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "上次开的药怎么吃？",
+      "angle": 10,
+      "angle_zh": "复诊时问用药方法",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    },
+    {
+      "zh": "医生说药一天吃两次。",
+      "angle": 10,
+      "angle_zh": "复诊时问用药方法",
+      "micro": "boarding",
+      "micro_zh": "寄养与训练"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "scene": "recycling_waste",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "你家的旧电池应该扔在哪一个垃圾桶？",
+      "angle": 1,
+      "angle_zh": "问电池应该扔到哪里",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "你知道手机电池应该放到哪个回收箱吗？",
+      "angle": 1,
+      "angle_zh": "问电池应该扔到哪里",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "纸盒和塑料瓶都可以回收利用。",
+      "angle": 2,
+      "angle_zh": "说明哪些垃圾可以回收",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "玻璃瓶和金属罐都是可以回收的。",
+      "angle": 2,
+      "angle_zh": "说明哪些垃圾可以回收",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "我分不清厨余垃圾和其他垃圾。",
+      "angle": 3,
+      "angle_zh": "说自己分不清厨余和其他垃圾",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "有时候我不确定剩饭剩菜和其他垃圾怎么分。",
+      "angle": 3,
+      "angle_zh": "说自己分不清厨余和其他垃圾",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "你知道我们小区收垃圾的时间吗？",
+      "angle": 4,
+      "angle_zh": "问小区收垃圾的时间",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "请问每天几点开始收垃圾？",
+      "angle": 4,
+      "angle_zh": "问小区收垃圾的时间",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "提醒家人把瓶子洗干净再回收。",
+      "angle": 5,
+      "angle_zh": "提醒家人把瓶子洗干净再扔",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "记得告诉弟弟把用过的瓶子清洁后投放。",
+      "angle": 5,
+      "angle_zh": "提醒家人把瓶子洗干净再扔",
+      "micro": "sorting",
+      "micro_zh": "分类与回收"
+    },
+    {
+      "zh": "刚才有人把没分类的垃圾丢在门口。",
+      "angle": 6,
+      "angle_zh": "说有人乱丢垃圾被提醒",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "有人把垃圾混在一起丢，被邻居提醒了。",
+      "angle": 6,
+      "angle_zh": "说有人乱丢垃圾被提醒",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "听说乱扔垃圾的人会被罚款。",
+      "angle": 7,
+      "angle_zh": "问违规投放会不会被罚款",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "如果违规投放垃圾，会不会有处罚？",
+      "angle": 7,
+      "angle_zh": "问违规投放会不会被罚款",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "社区组织了一个清理活动，快来参加。",
+      "angle": 8,
+      "angle_zh": "参加社区的大扫除活动",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "周末社区有大扫除活动，一起去帮忙吧。",
+      "angle": 8,
+      "angle_zh": "参加社区的大扫除活动",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "我把旧衣服捐给慈善机构。",
+      "angle": 9,
+      "angle_zh": "捐出旧衣服和旧书",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "我把不用的书送给图书馆。",
+      "angle": 9,
+      "angle_zh": "捐出旧衣服和旧书",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "我们家开始少用塑料袋了。",
+      "angle": 10,
+      "angle_zh": "说家里开始减少用塑料袋",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    },
+    {
+      "zh": "妈妈说要减少使用塑料袋。",
+      "angle": 10,
+      "angle_zh": "说家里开始减少用塑料袋",
+      "micro": "community",
+      "micro_zh": "社区环保"
+    }
+  ]
+}

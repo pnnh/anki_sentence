@@ -1,0 +1,146 @@
+{
+  "scene": "car_rental",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "确认一下车型和保险信息。",
+      "angle": 1,
+      "angle_zh": "取车时确认车型和保险",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "请检查一下车辆型号和保险。",
+      "angle": 1,
+      "angle_zh": "取车时确认车型和保险",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "押金是用信用卡支付吗？",
+      "angle": 2,
+      "angle_zh": "问押金怎么付",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "押金会在还车后退回。",
+      "angle": 2,
+      "angle_zh": "问押金怎么付",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "检查一下车的状况和划痕。",
+      "angle": 3,
+      "angle_zh": "检查车况和划痕",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "我们要检查一下车身是否有划痕。",
+      "angle": 3,
+      "angle_zh": "检查车况和划痕",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "这辆车需要加满油再还。",
+      "angle": 4,
+      "angle_zh": "问怎么加油或充电",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "怎么给电动车充电呢？",
+      "angle": 4,
+      "angle_zh": "问怎么加油或充电",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "我需要在明天下午六点前还车。",
+      "angle": 5,
+      "angle_zh": "问还车时间和地点",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "还车的地点在哪里呢？",
+      "angle": 5,
+      "angle_zh": "问还车时间和地点",
+      "micro": "pickup",
+      "micro_zh": "取车"
+    },
+    {
+      "zh": "车在路上出故障了，请帮忙。",
+      "angle": 6,
+      "angle_zh": "路上出故障请人帮忙",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "车坏了，请问怎么解决？",
+      "angle": 6,
+      "angle_zh": "路上出故障请人帮忙",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "这里停车要注意什么规则？",
+      "angle": 7,
+      "angle_zh": "问停车规则和罚单",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "我昨天在路边收到了一张罚单。",
+      "angle": 7,
+      "angle_zh": "问停车规则和罚单",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "这段高速要收过路费。",
+      "angle": 8,
+      "angle_zh": "询问高速收费和导航",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "导航怎么设置路线？",
+      "angle": 8,
+      "angle_zh": "询问高速收费和导航",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "我想再租一天车可以吗？",
+      "angle": 9,
+      "angle_zh": "想延长租期",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "我想把租期延长一天。",
+      "angle": 9,
+      "angle_zh": "想延长租期",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "请帮我检查一下车有没有损坏。",
+      "angle": 10,
+      "angle_zh": "还车验车和结算",
+      "micro": "return",
+      "micro_zh": "还车"
+    },
+    {
+      "zh": "我们先结算费用再检查车子吧。",
+      "angle": 10,
+      "angle_zh": "还车验车和结算",
+      "micro": "return",
+      "micro_zh": "还车"
+    }
+  ]
+}

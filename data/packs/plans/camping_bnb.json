@@ -1,0 +1,146 @@
+{
+  "scene": "camping_bnb",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "你们民宿几点可以入住？",
+      "angle": 1,
+      "angle_zh": "问民宿的入住和退房时间",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "我可能会晚一个小时到，可以吗？",
+      "angle": 3,
+      "angle_zh": "说到达时间会比预计晚",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "到达时间可能会比预定的晚一些，行吗？",
+      "angle": 3,
+      "angle_zh": "说到达时间会比预计晚",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "晚上能围着火堆烤棉花糖吗？",
+      "angle": 4,
+      "angle_zh": "问露营场地能不能生火",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "确认一下房间有没有厨房可以做饭吗？",
+      "angle": 2,
+      "angle_zh": "确认房间能不能做饭",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "能不能在房间里烧水做饭？",
+      "angle": 2,
+      "angle_zh": "确认房间能不能做饭",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "我们要带两个帐篷和一个睡袋去。",
+      "angle": 5,
+      "angle_zh": "列出要带的帐篷和睡袋",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "帐篷要选防雨的那种。",
+      "angle": 5,
+      "angle_zh": "列出要带的帐篷和睡袋",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "晚上山上很冷，要多带点衣服。",
+      "angle": 6,
+      "angle_zh": "说晚上山里很冷",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "晚上这里会很冷，最好带个保温毯。",
+      "angle": 6,
+      "angle_zh": "说晚上山里很冷",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "下雨了，晚上能不能在室内玩？",
+      "angle": 7,
+      "angle_zh": "遇到下雨改在室内活动",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "我们改在室内烧烤吧。",
+      "angle": 7,
+      "angle_zh": "遇到下雨改在室内活动",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "反馈房间里的小问题，比如灯不亮。",
+      "angle": 10,
+      "angle_zh": "反馈房间里的小问题",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "洗手间的热水不太热，需要修一下。",
+      "angle": 10,
+      "angle_zh": "反馈房间里的小问题",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "附近哪里可以找到超市和厕所？",
+      "angle": 8,
+      "angle_zh": "问附近哪里有超市和厕所",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "请问这里附近有卖食物的地方和洗手间吗？",
+      "angle": 8,
+      "angle_zh": "问附近哪里有超市和厕所",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "退房前记得把垃圾丢掉。",
+      "angle": 9,
+      "angle_zh": "退房前把垃圾收拾好",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "离开前请把房间打扫干净，垃圾带走。",
+      "angle": 9,
+      "angle_zh": "退房前把垃圾收拾好",
+      "micro": "issues",
+      "micro_zh": "意外与退房"
+    },
+    {
+      "zh": "我们需要带一个双人帐篷和一个单人睡袋。",
+      "angle": 5,
+      "angle_zh": "列出要带的帐篷和睡袋",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    },
+    {
+      "zh": "睡袋要带够保暖的。",
+      "angle": 5,
+      "angle_zh": "列出要带的帐篷和睡袋",
+      "micro": "booking",
+      "micro_zh": "预订与入住"
+    }
+  ]
+}

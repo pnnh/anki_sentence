@@ -1,0 +1,146 @@
+{
+  "scene": "visa_customs",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "我会住在朋友那里，不需要预订酒店。",
+      "angle": 2,
+      "angle_zh": "回答行程和住宿的安排",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我已经在网上预订了酒店，行程安排得很紧凑。",
+      "angle": 2,
+      "angle_zh": "回答行程和住宿的安排",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我这次旅行的钱都是我平时节省下来的。",
+      "angle": 3,
+      "angle_zh": "说明旅行费用的来源",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我这次旅行的费用是我父母给我的。",
+      "angle": 3,
+      "angle_zh": "说明旅行费用的来源",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我带了一些日常用品，比如洗漱用具。",
+      "angle": 4,
+      "angle_zh": "海关申报随身带的物品",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我随身携带了一些电子设备，比如笔记本电脑。",
+      "angle": 4,
+      "angle_zh": "海关申报随身带的物品",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我这次去是为了参加一个研讨会。",
+      "angle": 1,
+      "angle_zh": "面签时说明这次出行的目的",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "这次出行主要是去见客户谈生意。",
+      "angle": 1,
+      "angle_zh": "面签时说明这次出行的目的",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "我计划在那里待一个星期。",
+      "angle": 5,
+      "angle_zh": "回答打算停留多久",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "这次我打算待两周时间。",
+      "angle": 5,
+      "angle_zh": "回答打算停留多久",
+      "micro": "visa",
+      "micro_zh": "签证面谈"
+    },
+    {
+      "zh": "这是我的返程机票。",
+      "angle": 6,
+      "angle_zh": "出示回程机票",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "我有下个月的往返机票。",
+      "angle": 6,
+      "angle_zh": "出示回程机票",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "这些都是我需要的日常药物。",
+      "angle": 7,
+      "angle_zh": "解释随身带的药品",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "我带了一些治疗头痛的药。",
+      "angle": 7,
+      "angle_zh": "解释随身带的药品",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "你能帮我填这张入境卡吗？",
+      "angle": 8,
+      "angle_zh": "请人帮忙填入境卡",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "这张表要填中文还是英文？",
+      "angle": 8,
+      "angle_zh": "请人帮忙填入境卡",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "我可以带哪些食品入境？",
+      "angle": 9,
+      "angle_zh": "询问可以带哪些食品",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "这些水果可以带入境吗？",
+      "angle": 9,
+      "angle_zh": "询问可以带哪些食品",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "请帮我打开这个箱子接受检查。",
+      "angle": 10,
+      "angle_zh": "配合开箱检查行李",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    },
+    {
+      "zh": "请检查我的这个行李箱。",
+      "angle": 10,
+      "angle_zh": "配合开箱检查行李",
+      "micro": "baggage",
+      "micro_zh": "行李检查"
+    }
+  ]
+}

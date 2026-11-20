@@ -132,7 +132,7 @@ def pack_scenes(only=None):
     for scene in load_scenes():
         if scene.get("mode") not in (
             "grammar", "narrative", "phrasal", "discourse", "functional", "collocation",
-            "roleplay", "dialogue", "hf",
+            "roleplay", "dialogue", "hf", "scene",
         ):
             continue
         scene = dict(scene)

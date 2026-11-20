@@ -1,0 +1,146 @@
+{
+  "scene": "parenting",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "宝宝昨晚没睡好，今天一直哭。",
+      "angle": 1,
+      "angle_zh": "说孩子昨晚没睡好",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "昨天晚上小家伙没怎么睡觉，今天精神可差了。",
+      "angle": 1,
+      "angle_zh": "说孩子昨晚没睡好",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "几点来接孩子放学呢？",
+      "angle": 2,
+      "angle_zh": "问幼儿园接送的时间",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "明天几点来幼儿园接我？",
+      "angle": 2,
+      "angle_zh": "问幼儿园接送的时间",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "老师，宝宝在班上表现怎么样？",
+      "angle": 3,
+      "angle_zh": "和老师聊孩子在班上的表现",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "孩子在幼儿园里和其他小朋友相处得好吗？",
+      "angle": 3,
+      "angle_zh": "和老师聊孩子在班上的表现",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "这孩子吃饭总是挑食。",
+      "angle": 4,
+      "angle_zh": "说孩子挑食或不肯吃饭",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "怎么哄都不肯吃饭，这可怎么办。",
+      "angle": 4,
+      "angle_zh": "说孩子挑食或不肯吃饭",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "阿姨可以帮忙临时照看宝宝吗？",
+      "angle": 5,
+      "angle_zh": "请人帮忙临时照看孩子",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "邻居姐姐能帮我照看一下孩子吗？",
+      "angle": 5,
+      "angle_zh": "请人帮忙临时照看孩子",
+      "micro": "baby",
+      "micro_zh": "婴儿照料"
+    },
+    {
+      "zh": "宝宝最近学会了自己穿鞋。",
+      "angle": 6,
+      "angle_zh": "说孩子最近学会了新本领",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "孩子最近能自己用勺子吃饭了。",
+      "angle": 6,
+      "angle_zh": "说孩子最近学会了新本领",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "给孩子报名了画画班。",
+      "angle": 7,
+      "angle_zh": "为孩子报名兴趣班",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "我想给小孩报名一个音乐班。",
+      "angle": 7,
+      "angle_zh": "为孩子报名兴趣班",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "孩子发烧了，需要请一天假。",
+      "angle": 8,
+      "angle_zh": "孩子生病了要请假",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "宝宝肚子疼，今天不能去幼儿园了。",
+      "angle": 8,
+      "angle_zh": "孩子生病了要请假",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "我规定每天晚上九点睡觉。",
+      "angle": 9,
+      "angle_zh": "说明自己定下的规矩",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "我们家的规矩是吃完饭要刷碗。",
+      "angle": 9,
+      "angle_zh": "说明自己定下的规矩",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "周末约其他家长去公园玩。",
+      "angle": 10,
+      "angle_zh": "约其他家长一起带孩子玩",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    },
+    {
+      "zh": "下周三下午一起去图书馆。",
+      "angle": 10,
+      "angle_zh": "约其他家长一起带孩子玩",
+      "micro": "behavior",
+      "micro_zh": "习惯与管教"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "scene": "dating",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "这个周末我们见面吧。",
+      "angle": 1,
+      "angle_zh": "约对方周末见面",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "周末你有空吗？我们可以见个面。",
+      "angle": 1,
+      "angle_zh": "约对方周末见面",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "很高兴见到你，我在附近上班。",
+      "angle": 2,
+      "angle_zh": "第一次见面时介绍自己",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "我很期待这次的约会。",
+      "angle": 3,
+      "angle_zh": "说对这次约会的期待",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "希望能和你度过一个美好的下午。",
+      "angle": 3,
+      "angle_zh": "说对这次约会的期待",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "你今天穿的衣服真好看。",
+      "angle": 4,
+      "angle_zh": "夸对方今天的打扮",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "你的发型很适合你，很漂亮。",
+      "angle": 4,
+      "angle_zh": "夸对方今天的打扮",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "对不起，我迟到了，路上堵车了。",
+      "angle": 5,
+      "angle_zh": "为迟到道歉并解释原因",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "抱歉，我迟到了，刚才手机没电了。",
+      "angle": 5,
+      "angle_zh": "为迟到道歉并解释原因",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    },
+    {
+      "zh": "我们最近有点小矛盾，你能理解吗？",
+      "angle": 6,
+      "angle_zh": "说两个人最近闹了点别扭",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "最近我们有些小误会，你能原谅我吗？",
+      "angle": 6,
+      "angle_zh": "说两个人最近闹了点别扭",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "你觉得我们应该怎么解决这个问题？",
+      "angle": 7,
+      "angle_zh": "和对方商量怎么解决分歧",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我觉得我们需要好好谈谈。",
+      "angle": 7,
+      "angle_zh": "和对方商量怎么解决分歧",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我想带你见见我的父母，你觉得怎么样？",
+      "angle": 8,
+      "angle_zh": "说想认识对方的家人",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我已经跟家里提过你了。",
+      "angle": 8,
+      "angle_zh": "说想认识对方的家人",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我觉得我们更适合做朋友。",
+      "angle": 10,
+      "angle_zh": "拒绝表白但想保持朋友关系",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我对你有感觉，但我们还是做朋友吧。",
+      "angle": 10,
+      "angle_zh": "拒绝表白但想保持朋友关系",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "我们以后住一起要怎么规划呢？",
+      "angle": 9,
+      "angle_zh": "聊以后住在一起的打算",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "你有没有想过以后一起住的事？",
+      "angle": 9,
+      "angle_zh": "聊以后住在一起的打算",
+      "micro": "plans",
+      "micro_zh": "见家长与计划"
+    },
+    {
+      "zh": "对不起，我迟到了，车胎爆了。",
+      "angle": 5,
+      "angle_zh": "为迟到道歉并解释原因",
+      "micro": "first_date",
+      "micro_zh": "初次约会"
+    }
+  ]
+}

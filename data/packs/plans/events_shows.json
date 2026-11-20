@@ -1,0 +1,146 @@
+{
+  "scene": "events_shows",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "你们那里还有票没？",
+      "angle": 1,
+      "angle_zh": "问演出还有没有余票",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "我想坐前排的位置。",
+      "angle": 2,
+      "angle_zh": "说明自己想要的位置",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "我想要靠近舞台的位置。",
+      "angle": 2,
+      "angle_zh": "说明自己想要的位置",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "我已经把票买好了，时间对吗？",
+      "angle": 3,
+      "angle_zh": "说票已经买好并确认时间",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "票我已经买好了，我们到时候在门口见。",
+      "angle": 3,
+      "angle_zh": "说票已经买好并确认时间",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "这里关于安检有什么规定吗？",
+      "angle": 4,
+      "angle_zh": "入场时问安检和寄存规定",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "请问寄存包要在哪里？",
+      "angle": 4,
+      "angle_zh": "入场时问安检和寄存规定",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "我们要早点到，演出开始前要找座位。",
+      "angle": 5,
+      "angle_zh": "说演出开始前要找座位",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "演出开始前我们先去吃点东西。",
+      "angle": 5,
+      "angle_zh": "说演出开始前要找座位",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    },
+    {
+      "zh": "这里气氛很热烈，大家都很兴奋。",
+      "angle": 6,
+      "angle_zh": "描述现场气氛很热烈",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "全场一起合唱的时候特别震撼。",
+      "angle": 6,
+      "angle_zh": "描述现场气氛很热烈",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "我们支持的队伍赢了，真是太棒了。",
+      "angle": 7,
+      "angle_zh": "说自己支持的队伍赢了",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "我们队最后以两分赢了。",
+      "angle": 7,
+      "angle_zh": "说自己支持的队伍赢了",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "刚才那个进球真是太精彩了。",
+      "angle": 8,
+      "angle_zh": "评论比赛里最精彩的一刻",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "比赛最精彩的一刻就是那个绝杀球。",
+      "angle": 8,
+      "angle_zh": "评论比赛里最精彩的一刻",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "散场后怎么坐地铁回家？",
+      "angle": 9,
+      "angle_zh": "问散场后怎么坐车回家",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "比赛完了怎么打车？",
+      "angle": 9,
+      "angle_zh": "问散场后怎么坐车回家",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "这场演出真是太精彩了。",
+      "angle": 10,
+      "angle_zh": "表达对这次演出的感受",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "我觉得这次比赛有点失望。",
+      "angle": 10,
+      "angle_zh": "表达对这次演出的感受",
+      "micro": "results",
+      "micro_zh": "赛后与评价"
+    },
+    {
+      "zh": "入场时要问一下安检规定。",
+      "angle": 4,
+      "angle_zh": "入场时问安检和寄存规定",
+      "micro": "tickets",
+      "micro_zh": "购票与入场"
+    }
+  ]
+}

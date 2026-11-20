@@ -500,6 +500,8 @@ def passes_en(pattern, en):
             r"\b(went|came|told|thought|knew|thing|things|job|jobs|most|ever)\b", n))
     if pattern == "roleplay":
         return True
+    if pattern == "life_scene":
+        return True
     if pattern == "dialogue":
         return bool(re.search(r"(^|\n)\s*a[::]", n)) and bool(re.search(r"(^|\n)\s*b[::]", n))
     raise ValueError(f"Unknown pattern: {pattern}")
@@ -621,7 +623,7 @@ def passes_zh(pattern, zh):
 MAX_WORDS = {
     "grammar": 18, "narrative": 24, "phrasal": 18, "discourse": 20,
     "functional": 20, "collocation": 18, "roleplay": 20, "dialogue": 70,
-    "hf": 16,
+    "hf": 16, "life": 20,
 }
 MIN_WORDS = 4
 
@@ -677,6 +679,7 @@ PHRASAL_ZH = {
     "phrasal_wear_out": r"(磨破|穿坏|累坏|磨损)",
     "phrasal_write_down": r"(写下|记下|记下来|写下来)",
     "hf_core": r"[\u4e00-\u9fff]",
+    "life_scene": r"[\u4e00-\u9fff]",
 }
 ZH_CHECKS.update(PHRASAL_ZH)
 
@@ -889,9 +892,15 @@ LABELS.update({
     "phrasal_wear_out": "wear out",
     "phrasal_write_down": "write down",
     "hf_core": "went/came/told/thought/knew or thing/job/most/ever",
+    "life_scene": "one natural everyday spoken sentence for this scene",
 })
 
 ANGLES = {
+    "life_scene": [
+        "描述最近一次遇到的情况", "向对方提出一个具体请求", "说明原因或结果",
+        "询问细节或价格", "表达担心或不满", "给出建议或提醒",
+        "回忆以前的一次经历", "说明自己的计划", "解释一个问题", "确认信息和安排",
+    ],
     "past_simple": [
         "上周末去看爷爷奶奶", "昨天开会时电脑突然坏了", "前天在超市遇到老同学",
         "去年夏天去了海边", "上周把钥匙弄丢了", "今天早上上班迟到了",

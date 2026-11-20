@@ -1,0 +1,146 @@
+{
+  "scene": "moving_property",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "我明天要搬家，预约了搬家公司。",
+      "angle": 1,
+      "angle_zh": "预约搬家公司和货车",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "今天下午要搬新家，已经叫了货车。",
+      "angle": 1,
+      "angle_zh": "预约搬家公司和货车",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "我和房东约好今天下午六点交房。",
+      "angle": 2,
+      "angle_zh": "和房东确认交房时间",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "明天早上九点我要去和房东确认搬出时间。",
+      "angle": 2,
+      "angle_zh": "和房东确认交房时间",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "告诉物业我的新家地址是三单元二楼。",
+      "angle": 3,
+      "angle_zh": "说新家的地址和门牌号",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "请把我的新地址和门牌号告诉搬家公司。",
+      "angle": 3,
+      "angle_zh": "说新家的地址和门牌号",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "请物业帮忙修一下我家厨房漏水的水管。",
+      "angle": 4,
+      "angle_zh": "请物业修漏水的水管",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "我想请物业来修理我家浴室漏水的水管。",
+      "angle": 4,
+      "angle_zh": "请物业修漏水的水管",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "我发现电梯门坏了，请物业派人来修一下。",
+      "angle": 5,
+      "angle_zh": "反映电梯或楼道的问题",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "楼道里的灯不亮了，希望物业能尽快处理。",
+      "angle": 5,
+      "angle_zh": "反映电梯或楼道的问题",
+      "micro": "moving",
+      "micro_zh": "搬家安排"
+    },
+    {
+      "zh": "楼上邻居晚上经常很吵，影响我休息。",
+      "angle": 6,
+      "angle_zh": "说楼上太吵影响休息",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "晚上十点后楼上声音很大，打扰到我睡觉。",
+      "angle": 6,
+      "angle_zh": "说楼上太吵影响休息",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "请提醒邻居们不要把垃圾放在楼道里。",
+      "angle": 7,
+      "angle_zh": "提醒邻居把垃圾放好",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "能不能请您通知邻居们把垃圾放在指定地点。",
+      "angle": 7,
+      "angle_zh": "提醒邻居把垃圾放好",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "请问小区里停车需要提前申请吗？",
+      "angle": 8,
+      "angle_zh": "问小区停车的规定",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "我想知道小区停车的规则是什么。",
+      "angle": 8,
+      "angle_zh": "问小区停车的规定",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "请帮我办理新的门禁卡。",
+      "angle": 9,
+      "angle_zh": "办理门禁卡和快递代收",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "可以帮我代收一下快递吗？",
+      "angle": 9,
+      "angle_zh": "办理门禁卡和快递代收",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "退租时能退还多少押金？",
+      "angle": 10,
+      "angle_zh": "退租时谈押金和清洁",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    },
+    {
+      "zh": "我们需要打扫房间才能退押金吗？",
+      "angle": 10,
+      "angle_zh": "退租时谈押金和清洁",
+      "micro": "neighbor",
+      "micro_zh": "邻里问题"
+    }
+  ]
+}

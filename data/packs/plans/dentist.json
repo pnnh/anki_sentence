@@ -1,0 +1,146 @@
+{
+  "scene": "dentist",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "我最近牙痛得厉害。",
+      "angle": 1,
+      "angle_zh": "描述牙痛或牙齿不舒服",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "这颗牙齿总是不舒服。",
+      "angle": 1,
+      "angle_zh": "描述牙痛或牙齿不舒服",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "我想预约下周的洗牙。",
+      "angle": 2,
+      "angle_zh": "预约洗牙或检查",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "我要预约一次牙齿检查。",
+      "angle": 2,
+      "angle_zh": "预约洗牙或检查",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "我这颗牙痛了两天了。",
+      "angle": 3,
+      "angle_zh": "在诊所说明症状和持续时间",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "我的牙齿最近一直疼，所以今天来看医生。",
+      "angle": 3,
+      "angle_zh": "在诊所说明症状和持续时间",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "这个治疗需要多少钱？",
+      "angle": 4,
+      "angle_zh": "询问治疗方案和大概费用",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "这个治疗的费用比我预想的高。",
+      "angle": 4,
+      "angle_zh": "询问治疗方案和大概费用",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "我这颗牙需要拔掉吗？",
+      "angle": 5,
+      "angle_zh": "讨论补牙或拔牙",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "拔牙后要注意什么？",
+      "angle": 6,
+      "angle_zh": "拔牙后问注意事项",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "这个治疗能用医保吗？",
+      "angle": 7,
+      "angle_zh": "询问医保能不能报销",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "我的保险不包括拔牙。",
+      "angle": 7,
+      "angle_zh": "询问医保能不能报销",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "孩子牙齿不舒服，想预约一下。",
+      "angle": 8,
+      "angle_zh": "带孩子来看牙",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "你平时怎么保护牙齿？",
+      "angle": 9,
+      "angle_zh": "问平时怎么护理牙齿",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "我每天刷两次牙，但牙龈还是出血。",
+      "angle": 9,
+      "angle_zh": "问平时怎么护理牙齿",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "上次治疗后牙齿感觉好多了。",
+      "angle": 10,
+      "angle_zh": "复诊和反馈效果",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "这次复诊医生说我恢复得很好。",
+      "angle": 10,
+      "angle_zh": "复诊和反馈效果",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    },
+    {
+      "zh": "这颗蛀牙需要补吗？",
+      "angle": 5,
+      "angle_zh": "讨论补牙或拔牙",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "医生建议把旁边那颗牙也拔掉。",
+      "angle": 5,
+      "angle_zh": "讨论补牙或拔牙",
+      "micro": "tooth_pain",
+      "micro_zh": "牙痛与不适"
+    },
+    {
+      "zh": "拔牙后多久能正常吃饭？",
+      "angle": 6,
+      "angle_zh": "拔牙后问注意事项",
+      "micro": "treatment",
+      "micro_zh": "治疗与费用"
+    }
+  ]
+}

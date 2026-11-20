@@ -1,0 +1,146 @@
+{
+  "scene": "job_interview",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "我在上一家公司做了两年的市场推广工作。",
+      "angle": 1,
+      "angle_zh": "简单介绍自己的工作经历",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我之前在同一家公司做了三年，负责销售和客户关系。",
+      "angle": 1,
+      "angle_zh": "简单介绍自己的工作经历",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我想要寻找新的挑战和学习的机会。",
+      "angle": 2,
+      "angle_zh": "说明为什么想换工作",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我想换一个能让我发挥更多创造力的工作环境。",
+      "angle": 2,
+      "angle_zh": "说明为什么想换工作",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我的长处是能够快速学习新的技能。",
+      "angle": 3,
+      "angle_zh": "说说自己的长处",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我善于解决问题，尤其是在团队合作中。",
+      "angle": 3,
+      "angle_zh": "说说自己的长处",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "有时候我会太注重细节，但我正在努力改进。",
+      "angle": 4,
+      "angle_zh": "谈谈缺点和怎么改进",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我有时会过于紧张，但我正在通过练习来改善。",
+      "angle": 4,
+      "angle_zh": "谈谈缺点和怎么改进",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "这个职位平时需要做哪些日常工作？",
+      "angle": 5,
+      "angle_zh": "询问岗位的日常工作",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "我想了解一下这个岗位的具体职责。",
+      "angle": 5,
+      "angle_zh": "询问岗位的日常工作",
+      "micro": "intro",
+      "micro_zh": "自我介绍"
+    },
+    {
+      "zh": "您这边的薪资待遇大概是多少呢？",
+      "angle": 6,
+      "angle_zh": "谈期望薪资和福利",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "请问这个职位的福利有哪些？",
+      "angle": 6,
+      "angle_zh": "谈期望薪资和福利",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "这个团队有多少人？",
+      "angle": 7,
+      "angle_zh": "问团队情况和加班多不多",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "我对这份工作非常感兴趣。",
+      "angle": 8,
+      "angle_zh": "表达对这份工作的兴趣",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "我觉得这份工作很适合我。",
+      "angle": 8,
+      "angle_zh": "表达对这份工作的兴趣",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "后面还有几轮面试？",
+      "angle": 9,
+      "angle_zh": "问后面还有几轮面试",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "下一轮面试大概什么时候？",
+      "angle": 9,
+      "angle_zh": "问后面还有几轮面试",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "面试后可以发消息询问进展吗？",
+      "angle": 10,
+      "angle_zh": "面试后发消息跟进",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "面试后发消息确认一下时间可以吗？",
+      "angle": 10,
+      "angle_zh": "面试后发消息跟进",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    },
+    {
+      "zh": "这个岗位平时加班多吗？",
+      "angle": 7,
+      "angle_zh": "问团队情况和加班多不多",
+      "micro": "offer",
+      "micro_zh": "薪资与后续"
+    }
+  ]
+}

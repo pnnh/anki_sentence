@@ -3337,3 +3337,449 @@ angles = [
   "用 most 说大多数人或多数的东西",
   "用 ever 问一次经历",
 ]
+[[scenes]]
+id = "dentist"
+zh = "牙医与口腔"
+en = "Dentist & Oral Care"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "tooth_pain", zh = "牙痛与不适" },
+  { id = "checkup", zh = "检查与洗牙" },
+  { id = "treatment", zh = "治疗与费用" },
+]
+angles = [
+  "描述牙痛或牙齿不舒服",
+  "预约洗牙或检查",
+  "在诊所说明症状和持续时间",
+  "询问治疗方案和大概费用",
+  "讨论补牙或拔牙",
+  "拔牙后问注意事项",
+  "询问医保能不能报销",
+  "带孩子来看牙",
+  "问平时怎么护理牙齿",
+  "复诊和反馈效果",
+]
+
+[[scenes]]
+id = "job_interview"
+zh = "求职面试"
+en = "Job Interview"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "intro", zh = "自我介绍" },
+  { id = "questions", zh = "面试问答" },
+  { id = "offer", zh = "薪资与后续" },
+]
+angles = [
+  "简单介绍自己的工作经历",
+  "说明为什么想换工作",
+  "说说自己的长处",
+  "谈谈缺点和怎么改进",
+  "询问岗位的日常工作",
+  "谈期望薪资和福利",
+  "问团队情况和加班多不多",
+  "表达对这份工作的兴趣",
+  "问后面还有几轮面试",
+  "面试后发消息跟进",
+]
+
+[[scenes]]
+id = "pet_vet"
+zh = "宠物与兽医"
+en = "Pets & Vet Visits"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "symptoms", zh = "症状与就诊" },
+  { id = "care", zh = "日常照料" },
+  { id = "boarding", zh = "寄养与训练" },
+]
+angles = [
+  "描述宠物最近的症状",
+  "打电话预约看诊",
+  "问疫苗和驱虫的安排",
+  "咨询绝育或手术",
+  "讨论饮食和体重问题",
+  "宠物走失时请人帮忙",
+  "出门时托朋友照看宠物",
+  "问怎么训练坏习惯",
+  "询问用品和看病的费用",
+  "复诊时问用药方法",
+]
+
+[[scenes]]
+id = "visa_customs"
+zh = "签证与海关"
+en = "Visa Interview & Customs"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "visa", zh = "签证面谈" },
+  { id = "customs", zh = "海关入境" },
+  { id = "baggage", zh = "行李检查" },
+]
+angles = [
+  "面签时说明这次出行的目的",
+  "回答行程和住宿的安排",
+  "说明旅行费用的来源",
+  "海关申报随身带的物品",
+  "回答打算停留多久",
+  "出示回程机票",
+  "解释随身带的药品",
+  "请人帮忙填入境卡",
+  "询问可以带哪些食品",
+  "配合开箱检查行李",
+]
+
+[[scenes]]
+id = "car_rental"
+zh = "租车自驾"
+en = "Car Rental & Road Trip"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "pickup", zh = "取车" },
+  { id = "driving", zh = "路上" },
+  { id = "return", zh = "还车" },
+]
+angles = [
+  "取车时确认车型和保险",
+  "问押金怎么付",
+  "检查车况和划痕",
+  "问怎么加油或充电",
+  "问还车时间和地点",
+  "路上出故障请人帮忙",
+  "问停车规则和罚单",
+  "询问高速收费和导航",
+  "想延长租期",
+  "还车验车和结算",
+]
+[[scenes]]
+id = "gym_fitness"
+zh = "健身房与运动"
+en = "Gym & Fitness"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "signup", zh = "办卡与课程" },
+  { id = "workout", zh = "锻炼与器械" },
+  { id = "issues", zh = "受伤与卫生" },
+]
+angles = [
+  "咨询办卡的价格和期限",
+  "问团体课怎么报名",
+  "第一次用器械时请人帮忙",
+  "说明自己想练什么部位",
+  "描述锻炼后的酸痛和疲惫",
+  "咨询私教课的安排",
+  "提醒更衣室的安全和卫生",
+  "说自己最近坚持锻炼的成果",
+  "运动时不小心受伤了",
+  "约朋友一起锻炼",
+]
+
+[[scenes]]
+id = "parenting"
+zh = "育儿日常"
+en = "Parenting & Kids"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "baby", zh = "婴儿照料" },
+  { id = "school", zh = "接送与老师" },
+  { id = "behavior", zh = "习惯与管教" },
+]
+angles = [
+  "说孩子昨晚没睡好",
+  "问幼儿园接送的时间",
+  "和老师聊孩子在班上的表现",
+  "说孩子挑食或不肯吃饭",
+  "请人帮忙临时照看孩子",
+  "说孩子最近学会了新本领",
+  "为孩子报名兴趣班",
+  "孩子生病了要请假",
+  "说明自己定下的规矩",
+  "约其他家长一起带孩子玩",
+]
+
+[[scenes]]
+id = "dating"
+zh = "约会与恋爱"
+en = "Dating & Relationships"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "first_date", zh = "初次约会" },
+  { id = "relationship", zh = "相处与矛盾" },
+  { id = "plans", zh = "见家长与计划" },
+]
+angles = [
+  "约对方周末见面",
+  "第一次见面时介绍自己",
+  "说对这次约会的期待",
+  "夸对方今天的打扮",
+  "为迟到道歉并解释原因",
+  "说两个人最近闹了点别扭",
+  "和对方商量怎么解决分歧",
+  "说想认识对方的家人",
+  "聊以后住在一起的打算",
+  "拒绝表白但想保持朋友关系",
+]
+
+[[scenes]]
+id = "moving_property"
+zh = "搬家与物业"
+en = "Moving & Property Management"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "moving", zh = "搬家安排" },
+  { id = "property", zh = "物业报修" },
+  { id = "neighbor", zh = "邻里问题" },
+]
+angles = [
+  "预约搬家公司和货车",
+  "和房东确认交房时间",
+  "说新家的地址和门牌号",
+  "请物业修漏水的水管",
+  "反映电梯或楼道的问题",
+  "说楼上太吵影响休息",
+  "提醒邻居把垃圾放好",
+  "问小区停车的规定",
+  "办理门禁卡和快递代收",
+  "退租时谈押金和清洁",
+]
+
+[[scenes]]
+id = "office_meetings"
+zh = "职场会议"
+en = "Office Meetings"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "meeting", zh = "会议发言" },
+  { id = "project", zh = "项目沟通" },
+  { id = "feedback", zh = "汇报与反馈" },
+]
+angles = [
+  "在会议上提出一个新想法",
+  "请同事重复一遍刚才的重点",
+  "说自己对某个方案的顾虑",
+  "确认任务的分工和截止时间",
+  "同步项目的进展和困难",
+  "请同事帮忙改一下文件",
+  "向上级汇报本周完成的事",
+  "对别人的建议表示感谢",
+  "提出会议时间需要调整",
+  "总结下一步要做的三件事",
+]
+
+[[scenes]]
+id = "university_courses"
+zh = "大学选课"
+en = "University Courses"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "courses", zh = "选课与学分" },
+  { id = "study", zh = "作业与考试" },
+  { id = "campus", zh = "校园事务" },
+]
+angles = [
+  "问这门课还有没有名额",
+  "说明自己想选的课程方向",
+  "问学分怎么计算",
+  "说这学期课表排得太满",
+  "请同学分享课堂笔记",
+  "问作业的提交方式和截止时间",
+  "说明考试前的复习计划",
+  "申请换课或退课",
+  "办理成绩单和在读证明",
+  "问图书馆和自习室的规定",
+]
+
+[[scenes]]
+id = "insurance_utilities"
+zh = "保险与水电"
+en = "Insurance & Utilities"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "bills", zh = "缴费与账单" },
+  { id = "utilities", zh = "报修与开通" },
+  { id = "insurance", zh = "保险理赔" },
+]
+angles = [
+  "说这个月水电费比平时高",
+  "问账单什么时候到期",
+  "说明自己已经交过费了",
+  "申请开通燃气或网络",
+  "报修家里突然停电",
+  "问维修师傅什么时候上门",
+  "咨询房屋保险的保障范围",
+  "说明事故经过和损失",
+  "问理赔需要哪些材料",
+  "说保险报销还没到账",
+]
+
+[[scenes]]
+id = "events_shows"
+zh = "演出与比赛"
+en = "Concerts & Sports Events"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "tickets", zh = "购票与入场" },
+  { id = "show", zh = "观看与互动" },
+  { id = "results", zh = "赛后与评价" },
+]
+angles = [
+  "问演出还有没有余票",
+  "说明自己想要的位置",
+  "说票已经买好并确认时间",
+  "入场时问安检和寄存规定",
+  "说演出开始前要找座位",
+  "描述现场气氛很热烈",
+  "说自己支持的队伍赢了",
+  "评论比赛里最精彩的一刻",
+  "问散场后怎么坐车回家",
+  "表达对这次演出的感受",
+]
+
+[[scenes]]
+id = "tech_privacy"
+zh = "科技与隐私"
+en = "Tech & Privacy"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "account", zh = "账号与密码" },
+  { id = "privacy", zh = "隐私设置" },
+  { id = "scams", zh = "诈骗与求助" },
+]
+angles = [
+  "说自己忘了账号密码",
+  "请人帮忙设置新的登录方式",
+  "问怎么开启两步验证",
+  "说明自己的手机被锁住了",
+  "担心个人信息被泄露",
+  "调整隐私设置不让陌生人看到",
+  "收到可疑链接不敢点",
+  "描述被骗转账的经过",
+  "打电话冻结银行卡",
+  "提醒家人注意网络诈骗",
+]
+
+[[scenes]]
+id = "recycling_waste"
+zh = "环保与垃圾分类"
+en = "Recycling & Waste Sorting"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "sorting", zh = "分类与回收" },
+  { id = "rules", zh = "规则与罚款" },
+  { id = "community", zh = "社区环保" },
+]
+angles = [
+  "问电池应该扔到哪里",
+  "说明哪些垃圾可以回收",
+  "说自己分不清厨余和其他垃圾",
+  "问小区收垃圾的时间",
+  "提醒家人把瓶子洗干净再扔",
+  "说有人乱丢垃圾被提醒",
+  "问违规投放会不会被罚款",
+  "参加社区的大扫除活动",
+  "捐出旧衣服和旧书",
+  "说家里开始减少用塑料袋",
+]
+
+[[scenes]]
+id = "camping_bnb"
+zh = "露营与民宿"
+en = "Camping & Vacation Rentals"
+group = "新生活场景"
+phase = 9
+target = 20
+mode = "scene"
+pack = "life"
+pattern = "life_scene"
+micros = [
+  { id = "booking", zh = "预订与入住" },
+  { id = "camping", zh = "露营装备" },
+  { id = "issues", zh = "意外与退房" },
+]
+angles = [
+  "问民宿的入住和退房时间",
+  "确认房间能不能做饭",
+  "说到达时间会比预计晚",
+  "问露营场地能不能生火",
+  "列出要带的帐篷和睡袋",
+  "说晚上山里很冷",
+  "遇到下雨改在室内活动",
+  "问附近哪里有超市和厕所",
+  "退房前把垃圾收拾好",
+  "反馈房间里的小问题",
+]

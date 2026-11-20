@@ -1,0 +1,146 @@
+{
+  "scene": "gym_fitness",
+  "pattern": "life_scene",
+  "items": [
+    {
+      "zh": "这个月的健身卡多少钱？",
+      "angle": 1,
+      "angle_zh": "咨询办卡的价格和期限",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "你们的半年卡有效期多久？",
+      "angle": 1,
+      "angle_zh": "咨询办卡的价格和期限",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "我想参加瑜伽课，怎么报名？",
+      "angle": 2,
+      "angle_zh": "问团体课怎么报名",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "这个星期的舞蹈课什么时候开始报名？",
+      "angle": 2,
+      "angle_zh": "问团体课怎么报名",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "这个跑步机怎么用？",
+      "angle": 3,
+      "angle_zh": "第一次用器械时请人帮忙",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "你能教我一下怎么使用哑铃吗？",
+      "angle": 3,
+      "angle_zh": "第一次用器械时请人帮忙",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "我想练手臂，你们有什么推荐的课程吗？",
+      "angle": 4,
+      "angle_zh": "说明自己想练什么部位",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "我想增肌，可以给我建议吗？",
+      "angle": 4,
+      "angle_zh": "说明自己想练什么部位",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "昨天做了重量训练，今天肌肉好酸。",
+      "angle": 5,
+      "angle_zh": "描述锻炼后的酸痛和疲惫",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "今天跑了五公里，现在好累。",
+      "angle": 5,
+      "angle_zh": "描述锻炼后的酸痛和疲惫",
+      "micro": "signup",
+      "micro_zh": "办卡与课程"
+    },
+    {
+      "zh": "教练，这周的私教课什么时候有空？",
+      "angle": 6,
+      "angle_zh": "咨询私教课的安排",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "我想请教练帮我制订锻炼计划。",
+      "angle": 6,
+      "angle_zh": "咨询私教课的安排",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "更衣室要记得锁门，安全第一。",
+      "angle": 7,
+      "angle_zh": "提醒更衣室的安全和卫生",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "用完更衣室记得清理一下，保持卫生。",
+      "angle": 7,
+      "angle_zh": "提醒更衣室的安全和卫生",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "最近每天跑步，感觉体重轻了一些。",
+      "angle": 8,
+      "angle_zh": "说自己最近坚持锻炼的成果",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "坚持健身两周了，肌肉线条明显了。",
+      "angle": 8,
+      "angle_zh": "说自己最近坚持锻炼的成果",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "运动时不小心扭到脚了。",
+      "angle": 9,
+      "angle_zh": "运动时不小心受伤了",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "刚才做深蹲时膝盖疼。",
+      "angle": 9,
+      "angle_zh": "运动时不小心受伤了",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "我们下周一起去游泳吧。",
+      "angle": 10,
+      "angle_zh": "约朋友一起锻炼",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    },
+    {
+      "zh": "明天一起去健身房跑步。",
+      "angle": 10,
+      "angle_zh": "约朋友一起锻炼",
+      "micro": "issues",
+      "micro_zh": "受伤与卫生"
+    }
+  ]
+}
